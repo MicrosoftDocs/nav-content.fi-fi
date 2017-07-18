@@ -1,0 +1,1 @@
+Universaali Microsoft Dynamics NAV -sovellus

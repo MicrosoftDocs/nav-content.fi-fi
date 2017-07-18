@@ -1,0 +1,1 @@
+Vain Microsoft Dynamics NAV -Windows-asiakas
