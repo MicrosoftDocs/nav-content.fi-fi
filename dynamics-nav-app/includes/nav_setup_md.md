@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2017:n asennusohjelma
+<span data-ttu-id="08939-101">Microsoft Dynamics NAV 2017:n asennusohjelma</span><span class="sxs-lookup"><span data-stu-id="08939-101">Microsoft Dynamics NAV 2017 Setup</span></span>

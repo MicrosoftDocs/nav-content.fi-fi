@@ -1,1 +1,1 @@
-valmistelutyökalut
+<span data-ttu-id="6481d-101">valmistelutyökalut</span><span class="sxs-lookup"><span data-stu-id="6481d-101">provisioning tools</span></span>

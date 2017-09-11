@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2017 Administration -liittymä
+<span data-ttu-id="dfd3f-101">Microsoft Dynamics NAV 2017 Administration -liittymä</span><span class="sxs-lookup"><span data-stu-id="dfd3f-101">Microsoft Dynamics NAV 2017 Administration Shell</span></span>

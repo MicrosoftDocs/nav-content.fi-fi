@@ -16,136 +16,136 @@ ms.lasthandoff: 06/26/2017
 
 ---
 
-# <a name="how-to-use-time-sheets-for-jobs"></a>Toimintaohje: Aikaraporttien käyttäminen projekteissa
-Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Sinulla on oltava oikeudet luoda aikaraportteja.
+# <a name="how-to-use-time-sheets-for-jobs"></a><span data-ttu-id="069db-102">Toimintaohje: Aikaraporttien käyttäminen projekteissa</span><span class="sxs-lookup"><span data-stu-id="069db-102">How to: Use Time Sheets for Jobs</span></span>
+<span data-ttu-id="069db-103">Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja.</span><span class="sxs-lookup"><span data-stu-id="069db-103">You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="069db-104">Sinulla on oltava oikeudet luoda aikaraportteja.</span><span class="sxs-lookup"><span data-stu-id="069db-104">You must have permissions to be able to create time sheets.</span></span>
 
-Voit kopioida projektin suunnittelurivit aikaraportista ja käyttää niitä. Näin tehtäessä tiedot on syötettävä vain yhteen paikkaan, ja ne ovat aina ajantasaisia.
+<span data-ttu-id="069db-105">Voit kopioida projektin suunnittelurivit aikaraportista ja käyttää niitä.</span><span class="sxs-lookup"><span data-stu-id="069db-105">You can copy and use your job planning lines in a time sheet.</span></span> <span data-ttu-id="069db-106">Näin tehtäessä tiedot on syötettävä vain yhteen paikkaan, ja ne ovat aina ajantasaisia.</span><span class="sxs-lookup"><span data-stu-id="069db-106">In that way, you must only enter the information in one place and the line information is always correct.</span></span>
 
-Kun olet hyväksynyt projektin aikaraportin tapahtumia, voit julkaista ne asianmukaiseen projekti- tai resurssipäiväkirjaan.
+<span data-ttu-id="069db-107">Kun olet hyväksynyt projektin aikaraportin tapahtumia, voit julkaista ne asianmukaiseen projekti- tai resurssipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="069db-107">After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.</span></span>
 
-Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yleistiedot, järjestelmänvalvoja ja vähintään yksi hyväksyjä. Lisätietoja on kohdassa [Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+<span data-ttu-id="069db-108">Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yleistiedot, järjestelmänvalvoja ja vähintään yksi hyväksyjä.</span><span class="sxs-lookup"><span data-stu-id="069db-108">Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets.</span></span> <span data-ttu-id="069db-109">Lisätietoja on kohdassa [Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="069db-109">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
-## <a name="to-create-a-time-sheet"></a>Aikaraportin luominen  
-Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.
+## <a name="to-create-a-time-sheet"></a><span data-ttu-id="069db-110">Aikaraportin luominen</span><span class="sxs-lookup"><span data-stu-id="069db-110">To create a time sheet</span></span>  
+<span data-ttu-id="069db-111">Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja.</span><span class="sxs-lookup"><span data-stu-id="069db-111">You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="069db-112">Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.</span><span class="sxs-lookup"><span data-stu-id="069db-112">Then, the time sheet owner can open it and record time that has been spent on a task.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Aikaraporttiluettelo**-ikkunassa **Luo aikaraportit** -toiminto.
-3. Täytä tarvittavat kentät. Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.
+1. <span data-ttu-id="069db-113">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-113">In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="069db-114">Valitse **Aikaraporttiluettelo**-ikkunassa **Luo aikaraportit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-114">In the **Time Sheet List** window, choose the **Create Time Sheets** action.</span></span>
+3. <span data-ttu-id="069db-115">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="069db-115">Fill in the fields as necessary.</span></span> <span data-ttu-id="069db-116">Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-116">Choose a field to read a short description of the field or link to more information.</span></span>
 
-**Huomautus**: Aikaraportin resurssikortin **Käytä aikaraporttia**- ja **Aikaraportin omistajan käyttäjätunnus** -kenttä on täytettävä.  
+<span data-ttu-id="069db-117">**Huomautus**: Aikaraportin resurssikortin **Käytä aikaraporttia**- ja **Aikaraportin omistajan käyttäjätunnus** -kenttä on täytettävä.</span><span class="sxs-lookup"><span data-stu-id="069db-117">**Note**: The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.</span></span>  
 
-4. Valitse **OK**-painike.
-Voit tarkastella samoja aikaraportteja, jotka olet luonut **Aikaraporttiluettelo**-ikkunassa.
+4. <span data-ttu-id="069db-118">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="069db-118">Choose the **OK** button.</span></span>
+<span data-ttu-id="069db-119">Voit tarkastella samoja aikaraportteja, jotka olet luonut **Aikaraporttiluettelo**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="069db-119">You can view the time sheets that you have created in the **Time Sheet list** window.</span></span>
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Kopioi työn suunnittelurivit aikaraporttiin  
-Seuraavassa ohjeessa neuvotaan, miten lisätään projektin suunnittelurivejä nopeasti aikaraportille.
+## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><span data-ttu-id="069db-120">Kopioi työn suunnittelurivit aikaraporttiin</span><span class="sxs-lookup"><span data-stu-id="069db-120">To copy job planning lines to a time sheet</span></span>  
+<span data-ttu-id="069db-121">Seuraavassa ohjeessa neuvotaan, miten lisätään projektin suunnittelurivejä nopeasti aikaraportille.</span><span class="sxs-lookup"><span data-stu-id="069db-121">The following procedure describes how to quickly add job planning lines to a time sheet.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Aikaraporttiluettelo**-ikkunassa kyseisen ajanjakson aikaraportti. Valitse sitten **Muokkaa aikaraporttia** -toiminto.  
-3. Valitse **Luo rivejä projektin suunnittelusta** -toiminto. Kaikki aikaraportin ajanjakson projektin suunnittelurivit kopioidaan sen henkilön tai koneen aikaraporttiin, joka mainitaan **Resurssin nro** -kentässä aikaraportissa.
+1. <span data-ttu-id="069db-122">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-122">In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="069db-123">Valitse **Aikaraporttiluettelo**-ikkunassa kyseisen ajanjakson aikaraportti. Valitse sitten **Muokkaa aikaraporttia** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-123">In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="069db-124">Valitse **Luo rivejä projektin suunnittelusta** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-124">Choose the **Create lines from job planning** action.</span></span> <span data-ttu-id="069db-125">Kaikki aikaraportin ajanjakson projektin suunnittelurivit kopioidaan sen henkilön tai koneen aikaraporttiin, joka mainitaan **Resurssin nro**</span><span class="sxs-lookup"><span data-stu-id="069db-125">Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.**</span></span> <span data-ttu-id="069db-126">-kentässä aikaraportissa.</span><span class="sxs-lookup"><span data-stu-id="069db-126">field on the time sheet.</span></span>
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Työtyyppien määrittäminen ja yhden työtyypin lisääminen aikaraporttiin  
-Voit määrittää projektien kaikille aikaraporttiriveille työtyypin. Tällä tavalla voit lisätä tiedot, joita tarvitse asiakkaan laskuttamiseen erityyppisistä töistä.
+## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><span data-ttu-id="069db-127">Työtyyppien määrittäminen ja yhden työtyypin lisääminen aikaraporttiin</span><span class="sxs-lookup"><span data-stu-id="069db-127">To define work types and add one to a time sheet</span></span>  
+<span data-ttu-id="069db-128">Voit määrittää projektien kaikille aikaraporttiriveille työtyypin.</span><span class="sxs-lookup"><span data-stu-id="069db-128">You can define the work type for all time sheet lines for jobs.</span></span> <span data-ttu-id="069db-129">Tällä tavalla voit lisätä tiedot, joita tarvitse asiakkaan laskuttamiseen erityyppisistä töistä.</span><span class="sxs-lookup"><span data-stu-id="069db-129">In this way, you can add information that you need to bill the customer for different types of work.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.   
-2. Avaa asianmukainen aikaraportti.
-3. Valitse **Kuvaus**-kenttä.  
-4. Valitse **Aikaraporttirivin projektierittely** -ikkunassa **Työtyyppikoodi**-kenttä. Valitse sitten luettelosta työtyyppi, kuten **Mailit**.  
-5. Jos työtyyppiä ei ole, valitse **Uusi**-toiminto.
-6. Täytä **Työtyypit**-ikkunassa tarvittavat kentät.
-7. Määritä uusi työtyyppi aikaraporttiin toistamalla vaihe 4.
+1. <span data-ttu-id="069db-130">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-130">In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.</span></span>   
+2. <span data-ttu-id="069db-131">Avaa asianmukainen aikaraportti.</span><span class="sxs-lookup"><span data-stu-id="069db-131">Open the relevant time sheet.</span></span>
+3. <span data-ttu-id="069db-132">Valitse **Kuvaus**-kenttä.</span><span class="sxs-lookup"><span data-stu-id="069db-132">Choose the **Description** field.</span></span>  
+4. <span data-ttu-id="069db-133">Valitse **Aikaraporttirivin projektierittely** -ikkunassa **Työtyyppikoodi**-kenttä. Valitse sitten luettelosta työtyyppi, kuten **Mailit**.</span><span class="sxs-lookup"><span data-stu-id="069db-133">In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.</span></span>  
+5. <span data-ttu-id="069db-134">Jos työtyyppiä ei ole, valitse **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-134">If no work types exist, chose the **New** action.</span></span>
+6. <span data-ttu-id="069db-135">Täytä **Työtyypit**-ikkunassa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="069db-135">In the **Work Types** window, fill in the fields as necessary.</span></span>
+7. <span data-ttu-id="069db-136">Määritä uusi työtyyppi aikaraporttiin toistamalla vaihe 4.</span><span class="sxs-lookup"><span data-stu-id="069db-136">Repeat step 4 to assign the new work type to the time sheet.</span></span>
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Aikaraportin rivien käyttäminen uudelleen muissa aikaraporteissa  
-Jos aikaraportin tiedot pysyvät samoina ajanjaksosta toiseen, voit tallentaa ajan kopioimalla rivit edelliseltä ajanjaksolta. Sitten vain kirjoitetaan käytetty aika uudelle jaksolle.
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><span data-ttu-id="069db-137">Aikaraportin rivien käyttäminen uudelleen muissa aikaraporteissa</span><span class="sxs-lookup"><span data-stu-id="069db-137">To reuse time sheet lines in other time sheets</span></span>  
+<span data-ttu-id="069db-138">Jos aikaraportin tiedot pysyvät samoina ajanjaksosta toiseen, voit tallentaa ajan kopioimalla rivit edelliseltä ajanjaksolta.</span><span class="sxs-lookup"><span data-stu-id="069db-138">If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period.</span></span> <span data-ttu-id="069db-139">Sitten vain kirjoitetaan käytetty aika uudelle jaksolle.</span><span class="sxs-lookup"><span data-stu-id="069db-139">Then, you just enter your time usage for the new period.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Avaa aikaraportti jaksolle, joka on myöhempi kuin olemassa oleva aikaraportti ja sen rivit.  
-3. Valitse **Kopioi rivit aiemmasta aikaraportista** -toiminto.
+1. <span data-ttu-id="069db-140">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-140">In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="069db-141">Avaa aikaraportti jaksolle, joka on myöhempi kuin olemassa oleva aikaraportti ja sen rivit.</span><span class="sxs-lookup"><span data-stu-id="069db-141">Open the time sheet for a period later than the period for an existing time sheet with lines.</span></span>  
+3. <span data-ttu-id="069db-142">Valitse **Kopioi rivit aiemmasta aikaraportista** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-142">Choose the **Copy Lines from Previous Time Sheet** action.</span></span>
 
-Rivit kopioidaan, mukaan lukien tarkat tiedot, kuten tyyppi ja kuvaus. Jos rivi liittyy esimerkiksi projektiin, **Projektinro**. kopioidaan. Kaikki kopioitujen rivien tila on **Avoin**. Voit nyt muokata rivejä tarpeen mukaan.
+<span data-ttu-id="069db-143">Rivit kopioidaan, mukaan lukien tarkat tiedot, kuten tyyppi ja kuvaus.</span><span class="sxs-lookup"><span data-stu-id="069db-143">The lines are copied, including details such as type and description.</span></span> <span data-ttu-id="069db-144">Jos rivi liittyy esimerkiksi projektiin, **Projektinro**.</span><span class="sxs-lookup"><span data-stu-id="069db-144">For example, if the line is related to a job, the **Job No.**</span></span> <span data-ttu-id="069db-145">kopioidaan.</span><span class="sxs-lookup"><span data-stu-id="069db-145">is copied.</span></span> <span data-ttu-id="069db-146">Kaikki kopioitujen rivien tila on **Avoin**.</span><span class="sxs-lookup"><span data-stu-id="069db-146">All copied lines have the status **Open**.</span></span> <span data-ttu-id="069db-147">Voit nyt muokata rivejä tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="069db-147">You can now modify the lines as needed.</span></span>
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Aikaraporttirivien täyttäminen ja lähettäminen hyväksyttäväksi  
-Aikaraportin rekisteröintiä seurataan tunneissa, resurssien perusmittayksikköissä. Oletusarvon mukaan aikaraportti näyttää yleiset työpäivät maanantaista perjantaihin.
+## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a><span data-ttu-id="069db-148">Aikaraporttirivien täyttäminen ja lähettäminen hyväksyttäväksi</span><span class="sxs-lookup"><span data-stu-id="069db-148">To fill in a time sheet lines and submit for approval</span></span>  
+<span data-ttu-id="069db-149">Aikaraportin rekisteröintiä seurataan tunneissa, resurssien perusmittayksikköissä.</span><span class="sxs-lookup"><span data-stu-id="069db-149">Time sheet registration is tracked in hours, the standard base unit of measure for resources.</span></span> <span data-ttu-id="069db-150">Oletusarvon mukaan aikaraportti näyttää yleiset työpäivät maanantaista perjantaihin.</span><span class="sxs-lookup"><span data-stu-id="069db-150">By default, a time sheet shows the common work days of Monday through Friday.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse kyseisen ajanjakson aikaraportti ja valitse sitten **Muokkaa aikaraporttia** -toiminto.  
-3. Täytä tarvittaessa rivin kentät. Syötä resurssin kunkin viikonpäivän käyttötunnit.
+1. <span data-ttu-id="069db-151">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-151">In the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="069db-152">Valitse kyseisen ajanjakson aikaraportti ja valitse sitten **Muokkaa aikaraporttia** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-152">Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="069db-153">Täytä tarvittaessa rivin kentät.</span><span class="sxs-lookup"><span data-stu-id="069db-153">Fill in the fields on a line as necessary.</span></span> <span data-ttu-id="069db-154">Syötä resurssin kunkin viikonpäivän käyttötunnit.</span><span class="sxs-lookup"><span data-stu-id="069db-154">Enter the number of hours used by the resource on each day of the week.</span></span>
 
-    **Vihje**: Voit esikatsella aikaraportin tuntimäärää, jonka olet syöttänyt **Toteutunut/budjetoitu yhteenveto** -tietoruutuun.  
+    <span data-ttu-id="069db-155">**Vihje**: Voit esikatsella aikaraportin tuntimäärää, jonka olet syöttänyt **Toteutunut/budjetoitu yhteenveto** -tietoruutuun.</span><span class="sxs-lookup"><span data-stu-id="069db-155">**Tip**: You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.</span></span>  
 
-4. Toista vaihe 3 muille resurssin suorittamille työtyypeille.
-5. Valitse **Lähetä**-toiminto. Lähetä sitten kaikki rivit valitsemalla **Kaikki avoimet rivit** -toiminto tai lähetä vain **Aikaraportti**-ikkunassa valitut rivit valitsemalla **Vain valitut rivit** -toiminto.  
+4. <span data-ttu-id="069db-156">Toista vaihe 3 muille resurssin suorittamille työtyypeille.</span><span class="sxs-lookup"><span data-stu-id="069db-156">Repeat step 3 for other work types that the resource performs.</span></span>
+5. <span data-ttu-id="069db-157">Valitse **Lähetä**-toiminto. Lähetä sitten kaikki rivit valitsemalla **Kaikki avoimet rivit** -toiminto tai lähetä vain **Aikaraportti**-ikkunassa valitut rivit valitsemalla **Vain valitut rivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-157">Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.</span></span>  
 
-    **Huomautus**: Voit lähettää vain ne aikaraporttirivit, joille on syötetty aika.  
+    <span data-ttu-id="069db-158">**Huomautus**: Voit lähettää vain ne aikaraporttirivit, joille on syötetty aika.</span><span class="sxs-lookup"><span data-stu-id="069db-158">**Note**: You can only submit time sheet lines for which you have entered time.</span></span>  
 
-6. Muokkaa tietoja rivillä, jonka tilaksi on määritetty **Lähetetty**, valitsemalla rivi ja valitsemalla sitten **Avaa uudelleen** -toiminto.
+6. <span data-ttu-id="069db-159">Muokkaa tietoja rivillä, jonka tilaksi on määritetty **Lähetetty**, valitsemalla rivi ja valitsemalla sitten **Avaa uudelleen** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-159">To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.</span></span>
 
-    **Huomautus**: Päällikkö voi hylätä aikaraporttirivin, joka on lähetetty hyväksyttäväksi. Jos rivin tila on **Hylätty**, voit muuttaa riviä ja valita sitten uudelleen **Lähetä**-kohdan.  
+    <span data-ttu-id="069db-160">**Huomautus**: Päällikkö voi hylätä aikaraporttirivin, joka on lähetetty hyväksyttäväksi.</span><span class="sxs-lookup"><span data-stu-id="069db-160">**Note**: A manager may reject a time sheet line that is submitted for approval.</span></span> <span data-ttu-id="069db-161">Jos rivin tila on **Hylätty**, voit muuttaa riviä ja valita sitten uudelleen **Lähetä**-kohdan.</span><span class="sxs-lookup"><span data-stu-id="069db-161">If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.</span></span>  
 
-7. Valitse **OK**-painike.
+7. <span data-ttu-id="069db-162">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="069db-162">Choose the **OK** button.</span></span>
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Hyväksy tai hylkää aikaraportti  
-Aikaraportti on lähetettävä hyväksyttäväksi, jotta sitä voidaan käyttää. Voit hyväksyä ja hylätä aikarapportin yksittäisiä rivenä tai lähettää ne takaisin lähettäjälle lisätoimenpiteitä varten. Aikaraportti voidaan hyväksyä kahdella seuraavalla tavalla:
-- aikaraportin järjestelmänvalvoja voi hyväksyä minkä tahansa aikaraportin
-- henkilö, joka on määritetty resurssikortin **Aikaraportin hyväksyjän käyttäjätunnus** -kentässä, voi hyväksyä kyseisen resurssin aikaraportteja. Lisätietoja on kohdassa [Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+## <a name="to-approve-or-reject-a-time-sheet"></a><span data-ttu-id="069db-163">Hyväksy tai hylkää aikaraportti</span><span class="sxs-lookup"><span data-stu-id="069db-163">To approve or reject a time sheet</span></span>  
+<span data-ttu-id="069db-164">Aikaraportti on lähetettävä hyväksyttäväksi, jotta sitä voidaan käyttää.</span><span class="sxs-lookup"><span data-stu-id="069db-164">A time sheet must be submitted for approval before it can be used.</span></span> <span data-ttu-id="069db-165">Voit hyväksyä ja hylätä aikarapportin yksittäisiä rivenä tai lähettää ne takaisin lähettäjälle lisätoimenpiteitä varten.</span><span class="sxs-lookup"><span data-stu-id="069db-165">You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action.</span></span> <span data-ttu-id="069db-166">Aikaraportti voidaan hyväksyä kahdella seuraavalla tavalla:</span><span class="sxs-lookup"><span data-stu-id="069db-166">A time sheet can be approved in two ways:</span></span>
+- <span data-ttu-id="069db-167">aikaraportin järjestelmänvalvoja voi hyväksyä minkä tahansa aikaraportin</span><span class="sxs-lookup"><span data-stu-id="069db-167">A time sheet administrator can approve any time sheet.</span></span>
+- <span data-ttu-id="069db-168">henkilö, joka on määritetty resurssikortin **Aikaraportin hyväksyjän käyttäjätunnus** -kentässä, voi hyväksyä kyseisen resurssin aikaraportteja.</span><span class="sxs-lookup"><span data-stu-id="069db-168">The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets.</span></span> <span data-ttu-id="069db-169">Lisätietoja on kohdassa [Toimintaohje: Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="069db-169">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Päällikön aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse aikaraportti luettelosta.  
-3. Valitse **Aikaraportti**-ikkunassa **Hyväksy**-toiminto. Hyväksy sitten kaikki rivit valitsemalla **Kaikki lähetetyt rivit** -toiminto tai hyväksy vain **Aikaraportti**-ikkunassa valitut rivit valitsemalla **Vain valitut rivit** -toiminto.
-4. Valitse **OK**-painike.  
-5. Vaihtoehtoisesti voit valita **Hylkää**-toiminnon ja suorittaa vaiheet 4 ja 5.  
+1. <span data-ttu-id="069db-170">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Päällikön aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-170">In the top right corner, choose the **Search for Page or Report** icon, enter **Manager Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="069db-171">Valitse aikaraportti luettelosta.</span><span class="sxs-lookup"><span data-stu-id="069db-171">Select a time sheet from the list.</span></span>  
+3. <span data-ttu-id="069db-172">Valitse **Aikaraportti**-ikkunassa **Hyväksy**-toiminto. Hyväksy sitten kaikki rivit valitsemalla **Kaikki lähetetyt rivit** -toiminto tai hyväksy vain **Aikaraportti**-ikkunassa valitut rivit valitsemalla **Vain valitut rivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-172">In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="069db-173">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="069db-173">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="069db-174">Vaihtoehtoisesti voit valita **Hylkää**-toiminnon ja suorittaa vaiheet 4 ja 5.</span><span class="sxs-lookup"><span data-stu-id="069db-174">Alternatively, choose the **Reject** action and follow steps 4 through 5.</span></span>  
 
-**Vihje**: Saat nopean yleiskuvauksen aikaraportin tiedoista **Aikaraportin tila**- ja **Toteutunut/budjetoitu yhteenveto** -tietoruudun avulla.
+<span data-ttu-id="069db-175">**Vihje**: Saat nopean yleiskuvauksen aikaraportin tiedoista **Aikaraportin tila**- ja **Toteutunut/budjetoitu yhteenveto** -tietoruudun avulla.</span><span class="sxs-lookup"><span data-stu-id="069db-175">**Tip**: Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.</span></span>
 
-Kun olet hyväksynyt tai hylännyt aikaraportin, sitä voi muokata vasta sitten, kun aikaraportti on avattu uudelleen. Seuraavassa kerrotaan, miten hyväksytty tai hylätty aikaraportti avataan uudelleen.
+<span data-ttu-id="069db-176">Kun olet hyväksynyt tai hylännyt aikaraportin, sitä voi muokata vasta sitten, kun aikaraportti on avattu uudelleen.</span><span class="sxs-lookup"><span data-stu-id="069db-176">After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened.</span></span> <span data-ttu-id="069db-177">Seuraavassa kerrotaan, miten hyväksytty tai hylätty aikaraportti avataan uudelleen.</span><span class="sxs-lookup"><span data-stu-id="069db-177">The following procedure explains how to reopen an approved or rejected time sheet.</span></span>
 
-## <a name="to-reopen-a-time-sheet"></a>Avaa aikaraportti uudelleen  
+## <a name="to-reopen-a-time-sheet"></a><span data-ttu-id="069db-178">Avaa aikaraportti uudelleen</span><span class="sxs-lookup"><span data-stu-id="069db-178">To reopen a time sheet</span></span>  
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Päällikön aikaraportit** tai **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa aikaraportti luettelosta.  
+1. <span data-ttu-id="069db-179">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Päällikön aikaraportit** tai **Aikaraportit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-179">In the top right corner, choose the **Search for Page or Report** icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="069db-180">Avaa aikaraportti luettelosta.</span><span class="sxs-lookup"><span data-stu-id="069db-180">Open a time sheet from the list.</span></span>  
 
-    **Huomautus**: Voit avata uudelleen vain rivit, joiden tila on **Hyväksytty**. Et voi avata uudelleen rivejä, joiden tila on **Hylätty**. Et voi avata uudelleen aikaraporttia, jos se on kirjattu.  
+    <span data-ttu-id="069db-181">**Huomautus**: Voit avata uudelleen vain rivit, joiden tila on **Hyväksytty**.</span><span class="sxs-lookup"><span data-stu-id="069db-181">**Note**: You can only reopen lines that have the status **Approved**.</span></span> <span data-ttu-id="069db-182">Et voi avata uudelleen rivejä, joiden tila on **Hylätty**.</span><span class="sxs-lookup"><span data-stu-id="069db-182">You cannot reopen lines that have the status **Rejected**.</span></span> <span data-ttu-id="069db-183">Et voi avata uudelleen aikaraporttia, jos se on kirjattu.</span><span class="sxs-lookup"><span data-stu-id="069db-183">You cannot reopen a time sheet if it has been posted.</span></span>  
 
-3. Valitse **Aikaraportti**-ikkunassa **Avaa uudelleen** -toiminto. Avaa sitten kaikki rivit uudelleen valitsemalla **Kaikki lähetetyt rivit** -toiminto tai avaa uudelleen vain **Aikaraportti**-ikkunassa valitut rivit valitsemalla **Vain valitut rivit** -toiminto.
-4. Valitse **OK**-painike. Aikaraporttien rivin tai rivien tilaksi tulee **Lähetetty**.  
+3. <span data-ttu-id="069db-184">Valitse **Aikaraportti**-ikkunassa **Avaa uudelleen** -toiminto. Avaa sitten kaikki rivit uudelleen valitsemalla **Kaikki lähetetyt rivit** -toiminto tai avaa uudelleen vain **Aikaraportti**-ikkunassa valitut rivit valitsemalla **Vain valitut rivit** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-184">In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="069db-185">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="069db-185">Choose the **OK** button.</span></span> <span data-ttu-id="069db-186">Aikaraporttien rivin tai rivien tilaksi tulee **Lähetetty**.</span><span class="sxs-lookup"><span data-stu-id="069db-186">The status of the time sheets line or lines is changes to **Submitted**.</span></span>  
 
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Aikaraporttirivien kirjaaminen resurssipäiväkirjaan  
-Kun olet hyväksynyt resurssin aikaraportin tapahtumia, voit julkaista ne asianmukaiseen resurssipäiväkirjaan.
+## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><span data-ttu-id="069db-187">Aikaraporttirivien kirjaaminen resurssipäiväkirjaan</span><span class="sxs-lookup"><span data-stu-id="069db-187">To post time sheet lines in a resource journal</span></span>  
+<span data-ttu-id="069db-188">Kun olet hyväksynyt resurssin aikaraportin tapahtumia, voit julkaista ne asianmukaiseen resurssipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="069db-188">After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Resurssipäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Ehdota rivejä aikaraporteista** -toiminto.  
-3. Täytä tarvittavat kentät.  
-4. Valitse **OK**-painike. Käytön tapahtumat luodaan resurssipäiväkirjaan. Siellä voit muokata tietoja tarvittaessa.  
-5. Valitse **Kirjaa**-toiminto.  
-6. Vahvista kirjaus valitsemalla **Tapahtumakirjaukset**-toiminto. Näyttöön avautuu **Resurssitapahtumat**-ikkuna, jossa näkyvät resurssipäiväkirjan kirjausten tulokset.
+1. <span data-ttu-id="069db-189">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Resurssipäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-189">In the top right corner, choose the **Search for Page or Report** icon, enter **Resource Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="069db-190">Valitse **Ehdota rivejä aikaraporteista** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-190">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="069db-191">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="069db-191">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="069db-192">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="069db-192">Choose the **OK** button.</span></span> <span data-ttu-id="069db-193">Käytön tapahtumat luodaan resurssipäiväkirjaan. Siellä voit muokata tietoja tarvittaessa.</span><span class="sxs-lookup"><span data-stu-id="069db-193">Entries for usage are created in the resource journal, where you can modify the information as needed.</span></span>  
+5. <span data-ttu-id="069db-194">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-194">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="069db-195">Vahvista kirjaus valitsemalla **Tapahtumakirjaukset**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-195">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="069db-196">Näyttöön avautuu **Resurssitapahtumat**-ikkuna, jossa näkyvät resurssipäiväkirjan kirjausten tulokset.</span><span class="sxs-lookup"><span data-stu-id="069db-196">The **Resource Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
 
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Aikaraporttirivien kirjaaminen projektipäiväkirjaan  
-Kun olet hyväksynyt työn aikaraportin tapahtumia, voit julkaista ne asianmukaiseen projektipäiväkirjaan.
+## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><span data-ttu-id="069db-197">Aikaraporttirivien kirjaaminen projektipäiväkirjaan</span><span class="sxs-lookup"><span data-stu-id="069db-197">To post time sheet lines in a job journal</span></span>  
+<span data-ttu-id="069db-198">Kun olet hyväksynyt työn aikaraportin tapahtumia, voit julkaista ne asianmukaiseen projektipäiväkirjaan.</span><span class="sxs-lookup"><span data-stu-id="069db-198">After you have approved time sheet entries for a job, you can post them to the relevant job journal.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektipäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Valitse **Ehdota rivejä aikaraporteista** -toiminto.  
-3. Täytä tarvittavat kentät.  
-4. Valitse **OK**-painike. Käytön tapahtumat luodaan projektipäiväkirjaan. Siellä voit muokata tietoja tarvittaessa.  
+1. <span data-ttu-id="069db-199">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektipäiväkirja** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-199">In the top right corner, choose the **Search for Page or Report** icon, enter **Job Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="069db-200">Valitse **Ehdota rivejä aikaraporteista** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-200">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="069db-201">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="069db-201">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="069db-202">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="069db-202">Choose the **OK** button.</span></span> <span data-ttu-id="069db-203">Käytön tapahtumat luodaan projektipäiväkirjaan. Siellä voit muokata tietoja tarvittaessa.</span><span class="sxs-lookup"><span data-stu-id="069db-203">Entries for usage are created in the job journal, where you can modify the information as needed.</span></span>  
 
-    **Huomautus**: Tietoja työn tyypistä ja siitä, onko työ on veloitettavissa, kopioidaan aikaraporttiriviltä. Voit tarvittaessa vähentää tuntien määrää ja tehdä osittaisen kirjauksen. Jos vähennät määrää, luotava rivi sisältää jäljellä olevat tunnit, kun valitse seuraavan kerran **Ehdota rivejä aikaraporteista** -toiminto.  
+    <span data-ttu-id="069db-204">**Huomautus**: Tietoja työn tyypistä ja siitä, onko työ on veloitettavissa, kopioidaan aikaraporttiriviltä.</span><span class="sxs-lookup"><span data-stu-id="069db-204">**Note**: Information about work type and whether the work is chargeable is copied from the time sheet line.</span></span> <span data-ttu-id="069db-205">Voit tarvittaessa vähentää tuntien määrää ja tehdä osittaisen kirjauksen.</span><span class="sxs-lookup"><span data-stu-id="069db-205">If needed, you can reduce the quantity of hours and do a partial posting.</span></span> <span data-ttu-id="069db-206">Jos vähennät määrää, luotava rivi sisältää jäljellä olevat tunnit, kun valitse seuraavan kerran **Ehdota rivejä aikaraporteista** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-206">If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.</span></span>  
 
-5. Valitse **Kirjaa**-toiminto.  
-6. Vahvista kirjaus valitsemalla **Tapahtumakirjaukset**-toiminto. Näyttöön avautuu **Projektitapahtumat**-ikkuna, jossa näkyvät resurssipäiväkirjan kirjausten tulokset.
+5. <span data-ttu-id="069db-207">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-207">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="069db-208">Vahvista kirjaus valitsemalla **Tapahtumakirjaukset**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="069db-208">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="069db-209">Näyttöön avautuu **Projektitapahtumat**-ikkuna, jossa näkyvät resurssipäiväkirjan kirjausten tulokset.</span><span class="sxs-lookup"><span data-stu-id="069db-209">The **Job Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
 
-## <a name="to-archive-time-sheets"></a>Arkistoi aikaraportit  
-Kun olet kirjannut aikaraportit, voit arkistoida ne myöhempää käyttöä varten. Kaikki aikaraporttirivit on kirjattava, ennen kuin aikaraportti voidaan arkistoida.
+## <a name="to-archive-time-sheets"></a><span data-ttu-id="069db-210">Arkistoi aikaraportit</span><span class="sxs-lookup"><span data-stu-id="069db-210">To archive time sheets</span></span>  
+<span data-ttu-id="069db-211">Kun olet kirjannut aikaraportit, voit arkistoida ne myöhempää käyttöä varten.</span><span class="sxs-lookup"><span data-stu-id="069db-211">After you have posted time sheets, you can archive them for future reference.</span></span> <span data-ttu-id="069db-212">Kaikki aikaraporttirivit on kirjattava, ennen kuin aikaraportti voidaan arkistoida.</span><span class="sxs-lookup"><span data-stu-id="069db-212">All time sheets lines must be posted before a time sheet can be archived.</span></span>
 
-**Huomautus**: Kun arkistoit aikaraportin, se poistetaan sekä **Aikaraportit**-ikkunan että **Päällikon aikaraportit** -ikkunan luettelosta.
+<span data-ttu-id="069db-213">**Huomautus**: Kun arkistoit aikaraportin, se poistetaan sekä **Aikaraportit**-ikkunan että **Päällikon aikaraportit** -ikkunan luettelosta.</span><span class="sxs-lookup"><span data-stu-id="069db-213">**Note**: When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Siirrä aikaraportit arkistoon** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät ja sulje ikkuna.  
-3. Voit tarkistaa arkistoidut aikaraportit, kun valitset oikeassa yläkulmassa olevan **Etsi sivu tai raportti** -kuvakkeen, syötät **Aikaraporttiarkistot** tai **Päälliukön aikaraporttiarkistot** ja valitset sitten aiheeseen liittyvän linkin.
+1. <span data-ttu-id="069db-214">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Siirrä aikaraportit arkistoon** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="069db-214">In the top right corner, choose the **Search for Page or Report** icon, enter **Move Time Sheets to Archive**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="069db-215">Täytä tarvittavat kentät ja sulje ikkuna.</span><span class="sxs-lookup"><span data-stu-id="069db-215">Fill in the fields as necessary, and then close the window.</span></span>  
+3. <span data-ttu-id="069db-216">Voit tarkistaa arkistoidut aikaraportit, kun valitset oikeassa yläkulmassa olevan **Etsi sivu tai raportti** -kuvakkeen, syötät **Aikaraporttiarkistot** tai **Päälliukön aikaraporttiarkistot** ja valitset sitten aiheeseen liittyvän linkin.</span><span class="sxs-lookup"><span data-stu-id="069db-216">To review archived time sheets, in the top right corner, choose the **Search for Page or Report** icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Projektien hallinta](projects-manage-projects.md)  
-[Projektinhallinnan määrittäminen](projects-setup-projects.md)    
-[Rahoitus](finance-setup.md)  
-[Ostojen hallinta](purchasing-manage-purchasing.md)         
-[Myynnin hallinta](sales-manage-sales.md)     
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="069db-217">Katso myös</span><span class="sxs-lookup"><span data-stu-id="069db-217">See Also</span></span>
+[<span data-ttu-id="069db-218">Projektien hallinta</span><span class="sxs-lookup"><span data-stu-id="069db-218">Manage Projects</span></span>](projects-manage-projects.md)  
+<span data-ttu-id="069db-219">[Projektinhallinnan määrittäminen](projects-setup-projects.md)  </span><span class="sxs-lookup"><span data-stu-id="069db-219">[Set Up Project Management](projects-setup-projects.md)  </span></span>  
+[<span data-ttu-id="069db-220">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="069db-220">Finance</span></span>](finance-setup.md)  
+<span data-ttu-id="069db-221">[Ostojen hallinta](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="069db-221">[Manage Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="069db-222">[Myynnin hallinta](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="069db-222">[Manage Sales](sales-manage-sales.md)   </span></span>  
+[<span data-ttu-id="069db-223">Dynamics NAV -ohjelman käyttäminen</span><span class="sxs-lookup"><span data-stu-id="069db-223">Work With Dynamics NAV</span></span>](ui-work-product.md)  
 

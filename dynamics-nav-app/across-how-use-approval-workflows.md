@@ -9,86 +9,86 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2017
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: e4135aa801b0b507b5f179d02a240a7554ed45cd
+ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
+ms.openlocfilehash: bde70a8febc561b68908b1da2729fff59b105fd9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/19/2017
 
 ---
 
-# <a name="how-to-use-approval-workflows"></a>Toimintaohje: Hyväksyntätyönkulkujen käyttäminen
-Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana. Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.
+# <a name="how-to-use-approval-workflows"></a><span data-ttu-id="b6ead-102">Toimintaohje: Hyväksyntätyönkulkujen käyttäminen</span><span class="sxs-lookup"><span data-stu-id="b6ead-102">How to: Use Approval Workflows</span></span>
+<span data-ttu-id="b6ead-103">Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana.</span><span class="sxs-lookup"><span data-stu-id="b6ead-103">When a record, such as a purchase document or a customer card, needs to be approved by someone in your organization, you send an approval request as part of a workflow.</span></span> <span data-ttu-id="b6ead-104">Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.</span><span class="sxs-lookup"><span data-stu-id="b6ead-104">Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.</span></span>
 
-Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi avustetuissa asennuksissa. Lisätietoja on kohdassa [Tervetuloa Dynamics NAV -ohjelmaan](across-get-started.md).
+<span data-ttu-id="b6ead-105">Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi avustetuissa asennuksissa.</span><span class="sxs-lookup"><span data-stu-id="b6ead-105">Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as assisted setup.</span></span> <span data-ttu-id="b6ead-106">Lisätietoja on kohdassa [Tervetuloa Dynamics NAV -ohjelmaan](across-get-started.md).</span><span class="sxs-lookup"><span data-stu-id="b6ead-106">For more information, see [Welcome to Dynamics NAV](across-get-started.md).</span></span>
 
-## <a name="to-request-approval-of-a-record"></a>Tietueen hyväksynnän pyytäminen
-Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
+## <a name="to-request-approval-of-a-record"></a><span data-ttu-id="b6ead-107">Tietueen hyväksynnän pyytäminen</span><span class="sxs-lookup"><span data-stu-id="b6ead-107">To request approval of a record</span></span>
+<span data-ttu-id="b6ead-108">Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.</span><span class="sxs-lookup"><span data-stu-id="b6ead-108">The following task is performed by an approval user.</span></span>
 
-1. Valitse tietueen ikkunassa **Lähetä hyväksymispyyntö** -toiminto.
-2. Kun haluat nähdä kaikki hyväksymispyynnöt, valitse oikeassa yläkulmassa oleva **Etsi sivua tai raporttia** -kuvake, syötä **Hyväksymispyyntötapahtumat** ja valitse liittyvä linkki.
+1. <span data-ttu-id="b6ead-109">Valitse tietueen ikkunassa **Lähetä hyväksymispyyntö** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-109">In the window that presents the record, choose the **Send Approval Request** action.</span></span>
+2. <span data-ttu-id="b6ead-110">Kun haluat nähdä kaikki hyväksymispyynnöt, valitse oikeassa yläkulmassa oleva **Etsi sivua tai raporttia** -kuvake, syötä **Hyväksymispyyntötapahtumat** ja valitse liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b6ead-110">To see all your approval requests, in the top right corner, choose the **Search for Page or Report** icon, enter **Approval Request Entries**, and then choose the related link.</span></span>
 
-Hyväksyntämerkinnän tila muuttuu **Luotu** -tilasta**Avoin**-tilaksi. Tietueen, kuten esimerkiksi ostolaskun, tila päivitetään **Avoin**-tilasta **Odottaa hyväksyntää** -tilaksi. Tietue pysyy lukittuna käsittelyltä, kunnes hyväksyjät ovat hyväksyneet tietueen.
+<span data-ttu-id="b6ead-111">Hyväksyntämerkinnän tila muuttuu **Luotu** -tilasta**Avoin**-tilaksi.</span><span class="sxs-lookup"><span data-stu-id="b6ead-111">The status of the approval entry is updated from **Created** to **Open**.</span></span> <span data-ttu-id="b6ead-112">Tietueen, kuten esimerkiksi ostolaskun, tila päivitetään **Avoin**-tilasta **Odottaa hyväksyntää** -tilaksi. Tietue pysyy lukittuna käsittelyltä, kunnes hyväksyjät ovat hyväksyneet tietueen.</span><span class="sxs-lookup"><span data-stu-id="b6ead-112">The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.</span></span>
 
-Kun hyväksyjä on hyväksynyt tietueen, sen tilaksi muuttuu **Vapautettu**. Tämän jälkeen voit jatkaa tietueeseen liittyviä tehtäviä.
+<span data-ttu-id="b6ead-113">Kun hyväksyjä on hyväksynyt tietueen, sen tilaksi muuttuu **Vapautettu**.</span><span class="sxs-lookup"><span data-stu-id="b6ead-113">When the approver has approved the record, the status changes to **Released**.</span></span> <span data-ttu-id="b6ead-114">Tämän jälkeen voit jatkaa tietueeseen liittyviä tehtäviä.</span><span class="sxs-lookup"><span data-stu-id="b6ead-114">You can then continue your tasks with the record.</span></span>
 
-## <a name="to-cancel-requests-for-approval"></a>Hyväksymispyyntöjen peruuttaminen
-Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
+## <a name="to-cancel-requests-for-approval"></a><span data-ttu-id="b6ead-115">Hyväksymispyyntöjen peruuttaminen</span><span class="sxs-lookup"><span data-stu-id="b6ead-115">To cancel requests for approval</span></span>
+<span data-ttu-id="b6ead-116">Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.</span><span class="sxs-lookup"><span data-stu-id="b6ead-116">The following task is performed by an approval user with approver rights.</span></span>
 
-Tilanne voi toisinaan edellyttää, että asiakkaan täytyy tehdä muutoksia tilaukseen, joka on lähetetty hyväksyttäväksi. Tällöin voit peruuttaa hyväksyntäprosessin ja tehdä tarvittavat muutokset tilaukseen, ennen kuin pyydät hyväksyntää uudelleen.
+<span data-ttu-id="b6ead-117">Tilanne voi toisinaan edellyttää, että asiakkaan täytyy tehdä muutoksia tilaukseen, joka on lähetetty hyväksyttäväksi.</span><span class="sxs-lookup"><span data-stu-id="b6ead-117">A customer may want to change an order after it has been submitted for approval.</span></span> <span data-ttu-id="b6ead-118">Tällöin voit peruuttaa hyväksyntäprosessin ja tehdä tarvittavat muutokset tilaukseen, ennen kuin pyydät hyväksyntää uudelleen.</span><span class="sxs-lookup"><span data-stu-id="b6ead-118">In this case, you can cancel the approval process and make the necessary changes to the order before you request approval again.</span></span>
 
-1. Valitse tietueen näyttävässä ikkunassa **Peruuta hyväksymispyyntö** -toiminto.
+1. <span data-ttu-id="b6ead-119">Valitse tietueen näyttävässä ikkunassa **Peruuta hyväksymispyyntö** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-119">In the window that displays the record, choose the **Cancel Approval Request** action.</span></span>
 
-Kun hyväksyntäpyyntö on peruutettu, siihen liittyvän hyväksyntämerkinnän tilaksi tulee **Peruutettu**. Tietueen tila muuttuu **Odottaa hyväksyntää** -tilasta**Avoin**-tilaksi. Tämän jälkeen hyväksyntäprosessi voi alkaa uudelleen.
+<span data-ttu-id="b6ead-120">Kun hyväksyntäpyyntö on peruutettu, siihen liittyvän hyväksyntämerkinnän tilaksi tulee **Peruutettu**.</span><span class="sxs-lookup"><span data-stu-id="b6ead-120">When the approval request has been canceled, the status of the related approval entry is changed to **Canceled**.</span></span> <span data-ttu-id="b6ead-121">Tietueen tila muuttuu **Odottaa hyväksyntää** -tilasta**Avoin**-tilaksi.</span><span class="sxs-lookup"><span data-stu-id="b6ead-121">The status of the record is updated from **Pending Approval** to **Open**.</span></span> <span data-ttu-id="b6ead-122">Tämän jälkeen hyväksyntäprosessi voi alkaa uudelleen.</span><span class="sxs-lookup"><span data-stu-id="b6ead-122">The approval process can then start again.</span></span>
 
-## <a name="to-make-minor-changes-to-approved-records"></a>Pienten muutosten tekeminen hyväksyttyihin tietueisiin
-Jos haluat tehdä tietueeseen pienen muutoksen hyväksymisen jälkeen, voit avata tietueen uudelleen, tehdä haluamasi muutoksen ja vapauttaa sitten tietueen. Tee pienet muutokset **Avaa uudelleen**- ja **Vapauta**-painikkeiden avulla.
+## <a name="to-make-minor-changes-to-approved-records"></a><span data-ttu-id="b6ead-123">Pienten muutosten tekeminen hyväksyttyihin tietueisiin</span><span class="sxs-lookup"><span data-stu-id="b6ead-123">To make minor changes to approved records</span></span>
+<span data-ttu-id="b6ead-124">Jos haluat tehdä tietueeseen pienen muutoksen hyväksymisen jälkeen, voit avata tietueen uudelleen, tehdä haluamasi muutoksen ja vapauttaa sitten tietueen.</span><span class="sxs-lookup"><span data-stu-id="b6ead-124">If you want to make a minor change to a record after it has been approved, you can reopen the record, make the change, and then release it.</span></span> <span data-ttu-id="b6ead-125">Tee pienet muutokset **Avaa uudelleen**- ja **Vapauta**-painikkeiden avulla.</span><span class="sxs-lookup"><span data-stu-id="b6ead-125">For minor changes, you do this with the **Reopen** and **Release** buttons.</span></span>
 
-1. Avaa tietueen, kuten ostolaskun, sisältävä ikkuna ja valitse sitten **Avaa uudelleen** -toiminto.
+1. <span data-ttu-id="b6ead-126">Avaa tietueen, kuten ostolaskun, sisältävä ikkuna ja valitse sitten **Avaa uudelleen** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-126">Open the window that displays the record, such as a purchase invoice, and then choose the **Reopen** action.</span></span>
 
-    **Asiakirjan tila** -kentän arvoksi tulee Avoin.
-3. Tee tietueeseen tarvittavat muutokset (esimerkiksi toimittajan osoite).
-4. Valitse **Vapauta**-toiminto.
+    <span data-ttu-id="b6ead-127">**Asiakirjan tila** -kentän arvoksi tulee Avoin.</span><span class="sxs-lookup"><span data-stu-id="b6ead-127">The **Document Status** field is changed to Open.</span></span>
+3. <span data-ttu-id="b6ead-128">Tee tietueeseen tarvittavat muutokset (esimerkiksi toimittajan osoite).</span><span class="sxs-lookup"><span data-stu-id="b6ead-128">Make the necessary changes on the record, such as the vendor’s address.</span></span>
+4. <span data-ttu-id="b6ead-129">Valitse **Vapauta**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-129">Choose the **Release** action.</span></span>
 
-Kun avaat lähdetiedoston uudelleen, siihen liittyvän hyväksyntämerkinnän tila on edelleen Hyväksytty **Hyväksymistapahtumat**-ikkunassa.
+<span data-ttu-id="b6ead-130">Kun avaat lähdetiedoston uudelleen, siihen liittyvän hyväksyntämerkinnän tila on edelleen Hyväksytty **Hyväksymistapahtumat**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="b6ead-130">When you reopen the source record, the status of the related approval entry remains Approved in the **Approval Entries** window.</span></span>
 
-## <a name="to-approve-or-reject-requests-for-approval"></a>Hyväksymispyyntöjen hyväksyminen tai hylkääminen
-Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
+## <a name="to-approve-or-reject-requests-for-approval"></a><span data-ttu-id="b6ead-131">Hyväksymispyyntöjen hyväksyminen tai hylkääminen</span><span class="sxs-lookup"><span data-stu-id="b6ead-131">To approve or reject requests for approval</span></span>
+<span data-ttu-id="b6ead-132">Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.</span><span class="sxs-lookup"><span data-stu-id="b6ead-132">The following task is performed by an approval user with approver rights.</span></span>
 
-Voit käsitellä hyväksymispyynnöt **Hyväksyttävät pyynnöt** -ikkunassa esimerkiksi silloin, kun haluat hyväksyä kerralla useita pyyntöjä. Vaihtoehtoisesti voit käsitellä liittyvän tietueen, kuten **Ostolasku**-ikkunan, jokaisen pyynnön valitsemalla vastaanottamasi ilmoituksen linkin.
+<span data-ttu-id="b6ead-133">Voit käsitellä hyväksymispyynnöt **Hyväksyttävät pyynnöt** -ikkunassa esimerkiksi silloin, kun haluat hyväksyä kerralla useita pyyntöjä.</span><span class="sxs-lookup"><span data-stu-id="b6ead-133">You can process approval requests in the **Requests to Approve** window, for example to approve multiple requests at a time.</span></span> <span data-ttu-id="b6ead-134">Vaihtoehtoisesti voit käsitellä liittyvän tietueen, kuten **Ostolasku**-ikkunan, jokaisen pyynnön valitsemalla vastaanottamasi ilmoituksen linkin.</span><span class="sxs-lookup"><span data-stu-id="b6ead-134">Alternatively, you can process each request on the related record, such as the **Purchase Invoice** window, by choosing the link in the notification that you receive.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse yksi tai useampi rivi tietueesta tai tietueista, jonka haluat hyväksyä tai hylätä.
-3. Valitse **Hyväksy**-, **Hylkää**- tai **Delegoi**-toiminto.
+1. <span data-ttu-id="b6ead-135">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b6ead-135">In the top right corner, choose the **Search for Page or Report** icon, enter **Requests to Approve**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b6ead-136">Valitse yksi tai useampi rivi tietueesta tai tietueista, jonka haluat hyväksyä tai hylätä.</span><span class="sxs-lookup"><span data-stu-id="b6ead-136">Select one or more lines for the record or records that you want to approve or reject.</span></span>
+3. <span data-ttu-id="b6ead-137">Valitse **Hyväksy**-, **Hylkää**- tai **Delegoi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-137">Choose the **Approve**, **Reject**, or **Delegate** actions.</span></span>
 
-Kun tietue on hyväksytty tai hylätty, hyväksynnän **Tila**-kentän arvoksi muutetaan **Hyväksytty** tai **Hylätty**.
+<span data-ttu-id="b6ead-138">Kun tietue on hyväksytty tai hylätty, hyväksynnän **Tila**-kentän arvoksi muutetaan **Hyväksytty** tai **Hylätty**.</span><span class="sxs-lookup"><span data-stu-id="b6ead-138">When a record has been approved or rejected, the approval status in the **Status** field changes to **Approved** or **Rejected**.</span></span>
 
-Jos hyväksyjähierarkia on määritelty, tietueen tilaksi määritellään **Odottaa hyväksyntää** siihen asti, että kaikki hyväksyjät ovat hyväksyneet tietueen. Tietueen tilaksi tulee tämän jälkeen **Vapautettu**.
+<span data-ttu-id="b6ead-139">Jos hyväksyjähierarkia on määritelty, tietueen tilaksi määritellään **Odottaa hyväksyntää** siihen asti, että kaikki hyväksyjät ovat hyväksyneet tietueen.</span><span class="sxs-lookup"><span data-stu-id="b6ead-139">If an approver hierarchy is set up, the record status will be **Pending Approval** until all approvers have approved the record.</span></span> <span data-ttu-id="b6ead-140">Tietueen tilaksi tulee tämän jälkeen **Vapautettu**.</span><span class="sxs-lookup"><span data-stu-id="b6ead-140">Then the record status will change to **Released**.</span></span>
 
-Hyväksynnän tila muuttuu samanaikaisesti **Luodusta** **Avoimeksi** heti, kun tietueelle luodaan hyväksymispyyntö. Jos pyyntö hylätään, hyväksynnän tilaksi muutetaan **Hylätty**. Tila pysyy **Avoimena** tai **Hylättynä** kunnes kaikki hyväksyjät ovat hyväksyneet pyynnön.
+<span data-ttu-id="b6ead-141">Hyväksynnän tila muuttuu samanaikaisesti **Luodusta** **Avoimeksi** heti, kun tietueelle luodaan hyväksymispyyntö.</span><span class="sxs-lookup"><span data-stu-id="b6ead-141">At the same time, the approval status changes from **Created** to **Open** as soon as an approval request for the record is created.</span></span> <span data-ttu-id="b6ead-142">Jos pyyntö hylätään, hyväksynnän tilaksi muutetaan **Hylätty**.</span><span class="sxs-lookup"><span data-stu-id="b6ead-142">If the request is rejected, the approval status changes to **Rejected**.</span></span> <span data-ttu-id="b6ead-143">Tila pysyy **Avoimena** tai **Hylättynä** kunnes kaikki hyväksyjät ovat hyväksyneet pyynnön.</span><span class="sxs-lookup"><span data-stu-id="b6ead-143">The status remains **Open** or **Rejected** until all approvers have approved the request.</span></span>
 
-## <a name="to-delegate-requests-for-approval"></a>Hyväksymispyyntöjen delegoiminen
-Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
+## <a name="to-delegate-requests-for-approval"></a><span data-ttu-id="b6ead-144">Hyväksymispyyntöjen delegoiminen</span><span class="sxs-lookup"><span data-stu-id="b6ead-144">To delegate requests for approval</span></span>
+<span data-ttu-id="b6ead-145">Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.</span><span class="sxs-lookup"><span data-stu-id="b6ead-145">The following task is performed by an approval user with approver rights.</span></span>
 
-Työnkulun tukkiutumisen tai asiakirjojen kasaantumisen estämiseksi hyväksyjä ja hyväksynnän valvoja voi delegoida hyväksymispyynnöt sijaiselle. Korvaava voi olla joko nimetty korvaaja, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Tätä toimintoa käytetään yleensä, kun alkuperäinen hyväksyjä on poissa töistä eikä pysty käsittelemään pyyntöjä ennen eräpäivää.
+<span data-ttu-id="b6ead-146">Työnkulun tukkiutumisen tai asiakirjojen kasaantumisen estämiseksi hyväksyjä ja hyväksynnän valvoja voi delegoida hyväksymispyynnöt sijaiselle.</span><span class="sxs-lookup"><span data-stu-id="b6ead-146">To prevent documents from piling up or otherwise block the workflow, the approver and the approval administrator can delegate an approval request to a substitute approver.</span></span> <span data-ttu-id="b6ead-147">Korvaava voi olla joko nimetty korvaaja, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä.</span><span class="sxs-lookup"><span data-stu-id="b6ead-147">The substitute can either be a designated substitute, the direct approver, or the approval administrator, in that order of priority.</span></span> <span data-ttu-id="b6ead-148">Tätä toimintoa käytetään yleensä, kun alkuperäinen hyväksyjä on poissa töistä eikä pysty käsittelemään pyyntöjä ennen eräpäivää.</span><span class="sxs-lookup"><span data-stu-id="b6ead-148">You typically use this feature if an approver is out of office and is unable to approve requests before the due date.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse vähintään yksi pyyntörivi, jonka haluat delegoida sijaiselle, ja valitse sitten **Delegoi**-toiminto.
+1. <span data-ttu-id="b6ead-149">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Hyväksyttävät pyynnöt** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b6ead-149">In the top right corner, choose the **Search for Page or Report** icon, enter **Requests to Approve**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b6ead-150">Valitse vähintään yksi pyyntörivi, jonka haluat delegoida sijaiselle, ja valitse sitten **Delegoi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-150">Select one or more lines for the approval requests that you want to delegate to a substitute approver, and then choose the **Delegate** action.</span></span>
 
-Ilmoitus hyväksyttävästä pyynnöstä lähetetään sijaiselle.
+<span data-ttu-id="b6ead-151">Ilmoitus hyväksyttävästä pyynnöstä lähetetään sijaiselle.</span><span class="sxs-lookup"><span data-stu-id="b6ead-151">A notification to approve the request is sent to the substitute approver.</span></span>
 
-## <a name="to-manage-overdue-approval-requests"></a>Myöhässä olevien hyväksymispyyntöjen hallinta
-Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
+## <a name="to-manage-overdue-approval-requests"></a><span data-ttu-id="b6ead-152">Myöhässä olevien hyväksymispyyntöjen hallinta</span><span class="sxs-lookup"><span data-stu-id="b6ead-152">To manage overdue approval requests</span></span>
+<span data-ttu-id="b6ead-153">Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.</span><span class="sxs-lookup"><span data-stu-id="b6ead-153">The following task is performed by an approval user with approver rights.</span></span>
 
-Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoin myöhässä olevista hyväksyntäpyynnöistä, joihin heidän pitäisi reagoida. Tähän käytetään Lähetä ilmoituksia myöhässä olevista hyväksynnöistä -toimintoa.
+<span data-ttu-id="b6ead-154">Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoin myöhässä olevista hyväksyntäpyynnöistä, joihin heidän pitäisi reagoida.</span><span class="sxs-lookup"><span data-stu-id="b6ead-154">At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on.</span></span> <span data-ttu-id="b6ead-155">Tähän käytetään Lähetä ilmoituksia myöhässä olevista hyväksynnöistä -toimintoa.</span><span class="sxs-lookup"><span data-stu-id="b6ead-155">You use the Send Overdue Approval Notifications function for this.</span></span>
 
-Lähetä ilmoituksia myöhässä olevista hyväksynnöistä -toiminto tarkistaa kaikki avoimet myöhässä olevat hyväksyntäpyynnöt. Toiminto lähettää luettelon kaikista myöhässä olevista hyväksynnöistä jokaiselle hyväksyjälle, jolla on vähintään yksi myöhässä oleva hyväksyntämerkintä. Ilmoitus lähetetään myös hyväksyjän esimiehelle ja kaikille myöhässä olevien hyväksyntöjen pyytäjille. Tästä on apua, jos hyväksyntä on siirrettävä sijaiselle.
+<span data-ttu-id="b6ead-156">Lähetä ilmoituksia myöhässä olevista hyväksynnöistä -toiminto tarkistaa kaikki avoimet myöhässä olevat hyväksyntäpyynnöt.</span><span class="sxs-lookup"><span data-stu-id="b6ead-156">The Send Overdue Approval Notifications function checks for all open approval requests that are currently overdue.</span></span> <span data-ttu-id="b6ead-157">Toiminto lähettää luettelon kaikista myöhässä olevista hyväksynnöistä jokaiselle hyväksyjälle, jolla on vähintään yksi myöhässä oleva hyväksyntämerkintä.</span><span class="sxs-lookup"><span data-stu-id="b6ead-157">Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests.</span></span> <span data-ttu-id="b6ead-158">Ilmoitus lähetetään myös hyväksyjän esimiehelle ja kaikille myöhässä olevien hyväksyntöjen pyytäjille.</span><span class="sxs-lookup"><span data-stu-id="b6ead-158">The notification is also sent to their approver and all the requesters of the overdue approvals.</span></span> <span data-ttu-id="b6ead-159">Tästä on apua, jos hyväksyntä on siirrettävä sijaiselle.</span><span class="sxs-lookup"><span data-stu-id="b6ead-159">This helps if the overdue approval entry must be delegated to a substitute.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myöhässä olevat hyväksyntäpyynnöt** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -ikkunassa **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
+1. <span data-ttu-id="b6ead-160">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myöhässä olevat hyväksyntäpyynnöt** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b6ead-160">In the top right corner, choose the **Search for Page or Report** icon, enter **Overdue Approval Requests**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b6ead-161">Valitse **Myöhässä olevat hyväksyntäpyynnöt** -ikkunassa **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="b6ead-161">In the **Overdue Approval Requests** window, choose the **Send Overdue Approval Notifications** action.</span></span>
 
-## <a name="see-also"></a>Katso myös  
-[Myynnin hallinta](sales-manage-sales.md)    
-[Saapuvat asiakirjat](across-income-documents.md)  
-[Ostojen hallinta](purchasing-manage-purchasing.md)  
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="b6ead-162">Katso myös</span><span class="sxs-lookup"><span data-stu-id="b6ead-162">See Also</span></span>  
+<span data-ttu-id="b6ead-163">[Myynnin hallinta](sales-manage-sales.md)  </span><span class="sxs-lookup"><span data-stu-id="b6ead-163">[Manage Sales](sales-manage-sales.md)  </span></span>  
+[<span data-ttu-id="b6ead-164">Saapuvat asiakirjat</span><span class="sxs-lookup"><span data-stu-id="b6ead-164">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="b6ead-165">Ostojen hallinta</span><span class="sxs-lookup"><span data-stu-id="b6ead-165">Manage Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="b6ead-166">Dynamics NAV -ohjelman käyttäminen</span><span class="sxs-lookup"><span data-stu-id="b6ead-166">Work With Dynamics NAV</span></span>](ui-work-product.md)
 

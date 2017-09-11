@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV Tablet -asiakasohjelma
+<span data-ttu-id="1d744-101">Microsoft Dynamics NAV Tablet -asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="1d744-101">Microsoft Dynamics NAV Tablet client</span></span>

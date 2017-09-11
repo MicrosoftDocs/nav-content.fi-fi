@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV Phone -asiakasohjelma
+<span data-ttu-id="8a4bc-101">Microsoft Dynamics NAV Phone -asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="8a4bc-101">Microsoft Dynamics NAV Phone client</span></span>

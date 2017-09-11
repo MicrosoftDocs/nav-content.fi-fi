@@ -16,105 +16,105 @@ ms.lasthandoff: 06/26/2017
 
 ---
 
-# <a name="how-to-revalue-fixed-assets"></a>Toimintaohje: Käyttöomaisuuden uudelleenarvostus
-Käyttöomaisuuserien uudelleenarvostus voi koostua arvonkorotuksista, arvonalennuksista tai yleisistä arvon oikaisuista.
+# <a name="how-to-revalue-fixed-assets"></a><span data-ttu-id="0403d-102">Toimintaohje: Käyttöomaisuuden uudelleenarvostus</span><span class="sxs-lookup"><span data-stu-id="0403d-102">How to: Revalue Fixed Assets</span></span>
+<span data-ttu-id="0403d-103">Käyttöomaisuuserien uudelleenarvostus voi koostua arvonkorotuksista, arvonalennuksista tai yleisistä arvon oikaisuista.</span><span class="sxs-lookup"><span data-stu-id="0403d-103">Revaluation of fixed assets can consist of appreciations, write-downs, or general value adjustments.</span></span>
 
-Kun käyttöomaisuuserän arvoa on lisätty, voit kirjata päiväkirjariville suuremman summan (arvonkorotuksen) poistokirjaan. Uusi summa tallennetaan arvonkorotuksena käyttöomaisuuden kirjausasetusten mukaan.
+<span data-ttu-id="0403d-104">Kun käyttöomaisuuserän arvoa on lisätty, voit kirjata päiväkirjariville suuremman summan (arvonkorotuksen) poistokirjaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-104">When the value of a fixed asset has increased, you post a journal line with a higher amount, an appreciation, to the depreciation book.</span></span> <span data-ttu-id="0403d-105">Uusi summa tallennetaan arvonkorotuksena käyttöomaisuuden kirjausasetusten mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-105">The new amount is recorded as an appreciation according to the fixed asset posting setup.</span></span>
 
-Kun käyttöomaisuuserän arvoa on vähennetty, voit kirjata päiväkirjariville alhaisemman summan (arvonalennuksen) poistokirjaan. Uusi summa tallennetaan arvonalennuksena käyttöomaisuuden kirjausasetusten mukaan.
+<span data-ttu-id="0403d-106">Kun käyttöomaisuuserän arvoa on vähennetty, voit kirjata päiväkirjariville alhaisemman summan (arvonalennuksen) poistokirjaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-106">When the value of a fixed asset has decreased, you post a journal line with a lower amount, a write-down, to the depreciation book.</span></span> <span data-ttu-id="0403d-107">Uusi summa tallennetaan arvonalennuksena käyttöomaisuuden kirjausasetusten mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-107">The new amount is recorded as a write-down according to the fixed asset posting setup.</span></span>
 
-Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia.
+<span data-ttu-id="0403d-108">Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-108">Indexation is used to adjust multiple fixed asset values, for example per general price changes.</span></span> <span data-ttu-id="0403d-109">**Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia.</span><span class="sxs-lookup"><span data-stu-id="0403d-109">The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts.</span></span>
 
-## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Arvonkorotuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta  
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
-3. Valitse **KO:n kirjaustyyppi** -kentässä **Arvonkorotus**.
-4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonkorotuksen kirjaamista varten.
+## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a><span data-ttu-id="0403d-110">Arvonkorotuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta</span><span class="sxs-lookup"><span data-stu-id="0403d-110">To post an appreciation from the fixed asset G/L journal</span></span>  
+1. <span data-ttu-id="0403d-111">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="0403d-111">In the top right corner, choose the **Search for Page or Report** icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="0403d-112">Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-112">Create an initial journal line and fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="0403d-113">Valitse **KO:n kirjaustyyppi** -kentässä **Arvonkorotus**.</span><span class="sxs-lookup"><span data-stu-id="0403d-113">In the **FA Posting Type** field, select **Appreciation**.</span></span>
+4. <span data-ttu-id="0403d-114">Valitse **Syötä KO-vastatili** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="0403d-114">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="0403d-115">Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonkorotuksen kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="0403d-115">A second journal line is created for the balancing account that is set up for appreciation posting.</span></span>
 
-    **Huomautus**: Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonkorotustili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Arvonkorotuksen vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).
-5. Valitse **Kirjaa**-toiminto.
+    <span data-ttu-id="0403d-116">**Huomautus**: Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonkorotustili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Arvonkorotuksen vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan.</span><span class="sxs-lookup"><span data-stu-id="0403d-116">**Note**: Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Appreciation Account** field contains the general ledger debit account and the **Appreciation Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="0403d-117">Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="0403d-117">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+5. <span data-ttu-id="0403d-118">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="0403d-118">Choose the **Post** action.</span></span>
 
-## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Arvonalennuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta  
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
-3. Valitse **KO:n kirjaustyyppi** -kentässä **Arvonalennus**.
-4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonalennuksen kirjaamista varten.
+## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a><span data-ttu-id="0403d-119">Arvonalennuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta</span><span class="sxs-lookup"><span data-stu-id="0403d-119">To post a write-down from the fixed asset G/L journal</span></span>  
+1. <span data-ttu-id="0403d-120">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="0403d-120">In the top right corner, choose the **Search for Page or Report** icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="0403d-121">Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-121">Create an initial journal line, and fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="0403d-122">Valitse **KO:n kirjaustyyppi** -kentässä **Arvonalennus**.</span><span class="sxs-lookup"><span data-stu-id="0403d-122">In the **FA Posting Type** field, select **Write-Down**.</span></span>
+4. <span data-ttu-id="0403d-123">Valitse **Syötä KO-vastatili** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="0403d-123">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="0403d-124">Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonalennuksen kirjaamista varten.</span><span class="sxs-lookup"><span data-stu-id="0403d-124">A second journal line is created for the balancing account that is set up for write-down posting.</span></span>
 
-    **Huomautus**: Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonalennustili**-kenttä sisältää pääkirjanpidon kredit-tilin ja **Arvonalennuksen kustannustili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonalennusten vastatilitapahtumat kirjataan. Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).
-5. Valitse **Kirjaa**-toiminto.
+    <span data-ttu-id="0403d-125">**Huomautus**: Vaihe 4 toimii vain, jos määritettynä ovat seuraavat arvot: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -ikkunan **Arvonalennustili**-kenttä sisältää pääkirjanpidon kredit-tilin ja **Arvonalennuksen kustannustili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonalennusten vastatilitapahtumat kirjataan.</span><span class="sxs-lookup"><span data-stu-id="0403d-125">**Note**: Step 4 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Write-Down Account** field contains the general ledger credit account and the **Write-Down Expense Account** field contains the general ledger debit account to which you want to post balancing entries for write-downs.</span></span> <span data-ttu-id="0403d-126">Lisätietoja on "Käyttöomaisuuden kirjausryhmien määrittäminen" -osassa kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="0403d-126">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+5. <span data-ttu-id="0403d-127">Valitse **Kirjaa**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="0403d-127">Choose the **Post** action.</span></span>
 
-## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Käyttöomaisuuden yleisen uudelleenarvostuksen suorittaminen  
-Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia. **Salli indeksimuutokset** -valintaruudun on oltava valittuna **Poistokirja**-ikkunassa.
+## <a name="to-perform-general-revaluation-of-fixed-assets"></a><span data-ttu-id="0403d-128">Käyttöomaisuuden yleisen uudelleenarvostuksen suorittaminen</span><span class="sxs-lookup"><span data-stu-id="0403d-128">To perform general revaluation of fixed assets</span></span>  
+<span data-ttu-id="0403d-129">Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-129">Indexation is used to adjust multiple fixed asset values, for example per general price changes.</span></span> <span data-ttu-id="0403d-130">**Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia.</span><span class="sxs-lookup"><span data-stu-id="0403d-130">The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts.</span></span> <span data-ttu-id="0403d-131">**Salli indeksimuutokset** -valintaruudun on oltava valittuna **Poistokirja**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="0403d-131">The **Allow Indexation** check box in the **Depreciation Book** window must be selected.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Tee indeksimuutos KO:teen** ja valitse sitten aiheeseen liittyvä linkki.  
-2. Täytä tarvittavat kentät.
-3. Valitse **OK**-painike.  
+1. <span data-ttu-id="0403d-132">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Tee indeksimuutos KO:teen** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="0403d-132">In the top right corner, choose the **Search for Page or Report** icon, enter **Index Fixed Assets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="0403d-133">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="0403d-133">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="0403d-134">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="0403d-134">Choose the **OK** button.</span></span>  
 
-    Uudelleenarvostuksen rivit luodaan vaiheessa 2 tehtyjen asetusten mukaan. Rivit luodaan joko käyttöomaisuuden päiväkirjassa tai käyttöomaisuuden KP-päiväkirjassa **KO-päiväkirjan asetukset** -ikkunan mallin ja erän asetusten mukaan. Lisätietoja on kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).
+    <span data-ttu-id="0403d-135">Uudelleenarvostuksen rivit luodaan vaiheessa 2 tehtyjen asetusten mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-135">Revaluation lines are created per your settings in step 2.</span></span> <span data-ttu-id="0403d-136">Rivit luodaan joko käyttöomaisuuden päiväkirjassa tai käyttöomaisuuden KP-päiväkirjassa **KO-päiväkirjan asetukset** -ikkunan mallin ja erän asetusten mukaan.</span><span class="sxs-lookup"><span data-stu-id="0403d-136">The lines are created in either the fixed asset journal or the fixed asset G/L journal, depending on your template and batch setup in the **FA Journal Setup** window.</span></span> <span data-ttu-id="0403d-137">Lisätietoja on kohdassa [Toimintaohje: Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="0403d-137">For more information, see [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
 
-4. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.  
-5. Valitse päiväkirja, joka sisältää uudelleenarvostettavat käyttöomaisuuserät, ja valitse sitten **Tapahtumakirjaukset**-toiminto.  
-6. Tarkista luodut tapahtumat ja kirjaa päiväkirja **Kirjaa**-toiminnon avulla.
+4. <span data-ttu-id="0403d-138">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="0403d-138">In the top right corner, choose the **Search for Page or Report** icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="0403d-139">Valitse päiväkirja, joka sisältää uudelleenarvostettavat käyttöomaisuuserät, ja valitse sitten **Tapahtumakirjaukset**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="0403d-139">Select the journal with the fixed assets that you want to revalue, and then choose the **Ledger Entries** action.</span></span>  
+6. <span data-ttu-id="0403d-140">Tarkista luodut tapahtumat ja kirjaa päiväkirja **Kirjaa**-toiminnon avulla.</span><span class="sxs-lookup"><span data-stu-id="0403d-140">Check the created entries, and then choose the **Post** action to post the journal.</span></span>
 
-**Vihje**: Jos indeksiluvut on tarkoitettu vain simulointia varten, niiden tallentamiseksi voi luoda erityisen poistokirjan. Tällä tavalla tapahtumat eivät vaikuta muihin poistokirjoihin.
+<span data-ttu-id="0403d-141">**Vihje**: Jos indeksiluvut on tarkoitettu vain simulointia varten, niiden tallentamiseksi voi luoda erityisen poistokirjan.</span><span class="sxs-lookup"><span data-stu-id="0403d-141">**Tip**: If the index figures are for simulation purposes only, you can create a special depreciation book to store them in.</span></span> <span data-ttu-id="0403d-142">Tällä tavalla tapahtumat eivät vaikuta muihin poistokirjoihin.</span><span class="sxs-lookup"><span data-stu-id="0403d-142">Then these entries will not affect any of the other depreciation books.</span></span>
 
-## <a name="to-post-additional-acquisition-costs"></a>Lisähankintakustannusten kirjaaminen
-Käyttöomaisuuden lisähankintameno kirjataan samalla tavalla kuin alkuperäinen hankintameno: ostolaskusta tai käyttöomaisuuden päiväkirjasta. Lisätietoja on kohdassa [Toimintaohje: Käyttöomaisuuden hankinta](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a><span data-ttu-id="0403d-143">Lisähankintakustannusten kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="0403d-143">To post additional acquisition costs</span></span>
+<span data-ttu-id="0403d-144">Käyttöomaisuuden lisähankintameno kirjataan samalla tavalla kuin alkuperäinen hankintameno: ostolaskusta tai käyttöomaisuuden päiväkirjasta.</span><span class="sxs-lookup"><span data-stu-id="0403d-144">You post additional acquisition cost for a fixed asset in the same way as you post the original acquisition cost: from a purchase invoice or from a fixed asset journal.</span></span> <span data-ttu-id="0403d-145">Lisätietoja on kohdassa [Toimintaohje: Käyttöomaisuuden hankinta](fa-how-acquire.md).</span><span class="sxs-lookup"><span data-stu-id="0403d-145">For more information, see [How to: Acquire Fixed Assets](fa-how-acquire.md).</span></span>  
 
-Jos käyttöomaisuudelle on jo laskettu poisto, valitse **Poiston hankintameno** -valintaruutu tehdäksesi poiston lisähankintamenolle vähennettynä jäännösarvolla samassa suhteessa kuin aiemmin hankitulle käyttöomaisuudelle on jo tehty poisto. Näin varmistat, että poistojaksoa ei muuteta.  
+<span data-ttu-id="0403d-146">Jos käyttöomaisuudelle on jo laskettu poisto, valitse **Poiston hankintameno** -valintaruutu tehdäksesi poiston lisähankintamenolle vähennettynä jäännösarvolla samassa suhteessa kuin aiemmin hankitulle käyttöomaisuudelle on jo tehty poisto.</span><span class="sxs-lookup"><span data-stu-id="0403d-146">If depreciation has already been calculated for the fixed asset, select the **Depr. Acquisition Cost** check box to have the additional acquisition cost less the salvage value depreciated in proportion to the amount by which the previously acquired fixed asset has already been depreciated.</span></span> <span data-ttu-id="0403d-147">Näin varmistat, että poistojaksoa ei muuteta.</span><span class="sxs-lookup"><span data-stu-id="0403d-147">This ensures that the depreciation period is not changed.</span></span>  
 
-Poistoprosentti lasketaan seuraavasti:  
+<span data-ttu-id="0403d-148">Poistoprosentti lasketaan seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="0403d-148">The depreciation percentage is calculated as:</span></span>  
 
-*PR = (kokonaispoisto x 100) / poistopohja*
+<span data-ttu-id="0403d-149">*PR = (kokonaispoisto x 100) / poistopohja*</span><span class="sxs-lookup"><span data-stu-id="0403d-149">*P = (total depreciation x 100) / depreciable basis*</span></span>
 
-*Poistosumma = (PR/100) x (lisähankintameno - jäännösarvo)*  
+<span data-ttu-id="0403d-150">*Poistosumma = (PR/100) x (lisähankintameno - jäännösarvo)*</span><span class="sxs-lookup"><span data-stu-id="0403d-150">*Depreciation amount = (P/100) x (extra acquisition cost - salvage value)*</span></span>  
 
-Muista valita laskun käyttöomaisuuden KO-päiväkirjan tai päiväkirjarivien **Poisto KO-kirjauspvm:ään asti** -valintaruutu varmistuaksesi siitä, että poisto lasketaan viimeisestä käyttöomaisuuden kirjauspäivämäärästä lisähankintamenon kirjauspäivämäärään asti.
+<span data-ttu-id="0403d-151">Muista valita laskun käyttöomaisuuden KO-päiväkirjan tai päiväkirjarivien **Poisto KO-kirjauspvm:ään asti** -valintaruutu varmistuaksesi siitä, että poisto lasketaan viimeisestä käyttöomaisuuden kirjauspäivämäärästä lisähankintamenon kirjauspäivämäärään asti.</span><span class="sxs-lookup"><span data-stu-id="0403d-151">Remember to select the **Depr. until FA Posting Date** check box on the invoice, the fixed asset G/L journal, or the fixed asset journal lines to ensure that depreciation is calculated from the last fixed asset posting date to the posting date of the additional acquisition cost.</span></span>
 
-### <a name="example---posting-additional-acquisition-costs"></a>Esimerkki - Lisähankintamenojen kirjaaminen
-Kone ostetaan elokuun 1. päivä 2000. Hankintameno on 4 800. Poistomenetelmä on tasapoisto neljän vuoden ajalta.
+### <a name="example---posting-additional-acquisition-costs"></a><span data-ttu-id="0403d-152">Esimerkki - Lisähankintamenojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="0403d-152">Example - Posting Additional Acquisition Costs</span></span>
+<span data-ttu-id="0403d-153">Kone ostetaan elokuun 1. päivä 2000.</span><span class="sxs-lookup"><span data-stu-id="0403d-153">A machine is purchased on August 1, 2000.</span></span> <span data-ttu-id="0403d-154">Hankintameno on 4 800.</span><span class="sxs-lookup"><span data-stu-id="0403d-154">The acquisition cost is 4,800.</span></span> <span data-ttu-id="0403d-155">Poistomenetelmä on tasapoisto neljän vuoden ajalta.</span><span class="sxs-lookup"><span data-stu-id="0403d-155">The depreciation method is straight-line over four years.</span></span>
 
-**Laske poisto** -eräajo suoritetaan 31. elokuuta 2000. Poisto lasketaan seuraavasti:
+<span data-ttu-id="0403d-156">**Laske poisto** -eräajo suoritetaan 31. elokuuta 2000.</span><span class="sxs-lookup"><span data-stu-id="0403d-156">On August 31, 2000, the **Calculate Depreciation** batch job is run.</span></span> <span data-ttu-id="0403d-157">Poisto lasketaan seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="0403d-157">Depreciation is calculated as:</span></span>
 
-*kirjanpitoarvo x poistopäivien lukumäärä / poistopäivien kokonaismäärä = 4 800 x 30 / 1 440 = 100*  
+<span data-ttu-id="0403d-158">*kirjanpitoarvo x poistopäivien lukumäärä / poistopäivien kokonaismäärä = 4 800 x 30 / 1 440 = 100*</span><span class="sxs-lookup"><span data-stu-id="0403d-158">*book value x number of depreciation days / total number of depreciation days = 4800 x 30 / 1440 = 100*</span></span>  
 
-syyskuuta 2000 kirjataan lasku koneen maalaamisesta. Laskusumma on 480.
+<span data-ttu-id="0403d-159">syyskuuta 2000 kirjataan lasku koneen maalaamisesta.</span><span class="sxs-lookup"><span data-stu-id="0403d-159">On September 15, 2000, an invoice is posted for painting the machine.</span></span> <span data-ttu-id="0403d-160">Laskusumma on 480.</span><span class="sxs-lookup"><span data-stu-id="0403d-160">The invoice amount is 480.</span></span>
 
-Jos valitsit laskun **Poisto KO-kirjauspvm:ään asti** -valintaruudun ennen kirjausta, suoritetaan seuraava laskenta:  
+<span data-ttu-id="0403d-161">Jos valitsit laskun **Poisto KO-kirjauspvm:ään asti** -valintaruudun ennen kirjausta, suoritetaan seuraava laskenta:</span><span class="sxs-lookup"><span data-stu-id="0403d-161">If you selected the **Depr. until FA Posting Date** check box on the invoice before posting, the following calculation is made:</span></span>  
 
-15 poistopäivää (01.09.00–15.09.00) lasketaan seuraavasti:
+<span data-ttu-id="0403d-162">15 poistopäivää (01.09.00–15.09.00) lasketaan seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="0403d-162">15 days of depreciation (from 09/01/00 to 09/15/00) is calculated as:</span></span>
 
-*kirjanpitoarvo x poistopäivien lukumäärä / jäljellä olevien poistopäivien lukumäärä = (4 800 - 100) x 15 / 1 410 = 50*
+<span data-ttu-id="0403d-163">*kirjanpitoarvo x poistopäivien lukumäärä / jäljellä olevien poistopäivien lukumäärä = (4 800 - 100) x 15 / 1 410 = 50*</span><span class="sxs-lookup"><span data-stu-id="0403d-163">*book value x number of depreciation days / remaining number of depreciation days = (4800 - 100) x 15 / 1410 = 50*</span></span>
 
-Jos valitsit laskun **Poiston hankintameno** -valintaruudun ennen kirjausta, suoritetaan seuraava laskenta:  
+<span data-ttu-id="0403d-164">Jos valitsit laskun **Poiston hankintameno** -valintaruudun ennen kirjausta, suoritetaan seuraava laskenta:</span><span class="sxs-lookup"><span data-stu-id="0403d-164">If you selected the **Depr. Acquisition Cost** check box on the invoice before posting, the following calculation is made:</span></span>  
 
-*Lisähankintamenolle tehdään poisto seuraavasti; ((150 x 100) / 4 800) / 100 x 480 = 15*
+<span data-ttu-id="0403d-165">*Lisähankintamenolle tehdään poisto seuraavasti; ((150 x 100) / 4 800) / 100 x 480 = 15*</span><span class="sxs-lookup"><span data-stu-id="0403d-165">*The additional acquisition cost is depreciated by ((150 x 100) / 4800) / 100 x 480 = 15*</span></span>
 
-Poistopohja on nyt *5 280 = (4 800 + 480)*, ja kumulatiivinen poisto on *165 = (100 + 50 + 15)*, joka vastaa kokonaishankintamenon 45 poistopäivää. Tämä tarkoittaa sitä, että käyttöomaisuuserälle tehdään kokonaispoisto arvioidun neljän vuoden eliniän aikana.  
+<span data-ttu-id="0403d-166">Poistopohja on nyt *5 280 = (4 800 + 480)*, ja kumulatiivinen poisto on *165 = (100 + 50 + 15)*, joka vastaa kokonaishankintamenon 45 poistopäivää.</span><span class="sxs-lookup"><span data-stu-id="0403d-166">The depreciable basis is now *5280 = (4800 + 480)*, and the accumulated depreciation is *165 = (100 + 50 + 15)*, corresponding to 45 days of depreciation of the total acquisition cost.</span></span> <span data-ttu-id="0403d-167">Tämä tarkoittaa sitä, että käyttöomaisuuserälle tehdään kokonaispoisto arvioidun neljän vuoden eliniän aikana.</span><span class="sxs-lookup"><span data-stu-id="0403d-167">This means that the asset will be totally depreciated within the estimated lifetime of four years.</span></span>  
 
-Kun **Laske poisto** -eräajo suoritetaan 30.09.00, käytetään seuraavaa laskentaa:  
+<span data-ttu-id="0403d-168">Kun **Laske poisto** -eräajo suoritetaan 30.09.00, käytetään seuraavaa laskentaa:</span><span class="sxs-lookup"><span data-stu-id="0403d-168">When the **Calculate Depreciation** batch job is run on 09/30/00, the following calculation is made:</span></span>  
 
-*Jäljellä oleva poistoaika on 3 vuotta, 10 kuukautta ja 15 päivää = 1 395 päivää*  
+<span data-ttu-id="0403d-169">*Jäljellä oleva poistoaika on 3 vuotta, 10 kuukautta ja 15 päivää = 1 395 päivää*</span><span class="sxs-lookup"><span data-stu-id="0403d-169">*Remaining depreciable life is 3 years, 10 months and 15 days = 1395 days*</span></span>  
 
-*Kirjanpitoarvo on (5 280 - 165) = 5 115*  
+<span data-ttu-id="0403d-170">*Kirjanpitoarvo on (5 280 - 165) = 5 115*</span><span class="sxs-lookup"><span data-stu-id="0403d-170">*Book value is (5280 - 165) = 5115*</span></span>  
 
-*Poistosumma syyskuulle 2000: 5 115 x 15 / 1 395 = 55,00*  
+<span data-ttu-id="0403d-171">*Poistosumma syyskuulle 2000: 5 115 x 15 / 1 395 = 55,00*</span><span class="sxs-lookup"><span data-stu-id="0403d-171">*Depreciation amount for September 2000: 5115 x 15 / 1395 = 55.00*</span></span>  
 
-*Kokonaispoisto = 165 + 55 = 220*  
+<span data-ttu-id="0403d-172">*Kokonaispoisto = 165 + 55 = 220*</span><span class="sxs-lookup"><span data-stu-id="0403d-172">*Total of depreciation = 165 + 55 = 220*</span></span>  
 
-Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttään, omaisuuserä menettää 15 poistopäivää, koska 30.09.00 suoritettu **Laske poisto** -eräajo laskisi poiston 15.09.00 ja 30.09.00 väliseltä ajalta. Tämä tarkoittaa sitä, että kun **Laske poisto** -eräajo suoritetaan 30.09.00, laskenta tehdään seuraavasti:  
+<span data-ttu-id="0403d-173">Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttään, omaisuuserä menettää 15 poistopäivää, koska 30.09.00 suoritettu **Laske poisto** -eräajo laskisi poiston 15.09.00 ja 30.09.00 väliseltä ajalta.</span><span class="sxs-lookup"><span data-stu-id="0403d-173">If you did not select the **Depr. until FA Posting Date** check box, the asset would loose 15 days of depreciation because the **Calculate Depreciation** batch job run on 09/30/00 would calculate depreciation from 09/15/00 to 09/30/00.</span></span> <span data-ttu-id="0403d-174">Tämä tarkoittaa sitä, että kun **Laske poisto** -eräajo suoritetaan 30.09.00, laskenta tehdään seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="0403d-174">This means that when the **Calculate Depreciation** batch job is run on 09/30/00, the calculation is as follows:</span></span>  
 
-*Jäljellä oleva ikä on 3 vuotta, 10 kuukautta ja 15 päivää = 1 395 päivää*  
+<span data-ttu-id="0403d-175">*Jäljellä oleva ikä on 3 vuotta, 10 kuukautta ja 15 päivää = 1 395 päivää*</span><span class="sxs-lookup"><span data-stu-id="0403d-175">*Remaining life time is 3 years, 10 months and 15 days = 1395 days*</span></span>  
 
-*Kirjanpitoarvo on (4 800 + 480 - 100 - 15) = 5 165*
+<span data-ttu-id="0403d-176">*Kirjanpitoarvo on (4 800 + 480 - 100 - 15) = 5 165*</span><span class="sxs-lookup"><span data-stu-id="0403d-176">*Book value is (4800 + 480 - 100 - 15) = 5165*</span></span>
 
-*Poistosumma syyskuulle 2000: 5 165 x 15 / 1 395 = 55,54*  
+<span data-ttu-id="0403d-177">*Poistosumma syyskuulle 2000: 5 165 x 15 / 1 395 = 55,54*</span><span class="sxs-lookup"><span data-stu-id="0403d-177">*Depreciation amount for September 2000: 5165 x 15 / 1395 = 55.54*</span></span>  
 
-*Kokonaispoisto = 100 + 15 + 55,54 = 170,54*
+<span data-ttu-id="0403d-178">*Kokonaispoisto = 100 + 15 + 55,54 = 170,54*</span><span class="sxs-lookup"><span data-stu-id="0403d-178">*Total of depreciation = 100 + 15 + 55.54 = 170.54*</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Käyttöomaisuuden hallinta](fa-manage.md)  
-[Käyttöomaisuuserien määrittäminen](fa-setup.md)  
-[Rahoitus](finance-setup.md)  
-[Tervetuloa Dynamics NAV -ohjelmaan](across-get-started.md)
+## <a name="see-also"></a><span data-ttu-id="0403d-179">Katso myös</span><span class="sxs-lookup"><span data-stu-id="0403d-179">See Also</span></span>
+[<span data-ttu-id="0403d-180">Käyttöomaisuuden hallinta</span><span class="sxs-lookup"><span data-stu-id="0403d-180">Manage Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="0403d-181">Käyttöomaisuuserien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="0403d-181">Set Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="0403d-182">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="0403d-182">Finance</span></span>](finance-setup.md)  
+[<span data-ttu-id="0403d-183">Tervetuloa Dynamics NAV -ohjelmaan</span><span class="sxs-lookup"><span data-stu-id="0403d-183">Welcome to Dynamics NAV</span></span>](across-get-started.md)
 

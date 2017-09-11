@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -ohjelman valmistelutyökalut Microsoft Azurelle
+<span data-ttu-id="00157-101">Microsoft Dynamics NAV -ohjelman valmistelutyökalut Microsoft Azurelle</span><span class="sxs-lookup"><span data-stu-id="00157-101">Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure</span></span>

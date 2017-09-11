@@ -1,1 +1,1 @@
-Vain Microsoft Dynamics NAV -Windows-asiakas
+<span data-ttu-id="f8c0d-101">Vain Microsoft Dynamics NAV -Windows-asiakas</span><span class="sxs-lookup"><span data-stu-id="f8c0d-101">Microsoft Dynamics NAV Windows client only</span></span>

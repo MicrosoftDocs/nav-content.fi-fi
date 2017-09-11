@@ -16,10 +16,10 @@ ms.lasthandoff: 06/26/2017
 
 ---
 
-# <a name="payment-methods"></a>Maksutavat
-Maksutavat määrittävät laskujen maksutavan. Maksutapoja voi määrittää kuinka monta tahansa. Maksutapojen esimerkkejä ovat PANKKI, KÄTEINEN, SEKKI ja TILI.
-Maksutavat linkitetään toimittajiin. Näin määritetään, miten tietyltä toimittajalta saatu lasku tulee maksaa.
+# <a name="payment-methods"></a><span data-ttu-id="26f57-102">Maksutavat</span><span class="sxs-lookup"><span data-stu-id="26f57-102">Payment Methods</span></span>
+<span data-ttu-id="26f57-103">Maksutavat määrittävät laskujen maksutavan.</span><span class="sxs-lookup"><span data-stu-id="26f57-103">Payment methods define how an invoice will be paid.</span></span> <span data-ttu-id="26f57-104">Maksutapoja voi määrittää kuinka monta tahansa.</span><span class="sxs-lookup"><span data-stu-id="26f57-104">You can set up any number of payment methods.</span></span> <span data-ttu-id="26f57-105">Maksutapojen esimerkkejä ovat PANKKI, KÄTEINEN, SEKKI ja TILI.</span><span class="sxs-lookup"><span data-stu-id="26f57-105">Examples of payment methods can be BANK, CASH, CHECK, or ACCOUNT.</span></span>
+<span data-ttu-id="26f57-106">Maksutavat linkitetään toimittajiin. Näin määritetään, miten tietyltä toimittajalta saatu lasku tulee maksaa.</span><span class="sxs-lookup"><span data-stu-id="26f57-106">Payment methods are linked to vendors in order to specify how an invoice from the specific vendor must be paid.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Rahoitus](finance-setup.md)  
+## <a name="see-also"></a><span data-ttu-id="26f57-107">Katso myös</span><span class="sxs-lookup"><span data-stu-id="26f57-107">See Also</span></span>
+[<span data-ttu-id="26f57-108">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="26f57-108">Finance</span></span>](finance-setup.md)  
 

@@ -9,70 +9,70 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2017
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: f657509fc2195674db81f47bc5ae31b7ba1aa40e
+ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
+ms.openlocfilehash: 154fcaef89af0f6a131f4bcf0e9cf9a3f85f5903
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/19/2017
 
 ---
 
-# <a name="how-to-make-predictive-cash-flow-forecasts"></a>Toimintaohje: Ennakoivien kassavirtaennusteiden tekeminen
-Kassavirtaennusteiden avulla voidaan varmistaa, että yrityksen kassa riittää taloudellisista velvoitteista vastaamiseen. Niiden avulla voidaan myös määrittää oikaisut. Kassavirtaennusteiden avulla esimerkiksi mahdollista käteisylijäämää voidaan käyttää velkojen maksuun. Ne myös osoittavat ajoissa, jos tiedossa on taloudellisia haasteita. 
+# <a name="how-to-make-predictive-cash-flow-forecasts"></a><span data-ttu-id="09336-102">Toimintaohje: Ennakoivien kassavirtaennusteiden tekeminen</span><span class="sxs-lookup"><span data-stu-id="09336-102">How to: Make predictive cash flow forecasts</span></span>
+<span data-ttu-id="09336-103">Kassavirtaennusteiden avulla voidaan varmistaa, että yrityksen kassa riittää taloudellisista velvoitteista vastaamiseen. Niiden avulla voidaan myös määrittää oikaisut.</span><span class="sxs-lookup"><span data-stu-id="09336-103">Cash flow forecasts help you ensure that your company has enough cash available to meet its financial obligations, and are useful for identifying adjustments.</span></span> <span data-ttu-id="09336-104">Kassavirtaennusteiden avulla esimerkiksi mahdollista käteisylijäämää voidaan käyttää velkojen maksuun. Ne myös osoittavat ajoissa, jos tiedossa on taloudellisia haasteita.</span><span class="sxs-lookup"><span data-stu-id="09336-104">For example, if you have a cash surplus you might pay off some debts, and you'll appreciate an early warning if times look tight.</span></span> 
 
-Cortana Intelligence käyttää Azuren automaattianalyysipalveluita luotettavien ja ennakoivien ennusteiden tekemisessä. Cortana Intelligencen ennusteiden avulla voit esimerkiksi ennustaa ja välttää kassavajeet. Palvelu yhdistää aiemmat tiedot osto- ja myyntireskontran nykyisiin kirjauksiin. Näihin kirjauksiin kuuluvat myös kirjaukset, joiden eräpäivät ovat tulevaisuudessa. Näitä kirjauksia ovat:
-* Ostotilaukset
-* Myyntitilaukset
-* kirjatut myynti- ja ostolaskut
-* hyvityslaskut
+<span data-ttu-id="09336-105">Cortana Intelligence käyttää Azuren automaattianalyysipalveluita luotettavien ja ennakoivien ennusteiden tekemisessä.</span><span class="sxs-lookup"><span data-stu-id="09336-105">Cortana Intelligence uses the Azure Machine Learning service to make reliable, predictive forecasts.</span></span> <span data-ttu-id="09336-106">Cortana Intelligencen ennusteiden avulla voit esimerkiksi ennustaa ja välttää kassavajeet.</span><span class="sxs-lookup"><span data-stu-id="09336-106">For example, forecasts from Cortana Intelligence can help you predict, and avoid, cash deficits.</span></span> <span data-ttu-id="09336-107">Palvelu yhdistää aiemmat tiedot osto- ja myyntireskontran nykyisiin kirjauksiin. Näihin kirjauksiin kuuluvat myös kirjaukset, joiden eräpäivät ovat tulevaisuudessa.</span><span class="sxs-lookup"><span data-stu-id="09336-107">The service combines historical information with current postings for payables and receivables, including postings with due dates that are in the future.</span></span> <span data-ttu-id="09336-108">Näitä kirjauksia ovat:</span><span class="sxs-lookup"><span data-stu-id="09336-108">These include:</span></span>
+* <span data-ttu-id="09336-109">Ostotilaukset</span><span class="sxs-lookup"><span data-stu-id="09336-109">Purchase orders</span></span>
+* <span data-ttu-id="09336-110">Myyntitilaukset</span><span class="sxs-lookup"><span data-stu-id="09336-110">Sales orders</span></span>
+* <span data-ttu-id="09336-111">kirjatut myynti- ja ostolaskut</span><span class="sxs-lookup"><span data-stu-id="09336-111">Posted sales and purchase invoices</span></span>
+* <span data-ttu-id="09336-112">hyvityslaskut</span><span class="sxs-lookup"><span data-stu-id="09336-112">Credit memos</span></span>
 
-## <a name="before-you-start"></a>Ennen kuin aloitat  
-Cortana Intelligencen käyttäminen kassavirtaennusteissa edellyttää joidenkin toimien suorittamista. 
-* Jos kassavirtaennusteet eivät ole vielä käytössä, seuraavat toiminnot on määritettävä:
-    * Vähintään yksi **Kassavirran asetukset** -kohdan asetus. 
-    * Osto- ja myyntireskontran sekä myynti- ja ostotilausten tilit. Cortana Intelligence käyttää näiden tilien kirjauksia.
-    * Vähintään yksi **Kassavirtaennuste**-kohdan kassavirtaennuste. Muista sisällyttää osto- ja myyntitilaukset sekä myynti- ja ostoreskontra lähteinä.  
-    Saat lisätietoja hakemalla ohjejärjestelmästä _kassavirtaennusteita_. 
-* Ota selville käytettävän ennakoivan verkkopalvelun API:n URL-osoite ja API-avain.  
-    Voit käyttää Azuren automaattianalyysipalveluita tai toista palvelua, jos sellainen on käytössä. Vaihtoehtoisesti Cortana Intelligencen valikoimassa on online-tilassa käytettävissä julkinen malli, jonka nimi on _Microsoft Dynamics NAV -ohjelman ennustemalli_. Voit käyttää mallia seuraavien vaiheiden avulla:
+## <a name="before-you-start"></a><span data-ttu-id="09336-113">Ennen kuin aloitat</span><span class="sxs-lookup"><span data-stu-id="09336-113">Before you start</span></span>  
+<span data-ttu-id="09336-114">Cortana Intelligencen käyttäminen kassavirtaennusteissa edellyttää joidenkin toimien suorittamista.</span><span class="sxs-lookup"><span data-stu-id="09336-114">There are a few things to do before you can use Cortana Intelligence for cash flow forecasts:</span></span> 
+* <span data-ttu-id="09336-115">Jos kassavirtaennusteet eivät ole vielä käytössä, seuraavat toiminnot on määritettävä:</span><span class="sxs-lookup"><span data-stu-id="09336-115">If you aren't already using cash flow forecasts, you will need to set up:</span></span>
+    * <span data-ttu-id="09336-116">Vähintään yksi **Kassavirran asetukset** -kohdan asetus.</span><span class="sxs-lookup"><span data-stu-id="09336-116">One or more setups in **Cash Flow Setups**.</span></span> 
+    * <span data-ttu-id="09336-117">Osto- ja myyntireskontran sekä myynti- ja ostotilausten tilit.</span><span class="sxs-lookup"><span data-stu-id="09336-117">Accounts for payables, receivables, sales orders, and purchase orders.</span></span> <span data-ttu-id="09336-118">Cortana Intelligence käyttää näiden tilien kirjauksia.</span><span class="sxs-lookup"><span data-stu-id="09336-118">Cortana Intelligence uses the postings in these accounts.</span></span>
+    * <span data-ttu-id="09336-119">Vähintään yksi **Kassavirtaennuste**-kohdan kassavirtaennuste.</span><span class="sxs-lookup"><span data-stu-id="09336-119">One or more cash flow forecasts in **Cash Flow Forecast**.</span></span> <span data-ttu-id="09336-120">Muista sisällyttää osto- ja myyntitilaukset sekä myynti- ja ostoreskontra lähteinä.</span><span class="sxs-lookup"><span data-stu-id="09336-120">Be sure to include purchase orders, sales orders, receivables, and payables as sources.</span></span>  
+    <span data-ttu-id="09336-121">Saat lisätietoja hakemalla ohjejärjestelmästä _kassavirtaennusteita_.</span><span class="sxs-lookup"><span data-stu-id="09336-121">For more information, search for _cash flow forecasts_ in the Help system.</span></span> 
+* <span data-ttu-id="09336-122">Ota selville käytettävän ennakoivan verkkopalvelun API:n URL-osoite ja API-avain.</span><span class="sxs-lookup"><span data-stu-id="09336-122">Know the API URL and API key for the predictive web service to use.</span></span>  
+    <span data-ttu-id="09336-123">Voit käyttää Azuren automaattianalyysipalveluita tai toista palvelua, jos sellainen on käytössä.</span><span class="sxs-lookup"><span data-stu-id="09336-123">You can use Azure Machine Learning or another service, if you have one.</span></span> <span data-ttu-id="09336-124">Vaihtoehtoisesti Cortana Intelligencen valikoimassa on online-tilassa käytettävissä julkinen malli, jonka nimi on _Microsoft Dynamics NAV -ohjelman ennustemalli_.</span><span class="sxs-lookup"><span data-stu-id="09336-124">Alternatively, a public model named _Forecasting model for Microsoft Dynamics NAV_ is available online in the Cortana Intelligence Gallery.</span></span> <span data-ttu-id="09336-125">Voit käyttää mallia seuraavien vaiheiden avulla:</span><span class="sxs-lookup"><span data-stu-id="09336-125">To use the model, follow these steps:</span></span>
 
-    1. Siirry selaimessa [Cortana Intelligencen valikoimaan](https://go.microsoft.com/fwlink/?linkid=828352)
-    2. Hae _Microsoft Dynamics NAV -ohjelman ennustemalli_ ja avaa sitten malli Azure Machine Learning Studiossa.
-    3. Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.
-    4. Aja malli ja julkaise se verkkopalveluna.
-    5. Kirjoita API:n URL-osoite ja API-avain muistiin. Cortana Intelligence määritetään Microsoft Dynamics NAV -ohjelmassa näiden tunnistetietojen avulla.  
+    1. <span data-ttu-id="09336-126">Siirry selaimessa [Cortana Intelligencen valikoimaan](https://go.microsoft.com/fwlink/?linkid=828352)</span><span class="sxs-lookup"><span data-stu-id="09336-126">In a browser, go to the [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352)</span></span>
+    2. <span data-ttu-id="09336-127">Hae _Microsoft Dynamics NAV -ohjelman ennustemalli_ ja avaa sitten malli Azure Machine Learning Studiossa.</span><span class="sxs-lookup"><span data-stu-id="09336-127">Search for _Forecasting Model for Microsoft Dynamics NAV_, and then open the model in Azure Machine Learning Studio.</span></span>
+    3. <span data-ttu-id="09336-128">Kirjaudu työtilaan Microsoft-tilin avulla ja kopioi malli.</span><span class="sxs-lookup"><span data-stu-id="09336-128">Use your Microsoft account to sign up for a workspace, and then copy the model.</span></span>
+    4. <span data-ttu-id="09336-129">Aja malli ja julkaise se verkkopalveluna.</span><span class="sxs-lookup"><span data-stu-id="09336-129">Run the model, and publish it as a web service.</span></span>
+    5. <span data-ttu-id="09336-130">Kirjoita API:n URL-osoite ja API-avain muistiin.</span><span class="sxs-lookup"><span data-stu-id="09336-130">Make a note of the API URL and API key.</span></span> <span data-ttu-id="09336-131">Cortana Intelligence määritetään Microsoft Dynamics NAV -ohjelmassa näiden tunnistetietojen avulla.</span><span class="sxs-lookup"><span data-stu-id="09336-131">You will use these credentials when you set up Cortana Intelligence in Microsoft Dynamics NAV.</span></span>  
 
-* Mieti, miten usein ennuste lasketaan. Azuren automaattianalyysipalveluilla on rajoituksia käytöstä riippuen. Jos sinulla on esimerkiksi paljon nimikkeitä, laskelmia ei ehkä kannata tehdä kovin usein. 
-* Liity Kirjanpitäjä-roolikeskukseen. 
+* <span data-ttu-id="09336-132">Mieti, miten usein ennuste lasketaan.</span><span class="sxs-lookup"><span data-stu-id="09336-132">Consider how often to calculate the forecast.</span></span> <span data-ttu-id="09336-133">Azuren automaattianalyysipalveluilla on rajoituksia käytöstä riippuen.</span><span class="sxs-lookup"><span data-stu-id="09336-133">The Azure Machine Learning service has limitations regarding use.</span></span> <span data-ttu-id="09336-134">Jos sinulla on esimerkiksi paljon nimikkeitä, laskelmia ei ehkä kannata tehdä kovin usein.</span><span class="sxs-lookup"><span data-stu-id="09336-134">For example, if you have a lot of items, it might be better to calculate less frequently.</span></span> 
+* <span data-ttu-id="09336-135">Liity Kirjanpitäjä-roolikeskukseen.</span><span class="sxs-lookup"><span data-stu-id="09336-135">Be assigned to the Accountant role center.</span></span> 
 
-## <a name="set-up-cortana-intelligence"></a>Cortana Intelligencen määrittäminen
-Voit määrittää kassavirtaennusteet avustetun asennusoppaan avulla. Oppaan avulla voit määrittää esimerkiksi ennusteen päivitystiheyden, ennusteen perustana olevat tilit, verojen maksua koskevat tiedot ja sen, onko Cortana Intelligence käytössä.  
+## <a name="set-up-cortana-intelligence"></a><span data-ttu-id="09336-136">Cortana Intelligencen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="09336-136">Set up Cortana Intelligence</span></span>
+<span data-ttu-id="09336-137">Voit määrittää kassavirtaennusteet avustetun asennusoppaan avulla.</span><span class="sxs-lookup"><span data-stu-id="09336-137">You can use an assisted setup guide to set up cash flow forecasts.</span></span> <span data-ttu-id="09336-138">Oppaan avulla voit määrittää esimerkiksi ennusteen päivitystiheyden, ennusteen perustana olevat tilit, verojen maksua koskevat tiedot ja sen, onko Cortana Intelligence käytössä.</span><span class="sxs-lookup"><span data-stu-id="09336-138">The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to use Cortana Intelligence.</span></span>  
 
-Jos kassavirtaennusteet ovat jo käytössä, ja haluat ottaa vain Cortana Intelligencen käyttöön, voit käyttää myös manuaalista prosessia. Kun kirjaudut sisään, työtilan yläosan siniseen palkkiin ilmestyy ilmoitus. Voit määrittää Cortana Intelligencen heti valitsemalla **Kyllä**. Sanoma näytetään vain kerran. Jos suljet sen, määritä Cortana Intelligence manuaalisen prosessin avulla.  
+<span data-ttu-id="09336-139">Jos kassavirtaennusteet ovat jo käytössä, ja haluat ottaa vain Cortana Intelligencen käyttöön, voit käyttää myös manuaalista prosessia.</span><span class="sxs-lookup"><span data-stu-id="09336-139">If you are already using cash flow forecasts and just want to turn on Cortana Intelligence, you can also use a manual process.</span></span> <span data-ttu-id="09336-140">Kun kirjaudut sisään, työtilan yläosan siniseen palkkiin ilmestyy ilmoitus.</span><span class="sxs-lookup"><span data-stu-id="09336-140">When you sign in, a notification displays in a blue bar at the top of the workspace.</span></span> <span data-ttu-id="09336-141">Voit määrittää Cortana Intelligencen heti valitsemalla **Kyllä**.</span><span class="sxs-lookup"><span data-stu-id="09336-141">To set up Cortana Intelligence right away, choose **Yes please**.</span></span> <span data-ttu-id="09336-142">Sanoma näytetään vain kerran.</span><span class="sxs-lookup"><span data-stu-id="09336-142">The message displays only once.</span></span> <span data-ttu-id="09336-143">Jos suljet sen, määritä Cortana Intelligence manuaalisen prosessin avulla.</span><span class="sxs-lookup"><span data-stu-id="09336-143">If you close it, use the manual process to set up Cortana Intelligence.</span></span>  
 
-**Vihje:** Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään. Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat. Varo myös suuria jaksovaihteluita. Ne vaikuttavat myös ennusteisiin. Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta. 
+<span data-ttu-id="09336-144">**Vihje:** Mieti, miten pitkiä jaksoja palvelun laskelmissa käytetään.</span><span class="sxs-lookup"><span data-stu-id="09336-144">**Tip:** Consider the length of the periods that the service will use in its calculations.</span></span> <span data-ttu-id="09336-145">Mitä enemmän tietoja on käytettävissä, sitä tarkempia ennusteet ovat.</span><span class="sxs-lookup"><span data-stu-id="09336-145">The more data you provide, the more accurate the predictions will be.</span></span> <span data-ttu-id="09336-146">Varo myös suuria jaksovaihteluita.</span><span class="sxs-lookup"><span data-stu-id="09336-146">Also, watch out for large variances in periods.</span></span> <span data-ttu-id="09336-147">Ne vaikuttavat myös ennusteisiin.</span><span class="sxs-lookup"><span data-stu-id="09336-147">They will also impact predictions.</span></span> <span data-ttu-id="09336-148">Jos Cortana Intelligence ei löydä riittävästi tietoja tai tiedot ovat kovin erilaisia, palvelu ei voi tehdä ennustetta.</span><span class="sxs-lookup"><span data-stu-id="09336-148">If Cortana Intelligence does not find enough data, or the data varies a lot, the service will not make a prediction.</span></span> 
 
-Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:
-1. Valitse Kirjanpitäjä-roolikeskuksen **Kassavirtaennuste**-kaavion **Avaa avustettu määritys** -toiminto.
-2. Täytä oppaan eri vaiheissa tarvittavat kentät.
+<span data-ttu-id="09336-149">Voit käyttää avustettua asennusopasta seuraavissa toiminnoissa:</span><span class="sxs-lookup"><span data-stu-id="09336-149">To use the assisted setup guide:</span></span>
+1. <span data-ttu-id="09336-150">Valitse Kirjanpitäjä-roolikeskuksen **Kassavirtaennuste**-kaavion **Avaa avustettu määritys** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="09336-150">In the Accountant role center, under the **Cash Flow Forecast** chart, choose the **Open Assisted Setup** action.</span></span>
+2. <span data-ttu-id="09336-151">Täytä oppaan eri vaiheissa tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="09336-151">Fill in the fields as necessary in each step of the guide.</span></span>
 
-Voit käyttää manuaalista prosessia seuraavasti:
-1. Hae **Kassavirran asetukset** ja valitse liittyvä linkki.
-2. Laajenna **Cortana Intelligence** -pikavälilehti ja täytä tarvittavat kentät.
+<span data-ttu-id="09336-152">Voit käyttää manuaalista prosessia seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="09336-152">To use a manual process:</span></span>
+1. <span data-ttu-id="09336-153">Hae **Kassavirran asetukset** ja valitse liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="09336-153">Search for **Cash Flow Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="09336-154">Laajenna **Cortana Intelligence** -pikavälilehti ja täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="09336-154">Expand the **Cortana Intelligence** FastTab, and then fill in the fields as necessary.</span></span>
 
-## <a name="turn-on-cortana-intelligence-for-cash-flow-forecasts"></a>Cortana Intelligencen ottaminen käyttöön kassavirtaennusteissa
-1. Hae **Kassavirtaennusteet** ja valitse liittyvä linkki.
-2. Valitse **Kassavirtatyökirja**-toiminto.
-3. Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.  
-4. Valitse **Sisällytettävät lähdetyypit** -kohdan **Cortana Intelligence -ennuste** -valintaruutu.
+## <a name="turn-on-cortana-intelligence-for-cash-flow-forecasts"></a><span data-ttu-id="09336-155">Cortana Intelligencen ottaminen käyttöön kassavirtaennusteissa</span><span class="sxs-lookup"><span data-stu-id="09336-155">Turn on Cortana Intelligence for cash flow forecasts</span></span>
+1. <span data-ttu-id="09336-156">Hae **Kassavirtaennusteet** ja valitse liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="09336-156">Search for **Cash Flow Forecasts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="09336-157">Valitse **Kassavirtatyökirja**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="09336-157">Choose the **Cash Flow Worksheet** action.</span></span>
+3. <span data-ttu-id="09336-158">Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="09336-158">On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.</span></span>  
+4. <span data-ttu-id="09336-159">Valitse **Sisällytettävät lähdetyypit** -kohdan **Cortana Intelligence -ennuste** -valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="09336-159">Under **Source Types to Include**, choose the **Cortana Intelligence Forecast** check box.</span></span>
 
-## <a name="investigate-a-cash-flow-forecast"></a>Kassavirtaennusteen tutkiminen
-**Cortana Intelligence** -sarakkeen avulla voit tarkastella ennusteen perustana olevat tiedot, kuten vaihtelun. Vaihtelu näytetään taulukon ensimmäisellä rivillä. Muut rivit järjestetään lähdeasiakirjan mukaan.  
+## <a name="investigate-a-cash-flow-forecast"></a><span data-ttu-id="09336-160">Kassavirtaennusteen tutkiminen</span><span class="sxs-lookup"><span data-stu-id="09336-160">Investigate a cash flow forecast</span></span>
+<span data-ttu-id="09336-161">**Cortana Intelligence** -sarakkeen avulla voit tarkastella ennusteen perustana olevat tiedot, kuten vaihtelun.</span><span class="sxs-lookup"><span data-stu-id="09336-161">To take a good look at the data behind the forecast, including the variance, choose the **Cortana Intelligence** column.</span></span> <span data-ttu-id="09336-162">Vaihtelu näytetään taulukon ensimmäisellä rivillä.</span><span class="sxs-lookup"><span data-stu-id="09336-162">The first row in the table displays the variance.</span></span> <span data-ttu-id="09336-163">Muut rivit järjestetään lähdeasiakirjan mukaan.</span><span class="sxs-lookup"><span data-stu-id="09336-163">The other rows are arranged by source document.</span></span>  
 
-Saat tietoja esimerkiksi siitä, miten ennuste    
-* käsittelee vahvistetun myynnin ja ostot 
-* vähentää ostoreskontran ja lisää myyntireskontran
-* ohittaa myynti- ja ostotilausten kaksoiskappaleet.
+<span data-ttu-id="09336-164">Saat tietoja esimerkiksi siitä, miten ennuste</span><span class="sxs-lookup"><span data-stu-id="09336-164">For example, you can see how the forecast:</span></span>    
+* <span data-ttu-id="09336-165">käsittelee vahvistetun myynnin ja ostot</span><span class="sxs-lookup"><span data-stu-id="09336-165">Handles confirmed sales and purchases</span></span> 
+* <span data-ttu-id="09336-166">vähentää ostoreskontran ja lisää myyntireskontran</span><span class="sxs-lookup"><span data-stu-id="09336-166">Subtracts payables and adds receivables</span></span>
+* <span data-ttu-id="09336-167">ohittaa myynti- ja ostotilausten kaksoiskappaleet.</span><span class="sxs-lookup"><span data-stu-id="09336-167">Skips duplicate sales orders and purchase orders</span></span>
 
-## <a name="see-also"></a>Katso myös  
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="09336-168">Katso myös</span><span class="sxs-lookup"><span data-stu-id="09336-168">See Also</span></span>  
+[<span data-ttu-id="09336-169">Dynamics NAV -ohjelman käyttäminen</span><span class="sxs-lookup"><span data-stu-id="09336-169">Work With Dynamics NAV</span></span>](ui-work-product.md)
 

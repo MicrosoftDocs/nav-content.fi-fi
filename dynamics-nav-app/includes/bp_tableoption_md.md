@@ -1,1 +1,1 @@
-Asetus
+<span data-ttu-id="f7f4e-101">Asetus</span><span class="sxs-lookup"><span data-stu-id="f7f4e-101">Option</span></span>

@@ -1,1 +1,1 @@
-CRONUS-esittelytietokanta
+<span data-ttu-id="cc8bf-101">CRONUS-esittelytietokanta</span><span class="sxs-lookup"><span data-stu-id="cc8bf-101">CRONUS demonstration database</span></span>

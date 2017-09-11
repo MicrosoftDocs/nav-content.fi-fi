@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -palvelimen hallintatyökalu
+<span data-ttu-id="25a5f-101">Microsoft Dynamics NAV -palvelimen hallintatyökalu</span><span class="sxs-lookup"><span data-stu-id="25a5f-101">Microsoft Dynamics NAV Server Administration tool</span></span>

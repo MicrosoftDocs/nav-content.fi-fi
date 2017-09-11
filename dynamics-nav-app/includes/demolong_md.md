@@ -1,1 +1,1 @@
-CRONUS Finland Oy esittelytietokanta
+<span data-ttu-id="2dccc-101">CRONUS Finland Oy</span><span class="sxs-lookup"><span data-stu-id="2dccc-101">CRONUS International Ltd.</span></span> <span data-ttu-id="2dccc-102">esittelytietokanta</span><span class="sxs-lookup"><span data-stu-id="2dccc-102">demonstration database</span></span>

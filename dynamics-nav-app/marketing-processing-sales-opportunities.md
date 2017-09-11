@@ -9,78 +9,78 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2017
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 00f316dd3032d41239a75c0f40e6db6dc54601fe
+ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
+ms.openlocfilehash: 0b65de9444851e6d7812a68740b1b60d922fef8a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/19/2017
 
 ---
-# <a name="processing-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
-Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
+# <a name="processing-sales-opportunities"></a><span data-ttu-id="b7fbc-102">Myyntimahdollisuuksien käsitteleminen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-102">Processing Sales Opportunities</span></span>
+<span data-ttu-id="b7fbc-103">Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-103">After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.</span></span>
 
-## <a name="view-opportunities"></a>Mahdollisuuksien tarkasteleminen
-Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettelo**-ikkunassa. Tätä ikkunaa voidaan käyttää seuraavilla tavoilla myyntimahdollisuuksien käsittelemisessä:
+## <a name="view-opportunities"></a><span data-ttu-id="b7fbc-104">Mahdollisuuksien tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-104">View opportunities</span></span>
+<span data-ttu-id="b7fbc-105">Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettelo**-ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-105">The existing sale opportunities are available from the **Opportunity List** window.</span></span> <span data-ttu-id="b7fbc-106">Tätä ikkunaa voidaan käyttää seuraavilla tavoilla myyntimahdollisuuksien käsittelemisessä:</span><span class="sxs-lookup"><span data-stu-id="b7fbc-106">There are different ways to access this window for processing sales opportunities:</span></span>
 
-|Mahdollisuuksien tarkasteminen |Sitten |
+|<span data-ttu-id="b7fbc-107">Mahdollisuuksien tarkasteminen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-107">To view opportunities for</span></span> |<span data-ttu-id="b7fbc-108">Sitten</span><span class="sxs-lookup"><span data-stu-id="b7fbc-108">Then</span></span> |
 |--------------------------|-----|
-|Kaikki myyjät ja kontaktit|Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Mahdollisuusluettelo** ja valitse sitten aiheeseen liittyvä linkki.|
-|Määritetty myyjä|Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyjä** ja valitse sitten aiheeseen liittyvä linkki. Valitse myyjä, valitse sitten **Mahdollisuudet**-toiminto. Valitse tämän jälkeen **Luettelo**-toiminto.|
-|Määritetty kontakti|Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki. Valitse kontakti luettelosta ja valitse sitten **Mahdollisuudet**-toiminto.|
+|<span data-ttu-id="b7fbc-109">Kaikki myyjät ja kontaktit</span><span class="sxs-lookup"><span data-stu-id="b7fbc-109">All salespeople and contacts</span></span>|<span data-ttu-id="b7fbc-110">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Mahdollisuusluettelo** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-110">In the top right corner, choose the **Search for Page or Report** icon, enter **Opportunity List**, and then choose the related link.</span></span>|
+|<span data-ttu-id="b7fbc-111">Määritetty myyjä</span><span class="sxs-lookup"><span data-stu-id="b7fbc-111">A specific sales person</span></span>|<span data-ttu-id="b7fbc-112">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyjä** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-112">In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople**, and then choose the related link.</span></span> <span data-ttu-id="b7fbc-113">Valitse myyjä, valitse sitten **Mahdollisuudet**-toiminto. Valitse tämän jälkeen **Luettelo**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-113">Select the salesperson, choose the **Opportunities** action, and then choose the **List** action.</span></span>|
+|<span data-ttu-id="b7fbc-114">Määritetty kontakti</span><span class="sxs-lookup"><span data-stu-id="b7fbc-114">A specific contact</span></span>|<span data-ttu-id="b7fbc-115">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-115">In the top right corner, choose the **Search for Page or Report** icon, enter **Contacts**, and then choose the related link.</span></span> <span data-ttu-id="b7fbc-116">Valitse kontakti luettelosta ja valitse sitten **Mahdollisuudet**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-116">Select the contact from the list, and then choose the **Opportunities** action.</span></span>|
 
-Jokainen näistä tehtävistä avautuu **Mahdollisuusluettelo**-ikkunaan.
+<span data-ttu-id="b7fbc-117">Jokainen näistä tehtävistä avautuu **Mahdollisuusluettelo**-ikkunaan.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-117">Each of these tasks opens the **Opportunity List** window.</span></span>
 
-## <a name="close-opportunities"></a>Mahdollisuuksien sulkeminen
-Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen yhteydessä voit määrittää, onko se voitettu vai menetetty ja sulkemisen syyt. Syyn määrittäminen edellyttää suljettujen mahdollisuuksien koodien määrittämistä.
+## <a name="close-opportunities"></a><span data-ttu-id="b7fbc-118">Mahdollisuuksien sulkeminen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-118">Close opportunities</span></span>
+<span data-ttu-id="b7fbc-119">Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-119">You can close opportunities when the negotiations are over.</span></span> <span data-ttu-id="b7fbc-120">Mahdollisuuden sulkemisen yhteydessä voit määrittää, onko se voitettu vai menetetty ja sulkemisen syyt.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-120">When closing an opportunity, you can specify whether it was won or lost, and the reasons for closing it.</span></span> <span data-ttu-id="b7fbc-121">Syyn määrittäminen edellyttää suljettujen mahdollisuuksien koodien määrittämistä.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-121">To specify a reason, you must set up closed opportunity codes.</span></span>
 
-1. Valitse **Mahdollisuusluettelo**-ikkunassa mahdollisuus ja valitse sitten **Sulje**-toiminto. **Sulje mahdollisuus** -ikkuna avautuu.
-2. Täytä tarvittavat kentät ja valitse **OK**-painike.
+1. <span data-ttu-id="b7fbc-122">Valitse **Mahdollisuusluettelo**-ikkunassa mahdollisuus ja valitse sitten **Sulje**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-122">In the **Opportunity List** window, select the opportunity, and the choose the **Close** action.</span></span> <span data-ttu-id="b7fbc-123">**Sulje mahdollisuus** -ikkuna avautuu.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-123">The **Close Opportunity** window opens.</span></span>
+2. <span data-ttu-id="b7fbc-124">Täytä tarvittavat kentät ja valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-124">Fill in the relevant fields, and then choose the **OK** button.</span></span>
 
-  **Sulje mahdollisuuden koodi** - ja **Pvm suljettu** -kentät ovat pakollisia. Ne on täytettävä, ennen kun voi valita **OK**-painikkeen.
+  <span data-ttu-id="b7fbc-125">**Sulje mahdollisuuden koodi** - ja **Pvm suljettu** -kentät ovat pakollisia. Ne on täytettävä, ennen kun voi valita **OK**-painikkeen.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-125">The **Close Opportunity Code** and **Date Closed** fields are required fields and must be filled in before you can choose the **OK** button.</span></span>
 
-  Valitse **Sulje mahdollisuuden koodi** -kentässä jokin olemassa olevista suljettujen mahdollisuuksien koodeista tai lisää uusi koodi. Voit lisätä uuden koodin valitsemalla avattavasta luettelosta **Valitse koko luettelosta** ja valitsemalla sitten **Uusi**. Täytä tyhjän rivin **Koodi**-, **Tyyppi**- ja **Kuvaus**-kenttä ja valitse sitten **OK**-painike.
+  <span data-ttu-id="b7fbc-126">Valitse **Sulje mahdollisuuden koodi** -kentässä jokin olemassa olevista suljettujen mahdollisuuksien koodeista tai lisää uusi koodi.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-126">In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code.</span></span> <span data-ttu-id="b7fbc-127">Voit lisätä uuden koodin valitsemalla avattavasta luettelosta **Valitse koko luettelosta** ja valitsemalla sitten **Uusi**.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-127">To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**.</span></span> <span data-ttu-id="b7fbc-128">Täytä tyhjän rivin **Koodi**-, **Tyyppi**- ja **Kuvaus**-kenttä ja valitse sitten **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-128">On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.</span></span>
 
-## <a name="create-quotes-for-opportunities"></a>Mahdollisuuksien tarjousten luominen
-Voit luoda myyntitarjouksia kontakteille, joita ei ole tallennettu asiakkaiksi.
+## <a name="create-quotes-for-opportunities"></a><span data-ttu-id="b7fbc-129">Mahdollisuuksien tarjousten luominen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-129">Create quotes for opportunities</span></span>
+<span data-ttu-id="b7fbc-130">Voit luoda myyntitarjouksia kontakteille, joita ei ole tallennettu asiakkaiksi.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-130">You can create sales quotes for contacts that are not recorded as customers.</span></span>
 
-1. Valitse **Mahdollisuusluettelo**-ikkunassa mahdollisuus ja valitse sitten **Määritä myyntitarjous** -toiminto. **Myyntitarjous**-ikkuna aukeaa.
-2. Täytä asianmukaiset kentät.
+1. <span data-ttu-id="b7fbc-131">Valitse **Mahdollisuusluettelo**-ikkunassa mahdollisuus ja valitse sitten **Määritä myyntitarjous** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-131">In the **Opportunity List** window, select the opportunity, and then choose the **Assign Sales Quote** action.</span></span> <span data-ttu-id="b7fbc-132">**Myyntitarjous**-ikkuna aukeaa.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-132">The **Sales Quote** window opens.</span></span>
+2. <span data-ttu-id="b7fbc-133">Täytä asianmukaiset kentät.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-133">Fill in the relevant fields.</span></span>
 
-## <a name="create-sales-orders-for-opportunities"></a>Mahdollisuuksien myyntitilausten luominen
-Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdollisuuksillesi. Ennen kun voit luoda myyntitilauksia kontakteillesi, sinun täytyy luoda kontaktista asiakas. Lisätietoja on kohdassa [Asiakkaan, toimittajan tai pankkitilin luominen kontaktista](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+## <a name="create-sales-orders-for-opportunities"></a><span data-ttu-id="b7fbc-134">Mahdollisuuksien myyntitilausten luominen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-134">Create sales orders for opportunities</span></span>
+<span data-ttu-id="b7fbc-135">Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdollisuuksillesi.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-135">You can make sales orders from the sales quotes that you have created for your opportunities.</span></span> <span data-ttu-id="b7fbc-136">Ennen kun voit luoda myyntitilauksia kontakteillesi, sinun täytyy luoda kontaktista asiakas.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-136">Before you can create sales orders for your contacts, you must create the contact as a customer.</span></span> <span data-ttu-id="b7fbc-137">Lisätietoja on kohdassa [Asiakkaan, toimittajan tai pankkitilin luominen kontaktista](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="b7fbc-137">For more information, see [Create a Customer, Vendor, or Bank Account From a Contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).</span></span>
 
-1. Etsi **Mahdollisuusluettelo**-ikkunasta mahdollisuus, jolle olet luonut myyntitarjouksen.
-2. Valitse Liitä myyntitilaus -toiminnot Näyttöön tulee **Myyntitarjous**-ikkuna, jossa näkyy tähän mahdollisuuteen liittämäsi myyntitarjous.
-3. Täytä lisäkentät ja valitse sitten **Tee tilaus** -toiminto.
+1. <span data-ttu-id="b7fbc-138">Etsi **Mahdollisuusluettelo**-ikkunasta mahdollisuus, jolle olet luonut myyntitarjouksen.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-138">In the **Opportunity List** window, find the opportunity that you have created a sales quote for.</span></span>
+2. <span data-ttu-id="b7fbc-139">Valitse Liitä myyntitilaus -toiminnot</span><span class="sxs-lookup"><span data-stu-id="b7fbc-139">Choose the Assign Sales Quote actions.</span></span> <span data-ttu-id="b7fbc-140">Näyttöön tulee **Myyntitarjous**-ikkuna, jossa näkyy tähän mahdollisuuteen liittämäsi myyntitarjous.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-140">The **Sales Quote** window opens to show the sales quote that you have assigned to the opportunity.</span></span>
+3. <span data-ttu-id="b7fbc-141">Täytä lisäkentät ja valitse sitten **Tee tilaus** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-141">Fill in the additional fields, and then choose the **Make Order** action.</span></span>
 
-Käsitellessäsi myyntien mahdollisuuksia sinulle ehkä tarvitsee luoda tarjous sille kontaktille, johon mahdollisuus on linkitetty.
+<span data-ttu-id="b7fbc-142">Käsitellessäsi myyntien mahdollisuuksia sinulle ehkä tarvitsee luoda tarjous sille kontaktille, johon mahdollisuus on linkitetty.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-142">When handling sales opportunities, you may need to create a quote for the contact that the opportunity is linked to.</span></span>
 
-## <a name="delete-opportunities"></a>Mahdollisuuksien poistaminen
-Voit poistaa mahdollisuuksia esimerkiksi silloin, kun olet tehnyt sopimuksen. Voit kuitenkin poistaa vain suljettuja mahdollisuuksia. Suljetut mahdollisuudet voi poistaa kahdella eri tavalla. Voit poistaa yksittäisiä suljettuja mahdollisuuksia **Mahdollisuusluettelo**-ikkunassa tai voit suorittaa **Poista suljetut mahdollisuudet** -erätyön ja poistaa useita mahdollisuuksia määritettyjen ehtojen perusteella.
+## <a name="delete-opportunities"></a><span data-ttu-id="b7fbc-143">Mahdollisuuksien poistaminen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-143">Delete opportunities</span></span>
+<span data-ttu-id="b7fbc-144">Voit poistaa mahdollisuuksia esimerkiksi silloin, kun olet tehnyt sopimuksen.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-144">You can delete opportunities, for example, after you have concluded a deal.</span></span> <span data-ttu-id="b7fbc-145">Voit kuitenkin poistaa vain suljettuja mahdollisuuksia.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-145">However, you can only delete closed opportunities.</span></span> <span data-ttu-id="b7fbc-146">Suljetut mahdollisuudet voi poistaa kahdella eri tavalla.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-146">There are two ways to delete closed opportunities.</span></span> <span data-ttu-id="b7fbc-147">Voit poistaa yksittäisiä suljettuja mahdollisuuksia **Mahdollisuusluettelo**-ikkunassa tai voit suorittaa **Poista suljetut mahdollisuudet** -erätyön ja poistaa useita mahdollisuuksia määritettyjen ehtojen perusteella.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-147">You can delete individual closed opportunities from the **Opportunity List** window or you can run the **Delete Closed Opportunities** batch job to delete multiple opportunities based on a specified criteria.</span></span>
 
-Voit poistaa suljetut mahdollisuudet **Mahdollisuusluettelo**-ikkunassa valitsemalla mahdollisuuden ja valitsemalla sitten **Poista**-toiminnon.
+<span data-ttu-id="b7fbc-148">Voit poistaa suljetut mahdollisuudet **Mahdollisuusluettelo**-ikkunassa valitsemalla mahdollisuuden ja valitsemalla sitten **Poista**-toiminnon.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-148">To delete closed opportunities from the **Opportunity List** window, select the opportunity, and then choose the **Delete** action.</span></span>
 
-Voit poistaa suljetut mahdollisuudet **Poista suljetut mahdollisuudet** -eräajon avulla seuraavien vaiheiden avulla:
+<span data-ttu-id="b7fbc-149">Voit poistaa suljetut mahdollisuudet **Poista suljetut mahdollisuudet** -eräajon avulla seuraavien vaiheiden avulla:</span><span class="sxs-lookup"><span data-stu-id="b7fbc-149">To delete closed opportunities by using the **Delete Closed Opportunities** batch job, follow these steps:</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Poista mahdollisuudet** ja valitse sitten aiheeseen liittyvä linkki.
-2. Määritä **Mahdollisuus**-osassa suodattimet, jotka määrittävät poistettavat suljetut mahdollisuudet.
-3. Valitse **OK**-painike.
+1. <span data-ttu-id="b7fbc-150">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Poista mahdollisuudet** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-150">In the top right corner, choose the **Search for Page or Report** icon, enter **Delete Opportunities**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b7fbc-151">Määritä **Mahdollisuus**-osassa suodattimet, jotka määrittävät poistettavat suljetut mahdollisuudet.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-151">In the **Opportunity** section, set up the filters that specify the closed opportunities to delete.</span></span>
+3. <span data-ttu-id="b7fbc-152">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-152">Choose the **OK** button.</span></span>
 
-Kun olet poistanut mahdollisuuden, ohjelma poistaa sen **Mahdollisuusluettelo**-ikkunasta.
+<span data-ttu-id="b7fbc-153">Kun olet poistanut mahdollisuuden, ohjelma poistaa sen **Mahdollisuusluettelo**-ikkunasta.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-153">After you have deleted an opportunity, it is removed it from the **Opportunity List** window.</span></span>
 
-## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Mahdollisuuden siirtäminen myyntisyklin vaiheiden läpi
-Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheissa eteen- tai takaisinpäin eli seuraavaan tai edelliseen vaiheeseen. Voit jopa ohittaa vaiheita.
+## <a name="move-an-opportunity-through-sales-cycle-stages"></a><span data-ttu-id="b7fbc-154">Mahdollisuuden siirtäminen myyntisyklin vaiheiden läpi</span><span class="sxs-lookup"><span data-stu-id="b7fbc-154">Move an opportunity through sales cycle stages</span></span>
+<span data-ttu-id="b7fbc-155">Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheissa eteen- tai takaisinpäin eli seuraavaan tai edelliseen vaiheeseen. Voit jopa ohittaa vaiheita.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-155">If an opportunity follows a sales cycle, you can move it forward or back through the different stages, such as moving the the next or previous stage, and even skipping a stage.</span></span>
 
-1. Valitse **Mahdollisuusluettelo**-ikkunassa **Päivitä**-toiminto. **Päivitä mahdollisuus** -ikkuna avautuu.
-2. Siirrä mahdollisuus myyntisyklin vaiheiden läpi **Toiminnon tyyppi** -kentän avulla seuraavasti:
-  * **Seuraava** siirtää mahdollisuutta yhdellä vaiheella eteenpäin.
-  * **Ohita** siirtää mahdollisuutta eteenpäin yhdellä tai usealla vaiheella myyntisyklissä. Vaiheiden määrä määritetään **Esittely**-kentässä. Voit ohittaa vain vaiheita, jotka on määritetty niin, että ohittaminen on sallittua.
-  * **Edellinen** siirtää mahdollisuutta yhdellä vaiheella taaksepäin.
-  * **Hyppää** siirtää mahdollisuutta taaksepäin yhdellä tai usealla vaiheella myyntisyklissä. Vaiheiden määrä määritetään **Esittely**-kentässä.
-  * **Päivitä**-kohdan avulla voi muuttaa tietoja (kuten muokata onnistumismahdollisuuksien arviota ja arvioituja arvoja) ilman toiseen vaiheeseen siirtymistä.
-3. Täytä muut tarvittavat kentät ja valitse **OK**-painike.
+1. <span data-ttu-id="b7fbc-156">Valitse **Mahdollisuusluettelo**-ikkunassa **Päivitä**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-156">In the **Opportunity List** window, choose the **Update** action.</span></span> <span data-ttu-id="b7fbc-157">**Päivitä mahdollisuus** -ikkuna avautuu.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-157">The **Update Opportunity** opens,</span></span>
+2. <span data-ttu-id="b7fbc-158">Siirrä mahdollisuus myyntisyklin vaiheiden läpi **Toiminnon tyyppi** -kentän avulla seuraavasti:</span><span class="sxs-lookup"><span data-stu-id="b7fbc-158">Use the **Action Type** field to move the opportunity through the sales cycle stages:</span></span>
+  * <span data-ttu-id="b7fbc-159">**Seuraava** siirtää mahdollisuutta yhdellä vaiheella eteenpäin.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-159">**Next** moves the opportunity forward one stage.</span></span>
+  * <span data-ttu-id="b7fbc-160">**Ohita** siirtää mahdollisuutta eteenpäin yhdellä tai usealla vaiheella myyntisyklissä. Vaiheiden määrä määritetään **Esittely**-kentässä.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-160">**Skip** moves the opportunity forward one or several stages in the sales cycle, which you specify in the **Presentation** field.</span></span> <span data-ttu-id="b7fbc-161">Voit ohittaa vain vaiheita, jotka on määritetty niin, että ohittaminen on sallittua.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-161">You can only skip stages that have been set up to allow skipping.</span></span>
+  * <span data-ttu-id="b7fbc-162">**Edellinen** siirtää mahdollisuutta yhdellä vaiheella taaksepäin.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-162">**Previous** moves the opportunity back one stage.</span></span>
+  * <span data-ttu-id="b7fbc-163">**Hyppää** siirtää mahdollisuutta taaksepäin yhdellä tai usealla vaiheella myyntisyklissä. Vaiheiden määrä määritetään **Esittely**-kentässä.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-163">**Jump** moves the opportunity back one or several stages in the sales cycle, which you specify in the **Presentation** field.</span></span>
+  * <span data-ttu-id="b7fbc-164">**Päivitä**-kohdan avulla voi muuttaa tietoja (kuten muokata onnistumismahdollisuuksien arviota ja arvioituja arvoja) ilman toiseen vaiheeseen siirtymistä.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-164">**Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.</span></span>
+3. <span data-ttu-id="b7fbc-165">Täytä muut tarvittavat kentät ja valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="b7fbc-165">Fill in the other fields as needed, and then choose the **OK** button.</span></span>
 
-##<a name="see-also"></a>Katso myös  
-[Myynnin hallinta](sales-manage-sales.md)  
-[Kontaktien luominen ja hallinta](marketing-contacts.md)  
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
+##<a name="see-also"></a><span data-ttu-id="b7fbc-166">Katso myös</span><span class="sxs-lookup"><span data-stu-id="b7fbc-166">See Also</span></span>  
+[<span data-ttu-id="b7fbc-167">Myynnin hallinta</span><span class="sxs-lookup"><span data-stu-id="b7fbc-167">Manage Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="b7fbc-168">Kontaktien luominen ja hallinta</span><span class="sxs-lookup"><span data-stu-id="b7fbc-168">Create and Manage Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="b7fbc-169">Dynamics NAV -ohjelman käyttäminen</span><span class="sxs-lookup"><span data-stu-id="b7fbc-169">Work with Dynamics NAV</span></span>](ui-work-product.md)
 

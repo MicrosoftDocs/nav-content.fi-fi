@@ -11,52 +11,52 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2017
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 225773f7f686dd6e9a79f759d520d66f7e7b9d0a
+ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
+ms.openlocfilehash: d41b96ab5807402a342991d5c5bc2d672db09e2f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/19/2017
 
 ---
-# <a name="how-to-register-dynamics-nav-in-the-azure-management-portal"></a>Toimintaohje: Dynamics NAV -ohjelman rekisteröiminen Azure Management Portal -portaalissa
-Jos haluat käyttää Microsoftin Azureen perustuvia palveluita, Dynamics NAV -ohjelma on rekisteröitävä Azure Management Portal -portaalissa. Esimerkiksi [Myynnin ja varaston ennuste](ui-extensions-sales-forecast.md) -laajennus edellyttää API-avaimen ja API:n URL-osoitteen määrittämistä. Myös muut palvelut vaativat samat tiedot. Mistä nämä tiedot löytyvät?
+# <a name="how-to-register-dynamics-nav-in-the-azure-management-portal"></a><span data-ttu-id="fc833-102">Toimintaohje: Dynamics NAV -ohjelman rekisteröiminen Azure Management Portal -portaalissa</span><span class="sxs-lookup"><span data-stu-id="fc833-102">How to: Register Dynamics NAV in the Azure Management Portal</span></span>
+<span data-ttu-id="fc833-103">Jos haluat käyttää Microsoftin Azureen perustuvia palveluita, Dynamics NAV -ohjelma on rekisteröitävä Azure Management Portal -portaalissa.</span><span class="sxs-lookup"><span data-stu-id="fc833-103">If you want to use services that are based on Microsoft Azure, you must register your Dynamics NAV in the Azure Management Portal.</span></span> <span data-ttu-id="fc833-104">Esimerkiksi [Myynnin ja varaston ennuste](ui-extensions-sales-forecast.md) -laajennus edellyttää API-avaimen ja API:n URL-osoitteen määrittämistä. Myös muut palvelut vaativat samat tiedot.</span><span class="sxs-lookup"><span data-stu-id="fc833-104">For example, the [Sales and Inventory Forecast](ui-extensions-sales-forecast.md) extension requires that you specify an API key and API URI, and other services require similar information.</span></span> <span data-ttu-id="fc833-105">Mistä nämä tiedot löytyvät?</span><span class="sxs-lookup"><span data-stu-id="fc833-105">So where do you find that information?</span></span>
 
-Voit rekisteröidä Dynamics NAV -ohjelman Azure Management Portal -portaalissa **Azure Management Portal -portaalin määrittäminen** -oppaan avulla. Voit poimia tiedot, joita tarvitaan palveluiden, kuten esimerkiksi Myynti- ja varastoennuste -laajennuksen, Power BI:n ja Office 365:n käyttämisessä. Azure Management Portal -portaaliin rekisteröidytään vain kerran. Sinun on oltava Dynamics NAV -ohjelman järjestelmänvalvoja tai pääkäyttäjä.
+<span data-ttu-id="fc833-106">Voit rekisteröidä Dynamics NAV -ohjelman Azure Management Portal -portaalissa **Azure Management Portal -portaalin määrittäminen** -oppaan avulla. Voit poimia tiedot, joita tarvitaan palveluiden, kuten esimerkiksi Myynti- ja varastoennuste -laajennuksen, Power BI:n ja Office 365:n käyttämisessä.</span><span class="sxs-lookup"><span data-stu-id="fc833-106">You can use the **Set Up Azure Management Portal** guide to register Dynamics NAV in the Azure Management Portal and extract the information you need to use services such as the Sales and Inventory Forecast extension, Power BI, Office 365, and so on.</span></span> <span data-ttu-id="fc833-107">Azure Management Portal -portaaliin rekisteröidytään vain kerran. Sinun on oltava Dynamics NAV -ohjelman järjestelmänvalvoja tai pääkäyttäjä.</span><span class="sxs-lookup"><span data-stu-id="fc833-107">You must register in the Azure Management Portal only once, and you must be an administrator or superuser in Dynamics NAV.</span></span>
 
-Rekisteröityminen tehdään siksi, että Dynamics NAV -ohjelman ja palvelun, johon haluat muodostaa yhteyden, on tiedettävä toisensa Azure Active Directory (Azure AD) -sovelluksen tiedot.
+<span data-ttu-id="fc833-108">Rekisteröityminen tehdään siksi, että Dynamics NAV -ohjelman ja palvelun, johon haluat muodostaa yhteyden, on tiedettävä toisensa Azure Active Directory (Azure AD) -sovelluksen tiedot.</span><span class="sxs-lookup"><span data-stu-id="fc833-108">The point of the registration is that Dynamics NAV and the service that you want to connect to must know the Azure Active Directory (Azure AD) details about each other.</span></span>
 
-## <a name="to-register-dynamics-nav-in-the-azure-management-portal"></a>Dynamics NAV -ohjelman rekisteröiminen Azure Management Portal -portaalissa
-1. Kirjaudu sisään Azure Management Portal -portaaliin osoitteessa [https://portal.azure.com](https://portal.azure.com).
-    Jos et ole aiemmin käyttänyt Azure Management Portal -portaalia, saat ohjeita [Azuren ohjekirjastosta](https://azure.microsoft.com/en-us/documentation/articles).
-2. Valitse vasemmassa siirtymisruudussa **Lisää palveluita** ja valitse sitten **Sovellusten rekisteröinnit**.
-3. Valitse päävalikossa **Lisää** ja täytä sitten **Luo-ruudun** kenttiin seuraavat tiedot:
-    - **Nimi**: Määritä Dynamics NAV -ratkaisulle nimi, esimerkiksi *Dynamics NAV*.
-    - **Sovelluksen tyyppi**: Valitse **Verkkosovellus*/API**.
-    - **Kirjautumisen URL-osoite**: Syötä Dynamics NAV -ohjelman selaimen asiakasohjelman URL-osoite, kuten *https://MyServer:8080/DynamicsNAV/WebClient/OAuthLanding.htm*.
-        OAuthLanding.htm-tiedoston avulla voi hallita Dynamics NAV -ohjelman ja muiden palveluiden tietojen siirtoa Azure AD -sovelluksen kautta.
-4. Valitse **Luo**-painike.
-    Tämä lisää Dynamics NAV -ohjelman **Sovellusten rekisteröinnit -ruutuun**, joten voit nyt lisätä siihen asetukset.
-5. Valitse uusi sovelluksesi **sovelluksen rekisteröintien luettelosta**. Jos tämä ei avaa **Asetukset**-ruutua, näkyviin tulee toiminto, joka avaa **Asetukset**-ruudun.
-6. Valitse **Asetukset**-ruudussa **API:n käyttö**-osassa **Avaimet**.
-7. Määritä **Avaimet**-ruutuun kuvaus ja avaimen vanhenemisajankohta. Valitse sitten **Tallenna**.
-8. Kopioi luotu avain väliaikaiseen sijaintiin. Sitä tarvitaan seuraavassa vaiheessa.
-9. Valitse **API:n käyttö** -osassa **Vaaditut käyttöoikeudet**.
-    - Delegoitujen käyttöoikeuksien lisääminen kaikkien Power BI -palvelun raporttien tarkastelemista varten
-    - Delegoitujen käyttöoikeuksien lisääminen Windows Azure Active Directoryn käyttäjäprofiileihin kirjautumista ja niiden lukemista varten
-    - Niiden muiden palveluiden toistaminen, joille halutaan myöntää Dynamics NAV -ohjelman käyttöoikeus
-10. Sulje **Asetukset**-ruutu. Kopioi sitten **Perustiedot**-ruudun **Sovellustunnus** väliaikaiseen sijaintiin.
+## <a name="to-register-dynamics-nav-in-the-azure-management-portal"></a><span data-ttu-id="fc833-109">Dynamics NAV -ohjelman rekisteröiminen Azure Management Portal -portaalissa</span><span class="sxs-lookup"><span data-stu-id="fc833-109">To register Dynamics NAV in the Azure Management Portal</span></span>
+1. <span data-ttu-id="fc833-110">Kirjaudu sisään Azure Management Portal -portaaliin osoitteessa [https://portal.azure.com](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="fc833-110">Log in to the Azure Management Portal at [https://portal.azure.com](https://portal.azure.com).</span></span>
+    <span data-ttu-id="fc833-111">Jos et ole aiemmin käyttänyt Azure Management Portal -portaalia, saat ohjeita [Azuren ohjekirjastosta](https://azure.microsoft.com/en-us/documentation/articles).</span><span class="sxs-lookup"><span data-stu-id="fc833-111">If you are not familiar with the Azure Management Portal, you can find guidance in the [Azure documentation library](https://azure.microsoft.com/en-us/documentation/articles).</span></span>
+2. <span data-ttu-id="fc833-112">Valitse vasemmassa siirtymisruudussa **Lisää palveluita** ja valitse sitten **Sovellusten rekisteröinnit**.</span><span class="sxs-lookup"><span data-stu-id="fc833-112">In the left navigation pane, choose **More services**, and then choose **App registrations**.</span></span>
+3. <span data-ttu-id="fc833-113">Valitse päävalikossa **Lisää** ja täytä sitten **Luo-ruudun** kenttiin seuraavat tiedot:</span><span class="sxs-lookup"><span data-stu-id="fc833-113">In the top menu, choose **Add**, and then, in the **Create pane**, fill in the fields with the following information:</span></span>
+    - <span data-ttu-id="fc833-114">**Nimi**: Määritä Dynamics NAV -ratkaisulle nimi, esimerkiksi *Dynamics NAV*.</span><span class="sxs-lookup"><span data-stu-id="fc833-114">**Name**: Specify a name for your Dynamics NAV solution, such as *Dynamics NAV*.</span></span>
+    - <span data-ttu-id="fc833-115">**Sovelluksen tyyppi**: Valitse **Verkkosovellus*/API**.</span><span class="sxs-lookup"><span data-stu-id="fc833-115">**Application Type**: Choose **Web app* / API**.</span></span>
+    - <span data-ttu-id="fc833-116">**Kirjautumisen URL-osoite**: Syötä Dynamics NAV -ohjelman selaimen asiakasohjelman URL-osoite, kuten *https://MyServer:8080/DynamicsNAV/WebClient/OAuthLanding.htm*.</span><span class="sxs-lookup"><span data-stu-id="fc833-116">**Sign-on URL**: Enter the URL for your Dynamics NAV browser client, such as *https://MyServer:8080/DynamicsNAV/WebClient/OAuthLanding.htm*.</span></span>
+        <span data-ttu-id="fc833-117">OAuthLanding.htm-tiedoston avulla voi hallita Dynamics NAV -ohjelman ja muiden palveluiden tietojen siirtoa Azure AD -sovelluksen kautta.</span><span class="sxs-lookup"><span data-stu-id="fc833-117">The OAuthLanding.htm file is a file that helps manage the exchange of data between Dynamics NAV and other services through Azure AD.</span></span>
+4. <span data-ttu-id="fc833-118">Valitse **Luo**-painike.</span><span class="sxs-lookup"><span data-stu-id="fc833-118">Choose the **Create** button.</span></span>
+    <span data-ttu-id="fc833-119">Tämä lisää Dynamics NAV -ohjelman **Sovellusten rekisteröinnit -ruutuun**, joten voit nyt lisätä siihen asetukset.</span><span class="sxs-lookup"><span data-stu-id="fc833-119">This adds your Dynamics NAV to the **App registrations pane**, so you can now add settings to it.</span></span>
+5. <span data-ttu-id="fc833-120">Valitse uusi sovelluksesi **sovelluksen rekisteröintien luettelosta**.</span><span class="sxs-lookup"><span data-stu-id="fc833-120">In the **App registrations list**, choose your new app.</span></span> <span data-ttu-id="fc833-121">Jos tämä ei avaa **Asetukset**-ruutua, näkyviin tulee toiminto, joka avaa **Asetukset**-ruudun.</span><span class="sxs-lookup"><span data-stu-id="fc833-121">If this does not open the **Settings** pane, you should see an action to open **Settings**.</span></span>
+6. <span data-ttu-id="fc833-122">Valitse **Asetukset**-ruudussa **API:n käyttö**-osassa **Avaimet**.</span><span class="sxs-lookup"><span data-stu-id="fc833-122">In the **Settings** pane, in the **API Access** section, choose **Keys**.</span></span>
+7. <span data-ttu-id="fc833-123">Määritä **Avaimet**-ruutuun kuvaus ja avaimen vanhenemisajankohta. Valitse sitten **Tallenna**.</span><span class="sxs-lookup"><span data-stu-id="fc833-123">In the **Keys** pane, specify a description and when you want to let the key expire, and then choose **Save**.</span></span>
+8. <span data-ttu-id="fc833-124">Kopioi luotu avain väliaikaiseen sijaintiin. Sitä tarvitaan seuraavassa vaiheessa.</span><span class="sxs-lookup"><span data-stu-id="fc833-124">Copy the generated key to a temporary location - you will need it in the next procedure.</span></span>
+9. <span data-ttu-id="fc833-125">Valitse **API:n käyttö** -osassa **Vaaditut käyttöoikeudet**.</span><span class="sxs-lookup"><span data-stu-id="fc833-125">In the **API Access** section, choose **Required Permissions**.</span></span>
+    - <span data-ttu-id="fc833-126">Delegoitujen käyttöoikeuksien lisääminen kaikkien Power BI -palvelun raporttien tarkastelemista varten</span><span class="sxs-lookup"><span data-stu-id="fc833-126">Add delegated permissions to view all reports to the Power BI Service</span></span>
+    - <span data-ttu-id="fc833-127">Delegoitujen käyttöoikeuksien lisääminen Windows Azure Active Directoryn käyttäjäprofiileihin kirjautumista ja niiden lukemista varten</span><span class="sxs-lookup"><span data-stu-id="fc833-127">Add delegated permissions to Sign In and read user profile to Windows Azure Active Directory</span></span>
+    - <span data-ttu-id="fc833-128">Niiden muiden palveluiden toistaminen, joille halutaan myöntää Dynamics NAV -ohjelman käyttöoikeus</span><span class="sxs-lookup"><span data-stu-id="fc833-128">Repeat for other services that you want to grant access to your Dynamics NAV</span></span>
+10. <span data-ttu-id="fc833-129">Sulje **Asetukset**-ruutu. Kopioi sitten **Perustiedot**-ruudun **Sovellustunnus** väliaikaiseen sijaintiin.</span><span class="sxs-lookup"><span data-stu-id="fc833-129">Close the **Settings** pane, and then, in the **Essentials** pane, copy the value of the **Application ID** to a temporary location.</span></span>
 
-Nyt olet rekisteröinyt Dynamics NAV -ohjelman Azure Management Portal -portaalissa, antanut käyttöoikeuden liittyville palveluille ja poiminut Dynamics NAV -ohjelmassa tarvittavat tiedot.  
+<span data-ttu-id="fc833-130">Nyt olet rekisteröinyt Dynamics NAV -ohjelman Azure Management Portal -portaalissa, antanut käyttöoikeuden liittyville palveluille ja poiminut Dynamics NAV -ohjelmassa tarvittavat tiedot.</span><span class="sxs-lookup"><span data-stu-id="fc833-130">You have now registered your Dynamics NAV in the Azure Management Portal, you have given access to the relevant services, and you have extracted the information that you need in Dynamics NAV.</span></span>  
 
-## <a name="to-add-the-information-to-dynamics-nav"></a>Tietojen lisääminen Dynamics NAV -ohjelmaan
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Ohjattu Azure AD -sovelluksen asennus** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse ohjatussa toiminnossa **Seuraava**.
-3. Määritä **Asiakasohjelman tunnus** -kenttään **Sovellustunnus**-kentästä aiemmin kopioimasi sisältö.
-4. Määritä **Salainen avain** -kenttään **Avaimet**-ruudusta aiemmin kopioimasi sisältö.
-5. Valitse **Seuraava**. Jos näyttöön ei tule virhesanomaa, toiminto on valmis.
+## <a name="to-add-the-information-to-dynamics-nav"></a><span data-ttu-id="fc833-131">Tietojen lisääminen Dynamics NAV -ohjelmaan</span><span class="sxs-lookup"><span data-stu-id="fc833-131">To add the information to Dynamics NAV</span></span>
+1. <span data-ttu-id="fc833-132">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Ohjattu Azure AD -sovelluksen asennus** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="fc833-132">In the top right corner, choose the **Search for Page or Report** icon, enter **Azure AD Application Setup Wizard**, and then choose the related link.</span></span>
+2. <span data-ttu-id="fc833-133">Valitse ohjatussa toiminnossa **Seuraava**.</span><span class="sxs-lookup"><span data-stu-id="fc833-133">In the wizard, choose **Next**.</span></span>
+3. <span data-ttu-id="fc833-134">Määritä **Asiakasohjelman tunnus** -kenttään **Sovellustunnus**-kentästä aiemmin kopioimasi sisältö.</span><span class="sxs-lookup"><span data-stu-id="fc833-134">In the **Client ID** field, specify the content that you copied from the **Application ID** field earlier.</span></span>
+4. <span data-ttu-id="fc833-135">Määritä **Salainen avain** -kenttään **Avaimet**-ruudusta aiemmin kopioimasi sisältö.</span><span class="sxs-lookup"><span data-stu-id="fc833-135">In the **Secret Key** field, specify the content that you copied from the **Keys** pane earlier.</span></span>
+5. <span data-ttu-id="fc833-136">Valitse **Seuraava**.</span><span class="sxs-lookup"><span data-stu-id="fc833-136">Choose **Next**.</span></span> <span data-ttu-id="fc833-137">Jos näyttöön ei tule virhesanomaa, toiminto on valmis.</span><span class="sxs-lookup"><span data-stu-id="fc833-137">Unless you see an error message, you are now done.</span></span>
 
-Dynamics NAV -ohjelma on rekisteröity ja valmis muodostamaan yhteyden esimerkiksi Cortana Intelligence- ja Power BI -palveluun.
+<span data-ttu-id="fc833-138">Dynamics NAV -ohjelma on rekisteröity ja valmis muodostamaan yhteyden esimerkiksi Cortana Intelligence- ja Power BI -palveluun.</span><span class="sxs-lookup"><span data-stu-id="fc833-138">Your Dynamics NAV is registered and ready to connect to services such as Cortana Intelligence and Power BI.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Myynnin ja varaston ennuste](ui-extensions-sales-forecast.md)  
-[Dynamics NAV -ohjelman määrittäminen](setup.md)  
+## <a name="see-also"></a><span data-ttu-id="fc833-139">Katso myös</span><span class="sxs-lookup"><span data-stu-id="fc833-139">See Also</span></span>
+[<span data-ttu-id="fc833-140">Myynnin ja varaston ennuste</span><span class="sxs-lookup"><span data-stu-id="fc833-140">Sales and Inventory Forecast</span></span>](ui-extensions-sales-forecast.md)  
+[<span data-ttu-id="fc833-141">Dynamics NAV -ohjelman määrittäminen</span><span class="sxs-lookup"><span data-stu-id="fc833-141">Set Up Your Dynamics NAV</span></span>](setup.md)  
 

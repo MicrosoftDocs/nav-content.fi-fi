@@ -1,1 +1,1 @@
-Nähdäksesi ikkunan aiheet tässä osassa valitse sisällysluettelosta korvaustapahtumat.
+<span data-ttu-id="e6f26-101">Nähdäksesi ikkunan aiheet tässä osassa valitse sisällysluettelosta korvaustapahtumat.</span><span class="sxs-lookup"><span data-stu-id="e6f26-101">To see the window topics in this section, choose the subentries in the table of contents.</span></span>

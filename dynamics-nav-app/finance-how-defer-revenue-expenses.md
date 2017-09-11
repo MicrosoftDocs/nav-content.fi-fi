@@ -16,73 +16,73 @@ ms.lasthandoff: 06/26/2017
 
 ---
 
-# <a name="how-to-defer-revenues-and-expenses"></a>Toimintaohje: Tuottojen ja kulujen siirtäminen
-Jos haluat tulouttaa tuoton tai kulun jaksoon, joka on eri kuin se, jonka aikana tapahtuma on kirjattu, käytä toimintoja, jotka siirtävät tuotot ja kulut automaattisesti tietyn aikataulun mukaan.
+# <a name="how-to-defer-revenues-and-expenses"></a><span data-ttu-id="9083d-102">Toimintaohje: Tuottojen ja kulujen siirtäminen</span><span class="sxs-lookup"><span data-stu-id="9083d-102">How to: Defer Revenues and Expenses</span></span>
+<span data-ttu-id="9083d-103">Jos haluat tulouttaa tuoton tai kulun jaksoon, joka on eri kuin se, jonka aikana tapahtuma on kirjattu, käytä toimintoja, jotka siirtävät tuotot ja kulut automaattisesti tietyn aikataulun mukaan.</span><span class="sxs-lookup"><span data-stu-id="9083d-103">To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.</span></span>
 
-Voit jakaa tuotot tai kulut liittyville kirjanpitojaksoille määrittämällä sille resurssille, nimikkeelle tai KP-tilille siirtomallin, jolle tuotto tai kulu kirjataan. Kun kirjaat liittyvän myynti- tai ostoasiakirjan, tuotto tai kulu siirretään liittyville kirjanpitojaksoille sen siirron aikataulun mukaan, jota siirtomallin ja kirjauspäivämäärän asetukset koskevat.
+<span data-ttu-id="9083d-104">Voit jakaa tuotot tai kulut liittyville kirjanpitojaksoille määrittämällä sille resurssille, nimikkeelle tai KP-tilille siirtomallin, jolle tuotto tai kulu kirjataan.</span><span class="sxs-lookup"><span data-stu-id="9083d-104">To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for.</span></span> <span data-ttu-id="9083d-105">Kun kirjaat liittyvän myynti- tai ostoasiakirjan, tuotto tai kulu siirretään liittyville kirjanpitojaksoille sen siirron aikataulun mukaan, jota siirtomallin ja kirjauspäivämäärän asetukset koskevat.</span><span class="sxs-lookup"><span data-stu-id="9083d-105">When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.</span></span>
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a>KP-tilin määrittäminen siirtoa varten
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Uusi**-toiminto.
-3. Luo siirretyille tuotoille KP-tili täyttämällä tarvittavat kentät. Lisätietoja on kohdassa [Pääkirjanpito ja tilikartta](finance-setup-general-ledger.md).
-3. Luo siirretyille kuluille uusi KP-tili toistamalla vaiheet 2 ja 3.
+## <a name="to-set-up-a-gl-account-for-deferral"></a><span data-ttu-id="9083d-106">KP-tilin määrittäminen siirtoa varten</span><span class="sxs-lookup"><span data-stu-id="9083d-106">To set up a G/L account for deferral</span></span>
+1. <span data-ttu-id="9083d-107">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Tilikartta** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9083d-107">In the top right corner, choose the **Search for Page or Report** icon, enter **Chart of Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9083d-108">Valitse **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="9083d-108">Choose the **New** action.</span></span>
+3. <span data-ttu-id="9083d-109">Luo siirretyille tuotoille KP-tili täyttämällä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="9083d-109">Fill in the fields as necessary to create a G/L account for deferred revenues.</span></span> <span data-ttu-id="9083d-110">Lisätietoja on kohdassa [Pääkirjanpito ja tilikartta](finance-setup-general-ledger.md).</span><span class="sxs-lookup"><span data-stu-id="9083d-110">For more information, see [The General Ledger and the Chart of Accounts](finance-setup-general-ledger.md).</span></span>
+3. <span data-ttu-id="9083d-111">Luo siirretyille kuluille uusi KP-tili toistamalla vaiheet 2 ja 3.</span><span class="sxs-lookup"><span data-stu-id="9083d-111">Repeat steps 2 and 3 to create a new G/L account for deferred expenses.</span></span>
 
-Valitse kummallekin siirtotyypille **Tase** **Tyyppi**-kenttään. Anna tileille soveltuvat nimet, kuten esimerkiksi siirretyille tuotoille Ansaitsematon tulo ja siirretyille kuluille Maksamattomat kulut.
+<span data-ttu-id="9083d-112">Valitse kummallekin siirtotyypille **Tase** **Tyyppi**-kenttään. Anna tileille soveltuvat nimet, kuten esimerkiksi siirretyille tuotoille Ansaitsematon tulo ja siirretyille kuluille Maksamattomat kulut.</span><span class="sxs-lookup"><span data-stu-id="9083d-112">For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.</span></span>
 
-## <a name="to-set-up-a-deferral-template"></a>Siirtomallin määrittäminen
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Siirtomallit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Uusi**-toiminto.
-3. Täytä tarvittavat kentät.
-4. Määritä **Laskentamenetelmä**-kenttään, miten **Siirron aikataulu** -ikkunan kunkin jakson **Summa**-kentän arvo lasketaan. Voit valita seuraavista vaihtoehdoista:
-    - **Tasapoisto**: Jaksoittaiset siirtosummat lasketaan jaksojen lukumäärän mukaan. Ne jaetaan jakson pituuden mukaan.
-    - **Tasan jaksoittain**: Jaksoittaiset siirtosummat lasketaan jaksojen lukumäärän mukaan. Ne jaetaan tasan kaikille jaksoille.
-    - **Päivät jaksoittain**: Jaksoittaiset siirtosummat lasketaan jakson päivien lukumäärän mukaan.
-    - **Käyttäjän määrittämä**: Jaksottaisia siirtosummia ei lasketa. Siirron aikataulu -ikkunan kunkin jakson Summa-kenttä on täytettävä manuaalisesti. Lisätietoja on Siirron aikataulun muuttaminen myyntilaskusta -osassa.
+## <a name="to-set-up-a-deferral-template"></a><span data-ttu-id="9083d-113">Siirtomallin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9083d-113">To set up a deferral template</span></span>
+1. <span data-ttu-id="9083d-114">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Siirtomallit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9083d-114">In the top right corner, choose the **Search for Page or Report** icon, enter **Deferral Templates**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9083d-115">Valitse **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="9083d-115">Choose the **New** action.</span></span>
+3. <span data-ttu-id="9083d-116">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="9083d-116">Fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="9083d-117">Määritä **Laskentamenetelmä**-kenttään, miten **Siirron aikataulu** -ikkunan kunkin jakson **Summa**-kentän arvo lasketaan.</span><span class="sxs-lookup"><span data-stu-id="9083d-117">In the **Calc. Method** field, specify how the **Amount** field for each period in the **Deferral Schedule** window is calculated.</span></span> <span data-ttu-id="9083d-118">Voit valita seuraavista vaihtoehdoista:</span><span class="sxs-lookup"><span data-stu-id="9083d-118">You can choose between the following options:</span></span>
+    - <span data-ttu-id="9083d-119">**Tasapoisto**: Jaksoittaiset siirtosummat lasketaan jaksojen lukumäärän mukaan. Ne jaetaan jakson pituuden mukaan.</span><span class="sxs-lookup"><span data-stu-id="9083d-119">**Straight-Line**: The periodic deferral amounts are calculated according to the number of periods, distributed according to period length.</span></span>
+    - <span data-ttu-id="9083d-120">**Tasan jaksoittain**: Jaksoittaiset siirtosummat lasketaan jaksojen lukumäärän mukaan. Ne jaetaan tasan kaikille jaksoille.</span><span class="sxs-lookup"><span data-stu-id="9083d-120">**Equal Per Period**: The periodic deferral amounts are calculated according to the number of periods, distributed evenly on periods.</span></span>
+    - <span data-ttu-id="9083d-121">**Päivät jaksoittain**: Jaksoittaiset siirtosummat lasketaan jakson päivien lukumäärän mukaan.</span><span class="sxs-lookup"><span data-stu-id="9083d-121">**Days Per Period**: The periodic deferral amounts are calculated according to the number of days in the period.</span></span>
+    - <span data-ttu-id="9083d-122">**Käyttäjän määrittämä**: Jaksottaisia siirtosummia ei lasketa.</span><span class="sxs-lookup"><span data-stu-id="9083d-122">**User-Defined**: The periodic deferral amounts are not calculated.</span></span> <span data-ttu-id="9083d-123">Siirron aikataulu -ikkunan kunkin jakson Summa-kenttä on täytettävä manuaalisesti.</span><span class="sxs-lookup"><span data-stu-id="9083d-123">You must manually fill the Amount field for each period in the Deferral Schedule window.</span></span> <span data-ttu-id="9083d-124">Lisätietoja on Siirron aikataulun muuttaminen myyntilaskusta -osassa.</span><span class="sxs-lookup"><span data-stu-id="9083d-124">For more information, see the “To change a deferral schedule from a sales invoice” section.</span></span>
 
-5. Määritä **Jakson kuvaus** -kenttään kuvaus, joka näytetään siirron kirjauksen tapahtumissa. Voit syöttää tyypillisille arvoille seuraavat paikanvaraajien koodit. Ne lisätään automaattisesti, kun jakson kuvaus näytetään.
-    - %1 = jakson kirjauspäivämäärän päivän numero
-    - %2 = jakson kirjauspäivämäärän viikon numero
-    - %3 = jakson kirjauspäivämäärän kuukauden numero
-    - %4 = jakson kirjauspäivämäärän kuukauden nimi
-    - %5 = jakson kirjauspäivämäärän kirjanpitojakson nimi
-    - %6 = jakson kirjauspäivämäärän tilikausi
+5. <span data-ttu-id="9083d-125">Määritä **Jakson kuvaus**</span><span class="sxs-lookup"><span data-stu-id="9083d-125">In the **Period Desc.**</span></span> <span data-ttu-id="9083d-126">-kenttään kuvaus, joka näytetään siirron kirjauksen tapahtumissa.</span><span class="sxs-lookup"><span data-stu-id="9083d-126">field, specify a description that will be shown on entries for the deferral posting.</span></span> <span data-ttu-id="9083d-127">Voit syöttää tyypillisille arvoille seuraavat paikanvaraajien koodit. Ne lisätään automaattisesti, kun jakson kuvaus näytetään.</span><span class="sxs-lookup"><span data-stu-id="9083d-127">You can enter the following placeholder codes for typical values, which will be inserted automatically when the period description is displayed.</span></span>
+    - <span data-ttu-id="9083d-128">%1 = jakson kirjauspäivämäärän päivän numero</span><span class="sxs-lookup"><span data-stu-id="9083d-128">%1 = The day number of the period posting date</span></span>
+    - <span data-ttu-id="9083d-129">%2 = jakson kirjauspäivämäärän viikon numero</span><span class="sxs-lookup"><span data-stu-id="9083d-129">%2 = The week number of the period posting date</span></span>
+    - <span data-ttu-id="9083d-130">%3 = jakson kirjauspäivämäärän kuukauden numero</span><span class="sxs-lookup"><span data-stu-id="9083d-130">%3 = The month number of the period posting date</span></span>
+    - <span data-ttu-id="9083d-131">%4 = jakson kirjauspäivämäärän kuukauden nimi</span><span class="sxs-lookup"><span data-stu-id="9083d-131">%4 = The month name of the period posting date</span></span>
+    - <span data-ttu-id="9083d-132">%5 = jakson kirjauspäivämäärän kirjanpitojakson nimi</span><span class="sxs-lookup"><span data-stu-id="9083d-132">%5 = The accounting period name of the period posting date</span></span>
+    - <span data-ttu-id="9083d-133">%6 = jakson kirjauspäivämäärän tilikausi</span><span class="sxs-lookup"><span data-stu-id="9083d-133">%6 = The fiscal year of the period posting date</span></span>
 
-Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos syötät Kulut siirretty: %4 %6, näytettävä kuvaus on Kulut siirretty: helmikuu 2016.
+<span data-ttu-id="9083d-134">Esimerkki: Kirjauspäivämäärä on 6.2.2016.</span><span class="sxs-lookup"><span data-stu-id="9083d-134">Example: The posting date is 02/06/2016.</span></span> <span data-ttu-id="9083d-135">Jos syötät Kulut siirretty: %4 %6, näytettävä kuvaus on Kulut siirretty: helmikuu 2016.</span><span class="sxs-lookup"><span data-stu-id="9083d-135">If you enter “Expenses deferred for %4 %6”, then the description displayed will be "Expenses deferred for February 2016".</span></span>
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a>Siirtomallin määrittäminen nimikkeelle
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Siirtomallit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa sen nimikkeen kortti, jonka tuotot tai kulut on siirrettävä kirjanpitojaksoille nimikkeen myynnin tai oston yhteydessä.
-3. Valitse **Oletussiirtomalli**-kenttään sopiva siirtomalli.
+## <a name="to-assign-a-deferral-template-to-an-item"></a><span data-ttu-id="9083d-136">Siirtomallin määrittäminen nimikkeelle</span><span class="sxs-lookup"><span data-stu-id="9083d-136">To assign a deferral template to an item</span></span>
+1. <span data-ttu-id="9083d-137">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Siirtomallit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9083d-137">In the top right corner, choose the **Search for Page or Report** icon, enter **Deferral Templates**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9083d-138">Avaa sen nimikkeen kortti, jonka tuotot tai kulut on siirrettävä kirjanpitojaksoille nimikkeen myynnin tai oston yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="9083d-138">Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.</span></span>
+3. <span data-ttu-id="9083d-139">Valitse **Oletussiirtomalli**-kenttään sopiva siirtomalli.</span><span class="sxs-lookup"><span data-stu-id="9083d-139">In the **Default Deferral Template** field, select the relevant deferral template.</span></span>
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Siirtomallin muuttaminen myyntilaskusta
-**Huomautus**: Tämän menettelytavan vaiheet ovat samat kuin vaiheet silloin, kun kulun siirtomalli muutetaan ostolaskusta.
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><span data-ttu-id="9083d-140">Siirtomallin muuttaminen myyntilaskusta</span><span class="sxs-lookup"><span data-stu-id="9083d-140">To change a deferral schedule from a sales invoice</span></span>
+<span data-ttu-id="9083d-141">**Huomautus**: Tämän menettelytavan vaiheet ovat samat kuin vaiheet silloin, kun kulun siirtomalli muutetaan ostolaskusta.</span><span class="sxs-lookup"><span data-stu-id="9083d-141">**Note**: The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyntilaskut** ja valitse sitten aiheeseen liittyvä linkki.
-2. Luo myyntilasku nimikkeestä, jolle on määritetty siirtomalli. Lisätietoja on kohdassa [Toimintaohje: Myynnin laskuttaminen](sales-how-invoice-sales.md).
+1. <span data-ttu-id="9083d-142">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyntilaskut** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9083d-142">In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9083d-143">Luo myyntilasku nimikkeestä, jolle on määritetty siirtomalli.</span><span class="sxs-lookup"><span data-stu-id="9083d-143">Create a sales invoice for an item that has a deferral template assigned.</span></span> <span data-ttu-id="9083d-144">Lisätietoja on kohdassa [Toimintaohje: Myynnin laskuttaminen](sales-how-invoice-sales.md).</span><span class="sxs-lookup"><span data-stu-id="9083d-144">For more information, see [How to: Invoice Sales](sales-how-invoice-sales.md).</span></span>
 
-    Huomaa, että heti, kun laskuriville on syötetty nimike (tai resurssi tai KP-tili), ohjelma syöttää **Siirron koodi** -kenttään määritetyn siirtomallin koodin.
-3. Valitse **Siirron aikataulu** -toiminto.
-4. Muuta **Siirron aikataulu** -ikkunan otsikon tai rivin arvojen asetuksia. Voit esimerkiksi siirtää summan lisäkirjanpitojaksoon.
-5. Valitse **Laske aikataulu** -toiminto.
-6. Valitse **OK**-painike. Myyntilaskun siirron aikataulu päivitetään. Liittyvää siirtomallia ei muuteta.
+    <span data-ttu-id="9083d-145">Huomaa, että heti, kun laskuriville on syötetty nimike (tai resurssi tai KP-tili), ohjelma syöttää **Siirron koodi** -kenttään määritetyn siirtomallin koodin.</span><span class="sxs-lookup"><span data-stu-id="9083d-145">Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.</span></span>
+3. <span data-ttu-id="9083d-146">Valitse **Siirron aikataulu** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="9083d-146">Choose the **Deferral Schedule** action.</span></span>
+4. <span data-ttu-id="9083d-147">Muuta **Siirron aikataulu** -ikkunan otsikon tai rivin arvojen asetuksia. Voit esimerkiksi siirtää summan lisäkirjanpitojaksoon.</span><span class="sxs-lookup"><span data-stu-id="9083d-147">In the **Deferral Schedule** window, change settings on the header or values on the lines, for example to defer the amount to an additional accounting period.</span></span>
+5. <span data-ttu-id="9083d-148">Valitse **Laske aikataulu** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="9083d-148">Choose the **Calculate Schedule** action.</span></span>
+6. <span data-ttu-id="9083d-149">Valitse **OK**-painike.</span><span class="sxs-lookup"><span data-stu-id="9083d-149">Choose the **OK** button.</span></span> <span data-ttu-id="9083d-150">Myyntilaskun siirron aikataulu päivitetään.</span><span class="sxs-lookup"><span data-stu-id="9083d-150">The deferral schedule is updated for the sales invoice.</span></span> <span data-ttu-id="9083d-151">Liittyvää siirtomallia ei muuteta.</span><span class="sxs-lookup"><span data-stu-id="9083d-151">The related deferral template is unchanged.</span></span>
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Siirrettyjen tuottojen tai kulujen kirjanpitoon kirjaamisen tarkasteleminen
-**Huomautus**: Tämän menettelytavan vaiheet ovat samat kuin kulujen siirtojen kirjausten esikatselun vaiheet.
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><span data-ttu-id="9083d-152">Siirrettyjen tuottojen tai kulujen kirjanpitoon kirjaamisen tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="9083d-152">To preview how deferred revenues or expenses will be posted to the general ledger</span></span>
+<span data-ttu-id="9083d-153">**Huomautus**: Tämän menettelytavan vaiheet ovat samat kuin kulujen siirtojen kirjausten esikatselun vaiheet.</span><span class="sxs-lookup"><span data-stu-id="9083d-153">**Note**: The steps in this procedure are the same as when you preview how expense deferrals are posted.</span></span>
 
-1. Valitse **Myyntilasku** -ikkunassa **Esikatsele kirjaus** -toiminto.
-2. Valitse **Esikatsele kirjaus** -ikkunassa **KP-tapahtuma**-toiminto ja valitse sitten **Näytä aiheeseen liittyvät tapahtumat** -toiminto.
+1. <span data-ttu-id="9083d-154">Valitse **Myyntilasku** -ikkunassa **Esikatsele kirjaus** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="9083d-154">In the **Sales Invoice** window, choose the **Preview Posting** action.</span></span>
+2. <span data-ttu-id="9083d-155">Valitse **Esikatsele kirjaus** -ikkunassa **KP-tapahtuma**-toiminto ja valitse sitten **Näytä aiheeseen liittyvät tapahtumat** -toiminto.</span><span class="sxs-lookup"><span data-stu-id="9083d-155">In the **Posting Preview** window, choose the **G/L Entry** action, and then choose the **Show Related Entries** action.</span></span>
 
-Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapahtumat merkitään kuvauksella, joka syötettiin siirtomallin **Jakson kuvaus** -kenttään. Esimerkki: Siirretyt kulut: helmikuu 2016.
+<span data-ttu-id="9083d-156">Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapahtumat merkitään kuvauksella, joka syötettiin siirtomallin **Jakson kuvaus**</span><span class="sxs-lookup"><span data-stu-id="9083d-156">G/L entries to be posted to the specified deferral account, for example, Unearned Income, are denoted by the description that you entered in the **Period Desc.**</span></span> <span data-ttu-id="9083d-157">-kenttään. Esimerkki: Siirretyt kulut: helmikuu 2016.</span><span class="sxs-lookup"><span data-stu-id="9083d-157">field in the deferral template, for example, "Expenses deferred for February 2016".</span></span>
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Kirjattujen siirtojen tarkasteleminen Myynnin siirron yhteenveto -raportissa
-**Huomautus**: Tämän menettelytavan vaiheet ovat samat kuin Ostojen siirron yhteenveto -raportin tarkastelun vaiheet.
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><span data-ttu-id="9083d-158">Kirjattujen siirtojen tarkasteleminen Myynnin siirron yhteenveto -raportissa</span><span class="sxs-lookup"><span data-stu-id="9083d-158">To review posted deferrals in the Sales Deferral Summary report</span></span>
+<span data-ttu-id="9083d-159">**Huomautus**: Tämän menettelytavan vaiheet ovat samat kuin Ostojen siirron yhteenveto -raportin tarkastelun vaiheet.</span><span class="sxs-lookup"><span data-stu-id="9083d-159">**Note**: The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.</span></span>
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myynnin siirron yhteenveto** ja valitse sitten aiheeseen liittyvä linkki.
-2. Syötä **Myynnin siirron yhteenveto** -ikkunan **Saldon tilanne** -kenttään päivämäärä, johon asti siirretyt tuotot näytetään.
-3. Valitse **Esikatsele**-painike.
+1. <span data-ttu-id="9083d-160">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myynnin siirron yhteenveto** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9083d-160">In the top right corner, choose the **Search for Page or Report** icon, enter **Sales Deferral Summary**, and then choose the related link.</span></span>
+2. <span data-ttu-id="9083d-161">Syötä **Myynnin siirron yhteenveto** -ikkunan **Saldon tilanne** -kenttään päivämäärä, johon asti siirretyt tuotot näytetään.</span><span class="sxs-lookup"><span data-stu-id="9083d-161">In the **Sales Deferral Summary** window, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.</span></span>
+3. <span data-ttu-id="9083d-162">Valitse **Esikatsele**-painike.</span><span class="sxs-lookup"><span data-stu-id="9083d-162">Choose the **Preview** button.</span></span>
 
-## <a name="see-also"></a>Katso myös
-[Rahoitus](finance-setup.md)  
-[Tärkeimpien talousprosessien määrittäminen](finance-setup-setup-finance-setup.md)  
-[Toimintaohje: Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
+## <a name="see-also"></a><span data-ttu-id="9083d-163">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9083d-163">See Also</span></span>
+[<span data-ttu-id="9083d-164">Rahoitus</span><span class="sxs-lookup"><span data-stu-id="9083d-164">Finance</span></span>](finance-setup.md)  
+[<span data-ttu-id="9083d-165">Tärkeimpien talousprosessien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="9083d-165">Set Up Core Financial Processes</span></span>](finance-setup-setup-finance-setup.md)  
+[<span data-ttu-id="9083d-166">Toimintaohje: Yleisten päiväkirjojen käyttäminen</span><span class="sxs-lookup"><span data-stu-id="9083d-166">How to: Work With General Journals</span></span>](ui-work-general-journals.md)
 

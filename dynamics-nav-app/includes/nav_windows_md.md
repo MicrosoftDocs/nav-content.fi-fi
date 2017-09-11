@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -Windows-asiakas
+<span data-ttu-id="472f1-101">Microsoft Dynamics NAV -Windows-asiakas</span><span class="sxs-lookup"><span data-stu-id="472f1-101">Microsoft Dynamics NAV Windows client</span></span>
