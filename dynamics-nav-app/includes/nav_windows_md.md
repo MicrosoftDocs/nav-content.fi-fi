@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -Windows-asiakas
+Microsoft Dynamics NAV:n SharePoint-asiakasohjelma

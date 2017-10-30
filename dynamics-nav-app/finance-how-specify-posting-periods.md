@@ -1,35 +1,37 @@
 ---
 title: "Kirjausjaksojen määrittäminen"
+description: "Määrittämällä kirjauksen aloitus- ja päättymispäivämäärän määrität, milloin käyttäjä voivat kirjata pääkirjanpitoon."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+manager: edupont
+editor: 
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 7a332fa1e463b0c5c44c256d5d57803d6d1f48fe
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: user setup
+ms.date: 06/02/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: f5b0f52ecf52329471f33a7533165cb86a54267f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
 # <a name="how-to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
-Määrittäessäsi kirjausjaksoja määrität sallitun kirjausjakson pituuden.
+Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä kirjauksia pääkirjanpitoon.  
 
 ## <a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Määritä jakson alku syöttämällä **Pääkirjanpidon asetukset** -ikkunassa **Ensimm. sallittu kirjauspvm** -kenttään päivämäärä.
-3. Määritä jakson lopetus syöttämällä **Viimeinen sallittu kirjauspvm** -kenttään päivämäärä.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Pääkirjanpidon asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Määritä jakso **Pääkirjanpidon asetukset** -ikkunassa antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
 
-Tässä määrittämäsi päivämäärät koskevat koko yritystä, siis kaikkia käyttäjiä.
-
-**Huomautus**: Jos haluat luoda erilaiset kirjausjaksot eri käyttäjille, voit luoda ne **Käyttäjäasetukset**-ikkunassa. Jos määrität päivämäärät **Käyttäjäasetukset**-ikkunassa, **Pääkirjanpidon asetukset** -ikkunassa määrittämäsi päivämäärät eivät koske näitä käyttäjiä.
-
+> [!NOTE]  
+>   Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-ikkunassa. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -ikkunassa määritetyt jaksot. Lisätietoja on ohjeaiheen [Käyttäjien ja käyttöoikeuksien hallinta](ui-how-users-permissions.md) kohdassa Käyttäjän aikarajoitusten määrittäminen.
 
 ## <a name="see-also"></a>Katso myös
-[Rahoitus](finance-setup.md)  
-[Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)
+[Rahoitus](finance.md)  
+[Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

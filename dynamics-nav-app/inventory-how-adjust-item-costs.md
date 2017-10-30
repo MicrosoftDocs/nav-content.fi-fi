@@ -1,56 +1,88 @@
 ---
-title: 'Toimintaohje: Nimikekustannusten muokkaaminen'
+title: Nimikekustannusten muokkaaminen manuaalisesti
+description: "Voit muuttaa nimikkeen varastonarvostusta FIFO- tai Keskiarvo-arvostusmenetelmällä, esimerkiksi silloin, kun nimikkeen kustannusten muutoksen syynä on jokin muu kuin tapahtuma."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 59db38c159dd2810656edc668ee431c6414b9d90
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
+ms.date: 08/07/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 40647e0263b7c21c1f085cd6dde449f8210ede10
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="how-to-adjust-item-costs"></a>Toimintaohje: Nimikekustannusten muokkaaminen
+Nimikekustannus (varastoarvo) voi muuttua, kun ostat nimikkeen ja myyt sen myöhemmin, koska rahtikulut lisätään ostohintaan nimikkeen myynnin jälkeen. Kustannusten muuttamisella on merkitystä etenkin tilanteissa, jossa tavaroita myydään ennen tavaroiden oston laskuttamista. Jotta oikea varastoarvo on tiedossa, nimikekustannukset on mukautettava säännöllisesti. Näin varmistetaan, että tuottotilastot ovat ajan tasalla ja talouden avaintunnusluvut ovat oikein. Katso lisätietoja kohdasta [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md).
 
-# <a name="how-to-adjust-item-costs"></a>Toimintaohje: Nimikekustannusten muokkaaminen   
-Nimikekustannus (varastoarvo) voi muuttua, kun ostat nimikkeen ja myyt sen myöhemmin, koska rahtikulut lisätään ostohintaan nimikkeen myynnin jälkeen. Jotta oikea varastoarvo on tiedossa, nimikekustannukset on mukautettava säännöllisesti.
-Näin varmistetaan, että tuottotilastot ovat ajan tasalla ja talouden avaintunnusluvut ovat oikein.
+Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvon perustana on vakiokustannus niiden nimikkeiden osalta, joilla on vakioarvostusmenetelmä. Niiden nimikkeiden osalta, joilla on jokin muista arvostusmenetelmistä, arvon perustana on varastosaldo (laskutetut kustannukset ja oletetut kustannukset) jaettuna saatavilla olevalla määrällä. Lisätietoja on kohdassa Tietoja yksikkökustannuksen laskennasta.
 
-**Huomautus**: Nimikekustannukset oikaistaan vain FIFO-arvostusmenetelmän avulla. Tämä tarkoittaa sitä, että nimikkeen yksikkökustannus on nimikkeen minkä tahansa vastaanoton todellinen arvo ja varaston arvostuksessa oletetaan, että varastoon ensimmäisenä asetetut nimikkeet myydään ensimmäisinä.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa nimikkeiden kustannuksia muutetaan automaattisesti aina varastotapahtuman yhteydessä, kuten kirjattaessa nimikkeen ostolaskua.
+
+Toiminnolla voi myös muuttaa manuaalisesti vähintään yhden nimikkeen kustannuksia. Tämä on kätevää esimerkiksi silloin, kun tiedät, että nimikkeen kustannukset ovat muuttuneet jonkin muun syyn kuin nimiketapahtuman vuoksi.
+
+Nimikkeen kustannuksia muutetaan FIFO- tai Keskiarvo-arvostusmenetelmällä ohjatussa **Määritä oma yritys** -asetusten määrityksessä tai nimikkeen kortin **Arvostusmenetelmä**-kentässä tehdyn valinnan mukaan. Lisätietoja on ohjeaiheessa [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
+
+Jos käytössä on FIFO-arvostusmenetelmä, nimikkeen yksikkökustannus on nimikkeen vastaanoton todellinen arvo. Varastonarvostuksessa käytetään oletusta, että ensin varastoon sijoitetut nimikkeet myydään ensin.
+
+Jos käytät Keskiarvo-arvostusmenetelmää, nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen. Varastonarvostus olettaa, että kaikki vaihto-omaisuus myydään samanaikaisesti. Jos nimike käyttää tätä arvostusmenetelmää, voit tarkastella sitä tapahtumahistoriaa, josta keskimääräinen kustannus lasketaan, valitsemalla nimikkeen kortissa **Yksikkökustannus**-kentän.
 
 Kustannusten muuttamistoiminto käsittelee vain arvotapahtumia, joita ei ole vielä muutettu. Jos toiminto kohtaa tilanteen, jossa muutetut saapuvat kustannukset on siirrettävä niihin liittyviin lähteviin tapahtumiin, luodaan uusia muutosarvotapahtumia, jotka perustuvat alkuperäisten arvotapahtumien tietoihin, mutta sisältävät muutossumman. Kustannusten muuttamistoiminto käyttää muutostapahtumassa alkuperäisen arvotapahtuman kirjauspäivämäärää, ellei päivämäärä ole suljetulla varastokaudella. Siinä tapauksessa ohjelma käyttää seuraavan avoimen varastokauden aloituspäivämäärää. Jos varastokausia ei käytetä, **Pääkirjanpidon asetukset** -ikkunan **Ensimm. sallittu kirjauspvm** -kentässä oleva päivämäärä määrittää, milloin muutostapahtuma kirjataan.
 
-**Huomautus**: Kun nimikekustannuksia on muutettu, varaston kustannukset on kirjattava pääkirjanpitoon automaattisesti tai manuaalisesti. Lisätietoja on kohdassa [Toimintaohje: Varaston kustannusten kirjaaminen pääkirjanpitoon](inventory-how-post-inventory-cost-gl.md).
-
-Nimikekustannuksia voidaan muuttaa seuraavilla kahdella tavalla:
- - automaattisesti niin, että järjestelmä muuttaa kaikki kustannusmuutokset aina varastotapahtumien yhteydessä
- - manuaalisesti suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -erätyön vähintään yhdelle nimikkeelle, kun tiedät, että nimikkeen kustannuksia on muutettu.  
-
-## <a name="to-adjust-item-costs-automatically"></a>Nimikekustannusten muuttaminen automaattisesti
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Varastonhallinnan asetukset** -ikkunan **Automaattinen kustannusten muuttaminen** -kenttään jonkin seuraavista arvoista.
-
-|Asetus |Toiminta |
-|-------|---------|
-|Ei koskaan|Kustannuksia ei muuteta kirjausten tekemisen yhteydessä.|
-|Päivä|Kustannuksia muutetaan, jos kirjauspäivämäärän ja käsittelypäivämäärän ero on enintään yksi päivä.|
-|Viikko|Kustannuksia muutetaan, jos kirjauspäivämäärän ja käsittelypäivämäärän ero on enintään yksi viikko.|
-|Kuukausi|Kustannuksia muutetaan, jos kirjauspäivämäärän ja käsittelypäivämäärän ero on enintään yksi kuukausi.|
-|Neljännes|Kustannuksia muutetaan, jos kirjauspäivämäärän ja käsittelypäivämäärän ero on enintään yksi vuosineljännes.|
-|Vuosi|Kustannuksia muutetaan, jos kirjauspäivämäärän ja käsittelypäivämäärän ero on enintään yksi vuosi.|
-|Aina|Kustannuksia muutetaan aina kirjausten yhteydessä kirjauspäivämäärästä riippumatta.|
-
 ## <a name="to-adjust-item-costs-manually"></a>Nimikekustannusten muokkaaminen manuaalisesti
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Muuta kustannuksia - Nimiketapahtumat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Määritä **Muuta kustannuksia - Nimiketapahtumat** -ikkunassa nimikkeet, joiden kustannuksia muutetaan. Määritä myös, kirjataanko muutetut kustannukset pääkirjanpitoon samanaikaisesti.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, anna **Muuta kustannuksia - Nimiketapahtumat** ja valitse sitten aiheeseen liittyvä linkki.
+2. Määritä **Muuta kustannuksia - Nimiketapahtumat** -ikkunassa nimikkeet, joiden kustannuksia muutetaan.
+3. Valitse **OK**-painike.
+
+## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Yleisten muutosten tekeminen välittömään yksikkökustannukseen
+Jos välitöntä yksikkökustannusta on muutettava useissa nimikkeissä, voit käyttää **Muuta nimikekustannuksia tai -hintoja** -eräajoa.  
+
+ Eräajo muuttaa nimikekortin **Yksikköhinta**-kentän sisällön. Eräajo muuttaa kentän sisällön samalla tavalla kaikille nimikkeille tai valituille nimikkeille. Eräajo kertoo kentässä olevan arvon määrittämälläsi muutoskertoimella.  
+
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Muuta nimikkeen kustannuksia tai hintoja** ja valitse sitten aiheeseen liittyvä linkki.  
+2. Määritä **Muuta kenttää** -kentässä muutettava nimikkeen tai varastointiyksikön kortin kenttä.  
+3. Määritä **Muutoskerroin**-kentässä kerroin, jonka mukaan arvoa muutetaan. Syötä esimerkiksi **1,5**, kun haluat suurentaa arvoa 50 %:lla.  
+4. Määritä **Nimike**-pikavälilehdessä määritettävät suodattimet, kuten se, mitä nimikkeitä eräajossa käsitellään.  
+5. Valitse **OK**-painike.  
+
+## <a name="understanding-unit-cost-calculation"></a>Tietoja yksikkökustannuksen laskennasta
+Perussäännön mukaan nimikekortin **Yksikkökustannus**-kentässä olevan arvon perustana on vakiokustannus niiden nimikkeiden osalta, joilla on vakioarvostusmenetelmä. Niiden nimikkeiden osalta, joilla on jokin muista arvostusmenetelmistä, arvon perustana on varastosaldo (laskutetut kustannukset ja oletetut kustannukset) jaettuna saatavilla olevalla määrällä.  
+
+ Se, miten **Arvostusmenetelmä**-kentän sisältö vaikuttaa myyntien ja ostojen yksikkökustannuksen laskentaan, kuvataan yksityiskohtaisemmin seuraavissa luvuissa.  
+
+## <a name="unit-cost-calculation-for-purchases"></a>Ostojen yksikkökustannuksen laskenta  
+ Aina kun ostat nimikkeitä, nimikekortin **Viimeinen välitön kustannus** -kentän arvo kopioidaan ostorivin **Välitön yksikkökustannus** -kenttään tai nimikepäiväkirjan rivin Yksikkösumma-riville.  
+
+ Se, mitä valitset **Kustannustapa**-kentässä vaikuttaa siihen, miten [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee **Yksikkökustannus**-kentän sisällön riveillä.  
+
+### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kustannusmenetelmät FIFO, LIFO, Spesifi tai Keskimäärä  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee ostorivin **Yksikkökustannus PVA** -kentän sisällön tai nimikepäiväkirjan rivin **Yksikkökustannus**-kentän sisällön seuraavan laskukaavan mukaan:  
+
+ "Yksikkökustannus (PVA) = (Välitön yksikkökustannus - (Alennussumma / Määrä)) * (1 + Välillinen kustannus-% / 100) + Yleiskustannus  
+
+### <a name="costing-method-standard"></a>Arvostusmenetelmä Vakio  
+ Järjestelmä syöttää **yksikkökustannus (PVA)** -kentän ostoriville sekä **yksikkökustannus** -kentän nimikepäiväkirjalle kopioimalla arvon nimikekortin **yksikkökustannus** -kentästä. Jos arvostustapa on vakio perustuu kustannus aina vakiokustannukseen.  
+
+ Kun kirjaat oston, ohjelma kopioi yksikkökustannuksen ostoriviltä tai nimikepäiväkirjan riviltä oston nimikelaskutapahtumaan, ja sen voi nähdä nimikkeen tapahtumaluettelossa.  
+
+### <a name="all-costing-methods"></a>Kaikki arvostusmenetelmät  
+ Lähdeasiakirjan rivin yksikkökustannusta käytetään kyseiseen nimiketapahtumaan liittyvän **Kustannussumma todellinen** -kentän (tai tarpeen mukaan **Kustannussumma oletettu** -kentän) sisällön laskennassa huolimatta siitä, mikä nimikkeen arvostusmenetelmä on.  
+
+## <a name="unit-cost-calculation-for-sales"></a>Myyntien yksikkökustannuksen laskenta  
+ Kun myyt nimikkeitä, ohjelma kopioi yksikkökustannuksen nimikekortin Yksikkökustannus-kentästä myyntiriville tai nimikepäiväkirjan riville.  
+
+ Kirjauksen yhteydessä ohjelma kopioi yksikkökustannuksen myyntilaskun nimiketapahtumaan, ja se näkyy nimikkeen tapahtumaluettelossa. [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää lähdeasiakirjan rivin yksikkökustannusta kyseiseen nimiketapahtumaan liittyvän arvotapahtuman **Kustannussumma todellinen** -kentän (tai tarpeen mukaan **Kustannussumma oletettu** -kentän) sisällön laskennassa.  
 
 ## <a name="see-also"></a>Katso myös
-[Varaston hallinta](inventory-manage-inventory.md)  
-[Varaston kustannusten kirjaaminen pääkirjanpitoon](inventory-how-post-inventory-cost-gl.md)  
-[Myynnin hallinta](sales-manage-sales.md)  
-[Ostojen hallinta](purchasing-manage-purchasing.md)
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Myynti](sales-manage-sales.md)  
+[Osto](purchasing-manage-purchasing.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

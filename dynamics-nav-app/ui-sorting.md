@@ -1,30 +1,31 @@
 ---
-title: Lajittelu
+title: "Tietojen järjestäminen lajittelutoiminnolla"
+description: "Saat lajittelutoiminnon avulla yleiskatsauksen tiedoista. Voit esimerkiksi lajitella asiakkaat valuutan koodin mukaan ja saada tällä tavoin esille tietyt asiakkaat."
+documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 18c7932a4916140238c34e05086fa995fcdea1f4
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 02/07/2017
+ms.author: solsen
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: d73f17a026046ecaae0bd451b412d2d58460f74b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-    
 # <a name="sorting"></a>Lajittelu
-Lajittelutoiminnon avulla tietoja on helppo ja nopea tarkastella. Lajiteltu luettelo voidaan tallentaa **Tallenna näkymä nimellä** -toiminnon avulla. Toiminto löytyy valitsemalla sivun otsikko. Jos asiakkaita on useita, voit lajitella heidät esimerkiksi **Asiakasnro**-, **Asiakkaan kirjausryhmä**-, **Valuuttakoodi**-, **Maa-/aluekoodi**- tai **ALV-rekisteröintinro**-kohdan avulla, kun haluat tietyn yleiskuvauksen.
+Lajittelutoiminnon avulla tietoja on helppo ja nopea tarkastella. Jos asiakkaita on useita, saat tarvitsemasi yleiskuvan lajittelemalla heidät esimerkiksi **Asiakasnro**-, **Asiakkaan kirjausryhmä**-, **Valuuttakoodi**-, **Maa-/aluekoodi**- tai **ALV-rekisteröintinro**-kohdan avulla,
 
 Valitse sarakkeen otsikko ja lajittele nousevaan tai laskevaan järjestykseen pienen nuolen avulla.  
 
-**Huomautus**: Lajittelua ei tueta kuvissa, BLOB-kentissä ja FlowFilter-suodattimissa, jotka eivät kuulu taulukkoon.
+> [!NOTE]  
+>   Lajittelua taulukkoon kuulumattomien kuvien, BLOB-kenttien ja FlowFilter-suodattimien lajittelua ei tueta.
 
 ## <a name="see-also"></a>Katso myös
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)  
-[Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)
-
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Suodattimen ehtojen antaminen](ui-enter-criteria-filters.md)
 

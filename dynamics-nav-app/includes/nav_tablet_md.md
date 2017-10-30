@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV Tablet -asiakasohjelma
+Microsoft Dynamics NAV:n taulutietokone-asiakasohjelma

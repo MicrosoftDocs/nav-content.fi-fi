@@ -1,31 +1,34 @@
 ---
-title: "Projektien määrittäminen"
+title: "Projektihintojen ja projektin kirjausryhmien määrittäminen"
+description: "Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 11/01/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: ce9c980caf73a36b3e2c7d07141b096fcff06590
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: project management
+ms.date: 06/06/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 6a1c4c6f6b90d3e721d545f86841472ba3a71388
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
 # <a name="how-to-set-up-jobs"></a>Projektien määrittäminen
 Määritä **Projektienhallinnan asetukset** -ikkunassa projektin tiettyjen toimintojen asetukset.
 
 Määritä yksittäisissä projektikorteissa projektinimikkeiden hinnat, projektin resurssit ja KP-tilit. Määritä myös projektin kirjausryhmät.
 
 ## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
-2. Täytä tarvittavat kentät. Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Huomautus**: **Käytä käyttölinkkiä** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
+> [!NOTE]  
+>   **Käytä käyttölinkkiä** -valintaruutu on varsin monimutkainen. Seuraavassa osassa kerrotaan siitä enemmän.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
 Kun suoritat työtä, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
@@ -34,17 +37,19 @@ Jos valitset **Käytä käyttölinkkiä** -valintaruudun, voit tarkastella tieto
 
 Kun **Käytä käyttölinkkiä** -valintaruutu on valittuna ja projektin suunnittelurivin tyyppi on **Laskutettava**, Financial luo **Budjetti**-tyyppisen projektin suunnittelurivin päiväkirjarivin kirjaamisen jälkeen.
 
-**Huomautus**: Jos projektikortin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Toimintaohje: Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
+> [!NOTE]  
+>   Jos projektikortin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä on tyhjä, **Budjetti**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan rivien kirjaamisen yhteydessä. Jos projektikortin **Käytä käyttölinkkiä** -valintaruutua ei ole valittu ja projektipäiväkirjan rivin **Rivityyppi**-kenttä on tyhjä, uusia projektin suunnittelurivejä ei luoda projektipäiväkirjan rivien kirjaamisen yhteydessä. Lisätietoja on kohdassa [Toimintaohje: Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Käytä käyttölinkkiä** -valintaruutu tai poista sen valinta.
 
-**Huomautus**: Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
+> [!NOTE]  
+>   Voit määrittää yksittäisten projektikorttien **Käytä käyttölinkkiä** -valintaruudulle eri asetukset. Tässä tapauksessa kyseisen projektin asetus korvaa yllä kuvatun yleisen oletusasetuksen.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen  
+## <a name="to-set-up-prices-for-job-resources"></a>Projektin resurssien hintojen määrittäminen
 Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetään **Projektiresurssien hinnat** -ikkunaa.
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Resurssi**-toiminto.
 3. Täytä **Projektiresurssien hinnat** -ikkunassa tarvittavat kentät.
 
@@ -52,12 +57,13 @@ Voit määrittää projektin resursseja varten tietyt hinnat. Tähän käytetä�
 
 Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä resurssi, resurssiryhmään liitetty resurssi tai mikä tahansa resurssi määritetään.  
 
-**Huomautus**: Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta / resurssiryhmän hinnat** -ikkunassa olevat hinnat.
+> [!NOTE]  
+>   Tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta tai Resurssiryhmän hinnat** -ikkunassa olevat hinnat.
 
-## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen  
+## <a name="to-set-up-prices-for-job-items"></a>Projektinimikkeiden hintojen määrittäminen
 Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **Projektinimikkeiden hinnat** -ikkunaa.
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **Nimike**-toiminto.
 3. Täytä **Projektinimikkeiden hinnat** -ikkunassa tarvittavat kentät.
 
@@ -65,12 +71,13 @@ Voit määrittää projektin nimikkeille tietyt hinnat. Tähän käytetään **P
 
 Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä.  
 
-**Huomautus**: Tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.
+> [!NOTE]  
+>   Tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.
 
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen  
+## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Kirjanpitotilin hintojen määrittäminen
 Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projektin kirjanpitotilin hinnat** -ikkunaa.
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektit** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse asianmukainen projekti ja valitse sitten **KP-tili**-toiminto.  
 3. Täytä **Projektin kirjanpitotilin hinnat** -ikkunassa tarvittavat kentät.
 
@@ -78,37 +85,38 @@ Määritä hinnat projektin kirjanpidon kuluille. Tähän käytetään **Projekt
 
 Pääkirjanpidon projektikulujen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjanpitotili syötetään.
 
-## <a name="to-set-up-job-posting-groups"></a>Projektin kirjausryhmien määrittäminen  
+## <a name="to-set-up-job-posting-groups"></a>Projektin kirjausryhmien määrittäminen
 Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaustilejä projektin kustannuslaskentaan käytetään. Projektien kirjaus edellyttää, että määrität kullekin projektin kirjausryhmälle tilit kirjausta varten. Kirjausryhmä edustaa linkkiä työn ja sen kirjanpitokäsittelyn välillä. Kun luot työn, määrität kirjausryhmän ja oletusarvon mukaan jokainen tehtävä, jonka luot työlle, liittyy kyseiseen kirjausryhmään. Voit kuitenkin ohittaa oletusarvon tehtävien luonnin yhteydessä ja valita sopivamman kirjausryhmän.  
 
-**Huomautus**: Tilikartan tarvittavat tilit tulee määrittää ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-setup-chart-accounts.md).  
+> [!NOTE]  
+>   Tarvittavat tilikartat tulee määrittää Tilikartta-taulukossa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Projektin kirjausryhmät** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-|Summakentät|Kuvaus|
-|-------------|-----------|
-|**Koodi**|Anna koodi kirjausryhmää varten. Voit kirjoittaa enintään 10 merkkiä (välilyönnit mukaan lukien).|  
-|**KET-kustannusten tili**|Projektin keskeneräisen työn laskettujen kustannusten KET-tili, joka on käyttöomaisuuden tasetili.|
-|**Kertyneiden KET-kustannusten tili**|Keskeneräisen työn laskennan kustannusarvon tai myyntikustannusmenetelmän tili, joka on taseen kertyneiden kustannusten velkatili. Kirjaus tapahtuu tälle tilille, kun keskeneräisen työn muutos edellyttää tuloslaskelmaan kirjattavien käyttökustannusten lisäystä.|  
-|**Projektin kohdistettujen kustannusten tili**|KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili.|
-|**Nimikkeiden kohdistettujen kustannusten tili**|KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili.|
-|**Resurssien kohdistettujen kustannusten tili**|KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili.|
-|**Kohdistettujen kustannusten tili**|KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili.|
-|**Projektin kustannusten muutostili**|Kertyneiden KET-kustannusten tilin vastatili, joka on kustannustili.|
-|**Kirjanpidon kustannustili (budjetti)**|Tässä kentässä on myyntitili, jota käytetään tämän kirjausryhmän projektitehtävien kirjanpitokustannuksille. Jos kenttä on tyhjä, ohjelma käyttää projektin suunnittelurivillä määritettyä kirjanpitotiliä.|
-|**Kertyneen KET-myynnin tili**|Keskeneräisen työn lasketun myyntiarvon KET-tili, joka on taseen kertyneen tuoton tili. Kirjaus tapahtuu tälle tilille, kun keskeneräisen työn muutos edellyttää tuloutetun tuoton lisäystä.|
-|**Laskutetun KET-myynnin tili**|Keskeneräisen työn sen laskutetun myyntiarvon tili, jota ei voi tulouttaa. Tämä on taseen ansaitsemattoman tuoton tili.|
-|**Projektin myynnin kohdistuksen tili**|Laskutetun KET-myynnin tilin vastatili, joka on tuottotilin vastatili.|
-|**Projektin myynnin muutostili**|KET-myyntitilin vastatili, joka on tuottotili.|
-|**Tuloutettujen kustannusten tili**|Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili.|
-|**Tuloutetun myynnin tili**|Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili.|
+| Summakentät | Kuvaus |
+| --- | --- |
+| **Koodi** |Anna koodi kirjausryhmää varten. Voit kirjoittaa enintään 10 merkkiä (välilyönnit mukaan lukien). |
+| **KET-kustannusten tili** |Projektin keskeneräisen työn laskettujen kustannusten KET-tili, joka on käyttöomaisuuden tasetili. |
+| **Kertyneiden KET-kustannusten tili** |Keskeneräisen työn laskennan kustannusarvon tai myyntikustannusmenetelmän tili, joka on taseen kertyneiden kustannusten velkatili. Kirjaus tapahtuu tälle tilille, kun keskeneräisen työn muutos edellyttää tuloslaskelmaan kirjattavien käyttökustannusten lisäystä. |
+| **Projektin kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
+| **Nimikkeiden kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
+| **Resurssien kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
+| **Kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
+| **Projektin kustannusten muutostili** |Kertyneiden KET-kustannusten tilin vastatili, joka on kustannustili. |
+| **Kirjanpidon kustannustili (budjetti)** |Tässä kentässä on myyntitili, jota käytetään tämän kirjausryhmän projektitehtävien kirjanpitokustannuksille. Jos kenttä on tyhjä, ohjelma käyttää projektin suunnittelurivillä määritettyä kirjanpitotiliä. |
+| **Kertyneen KET-myynnin tili** |Keskeneräisen työn lasketun myyntiarvon KET-tili, joka on taseen kertyneen tuoton tili. Kirjaus tapahtuu tälle tilille, kun keskeneräisen työn muutos edellyttää tuloutetun tuoton lisäystä. |
+| **Laskutetun KET-myynnin tili** |Keskeneräisen työn sen laskutetun myyntiarvon tili, jota ei voi tulouttaa. Tämä on taseen ansaitsemattoman tuoton tili. |
+| **Projektin myynnin kohdistuksen tili** |Laskutetun KET-myynnin tilin vastatili, joka on tuottotilin vastatili. |
+| **Projektin myynnin muutostili** |KET-myyntitilin vastatili, joka on tuottotili. |
+| **Tuloutettujen kustannusten tili** |Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili. |
+| **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. |
 
 ## <a name="see-also"></a>Katso myös
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Projektien hallinta](projects-manage-projects.md)  
-[Rahoitus](finance-setup.md)  
-[Ostojen hallinta](purchasing-manage-purchasing.md)         
-[Myynnin hallinta](sales-manage-sales.md)      
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)  
+[Rahoitus](finance.md)  
+[Osto](purchasing-manage-purchasing.md)         
+[Myynti](sales-manage-sales.md)      
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

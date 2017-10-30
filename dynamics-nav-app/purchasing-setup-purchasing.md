@@ -1,38 +1,40 @@
 ---
-title: "Oston määrittäminen"
+title: "Ostojen määritystehtävien yleiskatsaus"
+description: "Ohjeaiheessa kerrotaan tehtävistä, joilla määritetään yrityksen hallintakäytäntöjä, ja määritetään ostoprosessit."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: b70e775b4fb5fe716279e5f475f7be214f49f65e
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: procurement, supply, vendor order
+ms.date: 03/29/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 46de426a91eb46ec40ce95592ae12e4adda3f9f6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
-# <a name="set-up-purchasing"></a>Oston määrittäminen
+# <a name="setting-up-purchasing"></a>Ostojen määrittäminen
 Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.
 
-Määritä ensin yleiset asetukset. Yleisiin asetuksiin kuuluu esimerkiksi se, mitkä ostoasiakirjat tarvitaan ja kuinka niiden arvot kirjataan. Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.
+Yleiset asetukset on määritettävä. Yleisiä asetuksia ovat esimerkiksi se, mitä ostoasiakirjoja tarvitaan ja miten niiden arvot kirjataan. Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.
 
-Toimittajan perustietojen luomiseen liittyy myös erillinen joukko tehtäviä. Toimittajan alennus- ja hintasopimukset täytyy tallentaa ikkunoihin, jotka on linkitetty toimittajien kortteihin.
+Uusien toimittajien rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin toimittajan mahdolliset erikoishinta- tai alennussopimukset.
 
-Ostojen hallinta -osassa käsitellään kausittaista uusien toimittajien korttien luomistehtävää. Lisätietoja on kohdassa [Toimintaohje: Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md).
+Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia käsitellään Rahoituksen asetukset -osassa. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 
-Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia käsitellään Rahoituksen asetukset -osassa. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-setup-finance-setup.md).
-
-|Toiminta |Katso |
-|---|----|
-|Syötä eri alennuksia ja vaihtoehtoisia hintoja, joita toimittajat myöntävät nimikkeiden, määrien ja/tai päivämäärien perusteella.|[Ostohinnan, alennuksen ja maksusopimusten tallentaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md)|
-|Priorisoi toimittajat.|[Toimittajien priorisointi](purchasing-how-prioritize-vendors.md)|
-|Määritä ostajat.|[Ostajien määrittäminen](purchasing-how-setup-purchasers.md)|
+| Toiminta | Katso |
+| --- | --- |
+| Toimittajan kortin luominen kullekin toimittajalle, jolta ostetaan|[Toimintaohje: Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md) |
+| Toimittajien nimikkeiden, määrien ja/tai päivämäärien perusteella myöntäminen eri alennusten ja erikoishintojen antaminen |[Toimintahinta: Ostohinnan, alennuksen ja maksusopimusten tallentaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Toimittajien priorisointi |[Toimittajien priorisointi](purchasing-how-prioritize-vendors.md) |
+| Ostajien määrittäminen |[Ostajien määrittäminen](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Katso myös
-[Ostojen hallinta](purchasing-manage-purchasing.md)
+[Osto](purchasing-manage-purchasing.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

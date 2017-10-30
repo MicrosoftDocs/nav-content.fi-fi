@@ -1,46 +1,49 @@
 ---
-title: Myyntisaamisten hallinta
+title: "Myyntisaamisten hallintatehtävien yleiskatsaus"
+description: "Ohjeaiheessa kerrotaan tehtävistä, joilla hallitaan myyntisaamisia ja kohdistetaan maksuja asiakas- ja toimittajatapahtumiin."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 3f2be627dfda9720e9f31fd227164d1c27116d2c
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: customer payment, debtor, balance due, AR
+ms.date: 08/10/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: b9a486d099a6a52bec6ac6b23c21a3c341c20b14
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/23/2017
 
 ---
+# <a name="managing-receivables"></a>Myyntisaamisten hallinta
+Säännöllinen vaihe missä tahansa rahoituskierrossa on pankkitilien täsmäyttäminen, mikä edellyttää maksujen kohdistamista asiakas- tai toimittajatapahtumiin, jotta myyntilaskut tai ostohyvityslaskut voidaan sulkea.  
 
-# <a name="manage-receivables"></a>Myyntisaamisten hallinta#
-Myyntisaamisten hallinnan keskeinen tehtävä on kohdistaa saapuvat maksut niihin liittyviin asiakas- tai toimittajatapahtumiin. Tällöin liittyvät myyntilaskut tai ostohyvityslaskut suljetaan maksettuina. Kun kaikki maksut on kohdistettu, pankkitili voidaan täsmäyttää.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi rekisteröidä maksut nopeasti **Maksujen täsmäytyskirjauskansio** -ikkunassa tuomalla pankin tiliotteen tai syötteen. Maksut kohdistetaan avoimiin asiakas- tai toimittajatapahtumiin maksutekstin ja tapahtumatietojen välisen täsmäytyksen perusteella. Voit tarkastella ja muuttaa täsmäytyksiä ennen päiväkirjan kirjaamista sekä sulkea tapahtumien pankkitilitapahtumia päiväkirjaan kirjauksen aikana. Pankkitili täsmäytetään, kun kaikki maksut on kohdistettu.
 
-Voit suorittaa tämän tehtävän **Maksujen täsmäytyskirjauskansio** -ikkunassa tuomalla pankin tiliotteen tai syötteen ja rekisteröimällä maksut nopeasti Dynamics NAV -ohjelmaan. Automaattinen kohdistustoiminto kohdistaa maksut niihin liittyviin avoimiin asiakas- tai toimittajatapahtumiin maksun tekstin ja tapahtuman tietojen välisten tietojen vastaavuuksien perusteella. Voit tarkastella ja muuttaa automaattisia kohdistuksia, ennen kuin kirjaat päiväkirjan. Voit sulkea minkä tahansa kohdistettuun tapahtumakirjaukseen liittyvän avoimen pankkitapahtuman päiväkirjan kirjaamisen yhteydessä. Tämä tarkoittaa sitä, että pankkitili täsmäytetään automaattisesti, kun kaikki maksut on kohdistettu.
+Maksuja voi kuitenkin kohdistaa ja pankkitilejä täsmäyttää myös muualla.  
 
-**Huomautus**: Voit täsmäyttää pankkitilit erillisinä tehtävinä **Pankkitilin täsmäytys** -ikkunassa. Tämä toiminto tukee myös sekkitapahtumia. Lisätietoja on kohdassa [Toimintaohje: Pankkitilien täsmäyttäminen erikseen](bank-how-reconcile-bank-accounts-separately.md).
+* **Pankkitilin täsmäytystilaan** -ikkuna, josta voit myös tarkistaa tapahtumia. Lisätietoja on kohdassa [Toimintaohje: Pankkitilien täsmäyttäminen erikseen](bank-how-reconcile-bank-accounts-separately.md).  
+* Voit kohdistaa ja tarkistaa manuaalisesti **Maksurekisteröinti**-ikkunassa käteisenä, sekkinä tai pankkitapahtumana vastaanotetut maksut maksamattomia myyntiasiakirjoja vastaan. Huomaa, että tämä toiminto on käytettävissä vain myyntiasiakirjoja varten.  
+* **Kassapäiväkirja**-ikkunassa, jossa vastaanotot kirjataan antamalla manuaalisesti maksurivi soveltuvaan pääkirjaan tai soveltuvalle asiakkaalle tai toiselle tilille. Voit kohdistaa vastaanoton tai hyvityksen yhteen avoimeen tapahtumaan tai useisiin avoimiin tapahtumiin, ennen kuin kirjaat kassapäiväkirjan. Voit tehdä kohdistuksen myös asiakastapahtumista.  
 
-Vaihtoehtoisesti voit kohdistaa maksut **Maksurekisteröinti**-ikkunassa tarkistamalla käteisenä, sekkinä tai pankkitapahtumana vastaanotetut maksut manuaalisesti maksamattomia myyntiasiakirjoja vastaan. Huomaa, että tämä toiminto on käytettävissä vain myyntiasiakirjoja varten.
+Toinen osa myyntisaamisten hallintaa on kerätä avoimet saldot, kuten viivästyskulut, ja lähettää muistutuksia. [!INCLUDE[d365fin](includes/d365fin_md.md)]issa nämä toimet voi tehdä erilaisilla tavoilla. Lisätietoja on kohdassa [Toimintaohje: Avointen saldojen perintä](receivables-collect-outstanding-balances.md).  
 
-Toinen maksujen manuaalinen täsmäytystapa on kirjata jokainen vastaanotto asianmukaiseen pääkirjaan tai asianmukaiselle asiakkaalle tai toiselle tilille syöttämällä maksurivi **Kassapäiväkirja**-ikkunaan. Tällöin voit kohdistaa vastaanoton tai hyvityksen yhteen avoimeen tapahtumaan tai useisiin avoimiin tapahtumiin, ennen kuin kirjaat kassapäiväkirjan. Voit myös tehdä kohdistuksen luoduista asiakastapahtumista.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
 
-Toinen myyntisaamisten hallinnan tehtävä on kerätä avoimet saldot. Siihen kuuluu esimerkiksi rahoituksen käyttöönottokulujen hallinta ja muistutusten lähettäminen.
-
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
-
-|Toiminta |Katso |
-|---|----|
-|Kohdista maksut avoimiin asiakas- tai toimittajatapahtumiin tuodun pankin tiliotetiedoston tai syötteen perusteella. Täsmäytä pankkitili sitten, kun kaikki maksut on kohdistettu.|[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)|
-|Kohdista maksut avoimiin asiakasmaksuihin maksamattomien myyntiasiakirjojen luettelon manuaalisen tapahtuman perusteella. | [Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)|
-|Kirjaa asiakkaiden kassaanmaksut tai hyvitykset kassapäiväkirjaan ja kohdista asiakastapahtumat päiväkirjasta tai kirjatuista tapahtumakirjauksista. | [Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti](receivables-how-apply-sales-transactions-manually.md) |
-|Asiakkaiden muistuttaminen erääntyneistä summista, koron laskeminen ja rahoituksen käyttöönottokulut sekä myyntireskontran hallinta. | [Toimintaohje: Avointen saldojen perintä](receivables-collect-outstanding-balances.md) |
-
+| Toiminta | Katso |
+| --- | --- |
+| Kohdista maksut avoimiin asiakas- tai toimittajatapahtumiin tuodun pankin tiliotetiedoston tai syötteen perusteella. Täsmäytä pankkitili sitten, kun kaikki maksut on kohdistettu. |[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Kohdista maksut avoimiin asiakasmaksuihin maksamattomien myyntiasiakirjojen luettelon manuaalisen tapahtuman perusteella. |[Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
+| Kirjaa asiakkaiden kassaanmaksut tai hyvitykset kassapäiväkirjaan ja kohdista asiakastapahtumat päiväkirjasta tai kirjatuista tapahtumakirjauksista. |[Toimintaohje: Asiakkaan maksujen täsmäyttäminen manuaalisesti](receivables-how-apply-sales-transactions-manually.md) |
+| Asiakkaiden muistuttaminen erääntyneistä summista, koron laskeminen ja viivästyskululaskut sekä myyntireskontran hallinta. |[Toimintaohje: Avointen saldojen perintä](receivables-collect-outstanding-balances.md) |
+|Varmista. että tiedät toimitettujen nimikkeiden kulut määrittämällä lisätyt nimikekulut, kuten nimikkeiden myynnin jälkeen syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Toimintaohje: Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
+|Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Toimintaohje: Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## <a name="see-also"></a>Katso myös
-[Myynnin hallinta](sales-manage-sales.md)  
+[Myynti](sales-manage-sales.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)  
-[Liiketoiminta-alueiden välillä](ui-across-business-areas.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

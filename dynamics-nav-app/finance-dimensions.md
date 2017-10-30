@@ -1,40 +1,112 @@
 ---
-title: Dimensiot
-author: edupont04
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+title: "Dimensioiden käyttäminen"
+description: "Voit käyttää dimensioita tapahtumien luokitteluun esimerkiksi osasto- tai projektikohtaisesti, jonka ansiosta tietojen seuranta ja analysointi helpottuu."
+documentationcenter: 
+author: bholtorf
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: a1b38e74717e87bea6efb46f8f4e5236b6ec4e64
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: analysis, history, track
+ms.date: 06/14/2017
+ms.author: bholtorf
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: f312a30686566cc5bf123b473c0d2b93d0fadd89
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="working-with-dimensions"></a>Dimensioiden käyttäminen
+Voit yksinkertaistaa asiakirjojen, kuten myyntitilausten, analysointia dimensioiden avulla. Dimensiot ovat tapahtumia luokittelevia määritteitä ja arvoja, joita voi seurata ja analysoida. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
 
-#<a name="dimensions"></a>Dimensiot
-Dimensiot ovat tapahtumiin lisättäviä tietoja, joiden avulla tapahtumat luokitellaan analysointia varten. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.
-Tämän jälkeen voit käyttää dimensioita, jolloin sinun ei tarvitse määrittää erillisiä kirjanpitotilejä kullekin osastolle ja projektille. Näin saat monipuolisia analyysitietoja ilman monimutkaista tilikarttaa.
-Voit määrittää rajoittamattoman määrän dimensioita ja dimension arvoja.  
+Jos käytät dimensioita, sinun ei esimerkiksi tarvitse määrittää erillisiä kirjanpitotilejä kullekin osastolle ja projektille. Tämä mahdollistaa monipuolinen analysoinnin ilman monimutkaisen tilikartan luontia. Lisätietoja on ohjeaiheessa [Business Intelligence](bi.md).
 
-Voit esimerkiksi määrittää dimension nimeltä *Osasto* ja käyttää tätä dimensiota ja sen arvoa myyntiasiakirjojen kirjaamisen yhteydessä. Myöhemmin voit hakea esimerkiksi liiketoimintatietoja myydyistä nimikkeistä osastoittain.
-Mitä useampia dimensioita määrität ja käytät, sitä yksityiskohtaisempia raportteja voit käyttää liiketoimintapäätösten apuna. Yhdessä myyntitapahtumassa voi esimerkiksi olla monipuolisesti dimensiotietoja siitä, mille tilille nimikkeen myynti on kirjattu, missä nimike myytiin, kuka sen möi, ja minkälainen asiakas teki oston.  
+Voit myös esimerkiksi määrittää *Osasto*-nimisen dimension ja käyttää sitä myyntiasiakirjojen kirjaamisen yhteydessä. Voit sitten käyttää BI-työkaluja, jos haluat selvittää, mitä nimikkeitä kukin osasto myy.
+Mitä useampia dimensioita käytät, sitä yksityiskohtaisempia raportteja voit käyttää liiketoimintapäätösten apuna. Yksittäisessä myyntitapahtumassa voi esimerkiksi olla useita dimensiotietoja, kuten  
 
-## <a name="using-dimensions"></a>Dimensioiden käyttäminen
-Voit lisätä asiakirjaan, kuten esimerkiksi myyntitilaukseen, dimension tiedot sekä yksittäiseen asiakirjariviin että itse asiakirjaan. Esimerkiksi **Myyntitilaus**-ikkunassa voit syöttää dimension arvot kahdelle ensimmäiselle pikadimensiolle suoraan asiakirjassa. Voit lisätä lisää dimension tietoja valitsemalla **Dimensiot**-painikkeen.  
-Jos käsittelyssä sen sijaan on päiväkirja, voit lisätä dimension tietoja tapahtumaan samalla tavalla, jos olet määrittänyt pikadimensiot kentiksi suoraan päiväkirjan riveille.  
-Voit määrittää tileille tai tilityypeille oletusdimensioita, jolloin dimensiot tai dimensioiden arvot täytetään automaattisesti.  
+* tili, jolle nimikkeen myynti on kirjattu  
+* nimikkeen myyntipaikka
+* nimikkeen myyjä
+* nimikkeen ostaneen asiakkaan tyyppi.  
+
+## <a name="analyzing-by-dimensions"></a>Analyysi dimensioittain
+Dimensiotoiminnot ovat tärkeä osa liiketoimintatietoja esimerkiksi analyysinäkymiä määritettäessä. Lisätietoja on kohdassa [Toimintaohje: tietojen analysointi dimensioittain](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> Tapahtumatietoja voi analysoida nopeasti dimensioiden mukaan suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-ikkunoiden tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.
 
 ## <a name="dimension-sets"></a>Dimensioyhdistelmät
 Dimensioyhdistelmä on dimensioarvojen yksilöllinen yhdistelmä. Se tallennetaan dimensioyhdistelmän tapahtumiksi tietokantaan. Kukin dimensioyhdistelmän tapahtuma edustaa yksittäistä dimensioarvoa. Dimensioyhdistelmä tunnistetaan yhteisellä dimensioyhdistelmän tunnuksella, joka määritetään jokaiselle yhdistelmään kuuluvalle tapahtumalle.  
 
-Kun luot uuden päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit määrittää dimensioarvojen yhdistelmän. Sen sijaan, että tallentaisit jokaisen dimensioarvon erikseen tietokantaan, dimensioyhdistelmä määritetään päiväkirjan rivillä, asiakirjaotsikossa tai asiakirjan rivillä dimensioyhdistelmän tunnuksen avulla.  
+Kun luot päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit määrittää dimensioarvojen yhdistelmän. Sen sijaan, että tallentaisit jokaisen dimensioarvon erikseen tietokantaan, dimensioyhdistelmä määritetään päiväkirjan rivillä, asiakirjaotsikossa tai asiakirjan rivillä dimensioyhdistelmän tunnuksen avulla.  
+
+## <a name="setting-up-dimensions"></a>Dimensioiden luominen
+Voit määrittää päiväkirjojen ja asiakirjojen, kuten myynti- ja ostotilausten, luokitteluun käytettävät dimensiot ja dimension arvot. Dimensiot määritetään **Dimensiot**-ikkunassa, jossa kullekin dimensiolle luodaan yksi rivi. Dimensioita ovat esimerkiksi *Projekti*, *Osasto*, *Alue* ja *Myyjä*.
+
+Voit määrittää myös arvoja dimensioille. Arvot voivat olla esimerkiksi yrityksen osastoja. Dimension arvot voi määrittää tilikartan kaltaisessa hierarkkisessa rakenteessa, jossa tiedot voi jakaa rakeisuustason mukaan ja jossa dimension arvojen osajoukoista voi laskea summat. Voit määrittää tarvitsemasi määrän dimensiota ja dimension arvoja, ja ne ovat yrityksessä kaikkien käytössä.
+
+Voit määrittää myös joitakin globaaleja dimensioita ja pikadimensioita:  
+
+* **Globaaleja dimensioita** käytetään suodattimina esimerkiksi raporteissa ja erätöissä. Käytössä on vain kaksi globaalia dimensiota, joten valitse usein käytetyt dimensiot.
+* **Pikadimensiot** ovat käytössä kenttinä päiväkirjan ja asiakirjan riveillä. Voit luoda niitä enintään kuusi.  
+
+### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Oletusdimensioiden määrittäminen asiakkaille, toimittajille ja muille tileille
+Voit määrittää oletusdimension tietylle tilille. Dimensio kopioidaan päiväkirjaan tai asiakirjaan, kun lisäät tilinumeron riville, mutta voit tarvittaessa poistaa koodin rivillä tai muuttaa sitä. Voit määrittää myös dimension, jota tarvitaan tietyn tyyppisen tilitapahtuman kirjaamiseen.  
+
+### <a name="translating-the-names-of-dimensions"></a>Dimensioiden nimien kääntäminen
+Dimensiota ja etenkin pikadimensiota luotaessa luodaan itse asiassa mukautettu kenttä tai sarakeotsikko. Jos kyse on kansainvälisestä yrityksestä, voit kääntää dimension nimen. Dimension sisältävät asiakirjat käyttävät tarvittaessa käännettyä nimeä.   
+
+### <a name="example-of-dimension-setup"></a>Esimerkki dimension asetuksista
+Oletetaan, että yritys haluaa seurata tapahtumia organisaatiorakenteen ja maantieteellisen sijainnin perusteella. Määrität tätä tarkoitusta varten kaksi dimensiota **Dimensiot**-ikkunassa:
+
+* **ALUE**  
+* **OSASTO**  
+
+| koodi | Name | Koodin otsikko | Suodattimen otsikko |
+| --- | --- | --- | --- |
+| ALUE |Alue |Aluekoodi |Aluesuodatus |
+| OSASTO |Osaston |Osaston koodi |Osastosuodatus |
+
+Lisää **ALUE**-koodiin seuraavat dimension arvot:
+
+| koodi | Name | Dimension arvotyyppi |
+| --- | --- | --- |
+| 10 |Pohjois- ja Etelä-Amerikka |Alkusumma |
+| 20 |Pohjois-Amerikka |Vakio |
+| 30 |Tyynimeri |Vakio |
+| 40 |Etelä-Amerikka |Vakio |
+| 50 |Pohjois- ja Etelä-Amerikka, yhteensä |Loppusumma |
+| 60 |Eurooppa |Alkusumma |
+| 70 |EU |Vakio |
+| 80 |Muu kuin EU |Vakio |
+| 90 |Eurooppa, Yhteensä |Loppusumma |
+
+Voit lisätä kahteen päätason maantieteelliseen alueeseen, Pohjois- ja Etelä-Amerikkaan sekä Eurooppaan, alueellisia alaluokkia alueiden sisentämällä dimension arvot. Tällä tavoin voit raportoida aluekohtaisen myynnin tai kulut ja saada kokonaissumman suurille maantieteellisille alueille. Olisit voinut käyttää dimension arvoina myös maita tai alueita – tai maakuntia tai paikkakuntia sen mukaan, mikä on liiketoiminnan kannalta järkevintä.  
+> [!NOTE]  
+>   Hierarkian määrittämistä varten koodien on oltava aakkosjärjestyksessä. Myös [!INCLUDE[d365fin](includes/d365fin_md.md)]iin sisältyvät dimension arvojen koodit on otettava tässä huomioon.  
+
+Lisää **OSASTO**-koodiin seuraavat dimension arvot:
+
+| koodi | Name | Dimension arvotyyppi |
+| --- | --- | --- |
+| HALLINTA |Hallinta |Vakio |
+| TUOT |Tuotanto |Vakio |
+| MYYNTI |Myynti |Vakio |
+
+Näillä asetuksilla voit sitten lisätä kaksi dimensiota kahtena globaalina dimensiona **Pääkirjanpidon asetukset** -ikkunassa. Niinpä voit käyttää ALUE- ja OSASTO-koodeja pääkirjanpidon tapahtumien suodattamina sekä kaikissa raporteissa ja eräajoissa. Molemmat globaalit dimensiot ovat myös automaattisesti käytettävissä pikadimensioina tapahtumariveillä ja asiakirjojen otsikoissa.  
+
+## <a name="using-dimensions"></a>Dimensioiden käyttäminen
+Voit lisätä asiakirjaan, kuten esimerkiksi myyntitilaukseen, dimension tiedot sekä yksittäiseen asiakirjariviin että itse asiakirjaan. Voit antaa esimerkiksi **Myyntitilaus**-ikkunassa kahden ensimmäisen pikadimension dimension arvot yksittäisillä myyntiriveillä. Voit myös lisätä lisää dimension tietoja valitsemalla **Dimensiot**-painikkeen.  
+
+Jos käsittelet sen sijaan päiväkirjaa, voit lisätä dimension tietoja tapahtumaan samalla tavalla, jos olet määrittänyt pikadimensiot kentiksi suoraan päiväkirjan riveille.  
+
+Voit määrittää tileille tai tilityypeille oletusdimensioita, jolloin dimensiot tai dimensioiden arvot täytetään automaattisesti.
 
 ## <a name="see-also"></a>Katso myös
-[Rahoitus](finance-setup.md)  
-[Dimensioiden määrittäminen](finance-setup-setup-dimensions.md)  
+[Business Intelligence](bi.md)  
+[Rahoitus](finance.md)  
+[Analysoi tiedot dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 

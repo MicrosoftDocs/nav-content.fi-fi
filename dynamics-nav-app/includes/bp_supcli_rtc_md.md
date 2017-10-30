@@ -1,1 +1,1 @@
-Vain Microsoft Dynamics NAV -Windows-asiakas
+Ainoastaan Microsoft Dynamics NAV Windows -asiakasohjelma

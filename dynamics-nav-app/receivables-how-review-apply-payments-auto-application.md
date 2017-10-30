@@ -1,38 +1,44 @@
 ---
-title: "Toimintaohje: Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen"
+title: Automaattisesti kohdistettujen maksujen tarkistaminen ja maksujen kohdistaminen uudelleen manuaalisesti
+description: Kun maksut on kohdistettu automaattisesti, voit tarkastella maksun kaikkia tapahtumia ja kohdistaa manuaalisesti uudelleen virheellisesti kohdistetut maksut.
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 556a0f74a7407d247008e2d74420803123056eff
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
+ms.date: 03/29/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 336dd02d1f29e5f80209961eae164a6faeaf65bc
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Toimintaohje: Maksujen tarkasteleminen tai kohdistaminen automaattisen kohdistuksen jälkeen
 Voit avata kullekin maksua esittävälle päiväkirjan riville **Maksujen täsmäytyskirjauskansio** -ikkunassa **Maksun kohdistus** -ikkunan ja tarkastella kaikkia mahdollisia avoimia maksuja ja yksityiskohtaisia tietoja merkintöjen täsmäytyksestä, joihin maksujen kohdistus perustuu. Tässä voit kohdistaa maksuja manuaalisesti tai kohdistaa uudelleen maksuja, joka kohdistettiin automaattisesti väärään merkintään. Lisätietoja automaattisesta kohdistuksesta on kohdassa [Toimintaohje: Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
-**Tärkeää**: Kun täsmäytettävien maksujen pankkitili on määritetty käyttämään paikallista valuuttaa, **Maksun kohdistus** -ikkunassa näkyvät kaikki avoimet tapahtumat paikallisena valuuttana, mukaan lukien niiden asiakirjojen avoimet tapahtumat, jotka alun perin laskutettiin ulkomaan valuutassa. Maksut, jotka on kohdistettu tapahtumiin muunnetuilla valuutoilla voidaan tämän vuoksi kirjata eri summilla kuin alkuperäinen asiakirja, koska pankki ja Dynamics NAV käyttävät eri vaihtokursseja.
+> [!IMPORTANT]  
+>   Kun täsmäytettävien maksujen pankkitili on määritetty käyttämään paikallista valuuttaa, kaikki avoimet tapahtumat näkyvät **Maksun kohdistus** -ikkunassa paikallisena valuuttana, mukaan lukien niiden asiakirjojen avoimet tapahtumat, jotka alun perin laskutettiin ulkomaan valuuttana. Maksut, jotka on kohdistettu tapahtumiin muunnetuilla valuutoilla, voidaan tämän vuoksi kirjata eri summilla kuin alkuperäinen asiakirja, koska pankki ja [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttävät eri vaihtokursseja.
 
-Siksi on suositeltavaa etsiä ulkomaan valuuttakoodit **Valuuttakoodi**-kentästä **Maksun kohdistus** -ikkunasta ja tarkistaa perustuvatko kohdistukset muunnettuihin valuuttoihin. Voit tarkastaa alkuperäisen asiakirjan summan ulkomaan valuutassa ja tarkastella vaihtokurssia valitsemalla **Kohdistetaan tap. nroon** -kentän ja valitsemalla sitten pikavalikosta siirtymispainikkeen ja avaamalla **Asiakastapahtumat**- tai **Toimittajatapahtumat**-ikkunan.
+Siksi on suositeltavaa etsiä ulkomaan valuuttakoodit **Valuuttakoodi**-kentästä **Maksun kohdistus** -ikkunasta ja tarkistaa perustuvatko kohdistukset muunnettuihin valuuttoihin. Voit tarkastaa alkuperäisen asiakirjan summan ulkomaan valuuttana ja tarkastella vaihtokurssia valitsemalla **Kohdistetaan tap. nroon** -kentän ja valitsemalla sitten pikavalikossa porautumispainikkeen, joka avaa **Asiakastapahtumat**- tai **Toimittajatapahtumat**-ikkunan.
 
-Dynamics NAV ei käsittele automaattisesti mitään valuutan muunnosten edellyttämiä voiton ja tappion mukautuksia.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ei käsittele automaattisesti mitään valuutan muunnosten edellyttämiä voiton ja tappion mukautuksia.
 
-**Huomautus**: Tapahtumia, joissa on eri etumerkki kuin maksussa, ei voi käyttää. Esimerkiksi, suljettaessa sekä negatiivinen hyvityslasku että sitä vastaava positiivinen lasku on ensin liitettävä hyvityslasku laskuun ja sitten liitettävä maksu laskuun, joka sisältää jäljelle jääneen loppusumman.
+> [!NOTE]  
+>   Tapahtumia, joissa on eri etumerkki kuin maksussa, ei voi käyttää. Esimerkiksi, suljettaessa sekä negatiivinen hyvityslasku että sitä vastaava positiivinen lasku on ensin liitettävä hyvityslasku laskuun ja sitten liitettävä maksu laskuun, joka sisältää jäljelle jääneen loppusumman.
 
-**Varoitus**: Jos käytät maksualennuksia ja jos maksupäivämäärä on ennen maksun eräpäivää, **Jäljellä oleva summa sis. alennuksen** -kenttää **Maksukohdistus**-ikkunassa käytetään kohdistukseen. Muussa tapauksessa käytetään **Jäljellä oleva summa** -kentän arvoa. Jos maksu on suoritettu jäljellä olevalla määrällä maksun eräpäivän jälkeen tai koko summa on maksettu, mutta alennus on myönnetty, summa ei täsmää.
+> [!WARNING]  
+>   Jos käytät maksualennuksia ja jos maksupäivämäärä on ennen maksun eräpäivää, **Maksukohdistus**-ikkunan **Jäljellä oleva summa sis. alennuksen** -kenttää käytetään kohdistukseen. Muussa tapauksessa käytetään **Jäljellä oleva summa** -kentän arvoa. Jos maksu on suoritettu jäljellä olevalla määrällä maksun eräpäivän jälkeen tai koko summa on maksettu, mutta alennus on myönnetty, summa ei täsmää.
 
-**Huomautus**: Maksun voi kohdistaa vain yhteen tiliin. Jos haluat jakaa kohdistuksen useisiin avoimiin tapahtumiin, esimerkiksi kertasuorituksen käyttämiseksi, avointen tapahtumien on oltava samalle tilille. Lisätietoja on tämän ohjeaiheen menettelytavan vaiheiden 7 ja 8 mukaisesti.
+> [!NOTE]  
+>   Voit nyt kohdistaa maksun yhteen tiliin. Jos haluat jakaa kohdistuksen useisiin avoimiin tapahtumiin, esimerkiksi kertasuorituksen käyttämiseksi, avointen tapahtumien on oltava samalle tilille. Lisätietoja on tämän ohjeaiheen menettelytavan vaiheiden 7 ja 8 mukaisesti.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Maksujen tarkastelu tai käyttäminen automaattisen kohdistuksen jälkeen
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksujen täsmäytyskirjauskansio** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen pankkitilin maksun täsmäytyspäiväkirja jolle haluat täsmäyttää maksut. Lisätietoja on kohdassa [Toimintaohje: Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 3. Valitse **Maksujen täsmäytyskirjauskansio** -ikkunassa maksu, jonka haluat tarkistaa tai kohdistaa manuaalisesti yhteen tapahtumaan tai useisiin tapahtumiin. Valitse sitten **Kohdista manuaalisesti** -toiminto.
 4. Valitse **Kohdistettu**-valintaruutu sen avoimen tapahtuman rivillä johon haluat käyttää maksua.
@@ -46,5 +52,6 @@ Dynamics NAV ei käsittele automaattisesti mitään valuutan muunnosten edellytt
 
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[Myynnin hallinta](sales-manage-sales.md)
+[Myynti](sales-manage-sales.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

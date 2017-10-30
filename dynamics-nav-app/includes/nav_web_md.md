@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -Web-asiakas
+Microsoft Dynamics NAV:n WWW-asiakasohjelma

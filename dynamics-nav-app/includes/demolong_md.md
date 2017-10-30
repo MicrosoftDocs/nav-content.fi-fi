@@ -1,1 +1,1 @@
-CRONUS Finland Oy esittelytietokanta
+Asenna CRONUS Finland Oy -demotietokanta.

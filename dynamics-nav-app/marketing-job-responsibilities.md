@@ -1,32 +1,35 @@
 ---
-title: "Kontaktihenkilöiden vastuualueiden määrittäminen"
+title: "Vastuualueiden määrittäminen kontakteille"
+description: "Voit määrittää vastuualueen koodin ja määrittää sen sitten kontaktille ilmaisemaan tehtävät, joista kontakti vastaa omassa yrityksessään. Vastuualueena voi olla esimerkiksi IT tai tuotanto."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: f2c5fc024cc09aaa6b2478a652127463d563088d
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: task, to-do, relationship, prospect
+ms.date: 06/06/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 7d4481226772b902eeb1b526a291adff70372908
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="set-up-job-responsibilities-for-contact-persons"></a>Kontaktihenkilöiden vastuualueiden määrittäminen
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Toimintaohje: Kontaktihenkilöiden vastuualueiden määrittäminen
 Voit lisätä kontaktihenkilöiden vastuualueiden tietoja, kun haluat osoittaa, mistä kontaktihenkilö vastaa yrityksessä (esimerkiksi IT, hallinto tai tuotanto). Voit käyttää näitä tietoja kontaktien tietojen syöttämisessä.
 
 Kontaktien vastuualueiden käyttäminen on kaksivaiheinen prosessi. Ensin määritetään vastuualueen koodi. Tämä vaihe suoritetaan vain kerran jokaiselle vastuualueelle. Kun vastuualueen koodi on määritetty, voit aloittaa koodin liittämisen kontaktihenkilöille.
 
-## <a name="define-a-job-responsibility-code"></a>Vastuualueen koodin määrittäminen
+## <a name="to-define-a-job-responsibility-code"></a>vastuualueen koodin määrittäminen
 Vastuualueen koodi määrittää työn tyypin tai luokan. Se voi olla esimerkiksi MARKKINOINTI tai OSTO. Vastuualueen koodeja voi olla useita. Voit määrittää vastuualueen **Vastuualueet**-ikkunassa.
 
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Vastuualueet** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Vastuualueet** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Uusi**-toiminto. Täytä sitten koodi ja kuvaus. Koodi voi olla enintään 11 merkkiä pitkä. Se voi sisältää numeroita ja kirjaimia.
 
-## <a name="assign-job-responsibilities-to-a-contact-person"></a>Vastuualueiden liittäminen kontaktihenkilöihin
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>vastuualueiden määrittäminen kontaktihenkilöihin
 Et voi liittää vastuualueita kontaktiyrityksiin.
 
 1. Avaa yhteyshenkilö.
@@ -39,7 +42,8 @@ Kontaktille liittämiesi vastuualueiden lukumäärä näkyy **Yhteyshenkilö**-i
 
 Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Toimintaohje: Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
-##<a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Kontaktihenkilöiden luominen](marketing-create-contact-persons.md)  
-[Kontaktiyritysten luominen](marketing-create-contact-companies.md)
+[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
+[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
 

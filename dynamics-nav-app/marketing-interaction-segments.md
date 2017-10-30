@@ -1,21 +1,24 @@
 ---
-title: Vuorovaikutukset ja segmentit
+title: Segmenttien ja liittyvien vuorovaikutusten seuranta
+description: "Saat lisätietoja kontaktiryhmien määrittämisestä segmenttejä luomalla ja segmenttien vuorovaikutusten määrittämisestä."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: c66dff69fa31458e94f7de5fa4b524656141a5f6
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 06/06/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: b4fb4abfdfe69856d0e26e20d30f3adcaf2fd665
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="interactions-and-segments"></a>Vuorovaikutukset ja segmentit
+# <a name="managing-interactions-for-segments"></a>Segmenttien vuorovaikutusten hallinta
 **Segmentti**-ikkuna on tietynlainen työkirja, jossa voit
 
 * luoda segmenttejä
@@ -40,12 +43,12 @@ Kun valitset **Segmentti**-ikkunassa **Loki**, sovellus tallentaa yhteydenpidot 
 
 **Lokiin kirjatut segmentit** -ikkunassa voit päättää luoda seurantasegmentin, joka sisältää samat kontaktit kuin lokiin kirjattu segmentti.
 
-
-##<a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Segmenttien luominen](marketing-how-create-segment.md)  
 [Vuorovaikutusten luominen segmenteille](marketing-how-create-interactions.md)  
 [Segmenttien hallinta](marketing-segments.md)  
 [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Kontaktien luominen ja hallinta](marketing-contacts.md)
+[Kontaktien luonti ja hallinta](marketing-contacts.md)  
+[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
 

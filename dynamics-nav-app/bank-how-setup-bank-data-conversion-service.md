@@ -1,67 +1,68 @@
 ---
-title: "Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen"
+title: "Pankkitietojen muuntopalvelun määrittäminen"
+description: "Voit määrittää pankkitilien tapahtumia seurattavaksi sekä tuoda tai viedä pankkisyötteitä."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 801e2abee52ec9804028a797e4f330b5e080549a
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
+ms.date: 06/02/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: d0ee64e4b1426d6ce9d8b8052919e4afcae326d5
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen
-Voit viedä maksurivit **Maksupäiväkirja**-ikkunasta tietovirtaan, joka ladataan pankkiin automaattista käsittelyä varten. Sähköisiä maksuja ei siis tarvitse tehdä yksitellen. Lisätietoja on kohdassa [Toimintaohje: Maksujen vieminen pankkitiedostoon](payables-how-export-payments-bank-file.md).
+Yleiset palvelut on yhdistetty [!INCLUDE[d365fin](includes/d365fin_md.md)]iin ja valmis otettavaksi käyttöön. Sen avulla maksutiedot muunnetaan mihin tahansa pankkisi vaatimaan tietomuotoon. Tätä kutsutaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa pankkitietojen muuntopalveluksi.
 
-Yleiset palvelut on yhdistetty Dynamics NAV -ohjelmaan ja valmis käyttöä varten. Sen avulla maksutiedot muunnetaan mihin tahansa pankkisi vaatimaan tietomuotoon.
+Voit viedä maksurivit **Maksupäiväkirja**-ikkunasta tiedostoon tai tietovirtaan, joka ladataan pankkiin automaattista käsittelyä varten. Sähköisiä maksuja ei siis tarvitse tehdä yksitellen. Lisätietoja on kohdassa [Toimintaohje: Maksujen vieminen pankkitiedostoon](payables-how-export-payments-bank-file.md).
 
-Envestnetin pankkitietojen syötepalvelun lisäksi voit käyttää myös pankkitietojen muuntopalvelua, kun haluat muuntaa pankista saamasi tiliotetiedoston tietovirraksi, jonka voit tämän jälkeen tuoda Dynamics NAV -ohjelmaan. Lisätietoja on kohdassa [Toimintaohje: Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Voit tuoda tiliotetiedostot **Maksujen täsmäytyskirjauskansio** -ikkunaan muuntamalla pankin lähettämän tiedoston pankkitietojen muuntopalvelussa tietovirraksi, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] voi tuoda. Lisätietoja on kohdassa [Toimintaohje: Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-**Huomautus**: Pankkitietojen muuntopalvelu saattaa rajoittaa rivimäärää, joka voidaan viedä yhdessä tiedostossa. Näyttöön tulee virhesanoma, jos raja ylitetään. On suositeltavaa, että tiliotetiedostot sisältävät enintään 1 000 riviä, koska pankkitietojen muuntopalvelun käsittelyaika saattaa muuten kasvaa merkittävästi.
+Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili ja toimittajien pankkitilit. Lisätietoja on kohdassa [Toimintaohje: Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
+
+> [!NOTE]  
+>   Pankkitietojen muuntopalvelu saattaa rajoittaa rivimäärää, joka voidaan viedä yhdessä tiedostossa. Näyttöön tulee virhesanoma, jos raja ylitetään. On suositeltavaa, että tiliotetiedostot sisältävät enintään 1 000 riviä, koska pankkitietojen muuntopalvelun käsittelyaika saattaa muuten kasvaa merkittävästi.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Yrityksen määrittäminen pankkitietojen muuntopalvelun käyttäjäksi
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.  
 2. **Pankkitiet. muuntopalvelun asetukset** -ikkuna avautuu ja siinä on kolme esitäytettyä kenttää sisältäen pankkitietojen muuntopalvelun tarjoajan asiaankuuluvat URL-osoitteet.
 
-    **Huomautus**: CRONUS Finland Oy -esittelytietokannan Käyttäjänimi- ja Salasana-kenttä esitäytetään kirjautumisen esittelytiedoilla, jotka vaihdat yrityksen todellisiksi tiedoiksi, kun rekisteröidyt pankkitietojen muunnospalveluun.
+    > [!NOTE]  
+>   CRONUS Finland Oy -esittelytietokannassa Käyttäjänimi- ja Salasana-kenttä esitäytetään kirjautumisen esittelytiedoilla, jotka vaihdat yrityksen todellisiksi tiedoiksi, kun rekisteröidyt pankkitietojen muunnospalveluun.
 3. Valitse **Rekisteröitymisen URL-osoite** -kentässä selaimen painike palveluntarjoajan rekisteröitymissivun avaamiseksi.  
 4. Kirjoita pankkitietojen palvelujen tarjoajan rekisteröitymissivu, kirjoita yrityksesi rekisteröitymistä vastaava käyttäjänimi ja salasana ja suorita rekisteröitymisprosessi palveluntarjoajan ohjeiden mukaisesti.
 
-    Yrityksesi on nyt rekisteröitynyt pankkitietojen muuntopalveluun. Jatka kirjoittamalla käyttäjänimi ja salasana, jotka olet määrittänyt palvelulle vastaavissa Dynamics NAV -ohjelman asetuskentissä.
+    Yrityksesi on nyt rekisteröitynyt pankkitietojen muuntopalveluun. Jatka antamalla käyttäjänimi ja salasana, jotka olet määrittänyt palvelulle vastaavissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in määrityskentissä.
 5. Kirjoita **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Käyttäjänimi**-kenttään sama arvo, jonka kirjoitit kirjautumisnimeksi palveluntarjoajan sivulla vaiheessa 4.
 6. Kirjoita **Salasana**-kenttään sama arvo, jonka kirjoitit **Salasana**-kenttään palveluntarjoajan sivulla vaiheessa 4.
 
 ## <a name="to-encrypt-your-login-information"></a>Kirjautumistietojen salaaminen
-Suosittelemme, että suojaat **Pankkitiet. muuntopalvelun asetukset** -ikkunaan kirjoittamasi kirjautumistiedot. Dynamics NAV -palvelimen tiedot voi salata luomalla uusia salausavaimia tai tuomalla olemassa olevia salausavaimia, jotka otetaan käyttöön tietokantayhteyden muodostavassa Dynamics NAV -palvelimessa.
+Suosittelemme, että suojaat **Pankkitiet. muuntopalvelun asetukset** -ikkunaan kirjoittamasi kirjautumistiedot. [!INCLUDE[d365fin](includes/d365fin_md.md)] -palvelimen tiedot voi salata luomalla uusia salausavaimia tai tuomalla aiemmin luotuja salausavaimia, jotka otetaan käyttöön tietokantayhteyden muodostavassa [!INCLUDE[d365fin](includes/d365fin_md.md)] -palvelininstanssissa.
 
 1. Valitse **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Salauksen hallinta** -toiminto.
 2. Ota tietojen salaus käyttöön **Tietojen salauksen hallinta** -ikkunassa.
 
-##<a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Tällä hetkellä tuettujen pankin tietomuotojen luettelon tarkastelu tai päivitys
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.
+## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Tällä hetkellä tuettujen pankin tietomuotojen luettelon tarkastelu tai päivitys
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Pankkitiet. muuntopalvelun asetukset** -ikkunassa **Pankin nimi - tietojen muuntoluettelo** -toiminto, jolloin avautuu muuntopalvelun tukemien pankin tietomuotojen luettelo.
 3. Valitse **Pankin nimi - tietojen muuntamisen luettelo** -sivulla **Päivitä pankkien nimien luettelo** -toiminto.
 
 Pankkitietojen muuntopalvelun tukemien pankin tietomuotojen luettelo on nyt päivitetty. Tämä on luettelo pankin nimistä suodatettuna maan/alueen mukaan, jotka voit valita **Pankin nimi - tietojen muuntaminen** -kentän **Pankkitilin kortti** -ikkunassa.
 
-**Huomautus**: Tuettujen pankin tietomuotojen päivitys tapahtuu myös silloin, kun valitset tai kirjoitat arvon **Pankin nimi - tietojen muuntaminen** -kenttään pankkitilillä.
+> [!NOTE]  
+>   Tuettujen pankin tietomuotojen päivitys tapahtuu myös silloin, kun valitset tai kirjoitat arvon **Pankin nimi - tietojen muuntaminen** -kenttään pankkitilillä.
 
 Olet on nyt kirjautunut pankkitietojen muuntopalveluun. Jatka kirjautumistietojen käyttämistä jokaisella pankkitilillä, joka tulee käyttämään palvelua.
 
-## <a name="to-set-up-bank-accounts-to-use-the-bank-data-conversion-service"></a>Pankkitilien määrittäminen pankkitietojen muuntopalvelun käyttämistä varten
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.
-2. Avaa sen pankkitilin kortti, josta viet tai johon tuot pankkitiedostot pankkitietojen muuntopalvelun avulla.
-3. Määritä maksun vienti valitsemalla **Siirto**-pikavälilehden **Maksun vientimuoto** -kentässä **Pankkitietojen muuntopalvelu - hyvityksen siirto**.
-4. Kirjoita tai valitse **Pankin nimi - tietojen muuntaminen** -kenttään pankin tietojen muodon nimi, jonka määritit vaiheen 4 “Kirjautuminen pankkitietojen muunnospalveluun” -osassa.
-5. Toista vaiheet 1–4 muissa pankkitileissä, jotka käyttävät pankkitietojen muuntopalvelua.
-
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
-[Pankkitilien hallinta](bank-manage-bank-accounts.md)
+[Pankkitilien hallinta](bank-manage-bank-accounts.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -Web-palvelinosat
+Microsoft Dynamics NAV -WWW-palvelinkomponentit

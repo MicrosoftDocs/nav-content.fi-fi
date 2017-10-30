@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV Phone -asiakasohjelma
+Microsoft Dynamics NAV -puhelinasiakasohjelma

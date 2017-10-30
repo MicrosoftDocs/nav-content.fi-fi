@@ -1,18 +1,21 @@
 ---
-title: 'Toimintaohje: Myyntimahdollisuuksien luominen'
+title: Myyntimahdollisuuksien luominen
+description: "Tässä artikkelissa kerrotaan, miten Dynamics NAV -ohjelmassa luodaan mahdollisuuksia myyjästä tai kontaktista."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: f7105692b20eb3d6ae2a493f192000d9561c2be4
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 06/06/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: d0a3517e794964d139a04b25e5ea7c9acf1bd4f8
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Toimintaohje: Myyntimahdollisuuksien luominen
@@ -23,24 +26,23 @@ Voit luoda mahdollisuuksia **Mahdollisuusluettelo**-ikkunassa. Yleensä mahdolli
 Ennen mahdollisuuksien luomista sinun täytyy määrittää myyntisyklit. Lisätietoja on kohdassa [Toimintaohje: Mahdollisuuden myyntisyklien ja vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Mahdollisuuden luominen myyjästä
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyjä** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse luettelosta myyjä, jolle haluat luoda mahdollisuuden.
 3. Valitse **Mahdollisuudet**-toiminto ja valitse sitten **Luettelo**.
-4. Valitse **Uusi** ja täytä sitten tarvittavat kentät.  
+4. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-<!-- taken out for OPS -->
-<!-- [AZURE.INCLUDE [tooltip-note](../includes/tooltip-note.md)] -->
+
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Mahdollisuuden luominen kontaktista
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Kontaktit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse luettelosta kontakti, jolle haluat luoda mahdollisuuden.
 3. Tee jompikumpi seuraavista toimista:
-  * Valitse **Luo mahdollisuus** -toiminto.
-  * Valitse **Mahdollisuudet**-toiminto ja valitse sitten **Uusi**.
+   * Valitse **Luo mahdollisuus** -toiminto.
+   * Valitse **Mahdollisuudet**-toiminto ja valitse sitten **Uusi**.
 4. Täytä asianmukaiset kentät.
 
-##<a name="see-also"></a>Katso myös  
-[Myynnin hallinta](sales-manage-sales.md)  
-[Kontaktien luominen ja hallinta](marketing-contacts.md)  
+## <a name="see-also"></a>Katso myös
+[Myynti](sales-manage-sales.md)  
+[Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
 

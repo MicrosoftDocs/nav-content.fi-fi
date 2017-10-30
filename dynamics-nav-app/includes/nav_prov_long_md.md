@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV -ohjelman valmistelutyökalut Microsoft Azurelle
+Microsoft Dynamics NAV:n Microsoft Azure -valmistelutyökalut

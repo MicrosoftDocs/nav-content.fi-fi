@@ -1,21 +1,24 @@
 ---
 title: "Kontaktihenkilöiden luominen"
+description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan henkilölle, kuten prospektille tai toimittajalle, kontaktin kortti helpottamaan suhteen määrittämistä ja räätälöimään viestintää."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 2d6fa08f83276d9da91f22215e578d98199cf4e3
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 06/06/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 34dc16ae3c6f9f6b11abca2480c7bcae9a0a3cab
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="create-contact-persons"></a>Kontaktihenkilöiden luominen
+# <a name="creating-contact-persons"></a>Kontaktihenkilöiden luominen
 Voit luoda yhteyshenkilön määrittämällä yhteystietokortin henkilölle. Voit luoda aiemmin luoduista yrityksistä yhteyshenkilötítä, tai voit luoda riippumatomia yhteyshenkilöitä.
 
 Voit esimerkiksi tavata mahdollisen asiakasyrityksen jälkeen ostajan. Voit luoda tälle henkilölle kontaktin kortin, jonka avulla yhteydenpidosta tulee entistä mukautetumpaa.
@@ -24,16 +27,18 @@ Saattaa myös olla niin, että osa tuotteita koskevista julkaisuista on käänne
 
 Tallentamalla mahdollisimman paljon kontaktihenkilöä koskevia tietoja voit varmistaa, että kaikki yrityksen ryhmät löytävät tarvittavat tiedot.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin. Tehtävät luetellaan järjestyksessä, jossa ne yleensä suoritetaan.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin. 
 
-|Toiminta |Katso |
-|---|----|
-|Määritä kontaktihenkilön tiedot.|[Toimintaohje: Kontaktihenkilön luominen](marketing-how-create-contact-persons.md)|
-|Määritä kontaktin vaihtoehtoinen osoite.|[Vaihtoehtoisten osoitteiden liittäminen](marketing-how-assign-alternative-address.md)|
-|Kuvaile yrityksen kontaktin liikesuhdetta.|[Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md)|
-|Määritä kontaktien organisaatiotaso.|[Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md)|
-|Liitä postitusryhmät kontakteihin.|[Postitusryhmien liittäminen kontaktiin](marketing-mailing-groups.md#assign-mailing-groups-to-a-contact)|
+| Vastaanottaja | Katso |
+| --- | --- |
+| Määritä kontaktihenkilön tiedot. |[Toimintaohjeet: Kontaktihenkilöiden luominen](marketing-how-create-contact-persons.md) |
+| Määritä kontaktin vaihtoehtoinen osoite. |[Toimintaohjeet: Vaihtoehtoisten osoitteiden liittäminen](marketing-how-assign-alternate-address.md) |
+| Kuvaile yrityksen kontaktin liikesuhdetta. |[Toimintaohje: Vastuualueiden määrittäminen kontakteille](marketing-job-responsibilities.md) |
+| Määritä kontaktien organisaatiotaso. |[Toimintaohje: Kontaktihenkilöiden organisaatiotasojen määrittäminen](marketing-organizational-levels.md) |
+| Postitusryhmien määrittäminen kontakteille |[Postitusryhmien määrittäminen kontaktille](marketing-mailing-groups.md) |
 
-##<a name="see-also"></a>Katso myös
-[Kontaktiyritysten luominen](marketing-create-contact-companies.md)
+## <a name="see-also"></a>Katso myös
+[Kontaktiyrityksen luominen](marketing-create-contact-companies.md)  
+[Kontaktien luonti ja hallinta]()  
+[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
 

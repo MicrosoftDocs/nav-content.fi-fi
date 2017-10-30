@@ -1,21 +1,23 @@
 ---
-title: 'Toimintaohje: Suoratoimitusten tekeminen'
+title: Ostotilaukseen linkitetyn myyntitilauksen luominen suoratoimitusta varten
+description: "Tässä artikkelissa kerrotaan, miten ostotilaukseen linkitetty myyntitilaus luodaan. Näin toimitus voidaan tehdä suoraan toimittajalta asiakkaalle."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: f636de789dc6b006a449ec59c390fab85e62b443
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: direct shipment
+ms.date: 03/29/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 6a8210808532ff8945660c23f0bf91719e2f2963
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
 # <a name="how-to-make-drop-shipments"></a>Toimintaohje: Suoratoimitusten tekeminen
 Suoratoimitus on nimikkeen toimitus yhdeltä toimittajistasi suoraan yhdelle asiakkaistasi.
 
@@ -25,7 +27,7 @@ Kun myyntitilaus merkitään suoratoimitusta varten, ja luot ostotilauksen, joss
 Voit valmistella suoratoimituksen luomalla nimikkeelle normaalisti myyntitilauksen. Myyntirivillä tulee kuitenkin määrittää, että myynti vaatii suoratoimituksen.
 
 1. Luo nimikkeelle myyntitilaus. Lisätietoja on kohdassa [Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md).
-2. Valitse suoratoimituksen nimikkeen myyntitilauksen rivillä **Suoratoimitus**-valintaruutu.
+2. Valitse suoratoimituksen myyntitilauksen rivillä **Suoratoimitus**-valintaruutu. Käytä **Valitse sarakkeita** -toiminto, jos kenttä ei ole näkyvissä. Lisätietoja on ohjeaiheessa [Käyttäjän mukautus](ui-user-personalization.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Ostotilauksen luominen suoratoimitukselle
 Myytävän nimikkeen suoratoimitus valmistellaan luomalla ostotilaus normaalisti lukuun ottamatta sitä, että ostotilauksessa on määritettävä, että nimikkeet on toimitettava asiakkaalle, ei ostotilauksen tekijälle.
@@ -41,22 +43,22 @@ Myyntitilauksen rivin tiedot lisätään ostotilauksen riville/riveille.
 Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähettämällä ostotilauksen PDF-tiedostona.     
 
 ## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Myyntitilauksesta linkitetyn ostotilauksen tarkasteleminen
-1. Valitse suoratoimituksen myyntitilauksen rivi ja valitse sitten **Tilaa**-toiminto. Valitse **Suoratoimitus**-toiminto ja valitse sitten **Ostotilaus**-toiminto.
-
-Linkitetty ostotilaus avautuu.
+* Valitse suoratoimituksen myyntitilauksen rivi ja valitse sitten **Tilaa**-toiminto. Valitse **Suoratoimitus**-toiminto ja valitse sitten **Ostotilaus**-toiminto.
 
 ## <a name="to-post-a-drop-shipment"></a>Kirjaa suoratoimitus
-Kun toimittaja on toimittanut nimikkeet, voit kirjata myyntitilauksen toimitetuksi. Voit kirjata myös ostotilauksen, mutta vain **Vastaanotto**-vaihtoehdon kanssa niin kauan, kunnes myyntitilaus on laskutettu.
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
+Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. Voit kirjata myös ostotilauksen, mutta vain **Vastaanotto**-vaihtoehdon kanssa niin kauan, kunnes myyntitilaus on laskutettu.
+
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyntitilaukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa "Myyntitilauksen luominen suoratoimitukselle" -osassa luomasi myyntitilaus.
 3. Määritä **Toimitettava määrä** -kentässä toimitettava tilausmäärä, joka voi olla koko tai osittainen tilausmäärä.
-3. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
-4. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
+4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
+5. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
 
 ## <a name="see-also"></a>Katso myös
-[Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md)    
+[Toimintaohje: Erikoistilausten luominen](sales-how-to-create-special-orders.md)|  
+[Toimintaohje: Tuotteiden myyminen](sales-how-sell-products.md)  
 [Toimintaohje: Ostojen kirjaus](purchasing-how-record-purchases.md)  
-[Myynnin hallinta](sales-manage-sales.md)  
-[Varaston hallinta](inventory-manage-inventory.md)      
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
+[Myynti](sales-manage-sales.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

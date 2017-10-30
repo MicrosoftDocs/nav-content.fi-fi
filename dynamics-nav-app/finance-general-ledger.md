@@ -1,45 +1,67 @@
 ---
-title: "Pääkirjanpito ja tilikartta"
+title: "Tietoja pääkirjanpidosta ja aitoustodistuksesta"
+description: "Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista."
+documentationcenter: 
 author: edupont04
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.prod: dynamics-nav-2017
 ms.topic: article
-ms-prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 9965ddcad214e97c5e4858824395d6f651b3c003
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: analysis, history, track
+ms.date: 06/02/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 348a1bcbe6908c7bfd84e99245363e733414aeae
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Pääkirjanpito ja tilikartta
-Pääkirjanpito sisältää taloustiedot ja tilikartta näyttää tilit, joihin kaikki pääkirjanpidon tapahtumat kirjataan. Dynamics NAV sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Pääkirjanpito ja aitoustodistus
+Pääkirjanpito sisältää taloustiedot ja tilikartta näyttää tilit, joihin kaikki pääkirjanpidon tapahtumat kirjataan. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Pääkirjanpidon asetukset ja yleiset kirjausasetukset
-Pääkirjanpito ja siihen kirjattavien tietojen määritys muodostavat liiketoimintaprosessien ytimen.
-**Pääkirjanpidon asetukset** -ikkunassa määritetään, miten yrityksen tietyt kirjanpitoasiat hoidetaan. Tiedot sisältävät esimerkiksi laskujen pyöristystiedot, osoitemuodot ja mahdollisen lisäraportointivaluutan käyttämisen.
-Samaan tapaan määritetään **Yleiset kirjausasetukset** -ikkunassa, miten liiketoiminnan ja tuotteen yleisten kirjausryhmien yhdistelmät määritetään. Jokaiselle liiketoiminnan kirjausryhmän ja tuotteen kirjausryhmän yhdistelmälle täytetään rivi.  
+Pääkirjanpidon asetukset ovat keskeisiä rahoitusprosesseja, sillä niillä määritetään tietojen kirjaaminen.  
+
+**Pääkirjanpidon asetukset** -ikkunassa määritetään, miten esimerkiksi seuraavat yrityksen kirjanpitoasiat:  
+
+* Laskun pyöristystiliedot  
+* Osoitteen muodot  
+* Talousraportointi  
+
+Samaan tapaan määritetään **Yleiset kirjausasetukset** -ikkunassa, miten liiketoiminnan ja tuotteen yleisten kirjausryhmien yhdistelmät määritetään. Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Jokaiselle liiketoiminnan kirjausryhmän ja tuotteen kirjausryhmän yhdistelmälle täytetään rivi. Lisätietoja on kohdassa [Kirjausryhmien asetukset](finance-posting-groups.md)  
 
 ## <a name="the-chart-of-accounts"></a>Tilikartta
-Tilikartassa näkyvät kaikki tilit. Tilikartan avulla voit avata erilaisia raportteja, jotka sisältävät pääkirjanpidon tapahtumia ja saldoja. Voit myös sulkea tuloslaskelmia. Voit avata kunkin tilin KP-tilin kortin ja lisätä tai muuttaa asetuksia. Näkyvillä on myös luettelo kirjausryhmistä, jotka tekevät kirjauksia kyseiselle tilille.  
+Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä esimerkiksi seuraavia toimintoja:  
 
-Dynamics NAV ei anna poistaa pääkirjanpitotiliä, joka sisältää tilikartassa tarvittavia tietoja.  
+* Voit tarkastella pääkirjanpitotapahtumat- ja saldot näyttäviä raportteja.  
+* Voit sulkea tuloslaskelman.  
+* Voita avata KP-tilikortin asetusten lisäämistä tai muuttamista varten.  
+* Voit tarkastella luetteloa kirjausryhmistä, jotka tekevät kirjauksia kyseiselle tilille.
+* Yhden tilin erillisten debet- ja kreditsaldojen näyttäminen  
+
+Voit lisätä, muuttaa tai poistaa pääkirjanpidon tilejä. Ristiriitojen estämiseksi et voi kuitenkaan poistaa pääkirjanpidon tiliä, jos sen tietoja käytetään tilikartassa.  
 
 ## <a name="account-categories"></a>Tililuokat
-Tililuokkien avulla voi yhdistää pääkirjanpitotilit luokkiin talouslaskelmien rakenteen mukautuksena.  
+Voit räätälöidä rahoituslaskelmien rakennetta yhdistämällä pääkirjanpidon tilit tililuokkiin.  
 
-**KP-tilin luokat**-ikkuna sisältää aiemmin luodut pää- ja alaluokat sekä kuhunkin luokkaan liitetyt KP-tilit. Voit luoda uusia alaluokkia ja liittää luokat aiemmin luotuihin tileihin.  
+**KP-tilin luokat** -ikkunassa on aiemmin luodut pää- ja alaluokat sekä niihin liitetyt KP-tilit. Voit luoda uusia alaluokkia ja liittää luokat aiemmin luotuihin tileihin.  
 
-Voit ryhmitellä tililuokat sisentämällä yksittäiset alaluokat. Tällöin yleiskuvauksen saaminen on helppoa, koska kunkin ryhmittelyn yhteydessä näytetään kokonaissaldo. Voit luoda esimerkiksi alaluokkia eri käyttöomaisuustyypeille ja luoda sitten luokkaryhmiä esimerkiksi käyttöomaisuudelle ja nykyisille vastaaville. Voit luoda luokkaryhmän sisentämällä **KP-tilin luokat** -ikkunan rivin alla olevia muita alaluokkia.  
+Voit luoda luokkaryhmän sisentämällä **KP-tilin luokat** -ikkunan rivin alla olevia muita alaluokkia. Tällöin yleiskuvauksen saaminen on helppoa, koska kunkin ryhmittelyn yhteydessä näytetään kokonaissaldo. Voit luoda esimerkiksi alaluokkia eri käyttöomaisuustyypeille ja luoda sitten luokkaryhmiä esimerkiksi käyttöomaisuudelle ja nykyisille vastaaville.  
 
-Määritä, tuleeko alaluokan tilit sisällyttää tiettyyn talousraporttityyppiin. Tililuokat auttavat rahoituslaskelmien asettelun määrittämisessä. Esimerkiksi oletussaldon tiliote sisältää yhden tapahtuman käteiselle kohdassa Vastaavaa. Jos haluat saldon tiliotteen sisältävän käteiskassan ja sekkitilin korvaustapahtumia, voit lisätä kaksi uutta alaluokkaa, määrittää niille raportin lisämääritykseksi Käteistilit ja sisentää ne Käteinen-alaluokan alle. Kun olet luonut KP-raporttimallit muutosten perusteella, seuraavassa saldon tiliotteessa näkyvät käteisen kokonaissaldo sekä käteiskassan ja sekkitilin saldojen kaksi riviä.     
+Voit määrittää, onko kunkin alaluokan tilit sisällytettävä tietyn tyyppisiin raportteihin. Tililuokat auttavat rahoituslaskelmien asettelun määrittämisessä.  
 
-##<a name="see-also"></a>Katso myös
-[Rahoitus](finance-setup.md)  
-[Tilikartan määrittäminen tai muuttaminen](finance-setup-setup-chart-accounts.md)  
-[KP-raporttimallit](finance-setup-account-schedule.md)  
+Esimerkiksi oletussaldon tiliotteessa on Käteisvarat-alaluokka Vastaavaa-kohdassa. Jos haluat, että tiliote ottaa käteiskassan ja sekit huomioon, voit  
+
+1. lisätä kaksi uutta alaluokkaa. Niistä toinen on tarkoitettu käteiskassalle ja toinen sekkitilille.  
+2. Määritä näille alaluokille lisäraporttimääritys **Käteistilit**.  
+3. Sisennä ne **Käteisvarat**-alaluokassa.  
+
+Kun luot seuraavan kerran KP-raporttimalleja, tiliotteessa näkyy käteisvarojen kokonaissaldo sekä käteiskassan ja sekkitilin saldojen kaksi riviä.  
+
+## <a name="see-also"></a>Katso myös
+[Rahoitus](finance.md)  
+[Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
+[Business Intelligence](bi.md)  
 

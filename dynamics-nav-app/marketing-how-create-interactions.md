@@ -1,31 +1,35 @@
 ---
-title: 'Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille'
+title: Vuorovaikutusten luominen kontakteille ja segmenteille
+description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Dynamics NAV -ohjelmassa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 459a86ad9674e0d61b045743cbcc99ffdb5cacd9
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 06/15/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 4ef0a5f683657f4725b04d7a231336419ea90f48
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Toimintaohje: Vuorovaikutusten luominen kontakteille ja segmenteille
 Voit luoda vuorovaikutuksia, kun haluat tallentaa kaikki vuorovaikutukset ja kaiken yhteydenpidon (esimerkiksi postin), joita sinulla on kontaktiesi ja segmenttiesi kanssa.
 
-Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit. Lisätietoja on ohjeaiheessa [Vuorovaikutusmallien määrittäminen](marketing-interactions.md#set-up-interaction-templates).
+Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit. Lisätietoja on ohjeaiheessa [Vuorovaikutusmallien määrittäminen](marketing-interactions.md).
 
 ## <a name="to-create-an-interaction"></a>Integroinnin luominen
 1. Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.
 2. Valitse **Luo vuorovaikutus** -toiminto.
 3. Täytä kentät ja valitse **OK**-painike.
 
-**Huomautus**: Jos haluat suorittaa toisen tehtävän ennen vuorovaikutuksen suorittamista, valitse **Peruuta** ja valitse yhteydenpidon suorittaminen myöhemmin. Tällöin vuorovaikutusta lykätään.
+> [!NOTE]  
+>   Jos haluat suorittaa toisen tehtävän ennen vuorovaikutuksen suorittamista, valitse **Peruuta** ja valitse sitten yhteydenpidon suorittaminen myöhemmin. Tällöin vuorovaikutusta lykätään.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Lykättyjen vuorovaikutusten lopettaminen ja poistaminen
 1. Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.
@@ -33,10 +37,10 @@ Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit.
 3. Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Vuorovaikutusten luominen segmentille
-1. Valitse kotisivulla **Aktiiviset segmentit** tai valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Segmentit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse aloitussivulla **Aktiiviset segmentit** tai valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Segmentit** ja valitse sitten aiheeseen liittyvä linkki.
 2. Määritä, minkä vuorovaikutuksen haluat liittää segmenttiin, täyttämällä **Segmentti**-ikkunassa **Vuorovaikutus**-osan kentät.
 
-  Kun olet liittänyt vuorovaikutuksen segmenttiin, voit tehdä jokaisen segmentin kontaktin vuorovaikutuksesta yksilöllisen, esimerkiksi valitsemalla toisen vuorovaikutusmallin **Segmentti**-ikkunan riveillä.
+    Kun olet liittänyt vuorovaikutuksen segmenttiin, voit tehdä jokaisen segmentin kontaktin vuorovaikutuksesta yksilöllisen, esimerkiksi valitsemalla toisen vuorovaikutusmallin **Segmentti**-ikkunan riveillä.  
 3. Voit kirjata segmentin ja vuorovaikutukset lokiin valitsemalla **Loki**-toiminnon. **Lokin segmentti**-luetteloikkuna aukeaa.
 4. Jos haluat luoda uuden segmentin, joka sisältää samat kontaktit, valitse **Luo seurantasegmentti** -valintaruutu. Jotta ohjelma luo seurantasegmentin, segmenttien numerosarja on määritettävä **Kontaktienhallinnan asetukset** -ikkunassa.
 
@@ -48,5 +52,6 @@ Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaat
 [Vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Markkinoinnin ja kontaktien hallinnan määrittäminen](marketing-setup-marketing.md)
+[Kontaktienhallinnan määrittäminen](marketing-setup-marketing.md)  
+[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
 

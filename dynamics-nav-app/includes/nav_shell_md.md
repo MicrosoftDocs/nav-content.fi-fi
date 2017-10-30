@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2017 Administration -liittymä
+Microsoft Dynamics NAV 2017 -hallintoliittymä

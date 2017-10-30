@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2017 Development -liittymä
+Microsoft Dynamics NAV 2017 -kehitysliittymä

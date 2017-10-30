@@ -1,35 +1,38 @@
 ---
-title: "Ostajien määrittäminen"
+title: "Ostajien määrittäminen ja ostajien määrittäminen toimittajille"
+description: "Jos yrityksessä on useita ostajia, voit järjestää ne tilastoanalyyseja varten."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 0676ed9dead39ffe539014369d1355db30d3261a
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: purchasing agent
+ms.date: 03/29/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 9368509b8892f23a25acaaf74410ff9279ba52d7
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-
 # <a name="how-to-set-up-purchasers"></a>Ostajien määrittäminen
 Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää ikkunaan, ja kullekin voidaan määritellä koodi. Tämän jälkeen koodeja voi käyttää valmistelemaan tilastoja ja suodattamaan tietoja tulostetuissa raporteissa.
 
 ## <a name="to-set-up-purchasers"></a>Ostajien määrittäminen
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyjät/ostajat** ja valitse sitten aiheeseen liittyvä linkki.
-2. Valitse **Myyjät/ostajat**-ikkunassa **Uusi** ja täytä kentät.
-3. Täytä **Myyjän/ostajan kortti** -ikkunan kentät.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät/ostajat** ja valitse sitten aiheeseen liittyvä linkki.
+2. Valitse **Myyjät/ostajat**-ikkunassa **Uusi**-toiminto.
+3. Täytä **Myyjät/ostajat**-ikkunassa tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Ostajien määrittäminen toimittajiin
-1. Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.
 2. Avaa sen toimittajan toimittajan kortti, jolle määritetään ostaja.
 3. Valitse **Ostajan koodi** -kentässä sopiva ostajan koodi ja sulje ikkuna.
 
 ## <a name="see-also"></a>Katso myös
-[Oston määrittäminen](purchasing-setup-purchasing.md)  
-[Ostovelkojen hallinta](payables-manage-payables.md)
+[Ostojen määrittäminen](purchasing-setup-purchasing.md)  
+[Ostovelkojen hallinta](payables-manage-payables.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 

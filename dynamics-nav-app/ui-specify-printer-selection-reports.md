@@ -1,40 +1,51 @@
 ---
-title: "Tulostimen valinnan määrittäminen raporteille"
+title: "Raporttien määrittäminen tulostumaan tiettyihin tulostimiin"
+description: "Tutustu, miten tulostin määritetään raportille ja miten Tulostimen valinnat -ikkunaa käytetään."
+documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 55b48aef2bc108ced7f581f0ff6c11263ee467df
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: online printing
+ms.date: 03/29/2017
+ms.author: solsen
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 4c31738da8ca833c06d976d26b9cb170a05fd46e
 ms.contentlocale: fi-fi
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-    
 # <a name="specify-printer-selection-for-reports"></a>Tulostimen valinnan määrittäminen raporteille
-Voit määrittää raportit niin, että ne täytyy tulostaa tietyssä tulostimessa. Seuraavat ovat joitain tulostimen valinnen käyttötapauksia: 
+Tämä sivu on tyhjä, koska et voi määrittää tiettyjä tulostimia tietyille raporteille. Etsimme ongelmaan ratkaisua.
 
-- Voit tulostaa raportteja erityisissä julkaisuissa.
-- Voit tulostaa raportteja eri paperikoissa.
-- Voit tulostaa raportteja tietyn työntekijän oletustulostimen.
+Toistaiseksi tulostettava raportti on ladattava ensin PDF-tiedostona valitsemalla **Lähetä kohteeseen** -painike. Valitse tämän jälkeen tiedostotyyppi, jona haluat ladata tiedoston. Valitse nyt **PDF-asiakirja**. Voit nyt joka avata PDF-tiedoston ja tulostaa sen tai tallentaa sen myöhemmin tulostettavaksi.
 
-Määritä **Tulostimen valinnat** -ikkunassa eri arvot eri tulosteiden saamista varten. Jos määrität tulostinvalinnan, valinta ohittaa yleisemmän tulostinvalinnan. Voit esimerkiksi määrittää tulostimen valinnan, jolla on arvot **Käyttäjätunnus**-, **Raportin tunnus**- ja **Tulostimen nimi** -kentässä. Tämän tulostimen valinta ohittaa tulostimen valinnan, jossa **Käyttäjätunnus**- tai**Raportin tunnus**-kentät ovat tyhjiä. 
+<!--
 
-Seuraavassa taulukossa on kuvattu arvoyhdistelmät, jotka määritetään raportin tulostinvalinnassa.
+You can set up reports so that they must be printed on a specific printer. The following are some uses of printer selection:
 
-|Tehtävä                                                 |Määritä seuraavat arvot                                             |
+- You can print reports on special company letterhead.
+- You can print reports on different paper sizes.
+- You can print reports on the default printer of a specified employee.
+
+You use the **Printer Selections** window to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+
+The following table describes the combination of values to specify when you set up printer selections for a report.
+
+|To                                                 |Set the following values                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
-|Tulosta raportti tiettyyn tulostimeen kaikkia käytäjiä varten. |Määritä arvot **Tunnus** ja **Tulostimen nimi** -kenttiin ja jätä **Käyttäjätunnus**-kenttä tyhjäksi.|
-|Tulosta kaikki raportit tiettyyn tulostimeen tietylle käyttäjälle|Määritä arvot **Käyttäjätunnus** ja **Tulostimen nimi** -kenttiin ja jätä **Tunnus**-kenttä tyhjäksi.|
-|Määritä oletustulostin kaikkiin raportteihin|Määritä arvo **Tulostimen nimi** -kenttään ja jätä **Käyttäjätunnus** ja **Tunnus** -kentät tyhjiksi.|
-|Tulosta tietty raportti käyttäjän oletustulostimeen|Määritä arvo **Tunnus** -kenttään ja jätä **Tulostimen nimi** ja **Käyttäjätunnus** -kentät tyhjiksi.|
-|Tulosta tietty raportti tiettyyn tulostimeen tietylle käyttäjälle|Määritä arvot kaikkiin kolmeen kenttään.|
+|Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
+|Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
+|Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
+|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
+|Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
+-->
 
 ## <a name="see-also"></a>Katso myös
-[Dynamics NAV -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Toimintaohje: Eräajojen ajaminen](ui-how-run-batch-jobs.md)  
+[Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 
