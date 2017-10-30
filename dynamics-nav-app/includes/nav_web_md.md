@@ -1,1 +1,1 @@
-<span data-ttu-id="bfa44-101">Microsoft Dynamics NAV -Web-asiakas</span><span class="sxs-lookup"><span data-stu-id="bfa44-101">Microsoft Dynamics NAV Web client</span></span>
+<span data-ttu-id="5ff08-101">Microsoft Dynamics NAV:n WWW-asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="5ff08-101">Microsoft Dynamics NAV Web client</span></span>

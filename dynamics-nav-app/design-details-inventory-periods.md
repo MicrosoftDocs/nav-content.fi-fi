@@ -1,0 +1,37 @@
+---
+title: Rakennetiedot - varastokaudet
+description: "Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvostukseen tilikausilla, joiden voidaan katsoa olevan suljettuja. Tällä voi olla kielteisiä vaikutuksia raportointiin erityisesti globaaleissa yrityksissä. Varastojaksot -toimintoa voidaan käyttää tällaisten ongelmien välttämiseen avaamalla tai sulkemalla varastokausia, jolloin voidaan rajata tiliöinti ajanjaksosarjaan."
+documentationcenter: 
+author: SorenGP
+ms.prod: dynamics-nav-2017
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 1dd508ee887b28b1696746444145eff6f2bd7ebe
+ms.contentlocale: fi-fi
+ms.lasthandoff: 10/16/2017
+
+---
+# <a name="design-details-inventory-periods"></a><span data-ttu-id="9006e-105">Rakennetiedot: varastokausi</span><span class="sxs-lookup"><span data-stu-id="9006e-105">Design Details: Inventory Periods</span></span>
+<span data-ttu-id="9006e-106">Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvostukseen tilikausilla, joiden voidaan katsoa olevan suljettuja.</span><span class="sxs-lookup"><span data-stu-id="9006e-106">Backdated transactions or cost adjustments often affect balances and stock valuations for accounting periods that may be considered closed.</span></span> <span data-ttu-id="9006e-107">Tällä voi olla kielteisiä vaikutuksia raportointiin erityisesti globaaleissa yrityksissä.</span><span class="sxs-lookup"><span data-stu-id="9006e-107">This can have adverse effects on accurate reporting, especially within global corporations.</span></span> <span data-ttu-id="9006e-108">Varastojaksot -toimintoa voidaan käyttää tällaisten ongelmien välttämiseen avaamalla tai sulkemalla varastokausia, jolloin voidaan rajata tiliöinti ajanjaksosarjaan.</span><span class="sxs-lookup"><span data-stu-id="9006e-108">The Inventory Periods feature can be used to avoid such problems by opening or closing inventory periods to limit posting in a set period of time.</span></span>  
+
+ <span data-ttu-id="9006e-109">Varastokausi on tietty ajanjakso, joka määritetään päättymispäivämäärällä, johon kirjaat varastotapahtumia.</span><span class="sxs-lookup"><span data-stu-id="9006e-109">An inventory period is a period of time, defined by an ending date, in which you post inventory transactions.</span></span> <span data-ttu-id="9006e-110">Kun suljet varastokauden, siihen ei enää voi kirjata arvomuutoksia.</span><span class="sxs-lookup"><span data-stu-id="9006e-110">When you close an inventory period, no value changes can be posted in the closed period.</span></span> <span data-ttu-id="9006e-111">Tämä sisältää uusien arvojen kirjaamiset, oletetut tai laskutetut kirjaamiset, olemassa olevien arvojen muutokset ja kustannusten muutokset.</span><span class="sxs-lookup"><span data-stu-id="9006e-111">This includes new value postings, expected or invoiced postings, changes to existing values, and cost adjustments.</span></span> <span data-ttu-id="9006e-112">Voit kuitenkin edelleen käyttää avointa nimiketapahtumaa, joka on suljetulla ajanjaksolla.</span><span class="sxs-lookup"><span data-stu-id="9006e-112">However, you can still apply to an open item ledger entry that falls in the closed period.</span></span> <span data-ttu-id="9006e-113">Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md).</span><span class="sxs-lookup"><span data-stu-id="9006e-113">For more information, see [Design Details: Item Application](design-details-item-application.md).</span></span>  
+
+ <span data-ttu-id="9006e-114">Voit varmistaa, että kaikki suljetun kauden tapahtumat ovat lopullisia, tarkistamalla, että seuraavat ehdot täyttyvät ennen varastokauden sulkemista:</span><span class="sxs-lookup"><span data-stu-id="9006e-114">To make sure that all transaction entries in a closed period are final, the following conditions must be met before an inventory period can close:</span></span>  
+
+-   <span data-ttu-id="9006e-115">Kaikki jakson lähtevät nimiketapahtumat on suljettava (ei negatiivista varastoa).</span><span class="sxs-lookup"><span data-stu-id="9006e-115">All outbound item ledger entries in the period must be closed (no negative inventory).</span></span>  
+-   <span data-ttu-id="9006e-116">Kaikki jakson nimikkeen kustannuksia on muutettava.</span><span class="sxs-lookup"><span data-stu-id="9006e-116">All item costs in the period must be adjusted.</span></span>  
+-   <span data-ttu-id="9006e-117">Kaikkien jakson julkaistujen ja valmiiden tuotantotilausten kustannusta on muutettava.</span><span class="sxs-lookup"><span data-stu-id="9006e-117">All released and finished production orders in the period must be cost adjusted.</span></span>  
+
+ <span data-ttu-id="9006e-118">Kun suljet varastokauden, varastokauden tapahtuma luodaan varastokauden edellisen nimiketapahtuman numeron avulla.</span><span class="sxs-lookup"><span data-stu-id="9006e-118">When you close an inventory period, an inventory period entry is created by using the number of the last item register that falls in the inventory period.</span></span> <span data-ttu-id="9006e-119">Lisäksi varastokauden tapahtumaan tallennetaan aika, päivämäärä ja kauden sulkevan käyttäjän käyttäjäkoodi.</span><span class="sxs-lookup"><span data-stu-id="9006e-119">In addition, the time, date, and user code of the user closing the period are recorded in the inventory period entry.</span></span> <span data-ttu-id="9006e-120">Käyttämällä tätä tietoa edellisen kauden viimeisen nimikerekisterin kanssa voit nähdä mitkä varastotapahtumat kirjattiin varastokaudella.</span><span class="sxs-lookup"><span data-stu-id="9006e-120">By using this information with the last item register for the previous period, you can see which inventory transactions were posted in the inventory period.</span></span> <span data-ttu-id="9006e-121">Varastojaksojen uudelleen avaaminen on myös mahdollista, jos sinun tarvitsee kirjata suljetulla kaudella.</span><span class="sxs-lookup"><span data-stu-id="9006e-121">It is also possible to reopen inventory periods if you need to post in a closed period.</span></span> <span data-ttu-id="9006e-122">Varastokauden avaamisen yhteydessä luodaan varastokauden tapahtuma.</span><span class="sxs-lookup"><span data-stu-id="9006e-122">When you reopen an inventory period, an inventory period entry is created.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="9006e-123">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9006e-123">See Also</span></span>  
+ <span data-ttu-id="9006e-124">[Rakennetiedot: varaston arvostus](design-details-inventory-costing.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)</span><span class="sxs-lookup"><span data-stu-id="9006e-124">[Design Details: Inventory Costing](design-details-inventory-costing.md) [Managing Inventory Costs](finance-manage-inventory-costs.md) [Finance](finance.md)</span></span>  
+ [<span data-ttu-id="9006e-125">Dynamics NAV -ohjelman käyttäminen</span><span class="sxs-lookup"><span data-stu-id="9006e-125">Working with Dynamics NAV</span></span>](ui-work-product.md)
+

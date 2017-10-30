@@ -1,0 +1,42 @@
+---
+title: Maksualennusten ohittaminen
+description: "Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:"
+documentationcenter: 
+author: SorenGP
+ms.prod: dynamics-nav-2017
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: 33b4765c157f20c985b4ca539cb78cbb8c717412
+ms.contentlocale: fi-fi
+ms.lasthandoff: 10/23/2017
+
+---
+# <a name="how-to-disregard-payment-discounts"></a><span data-ttu-id="a3ba3-103">Toimintaohje: Maksualennusten ohittaminen</span><span class="sxs-lookup"><span data-stu-id="a3ba3-103">How to: Disregard Payment Discounts</span></span>
+<span data-ttu-id="a3ba3-104">Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:</span><span class="sxs-lookup"><span data-stu-id="a3ba3-104">Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:</span></span>  
+
+- <span data-ttu-id="a3ba3-105">Maksualennuksen päivämäärä < maksupäivämäärä <= maksutoleranssin päivämäärä</span><span class="sxs-lookup"><span data-stu-id="a3ba3-105">Payment discount date < payment date <= payment tolerance date</span></span>  
+- <span data-ttu-id="a3ba3-106">Kokonaissumma >= maksun summa >= kokonaissumma - maksualennus</span><span class="sxs-lookup"><span data-stu-id="a3ba3-106">Full amount >= payment amount >= full amount - payment discount</span></span>  
+
+## <a name="to-disregard-a-payment-discount"></a><span data-ttu-id="a3ba3-107">Maksualennuksen ohittaminen</span><span class="sxs-lookup"><span data-stu-id="a3ba3-107">To disregard a payment discount</span></span>  
+
+1.  <span data-ttu-id="a3ba3-108">Valitse ![Etsi sivu tai raportti](../../media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Maksuehdot** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="a3ba3-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="a3ba3-109">Valitse rivi, jonka maksuehdolle haluat ottaa käyttöön maksualennuksia tai jolta haluat poistaa ne.</span><span class="sxs-lookup"><span data-stu-id="a3ba3-109">Select the line with the payment term for which you want to activate or deactivate payment discounts.</span></span>  
+3.  <span data-ttu-id="a3ba3-110">Ota tämä toiminto käyttöön valitsemalla **Ohita maks.alen. kok.sum. yht.** -valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="a3ba3-110">Select the **Disreg. Pmt. Disc. at Full Pmt** check box to initiate activation for this feature.</span></span> <span data-ttu-id="a3ba3-111">Poista toiminto käytöstä tyhjentämällä valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="a3ba3-111">To deactivate, clear the check box.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="a3ba3-112">Kun yksi maksu kohdistetaan useisiin laskuihin, maksualennuksen ohitustoimintoa ei tueta kokonaissumman yhteydessä.</span><span class="sxs-lookup"><span data-stu-id="a3ba3-112">When you apply one payment to multiple invoices, the feature to ignore payment discount at full payment is not supported.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="a3ba3-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="a3ba3-113">See Also</span></span>  
+<span data-ttu-id="a3ba3-114">[Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md) </span><span class="sxs-lookup"><span data-stu-id="a3ba3-114">[Electronic Banking in Finland](electronic-banking-in-finland.md) </span></span>  
+<span data-ttu-id="a3ba3-115">[Toimintaohje: Maksutiedostojen luominen](how-to-generate-payment-files.md) </span><span class="sxs-lookup"><span data-stu-id="a3ba3-115">[How to: Generate Payment Files](how-to-generate-payment-files.md) </span></span>  
+[<span data-ttu-id="a3ba3-116">Maksutapojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a3ba3-116">Defining Payment Methods</span></span>](../../finance-payment-methods.md)  
+<span data-ttu-id="a3ba3-117">[Toimintaohje: Maksutoleranssien ja maksualennustoleranssien käsitteleminen](../../finance-payment-tolerance-and-payment-discount-tolerance.md)   </span><span class="sxs-lookup"><span data-stu-id="a3ba3-117">[How to: Work with Payment Tolerances and Payment Discount Tolerances](../../finance-payment-tolerance-and-payment-discount-tolerance.md)   </span></span>  
+[<span data-ttu-id="a3ba3-118">Toimintaohje: Pankin viitetiedostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="a3ba3-118">How to: Set Up Bank Reference Files</span></span>](how-to-set-up-bank-reference-files.md)
+

@@ -1,1 +1,1 @@
-<span data-ttu-id="db7a6-101">Pika-aloituspalvelut</span><span class="sxs-lookup"><span data-stu-id="db7a6-101">RapidStart Services</span></span>
+<span data-ttu-id="91af8-101">Pika-aloituspalvelut</span><span class="sxs-lookup"><span data-stu-id="91af8-101">RapidStart Services</span></span>

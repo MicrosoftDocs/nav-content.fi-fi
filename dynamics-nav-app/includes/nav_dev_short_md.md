@@ -1,1 +1,1 @@
-<span data-ttu-id="cedd3-101">Kehitysympäristö</span><span class="sxs-lookup"><span data-stu-id="cedd3-101">development environment</span></span>
+<span data-ttu-id="41428-101">Kehitysympäristö</span><span class="sxs-lookup"><span data-stu-id="41428-101">development environment</span></span>

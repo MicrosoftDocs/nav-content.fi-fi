@@ -1,1 +1,1 @@
-<span data-ttu-id="0df5b-101">NAV-alanumero</span><span class="sxs-lookup"><span data-stu-id="0df5b-101">NAV extension</span></span>
+<span data-ttu-id="69fc6-101">NAV-alanumero</span><span class="sxs-lookup"><span data-stu-id="69fc6-101">NAV extension</span></span>

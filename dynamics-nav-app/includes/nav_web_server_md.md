@@ -1,1 +1,1 @@
-<span data-ttu-id="481de-101">Microsoft Dynamics NAV -Web-palvelinosat</span><span class="sxs-lookup"><span data-stu-id="481de-101">Microsoft Dynamics NAV Web Server components</span></span>
+<span data-ttu-id="29f34-101">Microsoft Dynamics NAV -WWW-palvelinkomponentit</span><span class="sxs-lookup"><span data-stu-id="29f34-101">Microsoft Dynamics NAV Web Server components</span></span>

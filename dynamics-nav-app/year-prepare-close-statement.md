@@ -1,37 +1,42 @@
 ---
-title: "Tilinpäätöslaskelmien valmisteleminen"
+title: "Tilinpäätöslaskelmien valmistelua helpottavien raporttien yleiskatsaus"
+description: "Tässä ohjeaiheessa on yleiskatsaus raporteista, joilla kerätään tietoja yrityksen tilinpäätöslaskelmien laatimista varten tilikautta suljettaessa."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 96f5cd1dd34803b10402fb547793ff6e8ad174c0
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
+ms.date: 06/02/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 240fd8eb76a430ab3163ab4326c3c077df838cba
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="prepare-closing-statements"></a><span data-ttu-id="afa7b-102">Tilinpäätöslaskelmien valmisteleminen</span><span class="sxs-lookup"><span data-stu-id="afa7b-102">Prepare Closing Statements</span></span>
-<span data-ttu-id="afa7b-103">Yrityksen tilinpäätöslaskelmien laatimiseen tarvittavien tietojen keräämistä varten on useita vakioraportteja.</span><span class="sxs-lookup"><span data-stu-id="afa7b-103">There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.</span></span>
+# <a name="preparing-closing-statements"></a><span data-ttu-id="9f7c0-103">Tilinpäätöslaskelmien valmisteleminen</span><span class="sxs-lookup"><span data-stu-id="9f7c0-103">Preparing Closing Statements</span></span>
+<span data-ttu-id="9f7c0-104">Yrityksen tilinpäätöslaskelmien laatimiseen tarvittavien tietojen keräämistä varten on useita vakioraportteja.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-104">There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.</span></span>
 
-<span data-ttu-id="afa7b-104">Seuraavassa taulukossa on luettelo raporteista, jotka voivat olla hyödyksi näissä toimissa, sekä linkit niitä kuvaaviin ohjeaiheisiin.</span><span class="sxs-lookup"><span data-stu-id="afa7b-104">The following table describes a number of reports that may be useful in this process, with links to the topics that describe them.</span></span>
+<span data-ttu-id="9f7c0-105">Seuraavassa taulukossa on luettelo raporteista, jotka voivat olla hyödyksi näissä toimissa, sekä linkit niitä kuvaaviin ohjeaiheisiin.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-105">The following table describes a number of reports that may be useful in this process, with links to the topics that describe them.</span></span>
 
-|<span data-ttu-id="afa7b-105">Toiminta</span><span class="sxs-lookup"><span data-stu-id="afa7b-105">To</span></span>     |<span data-ttu-id="afa7b-106">Tarkastele tätä raporttia</span><span class="sxs-lookup"><span data-stu-id="afa7b-106">See this report</span></span>                  |
-|-------|---------------------------------|
-|<span data-ttu-id="afa7b-107">Kirjanpitotilien saldot ja nettomuutokset sisältävän alustavan saldoraportin tulostaminen.</span><span class="sxs-lookup"><span data-stu-id="afa7b-107">Print a trial balance report with balances and net changes for general ledger accounts.</span></span>|<span data-ttu-id="afa7b-108">Alustava tulos/tase</span><span class="sxs-lookup"><span data-stu-id="afa7b-108">Trial Balance</span></span>|
-|<span data-ttu-id="afa7b-109">Myyntisaamisten yhteenvedon hakeminen. Yhteenvedossa on eräpäivästä, kirjauspäivämäärästä tai asiakirjan päivämäärästä laskettujen myyntisaamisten ikä.</span><span class="sxs-lookup"><span data-stu-id="afa7b-109">Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date.</span></span>|<span data-ttu-id="afa7b-110">Myyntisaatavien tilanne</span><span class="sxs-lookup"><span data-stu-id="afa7b-110">Aged Accounts Receivable</span></span>|
-|<span data-ttu-id="afa7b-111">Ostovelkojen yhteenvedon hakeminen. Yhteenvedossa on eräpäivästä, kirjauspäivämäärästä tai asiakirjan päivämäärästä laskettujen ostovelkojen ikä.</span><span class="sxs-lookup"><span data-stu-id="afa7b-111">Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date.</span></span>|<span data-ttu-id="afa7b-112">Ostovelkojen tilanne</span><span class="sxs-lookup"><span data-stu-id="afa7b-112">Aged Accounts Payable</span></span>|
-|<span data-ttu-id="afa7b-113">Alustavan saldon vertaaminen budjettiin.</span><span class="sxs-lookup"><span data-stu-id="afa7b-113">Compare the trial balance with a budget.</span></span>|<span data-ttu-id="afa7b-114">Alustava tulos/tase / Budjetti</span><span class="sxs-lookup"><span data-stu-id="afa7b-114">Trial Balance/Budget</span></span>|
-|<span data-ttu-id="afa7b-115">Alustavan saldoraportin tulostaminen siten, että raportissa on valitsemiltasi ajanjaksoilta lasketut kirjanpitotilien saldot ja nettomuutokset.</span><span class="sxs-lookup"><span data-stu-id="afa7b-115">Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods.</span></span>|<span data-ttu-id="afa7b-116">Alustava tulos jakson mukaan</span><span class="sxs-lookup"><span data-stu-id="afa7b-116">Trial Balance by Period</span></span>|
-|<span data-ttu-id="afa7b-117">KP-raporttimallin tulostaminen kirjanpitotilien lukujen analysoimista varten tai todellisten pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin.</span><span class="sxs-lookup"><span data-stu-id="afa7b-117">Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries.</span></span>|<span data-ttu-id="afa7b-118">KP-raporttimalli</span><span class="sxs-lookup"><span data-stu-id="afa7b-118">Account Schedule</span></span>|
-|<span data-ttu-id="afa7b-119">Tarkistaminen, täsmäävätkö asiakas- ja toimittajatapahtumat vastaavien pääkirjanpidon tapahtumien kanssa.</span><span class="sxs-lookup"><span data-stu-id="afa7b-119">Check whether customer and vendor ledger entries balance with corresponding general ledger entries.</span></span>|<span data-ttu-id="afa7b-120">Täsm.</span><span class="sxs-lookup"><span data-stu-id="afa7b-120">Reconcile Cust.</span></span> <span data-ttu-id="afa7b-121">asiak.- ja</span><span class="sxs-lookup"><span data-stu-id="afa7b-121">and Vend.</span></span> <span data-ttu-id="afa7b-122">toim.tilit</span><span class="sxs-lookup"><span data-stu-id="afa7b-122">Accs</span></span>|
+| <span data-ttu-id="9f7c0-106">Toiminta</span><span class="sxs-lookup"><span data-stu-id="9f7c0-106">To</span></span> | <span data-ttu-id="9f7c0-107">Tarkastele tätä raporttia</span><span class="sxs-lookup"><span data-stu-id="9f7c0-107">See this report</span></span> |
+| --- | --- |
+| <span data-ttu-id="9f7c0-108">Kirjanpitotilien saldot ja nettomuutokset sisältävän alustavan saldoraportin tulostaminen.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-108">Print a trial balance report with balances and net changes for general ledger accounts.</span></span> |<span data-ttu-id="9f7c0-109">Alustava tulos/tase</span><span class="sxs-lookup"><span data-stu-id="9f7c0-109">Trial Balance</span></span> |
+| <span data-ttu-id="9f7c0-110">Myyntisaamisten yhteenvedon hakeminen. Yhteenvedossa on eräpäivästä, kirjauspäivämäärästä tai asiakirjan päivämäärästä laskettujen myyntisaamisten ikä.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-110">Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date.</span></span> |<span data-ttu-id="9f7c0-111">Myyntisaatavien tilanne</span><span class="sxs-lookup"><span data-stu-id="9f7c0-111">Aged Accounts Receivable</span></span> |
+| <span data-ttu-id="9f7c0-112">Ostovelkojen yhteenvedon hakeminen. Yhteenvedossa on eräpäivästä, kirjauspäivämäärästä tai asiakirjan päivämäärästä laskettujen ostovelkojen ikä.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-112">Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date.</span></span> |<span data-ttu-id="9f7c0-113">Ostovelkojen tilanne</span><span class="sxs-lookup"><span data-stu-id="9f7c0-113">Aged Accounts Payable</span></span> |
+| <span data-ttu-id="9f7c0-114">Alustavan saldon vertaaminen budjettiin.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-114">Compare the trial balance with a budget.</span></span> |<span data-ttu-id="9f7c0-115">Alustava tulos/tase / Budjetti</span><span class="sxs-lookup"><span data-stu-id="9f7c0-115">Trial Balance/Budget</span></span> |
+| <span data-ttu-id="9f7c0-116">Alustavan saldoraportin tulostaminen siten, että raportissa on valitsemiltasi ajanjaksoilta lasketut kirjanpitotilien saldot ja nettomuutokset.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-116">Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods.</span></span> |<span data-ttu-id="9f7c0-117">Alustava tulos jakson mukaan</span><span class="sxs-lookup"><span data-stu-id="9f7c0-117">Trial Balance by Period</span></span> |
+| <span data-ttu-id="9f7c0-118">KP-raporttimallin tulostaminen kirjanpitotilien lukujen analysoimista varten tai todellisten pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-118">Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries.</span></span> |<span data-ttu-id="9f7c0-119">KP-raporttimalli</span><span class="sxs-lookup"><span data-stu-id="9f7c0-119">Account Schedule</span></span> |
+| <span data-ttu-id="9f7c0-120">Tarkistaminen, täsmäävätkö asiakas- ja toimittajatapahtumat vastaavien pääkirjanpidon tapahtumien kanssa.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-120">Check whether customer and vendor ledger entries balance with corresponding general ledger entries.</span></span> |<span data-ttu-id="9f7c0-121">Täsm. asiak.- ja toim.tilit</span><span class="sxs-lookup"><span data-stu-id="9f7c0-121">Reconcile Cust. and Vend. Accs</span></span> |
 
-<span data-ttu-id="afa7b-123">Kun haluat nähdä raportin, valitse oikeassa yläkulmassa oleva **Etsi sivua tai raporttia** -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse vastaava linkki.</span><span class="sxs-lookup"><span data-stu-id="afa7b-123">To see a report, in the top right corner, choose the **Search for Page or Report** icon, type the name as it appears in the table, and then choose the related link.</span></span>
+<span data-ttu-id="9f7c0-122">Voit avata raportin valitsemalla ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="9f7c0-122">To see a report, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, type the name as it appears in the table, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="afa7b-124">Katso myös</span><span class="sxs-lookup"><span data-stu-id="afa7b-124">See Also</span></span>
-[<span data-ttu-id="afa7b-125">Vuosien ja kausien sulkeminen</span><span class="sxs-lookup"><span data-stu-id="afa7b-125">Close Years and Periods</span></span>](year-close-years-periods.md)
+## <a name="see-also"></a><span data-ttu-id="9f7c0-123">Katso myös</span><span class="sxs-lookup"><span data-stu-id="9f7c0-123">See Also</span></span>
+[<span data-ttu-id="9f7c0-124">Vuosien ja jaksojen sulkeminen</span><span class="sxs-lookup"><span data-stu-id="9f7c0-124">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="9f7c0-125">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9f7c0-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="9f7c0-126">Business Intelligence</span><span class="sxs-lookup"><span data-stu-id="9f7c0-126">Business Intelligence</span></span>](bi.md)
 

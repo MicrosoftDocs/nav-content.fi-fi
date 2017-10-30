@@ -1,33 +1,37 @@
 ---
-title: 'Toimintaohje: Testiraporttien tarkastelu ennen kirjausta'
+title: Testiraportin tarkastelu ennen myynti- tai ostoasiakirjan kirjaamista
+description: "Voit testata ja arvioida asiakirjan, kuten tilauksen tai hyvityslaskun, ennen kirjaamista ja tarkistaa, ettei siinä ole kirjaamisen estäviä virheitä."
+documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: b33548911bf71e66178bb5dee6a529071665f3b8
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 05/12/2017
+ms.author: solsen
+ms.translationtype: HT
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: 1c197576564f4fe88a92d06c43e2b237f6836aa1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/23/2017
 
 ---
-    
-# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="7ba5c-102">Toimintaohje: Testiraporttien tarkastelu ennen kirjausta</span><span class="sxs-lookup"><span data-stu-id="7ba5c-102">How to: View Test Reports Before Posting</span></span>
-<span data-ttu-id="7ba5c-103">Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun, voit testata asiakirjan ja varmistaa, ettei kirjausta estäviä ongelmia ole.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-103">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
+# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="99b47-103">Toimintaohje: Testiraporttien tarkastelu ennen kirjausta</span><span class="sxs-lookup"><span data-stu-id="99b47-103">How to: View Test Reports Before Posting</span></span>
+<span data-ttu-id="99b47-104">Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun, voit testata asiakirjan ja varmistaa, ettei kirjausta estäviä ongelmia ole.</span><span class="sxs-lookup"><span data-stu-id="99b47-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
-<span data-ttu-id="7ba5c-104">**Huomautus**: Seuraavassa on tietoja ennen ostoasiakirjan kirjausta tehtävästä testauksesta.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-104">**Note**: The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="7ba5c-105">Toiminto toimii samalla tavalla myyntiasiakirjoille.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-105">The functionality works in the same way for sales documents.</span></span>
+> [!NOTE]  
+>   <span data-ttu-id="99b47-105">Seuraavassa on tietoja ennen ostoasiakirjan kirjausta tehtävästä testauksesta.</span><span class="sxs-lookup"><span data-stu-id="99b47-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="99b47-106">Toiminto toimii samalla tavalla myyntiasiakirjoille.</span><span class="sxs-lookup"><span data-stu-id="99b47-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="7ba5c-106">Testiraporttien tulostaminen ennen ostolaskujen kirjausta</span><span class="sxs-lookup"><span data-stu-id="7ba5c-106">To print a test report before posting a purchase invoice</span></span>
-1. <span data-ttu-id="7ba5c-107">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Ostolaskut** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-107">In the top right corner, choose the **Search for Page or Report** icon, enter **Purchase Invoices**, and then select the related link.</span></span>
-2. <span data-ttu-id="7ba5c-108">Avaa ostolasku, jonka haluat testata.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-108">Open the purchase invoice that you want to test.</span></span>
-3. <span data-ttu-id="7ba5c-109">Valitse **Testiraportti**.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-109">Choose **Test Report**.</span></span>  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="99b47-107">Testiraporttien tulostaminen ennen ostolaskujen kirjausta</span><span class="sxs-lookup"><span data-stu-id="99b47-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="99b47-108">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Ostolaskut** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="99b47-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="99b47-109">Avaa ostolasku, jonka haluat testata.</span><span class="sxs-lookup"><span data-stu-id="99b47-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="99b47-110">Valitse **Testiraportti**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="99b47-110">Choose the **Test Report** action.</span></span>  
 
-<span data-ttu-id="7ba5c-110">Ohjelma testaa kaikki ostolaskun osat ja esittää tulokset raportissa.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-110">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="7ba5c-111">Jos raportin mukaan laskussa on virheitä tai tietoja puuttuu, virheet täytyy korjata ennen ostolaskun kirjausta.</span><span class="sxs-lookup"><span data-stu-id="7ba5c-111">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
+<span data-ttu-id="99b47-111">Ohjelma testaa kaikki ostolaskun osat ja esittää tulokset raportissa.</span><span class="sxs-lookup"><span data-stu-id="99b47-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="99b47-112">Jos raportin mukaan laskussa on virheitä tai tietoja puuttuu, virheet täytyy korjata ennen ostolaskun kirjausta.</span><span class="sxs-lookup"><span data-stu-id="99b47-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7ba5c-112">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7ba5c-112">See Also</span></span>
-[<span data-ttu-id="7ba5c-113">Asiakirjojen ja päiväkirjojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="7ba5c-113">Post Documents and Journals</span></span>](ui-post-documents-journals.md)
+## <a name="see-also"></a><span data-ttu-id="99b47-113">Katso myös</span><span class="sxs-lookup"><span data-stu-id="99b47-113">See Also</span></span>
+[<span data-ttu-id="99b47-114">Asiakirjojen ja päiväkirjojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="99b47-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="99b47-115">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="99b47-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
 

@@ -1,31 +1,57 @@
 ---
-title: "Toimittajan pankkitilien määrittäminen"
+title: "Pankkitilien määrittäminen"
+description: "Voit täsmäyttää pankkitilit Dynamics NAV -ohjelmassa pankin tiliotteiden avulla."
+documentationcenter: 
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 10fe32d2153d92aea0f9e6db8ebfb0e465fc04f4
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: feed, stream
+ms.date: 09/26/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 3581615fe94006aa9245f5e66fe6cf475b22acfb
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="how-to-set-up-bank-accounts"></a><span data-ttu-id="12237-103">Toimittajan pankkitilien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="12237-103">How to: Set Up Bank Accounts</span></span>
+<span data-ttu-id="12237-104">[!INCLUDE[d365fin](includes/d365fin_md.md)] seuraa pankkitapahtumia pankkitilien avulla.</span><span class="sxs-lookup"><span data-stu-id="12237-104">You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions.</span></span> <span data-ttu-id="12237-105">Tilit voidaan määrittää käyttämään paikallista valuuttaa tai ulkomaan valuuttaa.</span><span class="sxs-lookup"><span data-stu-id="12237-105">Accounts can be denominated in your local currency or in a foreign currency.</span></span> <span data-ttu-id="12237-106">Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.</span><span class="sxs-lookup"><span data-stu-id="12237-106">After you have set up bank accounts, you can also use the check printing option.</span></span>
 
-# <a name="how-to-set-up-bank-accounts"></a><span data-ttu-id="c482e-102">Toimittajan pankkitilien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="c482e-102">How to: Set Up Bank Accounts</span></span>
-<span data-ttu-id="c482e-103">Dynamics NAV -ohjelmassa käytetään pankkitilejä pankkikauppatapahtumien seurantaan.</span><span class="sxs-lookup"><span data-stu-id="c482e-103">You use bank accounts in the Dynamics NAV to keep track of your banking transactions.</span></span> <span data-ttu-id="c482e-104">Tilit voidaan määrittää käyttämään paikallista valuuttaa tai ulkomaan valuuttaa.</span><span class="sxs-lookup"><span data-stu-id="c482e-104">Accounts can be denominated in your local currency or in a foreign currency.</span></span> <span data-ttu-id="c482e-105">Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.</span><span class="sxs-lookup"><span data-stu-id="c482e-105">After you have set up bank accounts, you can also use the check printing option.</span></span>
+## <a name="to-set-up-bank-accounts"></a><span data-ttu-id="12237-107">Pankkitilien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="12237-107">To set up bank accounts</span></span>
+1. <span data-ttu-id="12237-108">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="12237-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12237-109">Valitse **Pankkitilit**-ikkunassa **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="12237-109">In the **Bank Accounts** window, choose the **New** action.</span></span>
+3. <span data-ttu-id="12237-110">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="12237-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-1. <span data-ttu-id="c482e-106">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="c482e-106">In the top right corner, choose the **Search for Page or Report** icon, enter **Bank Accounts**, and then choose the related link.</span></span>
-2. <span data-ttu-id="c482e-107">Valitse **Pankkitilit**-ikkunassa **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="c482e-107">In the **Bank Accounts** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="c482e-108">Täytä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="c482e-108">Fill in the fields as necessary.</span></span> <span data-ttu-id="c482e-109">Lue kentän lyhyt kuvaus valitsemalla kenttä tai siirry lisätietoihin valitsemalla linkki.</span><span class="sxs-lookup"><span data-stu-id="c482e-109">Choose a field to read a short description of the field or link to more information.</span></span>
+> [!NOTE]
+> <span data-ttu-id="12237-111">Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu.</span><span class="sxs-lookup"><span data-stu-id="12237-111">To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question.</span></span> <span data-ttu-id="12237-112">Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen.</span><span class="sxs-lookup"><span data-stu-id="12237-112">You can do this by performing a bank account reconciliation.</span></span> <span data-ttu-id="12237-113">Lisätietoja on kohdassa [Toimintaohje: Pankkitilien täsmäyttäminen erikseen](bank-how-reconcile-bank-accounts-separately.md).</span><span class="sxs-lookup"><span data-stu-id="12237-113">For more information, see [How to: Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md).</span></span> <span data-ttu-id="12237-114">Vaihtoehtoisesti voit ottaa käyttöön alkusaldon osana yleistietojen luontia uusissa yrityksissä käyttämällä asetusten ohjattua **Siirrä yritystiedot** -määritystä.</span><span class="sxs-lookup"><span data-stu-id="12237-114">Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup.</span></span> <span data-ttu-id="12237-115">Lisätietoja on kohdassa [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin(index.md).</span><span class="sxs-lookup"><span data-stu-id="12237-115">For more information, see [Welcome to [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md).</span></span>
 
-<span data-ttu-id="c482e-110">**Huomautus**: **Siirrä**-välilehden kentät liittyvät pankkisyötteiden ja -tiedostojen tuontiin ja vientiin.</span><span class="sxs-lookup"><span data-stu-id="c482e-110">**Note**: Fields on the **Transfer** FastTab are related to import/export of bank feeds and files.</span></span> <span data-ttu-id="c482e-111">Lisätietoja on kohdassa [Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md).</span><span class="sxs-lookup"><span data-stu-id="c482e-111">For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).</span></span>
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a><span data-ttu-id="12237-116">Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten</span><span class="sxs-lookup"><span data-stu-id="12237-116">To set up your bank account for import or export of bank files</span></span>
+<span data-ttu-id="12237-117">**Pankkitilin kortti** -ikkunan **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen tuontiin ja vientiin.</span><span class="sxs-lookup"><span data-stu-id="12237-117">Fields on the **Transfer** FastTab in the **Bank Account Card** window are related to import and export of bank feeds and files.</span></span> <span data-ttu-id="12237-118">Lisätietoja on kohdassa [Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md).</span><span class="sxs-lookup"><span data-stu-id="12237-118">For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c482e-112">Katso myös</span><span class="sxs-lookup"><span data-stu-id="c482e-112">See Also</span></span>  
-[<span data-ttu-id="c482e-113">Pankkitoiminnan määrittäminen</span><span class="sxs-lookup"><span data-stu-id="c482e-113">Set Up Banking</span></span>](bank-setup-banking.md)  
-[<span data-ttu-id="c482e-114">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="c482e-114">Manage Bank Accounts</span></span>](bank-manage-bank-accounts.md)
+1. <span data-ttu-id="12237-119">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Pankkitilit** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="12237-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12237-120">Avaa sen pankkitilin kortti, josta viet tai johon tuot pankkitiedostot.</span><span class="sxs-lookup"><span data-stu-id="12237-120">Open the card for a bank account that you will export or import bank files for.</span></span>
+3. <span data-ttu-id="12237-121">Täytä **Siirto**-pikavälilehdessä tarvittavat kentät.</span><span class="sxs-lookup"><span data-stu-id="12237-121">On the **Transfer** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]  
+>   <span data-ttu-id="12237-122">Eri tiedostojen vientipalvelut ja niiden tiedostomuodot edellyttävät erilaisia asetuksia **Pankkitilin kortti** -ikkunassa.</span><span class="sxs-lookup"><span data-stu-id="12237-122">Different file export services and their formats require different setup values in the **Bank Account Card** window.</span></span> <span data-ttu-id="12237-123">Saat ilmoituksen virheellisistä tai puuttuvista asetusarvoista, kun yrität viedä tiedoston.</span><span class="sxs-lookup"><span data-stu-id="12237-123">You will be informed about wrong or missing setup values as you try to export the file.</span></span> <span data-ttu-id="12237-124">Lue huolellisesti kenttien lyhyet kuvaukset tai katso lisätietoja liittyvien toimenpiteiden ohjeaiheista.</span><span class="sxs-lookup"><span data-stu-id="12237-124">So read the short descriptions of the fields carefully or refer to the related procedure topics.</span></span> <span data-ttu-id="12237-125">Esimerkiksi maksutiedoston vienti pohjoisamerikkalaiseen sähköiseen rahansiirtoon (EFT-toiminto) edellyttää, että sekä **Viimeinen maksuosoitusehdotusnumero**- että **Siirtonro**-kenttä on täytetty.</span><span class="sxs-lookup"><span data-stu-id="12237-125">For example, exporting a payment file for North American electronic funds transfer (EFT) requires that both the **Last Remittance Advice No.** field and the **Transit No.** field are filled in.</span></span> <span data-ttu-id="12237-126">Lisätietoja on kohdassa [Toimintaohje: Maksujen vieminen pankkitiedostoon](payables-how-export-payments-bank-file.md).</span><span class="sxs-lookup"><span data-stu-id="12237-126">For more information, see [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).</span></span>
+
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a><span data-ttu-id="12237-127">Toimittajan pankkitilien määrittäminen pankkitiedostojen vientiä varten</span><span class="sxs-lookup"><span data-stu-id="12237-127">To set up vendor bank accounts for export of bank files</span></span>
+<span data-ttu-id="12237-128">**Toimittajan pankkitilin kortti** -ikkunan **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen vientiin.</span><span class="sxs-lookup"><span data-stu-id="12237-128">Fields on the **Transfer** FastTab in the **Vendor Bank Account Card** window are related to export of bank feeds and files.</span></span> <span data-ttu-id="12237-129">Lisätietoja on kohdassa [Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md) ja [Toimintaohje: Maksujen vienti pankkitiedostoon](payables-how-export-payments-bank-file.md).</span><span class="sxs-lookup"><span data-stu-id="12237-129">For more information, see [How to: Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md) and [How to: Export Payments to a Bank File](payables-how-export-payments-bank-file.md).</span></span>
+
+1. <span data-ttu-id="12237-130">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, syötä **Toimittajat** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="12237-130">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="12237-131">Avaa sen toimittajan kortti, jonka pankkitiliin viet maksujen pankkitiedostot.</span><span class="sxs-lookup"><span data-stu-id="12237-131">Open the card for a vendor whose bank account you will export payment bank files to.</span></span>
+3. <span data-ttu-id="12237-132">Valitse **Pankkitilit**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="12237-132">Choose the **Bank Accounts** action.</span></span>
+3. <span data-ttu-id="12237-133">Täytä tarvittaessa **Toimittajan pankkitilin kortti** -ikkunan **Siirto**-pikavälilehden kentät.</span><span class="sxs-lookup"><span data-stu-id="12237-133">In the **Vendor Bank Account Card** window, on the **Transfer** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-set-the-opening-balance-on-new-bank-accounts"></a><span data-ttu-id="12237-134">Uusien pankkitilien alkusaldon määrittäminen</span><span class="sxs-lookup"><span data-stu-id="12237-134">To set the opening balance on new bank accounts</span></span>
+
+
+## <a name="see-also"></a><span data-ttu-id="12237-135">Katso myös</span><span class="sxs-lookup"><span data-stu-id="12237-135">See Also</span></span>
+[<span data-ttu-id="12237-136">Pankkitoiminnan määrittäminen</span><span class="sxs-lookup"><span data-stu-id="12237-136">Setting Up Banking</span></span>](bank-setup-banking.md)  
+[<span data-ttu-id="12237-137">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="12237-137">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+<span data-ttu-id="12237-138">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="12237-138">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

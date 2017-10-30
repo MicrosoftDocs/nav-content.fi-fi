@@ -1,35 +1,41 @@
 ---
-title: QuickBooks-tietojen siirto
+title: "QuickBooks-tietojen siirtolaajennuksen käyttäminen"
+description: "Tässä ohjeaiheessa käsitellään, miten laajennuksella tuodaan asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Desktopista Dynamics NAViin."
 author: edupont04
-ms.custom: na
-ms.date: 09/23/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 949771b5f24a3e3c38f1a642e491f9a6e5a36d08
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.date: 03/29/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 7b8cf77369a2073f746aebdca5d4cbeba80283ec
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="the-quickbooks-data-migration-extension-for-dynamics-nav"></a><span data-ttu-id="7c69a-103">Dynamics NAVin QuickBooks-tietojen siirtolaajennus</span><span class="sxs-lookup"><span data-stu-id="7c69a-103">The QuickBooks Data Migration Extension for Dynamics NAV</span></span>
+<span data-ttu-id="7c69a-104">Tämän laajennuksen avulla asiakkaat, toimittajat, nimikkeet ja tilit on helppo siirtää QuickBooks Desktopista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.</span><span class="sxs-lookup"><span data-stu-id="7c69a-104">This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks Desktop to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="7c69a-105">Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata ne sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]iin avaamalla avustetun asennusoppaan.</span><span class="sxs-lookup"><span data-stu-id="7c69a-105">If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+<span data-ttu-id="7c69a-106">Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](upload-data.md).</span><span class="sxs-lookup"><span data-stu-id="7c69a-106">For more information, see [Importing Business Data from Other Finance Systems](upload-data.md).</span></span>
 
-# <a name="the-quickbooks-data-migration-extension-for-dynamics-nav"></a><span data-ttu-id="b6d37-102">QuickBooks-tietojen siirron laajennus Dynamics NAV -ohjelmaa varten</span><span class="sxs-lookup"><span data-stu-id="b6d37-102">The QuickBooks Data Migration Extension for Dynamics NAV</span></span>
-<span data-ttu-id="b6d37-103">Tämän laajennuksen avulla asiakkaat, toimittajat ja nimikkeet on helppo siirtää QuickBooks-ohjelmasta Dynamics NAV -ohjelmaan.</span><span class="sxs-lookup"><span data-stu-id="b6d37-103">This extension makes it easy to migrate customers, vendors, and items from QuickBooks to Dynamics NAV.</span></span> <span data-ttu-id="b6d37-104">Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata tiedot Dynamics NAV -ohjelmaan avaamalla avustetun asennusoppaan.</span><span class="sxs-lookup"><span data-stu-id="b6d37-104">If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to Dynamics NAV.</span></span>  
+## <a name="exporting-data-from-quickbooks-desktop"></a><span data-ttu-id="7c69a-107">Tietojen vieminen QuickBooks Desktopista</span><span class="sxs-lookup"><span data-stu-id="7c69a-107">Exporting Data from QuickBooks Desktop</span></span>
+<span data-ttu-id="7c69a-108">Osa tai kaikki asiakkaat, toimittajat, varastonimikkeet ja tilit on oltava vietynä IIF (Intuit Interchange Format) -tiedostoon.</span><span class="sxs-lookup"><span data-stu-id="7c69a-108">You must have exported some or all of your existing customers, vendors, inventory items, and accounts to an Intuit Interchange Format (IIF) file.</span></span> <span data-ttu-id="7c69a-109">QuickBooks-tietojen siirron laajennus sisältää QuickBooks-tietojen oletusmäärityksen. Voit siis käyttää olemassa olevia tietoja, kun testaat uutta [!INCLUDE[d365fin](includes/d365fin_md.md)]-yritystä.</span><span class="sxs-lookup"><span data-stu-id="7c69a-109">The QuickBooks Data Migration extension includes a default mapping of QuickBooks data so that you can use your existing data to test your new [!INCLUDE[d365fin](includes/d365fin_md.md)] company.</span></span> <span data-ttu-id="7c69a-110">Oletusmääritys on riittävä lähes kaikissa tapauksissa. Voit kuitenkin muuttaa määritystä avustetun asennusoppaan avulla.</span><span class="sxs-lookup"><span data-stu-id="7c69a-110">The default mapping will be sufficient in the vast majority of cases, but you can change the mapping in the assisted setup guide.</span></span>  
+<span data-ttu-id="7c69a-111">QuickBooks-ohjelman Tiedosto-valikko sisältää apuohjelman luetteloiden viemistä varten.</span><span class="sxs-lookup"><span data-stu-id="7c69a-111">In QuickBooks, the File menu includes a utility to export lists.</span></span> <span data-ttu-id="7c69a-112">Voit viedä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin seuraavat luettelot:</span><span class="sxs-lookup"><span data-stu-id="7c69a-112">For the purposes of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can export the following lists:</span></span>
 
-## <a name="exporting-data-from-quickbooks"></a><span data-ttu-id="b6d37-105">Tietojen vieminen QuickBooks-ohjelmasta</span><span class="sxs-lookup"><span data-stu-id="b6d37-105">Exporting Data from QuickBooks</span></span>
-<span data-ttu-id="b6d37-106">Olet vienyt osan tai kaikki asiakkaat, toimittajat ja varastonimikkeet IIF (Intuit Interchange Format) -tiedostoon.</span><span class="sxs-lookup"><span data-stu-id="b6d37-106">You must have exported some or all of your existing customers, vendors, and inventory items to an Intuit Interchange Format (IIF) file.</span></span> <span data-ttu-id="b6d37-107">QuickBooks-tietojen siirron laajennus sisältää QuickBooks-tietojen oletusmäärityksen. Voit siis käyttää olemassa olevia tietoja, kun testaat uutta Dynamics NAV -yritystä.</span><span class="sxs-lookup"><span data-stu-id="b6d37-107">The QuickBooks Data Migration extension includes a default mapping of QuickBooks data so that you can use your existing data to test your new Dynamics NAV company.</span></span> <span data-ttu-id="b6d37-108">Oletusmääritys on riittävä lähes kaikissa tapauksissa. Voit kuitenkin muuttaa määritystä avustetun asennusoppaan avulla.</span><span class="sxs-lookup"><span data-stu-id="b6d37-108">The default mapping will be sufficient in the vast majority of cases, but you can change the mapping in the assisted setup guide.</span></span>  
-<span data-ttu-id="b6d37-109">QuickBooks-ohjelman Tiedosto-valikko sisältää apuohjelman luetteloiden viemistä varten.</span><span class="sxs-lookup"><span data-stu-id="b6d37-109">In QuickBooks, the File menu includes a utility to export lists.</span></span> <span data-ttu-id="b6d37-110">Voit viedä Dynamics NAV -ohjelmaan seuraavat luettelot:</span><span class="sxs-lookup"><span data-stu-id="b6d37-110">For the purposes of Dynamics NAV, you can export the following lists:</span></span>
-- <span data-ttu-id="b6d37-111">Asiakasluettelo</span><span class="sxs-lookup"><span data-stu-id="b6d37-111">Customer List</span></span>
-- <span data-ttu-id="b6d37-112">Toimittajaluettelo</span><span class="sxs-lookup"><span data-stu-id="b6d37-112">Vendor List</span></span>
-- <span data-ttu-id="b6d37-113">Nimikeluettelo</span><span class="sxs-lookup"><span data-stu-id="b6d37-113">Item List</span></span>
-- <span data-ttu-id="b6d37-114">Tililuettelo</span><span class="sxs-lookup"><span data-stu-id="b6d37-114">Account List</span></span>  
+* <span data-ttu-id="7c69a-113">Asiakasluettelo</span><span class="sxs-lookup"><span data-stu-id="7c69a-113">Customer List</span></span>  
+* <span data-ttu-id="7c69a-114">Toimittajaluettelo</span><span class="sxs-lookup"><span data-stu-id="7c69a-114">Vendor List</span></span>  
+* <span data-ttu-id="7c69a-115">Nimikeluettelo</span><span class="sxs-lookup"><span data-stu-id="7c69a-115">Item List</span></span>  
+* <span data-ttu-id="7c69a-116">Tililuettelo</span><span class="sxs-lookup"><span data-stu-id="7c69a-116">Account List</span></span>  
 
-<span data-ttu-id="b6d37-115">Viedyt tiedot tallennetaan IIF-tiedostona, jonka voi ladata Dynamics NAV -ohjelmaan.</span><span class="sxs-lookup"><span data-stu-id="b6d37-115">The exported data is saved as an IIF file that you can then upload to Dynamics NAV.</span></span>
+<span data-ttu-id="7c69a-117">Viedyt tiedot tallennetaan IIF-tiedostona, jonka voi sitten ladata [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.</span><span class="sxs-lookup"><span data-stu-id="7c69a-117">The exported data is saved as an IIF file that you can then upload to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b6d37-116">Katso myös</span><span class="sxs-lookup"><span data-stu-id="b6d37-116">See Also</span></span>  
-[<span data-ttu-id="b6d37-117">Dynamics NAV -ohjelman mukauttaminen laajennusten avulla</span><span class="sxs-lookup"><span data-stu-id="b6d37-117">Customizing Dynamics NAV Using Extensions </span></span>](ui-extensions.md)  
-[<span data-ttu-id="b6d37-118">Tietojen tuominen muista rahoitusjärjestelmistä</span><span class="sxs-lookup"><span data-stu-id="b6d37-118">Import Data from Other Finance Systems</span></span>](upload-data.md)  
+## <a name="finding-the-quickbooks-data-migration-extension"></a><span data-ttu-id="7c69a-118">QuickBooks-tietojen siirtolaajennuksen etsiminen</span><span class="sxs-lookup"><span data-stu-id="7c69a-118">Finding the QuickBooks Data Migration Extension</span></span>
+<span data-ttu-id="7c69a-119">QuickBooks-tietojen siirtolaajennus on asennettu ja valmis käytettäväksi tietojen siirtoasetusten ohjatun määrityksen osana.</span><span class="sxs-lookup"><span data-stu-id="7c69a-119">The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide.</span></span> <span data-ttu-id="7c69a-120">Jos olet valmis aloittamaan käytön nyt ja olet vienyt tiedot QuickBooksista, valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Asetusten ohjattu määritys** ja valitse sitten liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="7c69a-120">If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Assisted Setup**, and then choose the related link.</span></span> <span data-ttu-id="7c69a-121">Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.</span><span class="sxs-lookup"><span data-stu-id="7c69a-121">Choose **Migrate business data**, and then follow the steps in the guide.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="7c69a-122">Katso myös</span><span class="sxs-lookup"><span data-stu-id="7c69a-122">See Also</span></span>
+[<span data-ttu-id="7c69a-123">Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä</span><span class="sxs-lookup"><span data-stu-id="7c69a-123">Importing Business Data from Other Finance Systems</span></span>](upload-data.md)  
+<span data-ttu-id="7c69a-124">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="7c69a-124">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
 

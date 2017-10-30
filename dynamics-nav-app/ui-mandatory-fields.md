@@ -1,32 +1,33 @@
 ---
-title: "Pakolliset kentät"
+title: "Prosessien suorittamiseen tarvittavat pakolliset kentät"
+description: "Tutustu punaisella tähtimerkillä merkittyihin kenttien. Tämä merkintä osoittaa, että ne ovat pakollisia ja ne on täytettävä, jotta prosessit voidaan suorittaa."
+documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 85c3897861367b2e8bb60147fbd5d5519913a4eb
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.date: 05/12/2017
+ms.author: solsen
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 93c24295a3fe342466df84c344a3dbf15b6cfea9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-    
-# <a name="mandatory-fields"></a><span data-ttu-id="e1acd-102">Pakolliset kentät</span><span class="sxs-lookup"><span data-stu-id="e1acd-102">Mandatory Fields</span></span>
-<span data-ttu-id="e1acd-103">Kun syötät tietoja Dynamics NAV -ohjelman sivuilla, tietyt kentät on merkitty punaisella tähdellä.</span><span class="sxs-lookup"><span data-stu-id="e1acd-103">When you enter data on pages in Dynamics NAV, certain fields are marked with a red asterisk.</span></span> <span data-ttu-id="e1acd-104">Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.</span><span class="sxs-lookup"><span data-stu-id="e1acd-104">The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.</span></span> 
+# <a name="mandatory-fields"></a><span data-ttu-id="91648-103">Pakolliset kentät</span><span class="sxs-lookup"><span data-stu-id="91648-103">Mandatory Fields</span></span>
+<span data-ttu-id="91648-104">Kun annat tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivuilla, tietyt kentät on merkitty punaisella tähdellä.</span><span class="sxs-lookup"><span data-stu-id="91648-104">When you enter data on pages in [!INCLUDE[d365fin](includes/d365fin_md.md)], certain fields are marked with a red asterisk.</span></span> <span data-ttu-id="91648-105">Punainen tähti tarkoittaa, että kenttä on täytettävä, jotta tietty kenttää käyttävä prosessi voidaan suorittaa, kuten kentässä olevaa arvoa käyttävän tapahtuman kirjaus.</span><span class="sxs-lookup"><span data-stu-id="91648-105">The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.</span></span>
 
-<span data-ttu-id="e1acd-105">Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun.</span><span class="sxs-lookup"><span data-stu-id="e1acd-105">Even though the field contains a red asterisk, you are not forced to fill in the field before you continue to other fields or close the page.</span></span> <span data-ttu-id="e1acd-106">Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.</span><span class="sxs-lookup"><span data-stu-id="e1acd-106">The red asterisk only serves as a reminder that you will be blocked from completing a certain process.</span></span> 
+<span data-ttu-id="91648-106">Vaikka kentässä on punainen tähti, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun.</span><span class="sxs-lookup"><span data-stu-id="91648-106">Even though the field contains a red asterisk, you are not forced to fill in the field before you continue to other fields or close the page.</span></span> <span data-ttu-id="91648-107">Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.</span><span class="sxs-lookup"><span data-stu-id="91648-107">The red asterisk only serves as a reminder that you will be blocked from completing a certain process.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="e1acd-107">Esimerkkejä</span><span class="sxs-lookup"><span data-stu-id="e1acd-107">Examples</span></span> 
-<span data-ttu-id="e1acd-108">**Asiakkaan kortti** -ikkunassa näkyy punainen tähti **Veroaluekoodi**-kentän **Nimi**-kentässä ja kolme kirjauksen ryhmäkenttää, jotka ilmaisevat, että et voi kirjata myyntitapahtumia asiakkaalle, ellei kenttiä täytetä.</span><span class="sxs-lookup"><span data-stu-id="e1acd-108">In the **Customer Card** window, the red asterisk appears in the **Name** field, in the **Tax Area Code** field, and in the posting group fields to indicate that you cannot post a sales transaction for the customer unless the fields are filled.</span></span>
+## <a name="examples"></a><span data-ttu-id="91648-108">Esimerkkejä</span><span class="sxs-lookup"><span data-stu-id="91648-108">Examples</span></span>
+<span data-ttu-id="91648-109">**Asiakkaan kortti** -ikkunassa näkyy punainen tähti **Veroaluekoodi**-kentän **Nimi**-kentässä ja kolme kirjauksen ryhmäkenttää, jotka ilmaisevat, että et voi kirjata myyntitapahtumia asiakkaalle, ellei kenttiä täytetä.</span><span class="sxs-lookup"><span data-stu-id="91648-109">In the **Customer Card** window, the red asterisk appears in the **Name** field, in the **Tax Area Code** field, and in the posting group fields to indicate that you cannot post a sales transaction for the customer unless the fields are filled.</span></span>
 
-<span data-ttu-id="e1acd-109">**Nimikkeen kortti** -ikkunassa näkyvä **Kuvaus**-kentässä näkyvä punainen tähti osoittaa sen, että et voi kirjoittaa nimikettä asiakirjariville, kuten myyntitilaukseen, jos tätä kenttää ole täytetty.</span><span class="sxs-lookup"><span data-stu-id="e1acd-109">In the **Item Card** window, the red asterisk appears in the **Description** field to indicate that you cannot enter the item on a document line, such as a sales order, unless this field is filled.</span></span>
+<span data-ttu-id="91648-110">**Nimikkeen kortti** -ikkunassa näkyvä **Kuvaus**-kentässä näkyvä punainen tähti osoittaa sen, että et voi kirjoittaa nimikettä asiakirjariville, kuten myyntitilaukseen, jos tätä kenttää ole täytetty.</span><span class="sxs-lookup"><span data-stu-id="91648-110">In the **Item Card** window, the red asterisk appears in the **Description** field to indicate that you cannot enter the item on a document line, such as a sales order, unless this field is filled.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e1acd-110">Katso myös</span><span class="sxs-lookup"><span data-stu-id="e1acd-110">See Also</span></span>
-[<span data-ttu-id="e1acd-111">Dynamics NAV -ohjelman käyttäminen</span><span class="sxs-lookup"><span data-stu-id="e1acd-111">Work with Dynamics NAV</span></span>](ui-work-product.md) 
+## <a name="see-also"></a><span data-ttu-id="91648-111">Katso myös</span><span class="sxs-lookup"><span data-stu-id="91648-111">See Also</span></span>
+<span data-ttu-id="91648-112">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="91648-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 

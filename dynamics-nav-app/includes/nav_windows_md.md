@@ -1,1 +1,1 @@
-<span data-ttu-id="472f1-101">Microsoft Dynamics NAV -Windows-asiakas</span><span class="sxs-lookup"><span data-stu-id="472f1-101">Microsoft Dynamics NAV Windows client</span></span>
+<span data-ttu-id="5e778-101">Microsoft Dynamics NAV:n SharePoint-asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="5e778-101">Microsoft Dynamics NAV Windows client</span></span>

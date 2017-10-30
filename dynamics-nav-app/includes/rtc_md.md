@@ -1,1 +1,1 @@
-<span data-ttu-id="65c36-101">Roolipohjainen käyttöliittymä</span><span class="sxs-lookup"><span data-stu-id="65c36-101">RoleTailored client</span></span>
+<span data-ttu-id="2015b-101">Roolipohjainen käyttöliittymä</span><span class="sxs-lookup"><span data-stu-id="2015b-101">RoleTailored client</span></span>

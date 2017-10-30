@@ -1,1 +1,1 @@
-<span data-ttu-id="f8c0d-101">Vain Microsoft Dynamics NAV -Windows-asiakas</span><span class="sxs-lookup"><span data-stu-id="f8c0d-101">Microsoft Dynamics NAV Windows client only</span></span>
+<span data-ttu-id="64c7c-101">Ainoastaan Microsoft Dynamics NAV Windows -asiakasohjelma</span><span class="sxs-lookup"><span data-stu-id="64c7c-101">Microsoft Dynamics NAV Windows client only</span></span>

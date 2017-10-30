@@ -1,31 +1,35 @@
 ---
-title: "Toimintaohje: Myyjien määrittäminen"
+title: "Myyjän määrittäminen"
+description: "Voit määrittää on jokaiselle myyjälle tunnuksen, jonka avulla voidaan seurata yksittäisen myyjän tuloksia tai määrittää kontaktille myyjän."
 author: SorenGP
-ms.custom: na
-ms.date: 09/22/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 1a3333568f83279f6afe6728e5bf10f55a9381bc
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: sales rep
+ms.date: 09/08/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 3c2dab0512c8e8965d7751bfda50559844ebcf69
 ms.contentlocale: fi-fi
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
+# <a name="how-to-set-up-salespeople"></a><span data-ttu-id="fcf1e-103">Toimintaohje: Myyjien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="fcf1e-103">How to: Set Up Salespeople</span></span>
+<span data-ttu-id="fcf1e-104">Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-104">Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus.</span></span> <span data-ttu-id="fcf1e-105">Tarkastele esimerkiksi **myyjien provisioiden** raporttia.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-105">See, for example, the **Salesperson Commissions** report.</span></span> <span data-ttu-id="fcf1e-106">Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-106">A company may also want to assign a salesperson to each of their contacts.</span></span>
 
-# <a name="how-to-set-up-salespeople"></a><span data-ttu-id="661d4-102">Toimintaohje: Myyjien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="661d4-102">How to: Set Up Salespeople</span></span>
-<span data-ttu-id="661d4-103">Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle.</span><span class="sxs-lookup"><span data-stu-id="661d4-103">Many companies want to follow an individual employee's performance as a basis for calculating the sales commission or bonus.</span></span> <span data-ttu-id="661d4-104">Tarkastele esimerkiksi myyjien provisioiden raporttia.</span><span class="sxs-lookup"><span data-stu-id="661d4-104">See, for example, the Salesperson Commissions report.</span></span> <span data-ttu-id="661d4-105">Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.</span><span class="sxs-lookup"><span data-stu-id="661d4-105">A company may also want to assign a salesperson to each of their contacts.</span></span>
+<span data-ttu-id="fcf1e-107">Kun olet määrittänyt myyjän **Myyjät**-ikkunassa, voit valita luomasi myyjän **Myyjäkoodi**-kenttään kaikissa asiaankuuluvissa tietueissa. Näitä ovat esimerkiksi KP-tili, asiakas, toimittaja ja kampanjoiden kortit.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-107">When yo have set up a salesperson in the **Salespeople** window, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards.</span></span> <span data-ttu-id="fcf1e-108">Kun tämän jälkeen kirjaat tai määrität esimerkiksi laskuja, hyvityslaskuja, päiväkirjan rivejä tai viivästyskulutoimenpiteitä, myyjäkoodi siirtyy tuloksena saataviin tapahtumakirjauksiin.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-108">Then, when you post or set up invoices, credit memos, journal lines, finance charge activities, and so on, the salesperson code is carried to the resulting ledger entries.</span></span>
 
-<span data-ttu-id="661d4-106">Kun olet määrittänyt myyjän **Myyjät**-ikkunassa, voit valita luomasi myyjän **Myyjäkoodi**-kenttään kaikissa asiaankuuluvissa tietueissa. Näitä ovat esimerkiksi KP-tili, asiakas, toimittaja ja kampanjoiden kortit.</span><span class="sxs-lookup"><span data-stu-id="661d4-106">When yo have set up a salesperson in the **Salespeople** window, you can select it in the **Salesperson Code** field on all relevant records, such as G/L account, customer, vendor, contacts, and campaign cards.</span></span> <span data-ttu-id="661d4-107">Kun tämän jälkeen kirjaat tai määrität esimerkiksi laskuja, hyvityslaskuja, päiväkirjan rivejä tai rahoituksen käyttöönottomaksuun liittyviä toimenpiteitä, myyjäkoodi siirtyy tuloksena saataviin tapahtumakirjauksiin.</span><span class="sxs-lookup"><span data-stu-id="661d4-107">Then, when you post or set up invoices, credit memos, journal lines, finance-setup charge activities, and so on, the salesperson code is carried to the resulting ledger entries.</span></span>
+## <a name="to-set-up-a-salesperson-code"></a><span data-ttu-id="fcf1e-109">Myyjäkoodin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="fcf1e-109">To set up a salesperson code</span></span>
+1. <span data-ttu-id="fcf1e-110">Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Myyjät** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="fcf1e-111">Valitse **Myyjät**-ikkunassa **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-111">In the **Salespeople** window, choose the **New** action.</span></span>
 
-## <a name="to-set-up-a-salesperson-code"></a><span data-ttu-id="661d4-108">Myyjäkoodin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="661d4-108">To set up a salesperson code</span></span>
-1. <span data-ttu-id="661d4-109">Valitse oikeassa yläkulmassa oleva **Etsi sivu tai raportti** -kuvake, syötä **Myyjä** ja valitse sitten aiheeseen liittyvä linkki.</span><span class="sxs-lookup"><span data-stu-id="661d4-109">In the top right corner, choose the **Search for Page or Report** icon, enter **Salespeople**, and then choose the related link.</span></span>
-2. <span data-ttu-id="661d4-110">Valitse **Myyjät**-ikkunassa **Uusi**-toiminto.</span><span class="sxs-lookup"><span data-stu-id="661d4-110">In the **Salespeople** window, choose the **New** action.</span></span>
+<span data-ttu-id="fcf1e-112">Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-112">You can use salespeople in various relationship management and marketing work.</span></span> <span data-ttu-id="fcf1e-113">Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle.</span><span class="sxs-lookup"><span data-stu-id="fcf1e-113">For example, you can assign tasks to salespeople, so that the tasks are incorporated in sales opportunities that the salesperson are assigned to.</span></span> <span data-ttu-id="fcf1e-114">Lisätietoja on ohjeaiheessa [Toimintaohje: Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="fcf1e-114">For more information, see [How to: Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="661d4-111">Katso myös</span><span class="sxs-lookup"><span data-stu-id="661d4-111">See Also</span></span>  
-[<span data-ttu-id="661d4-112">Myynnin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="661d4-112">Set Up Sales</span></span>](sales-setup-sales.md)  
-[<span data-ttu-id="661d4-113">Myynnin hallinta</span><span class="sxs-lookup"><span data-stu-id="661d4-113">Manage Sales</span></span>](sales-manage-sales.md)
+## <a name="see-also"></a><span data-ttu-id="fcf1e-115">Katso myös</span><span class="sxs-lookup"><span data-stu-id="fcf1e-115">See Also</span></span>
+[<span data-ttu-id="fcf1e-116">Myynnin määrittäminen</span><span class="sxs-lookup"><span data-stu-id="fcf1e-116">Setting Up Sales</span></span>](sales-setup-sales.md)  
+[<span data-ttu-id="fcf1e-117">Myynti</span><span class="sxs-lookup"><span data-stu-id="fcf1e-117">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="fcf1e-118">[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="fcf1e-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
