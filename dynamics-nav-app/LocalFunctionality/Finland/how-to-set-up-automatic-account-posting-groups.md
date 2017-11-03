@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: ceaf004fa0bee9383126065e5f5d680bc343291e
+ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
+ms.openlocfilehash: d6728cb5f5ad9a585b8d6bf8a227b169d538021d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="how-to-set-up-automatic-account-posting-groups"></a>Toimintaohje: Automaattisten tilin kirjausryhmien määrittäminen
@@ -46,7 +46,6 @@ Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luo
 
 ## <a name="see-also"></a>Katso myös  
  [Automaattiset tilikoodit](automatic-account-codes.md)   
- [Kokonaissaldo](../Sweden/total-balance.md)   
  [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  
  [Rahoitus](../../finance.md)
 

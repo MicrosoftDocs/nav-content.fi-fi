@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 8157bf9b3ff63189cca89d13d7aaa8c1673e5fca
+ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
+ms.openlocfilehash: 337fc037cd275cd067b33b1e0d99dffe4dbcd3b2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="how-to-print-finnish-intrastat-reports"></a>Toimintaohje: Suomen Intrastat-raporttien tulostaminen
@@ -31,6 +31,5 @@ Valmiit tapahtumat voidaan lähettää tiedostona Intrastat-viranomaisille tai v
 4.  Valitse **Tulosta**-toiminto.  
 
 ## <a name="see-also"></a>Katso myös  
- [Intrastat-ilmoituksen raportoiminen levykkeelle](how-to-report-intrastat-on-a-disk.md)   
- [Raportointi INTRASTAT:iin lomakkeilta](how-to-report-intrastat-on-forms.md)
+ [Toimintaohje: Intrastat-raportoinnin määrittäminen](../../finance-how-setup-report-intrastat.md)
 

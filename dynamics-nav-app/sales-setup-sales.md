@@ -12,10 +12,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 300f281cc409e08a253f060e97bb9a80340176bf
+ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
+ms.openlocfilehash: 620d8d2fcdc62249ce5bad6718519211e50cdbac
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
@@ -35,7 +35,7 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 | Määritä myyjät niin, että voit määrittää heidät asiakaskontakteille tai mitata myyjien suorituskykyä, kun myyntiprovisiota tai bonusta lasketaan. |[Toimintaohje: Myyjien määrittäminen](sales-how-setup-salespeople.md) |
 | Määritä yksittäisille asiakkaille tai kaikille asiakkaille myyntiasiakirjojen oletusarvoinen lähetystapa valitsemalla **Kirjaa ja lähetä** -toiminto. |[Toimintaohje: Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md) |
 | Määritä sähköposti niin, että se sisältää lähetettävän myyntiasiakirjan yhteenvedon. |[Toimintaohje: Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md). |
-|Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[Toimintaohje: ALV-rekisteröintinumeroiden tarkistaminen](sales-how-to-verify-vat-registration-numbers.md)|
+|Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[Toimintaohje: ALV-rekisteröintinumeroiden tarkistaminen](finance-setup-vat.md)|
 |Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Toimintaohje: Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Katso myös

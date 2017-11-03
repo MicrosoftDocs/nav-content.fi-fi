@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: ab99b79aed5995c31e8a5b49644674b6ec960b7e
+ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
+ms.openlocfilehash: f94ac30588d0e9293e25f985e91412feed16ff5c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="electronic-banking-in-finland"></a>Verkkopankkitoiminta Suomessa
@@ -36,7 +36,7 @@ Viitenumero luodaan automaattisesti, kun lasku kirjataan tai tilaus kirjataan la
 ## <a name="vendor-payments"></a>Toimittajamaksut  
 Voit lähettää toimittajille verkkopankkimaksuja viemällä kotimaan tai ulkomaan toimittajamaksut pankille lähetettävään siirtotiedostoon. Seuraavissa vaiheissa kuvataan, miten toimittajamaksut viedään.  
 
-- Valitse **Lähetettävät pankkimaksut** -lomakkeessa toimittajat, joille maksutiedostot luodaan.  
+- Valitse **Lähetettävät pankkimaksut** -ikkunassa toimittajat, joille maksutiedostot luodaan.  
 - Syötä maksutiedot jokaiselle maksupäiväkirjan tapahtumalle tai käytä **Ehdota toimittajamaksuja** -toimintoa, joka luo ehdotetut maksut.  
 - Luo ja esikatsele maksuraportti.  
 - Luo siirtotiedosto kotimaan tai ulkomaan toimittajamaksuille.  
@@ -47,5 +47,4 @@ Voit lähettää toimittajille verkkopankkimaksuja viemällä kotimaan tai ulkom
  [Toimintaohje: Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)   
  [Toimintaohje: Maksutiedostojen luominen](how-to-generate-payment-files.md)   
  [Toimintaohje: Maksualennusten ohittaminen](how-to-disregard-payment-discounts.md)   
- 
 
