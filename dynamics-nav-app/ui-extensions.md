@@ -1,6 +1,6 @@
 ---
 title: Dynamics NAV -ohjelman mukauttaminen laajennusten asentamisen avulla
-description: "LisÃ¤tietoja toimintojen lisÃ¤Ã¤misestÃ¤ ja Dynamics NAV -ohjelman mukauttamisesta laajennusten asentamisen avulla."
+description: "Lisätietoja toimintojen lisäämisestä ja Dynamics NAV -ohjelman mukauttamisesta laajennusten asentamisen avulla."
 documentationcenter: 
 author: edupont04
 ms.prod: dynamics-nav-2017
@@ -19,32 +19,32 @@ ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="customizing-dynamics-nav-using-extensions"></a>Dynamics NAV -sovelluksen mukauttaminen laajennusten avulla
-Voit muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ia asentamalla laajennuksia, jotka sisÃ¤ltÃ¤vÃ¤t lisÃ¤toimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden kÃ¤yttÃ¤misen.
-Kun kÃ¤ynnistÃ¤t [!INCLUDE[d365fin](includes/d365fin_md.md)]in ensimmÃ¤isen kerran, joitakin laajennuksia on asennettu valmiiksi. Ajan kuluessa kÃ¤ytettÃ¤vissÃ¤ on yhÃ¤ enemmÃ¤n laajennuksia. Voit ottaa niitÃ¤ kÃ¤yttÃ¶Ã¶n tarpeen mukaan.
+Voit muuttaa [!INCLUDE[d365fin](includes/d365fin_md.md)]ia asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
+Kun käynnistät [!INCLUDE[d365fin](includes/d365fin_md.md)]in ensimmäisen kerran, joitakin laajennuksia on asennettu valmiiksi. Ajan kuluessa käytettävissä on yhä enemmän laajennuksia. Voit ottaa niitä käyttöön tarpeen mukaan.
 
-Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. TÃ¤mÃ¤ laajennus asennetaan oletusarvoisesti.
-Mutta jos kÃ¤ytettÃ¤vissÃ¤ on toinen laajennus, joka avulla voi suorittaa integroinnin toiseen maksujÃ¤rjestelmÃ¤Ã¤n, voit asentaa uuden laajennuksen ja valita sen jÃ¤lkeen kÃ¤ytettÃ¤vÃ¤n palvelun nÃ¤istÃ¤ kahdesta.  
+Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. Tämä laajennus asennetaan oletusarvoisesti.
+Mutta jos käytettävissä on toinen laajennus, joka avulla voi suorittaa integroinnin toiseen maksujärjestelmään, voit asentaa uuden laajennuksen ja valita sen jälkeen käytettävän palvelun näistä kahdesta.  
 
-Laajennuksia hallitaan **Laajennusten hallinta** -ikkunassa. TÃ¤mÃ¤ ikkuna lÃ¶ytyy kotisivulta. Voit myÃ¶s valita oikeassa ylÃ¤kulmassa **Etsi sivua tai raporttia** -kuvakkeen ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoittaa **Laajennus** ja valita sitten liittyvÃ¤n linkin.  
+Laajennuksia hallitaan **Laajennusten hallinta** -ikkunassa. Tämä ikkuna löytyy kotisivulta. Voit myös valita oikeassa yläkulmassa **Etsi sivua tai raporttia** -kuvakkeen ![Etsi sivua tai raporttia](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake"), kirjoittaa **Laajennus** ja valita sitten liittyvän linkin.  
 
 > [!NOTE]  
->   Jos sinulla on mielestÃ¤si laajennuksen kÃ¤yttÃ¶oikeus muttet lÃ¶ydÃ¤ sen toimintoja, tarkista **Laajennusten hallinta** -ikkuna. Jos laajennusta ei mainita ikkunassa, voit asentaa sen seuraavassa osassa kerrotulla tavalla.  
+>   Jos sinulla on mielestäsi laajennuksen käyttöoikeus muttet löydä sen toimintoja, tarkista **Laajennusten hallinta** -ikkuna. Jos laajennusta ei mainita ikkunassa, voit asentaa sen seuraavassa osassa kerrotulla tavalla.  
 
 ## <a name="installing-an-extension"></a>Laajennuksen asentaminen
-Saat uusia laajennuksia kaupasta osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). NÃ¤htÃ¤vissÃ¤ on kaikki saatavilla olevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset. Saat sovelluksia, laajennuksia ja sisÃ¤ltÃ¶paketteja myÃ¶s muihin Microsoftin tuotteisiin. MÃ¤Ã¤ritÃ¤ soveltuvat suodattimet, tutustu kunkin laajennuksen tietoihin ja hae laajennus [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.  
+Saat uusia laajennuksia kaupasta osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Nähtävissä on kaikki saatavilla olevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset. Saat sovelluksia, laajennuksia ja sisältöpaketteja myös muihin Microsoftin tuotteisiin. Määritä soveltuvat suodattimet, tutustu kunkin laajennuksen tietoihin ja hae laajennus [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.  
 > [!NOTE]  
->   Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[d365fin](includes/d365fin_md.md)]issa kÃ¤yttÃ¤mÃ¤si sÃ¤hkÃ¶postitilin tiedoilla. Saman sÃ¤hkÃ¶postitilin kÃ¤yttÃ¤minen myÃ¶s muissa palveluissa ja tuotteissa takaa sujuvan kÃ¤yttÃ¶kokemuksen.  
+>   Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käyttämäsi sähköpostitilin tiedoilla. Saman sähköpostitilin käyttäminen myös muissa palveluissa ja tuotteissa takaa sujuvan käyttökokemuksen.  
 
-Kauppaan pÃ¤Ã¤see myÃ¶s suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. TÃ¤llÃ¤ hetkellÃ¤ asennettuna olevat laajennukset nÃ¤kyvÃ¤t **Laajennusten hallinta** -ikkunassa. Voit avata **Laajennuskauppa**-sivun, jolla nÃ¤kyvÃ¤t AppSource-sivustossa tÃ¤llÃ¤ hetkellÃ¤ kÃ¤ytettÃ¤vissÃ¤ olevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset. Jos valitset *LisÃ¤Ã¤ sovelluksia* -linkin, sinut siirretÃ¤Ã¤n osoitteeseen [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+Kauppaan pääsee myös suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Tällä hetkellä asennettuna olevat laajennukset näkyvät **Laajennusten hallinta** -ikkunassa. Voit avata **Laajennuskauppa**-sivun, jolla näkyvät AppSource-sivustossa tällä hetkellä käytettävissä olevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään osoitteeseen [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
-Kun valitset laajennuksen, voit lukea tietoja laajennuksesta ja hakea lisÃ¤tietoja kÃ¤yttÃ¤mÃ¤llÃ¤ laajennuksen Ohje-toimintoa. Kun haluat noutaa laajennuksen, sinun on hyvÃ¤ksyttÃ¤vÃ¤ kÃ¤yttÃ¶ehdot. Jos noudat laajennuksen AppSource-sivustosta, sinut kirjataan sisÃ¤Ã¤n [!INCLUDE[d365fin](includes/d365fin_md.md)]iin asennuksen viimeistelemiseksi.  
+Kun valitset laajennuksen, voit lukea tietoja laajennuksesta ja hakea lisätietoja käyttämällä laajennuksen Ohje-toimintoa. Kun haluat noutaa laajennuksen, sinun on hyväksyttävä käyttöehdot. Jos noudat laajennuksen AppSource-sivustosta, sinut kirjataan sisään [!INCLUDE[d365fin](includes/d365fin_md.md)]iin asennuksen viimeistelemiseksi.  
 
-Laajennus on ehkÃ¤ mÃ¤Ã¤ritettÃ¤vÃ¤ asennuksen yhteydessÃ¤. Se tarkoittaa esimerkiksi **[!INCLUDE[d365fin](includes/d365fin_md.md)]in PayPal Payments Standard** -laajennuksen kÃ¤yttÃ¤misessÃ¤ tarvittavan tilin mÃ¤Ã¤rittÃ¤mistÃ¤.
-Muissa laajennuksissa esimerkiksi yksinkertaisesti lisÃ¤tÃ¤Ã¤n kenttiÃ¤ olemassa olevalle sivulle tai lisÃ¤tÃ¤Ã¤n uusi sivu.   
+Laajennus on ehkä määritettävä asennuksen yhteydessä. Se tarkoittaa esimerkiksi **[!INCLUDE[d365fin](includes/d365fin_md.md)]in PayPal Payments Standard** -laajennuksen käyttämisessä tarvittavan tilin määrittämistä.
+Muissa laajennuksissa esimerkiksi yksinkertaisesti lisätään kenttiä olemassa olevalle sivulle tai lisätään uusi sivu.   
 
-Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin kÃ¤yttÃ¶Ã¶n, voit asentaa laajennuksen uudelleen. Kun poistat kÃ¤ytÃ¶ssÃ¤si olleen laajennuksen asennuksen, tiedot sÃ¤ilytetÃ¤Ã¤n. Jos siis asennat laajennuksen uudelleen, tiedot ovat yhÃ¤ kÃ¤ytettÃ¤vissÃ¤si.  
+Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen. Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään. Jos siis asennat laajennuksen uudelleen, tiedot ovat yhä käytettävissäsi.  
 
-Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-other.md). Kaikki laajennukset testataan, ennen kuin ne ovat kÃ¤yttÃ¤jien kÃ¤ytettÃ¤vissÃ¤. Suosittelemme kuitenkin lisÃ¤tietoihin tutustumista laajennuksen mukana saatavien linkkien avulla ennen laajennuksen asentamista.  
+Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-other.md). Kaikki laajennukset testataan, ennen kuin ne ovat käyttäjien käytettävissä. Suosittelemme kuitenkin lisätietoihin tutustumista laajennuksen mukana saatavien linkkien avulla ennen laajennuksen asentamista.  
 
 Microsoft tarjoaa seuraavat laajennukset:  
 
@@ -57,18 +57,18 @@ Microsoft tarjoaa seuraavat laajennukset:
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 * [Ison-Britannian postinumeroiden GetAddress.io](ui-extensions-getaddressio.md)
 * [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
-* [KirjanpitÃ¤jÃ¤n portaali](ui-extensions-accountant-portal.md)  
+* [Kirjanpitäjän portaali](ui-extensions-accountant-portal.md)  
 * [Kuvan analysointitoiminto](ui-extensions-image-analyzer.md)
 
 > [!NOTE]  
->  Uudet laajennukset eivÃ¤t ole saatavana AppSourcessa heti, kun ilmoitamme pÃ¤ivityksestÃ¤. Voit tarkkailla laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
+>  Uudet laajennukset eivät ole saatavana AppSourcessa heti, kun ilmoitamme päivityksestä. Voit tarkkailla laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
-## <a name="see-also"></a>Katso myÃ¶s
-[Toimintaohje: Asiakkaan maksujen ottaminen kÃ¤yttÃ¶Ã¶n PayPalin kautta](sales-how-enable-payment-service-extensions.md)  
-[Liiketoiminnan tietojen siirtÃ¤minen muista rahoitusjÃ¤rjestelmistÃ¤](upload-data.md)  
-[Ison-Britannian postinumeroiden GetAddress.io-laajennuksen mÃ¤Ã¤rittÃ¤minen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
+## <a name="see-also"></a>Katso myös
+[Toimintaohje: Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md)  
+[Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](upload-data.md)    
 [Muiden palveluntarjoajien [!INCLUDE[d365fin](includes/d365fin_md.md)]in laajennukset](ui-extensions-other.md)  
 [Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)  
 
 ##
+
 
