@@ -379,10 +379,4 @@
     <Node Name="" DisplayName="Rakennetiedot: nimikkeen seuranta" Page="design-details-item-tracking.html"/>
     <Node Name="" DisplayName="Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi" Page="design-details-general-journal-post-line.html"/>
   </Node>
-  <Node Name="" DisplayName="Paikalliset toiminnot" Page="index.html">
-    <Node Name="" DisplayName="Kanada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
-    <Node Name="" DisplayName="Tanska" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
-    <Node Name="" DisplayName="Iso-Britannia" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
-    <Node Name="" DisplayName="Yhdysvallat" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
-  </Node>
 </Node>
