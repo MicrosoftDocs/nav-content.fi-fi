@@ -60,12 +60,6 @@ Harkitsetko tilaamista? Voit vaihtaa helposti esimerkkiyrityksestä käyttämä�
 
 Voit luoda yrityksen kokeilukäyttöä varten siirtymällä oikeassa yläkulmassa **Omat asetukset** -valikkoon ja vaihtamalla yrityksen **Omaksi yritykseksi**. Muutos otetaan käyttöön, kun kirjaudut ensin ulos [!INCLUDE[d365fin](includes/d365fin_md.md)]ista ja sitten takaisin sisään. Avustettu asennusopas auttaa yrityksen perustietojen antamisessa. Kun nämä tiedot on annettu, tutustu aloitussivuun ja etsi **Avustettu asennus** -toiminto.  
 
-## <a name="ready-to-subscribe"></a>Oletko valmis tilaukseen?
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, ota yhteys Microsoftin ilmoituksessa olevasta linkistä. Voit ottaa yhteyden myös [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen myyntiryhmään valitsemalla [Microsoft Dynamics NAV](https://go.microsoft.com/fwlink/?linkid=828707) -kohdan.  
-
-## <a name="other-dynamics-nav-apps"></a>Muut Dynamics NAV -sovellukset
-Voit tutustua muita Dynamics NAV -sovelluksia käsittelevään sisältöön valitsemalla [Dynamics NAV](https://docs.microsoft.com/dynamics365) -linkin tämän sivun yläosassa olevassa sinisessä palkissa. Lisätietoja on myös [Dynamics NAV -sivustossa](https://www.microsoft.com/en-us/dynamics365/).
-
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
@@ -73,9 +67,3 @@ Voit tutustua muita Dynamics NAV -sovelluksia käsittelevään sisältöön vali
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
-[Microsoft Dynamics NAV -dokumentaatio](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics NAV](https://go.microsoft.com/fwlink/?linkid=828707)  
-
-##
-
