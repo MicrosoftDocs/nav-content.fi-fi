@@ -57,5 +57,3 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[d365fin](in
 [Asetukset ja hallinto [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa](admin-setup-and-administration.md)  
 [Tervetuloa [!INCLUDE[d365fin](includes/d365fin_md.md)]iin!](index.md)  
 
-##
-
