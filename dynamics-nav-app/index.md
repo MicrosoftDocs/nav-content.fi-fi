@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 02/11/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 3162ca9bc53f862c1602f96ddf5eb7e9c7125005
+ms.sourcegitcommit: 3554bd08bf30f5faca43b4308a91f3c66e1baded
+ms.openlocfilehash: 30a9b0a3a283660359702788423811f756c94955
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin
@@ -39,7 +39,7 @@ Aloitussivujen roolikeskeisen rakenteen ansiosta voit käyttää nopeasti työss
 
 Jokaisella aloitussivulla on **Asennus ja laajennukset** -painike. Saat käyttöösi luettelon avustetuista asennuksista, joiden avulla pääset alkuun määrittämällä valitut alueet nopeasti. Jos alueella ei ole asetuksen ohjattua määritystä, valitse **Manuaalinen asennus** -toiminto. Pääset tällä tavoin ikkunoihin, joissa voit täyttää kaikkien alueiden asennuskentät manuaalisesti. Lisätietoja on myös ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen ](setup.md)  
 
-| Asetusten ohjattu määritys | Description |
+| Asetusten ohjattu määritys | Kuvaus |
 | --- | --- |
 | Siirrä yritystiedot |Tämän avulla voit tuoda aiemmin luodut yritystiedot, kuten toimittajat, asiakkaat ja nimikkeet, Excel- tai Quickbooks-ohjelmasta. |
 | Määritä oma yritys |Luo uuden kokeiluyrityksen, johon voit syöttää tiedot ja jonka avulla voit kokeilla [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Jos kävit läpi Käytön aloittaminen -esittelyn, tämä on luultavasti jo **valmis**. |
@@ -65,5 +65,6 @@ Voit luoda yrityksen kokeilukäyttöä varten siirtymällä oikeassa yläkulmass
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](madeira-outlook.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen yrityssähköpostina Outlookissa](madeira-outlook.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
+
