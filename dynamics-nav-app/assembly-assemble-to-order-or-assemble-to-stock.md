@@ -3,7 +3,7 @@ title: Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 description: "Kokoonpanonimikkeet voidaan toimittaa joko kokoamalla ne tilauksen yhteydessä tai kokoamalla ne varastoon odottamaan myyntitilausta."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -18,13 +18,13 @@ ms.contentlocale: fi-fi
 ms.lasthandoff: 10/16/2017
 
 ---
-# Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
 
 -   Kokoonpano tilausta varten.  
 -   Kokoonpano varastoon.  
 
-## Kokoonpano tilausta varten  
+## <a name="assemble-to-order"></a>Kokoonpano tilausta varten  
 Käytät yleensä *Kokoonpano tilausta varten* nimikkeille, joita et halua varastoida, koska oletat mukauttavasti ne asiakkaan pyyntöjä astaaviksi tai koska haluat pienentää varastokustannuksia toimittamalla juuri ajoissa. Tukitoimintoja ovat seuraavat:  
 
 -   Kyky mukauttaa kokoonpanon nimikkeet myyntitilauksen ottamisen yhteydessä.  
@@ -44,7 +44,7 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 
  Ottaaksesi tämän prosessin käyttöön **Kokoonpanokäytäntö** -kentän nimikekortissa on oltava **Kokoonpano tilausta varten**.  
 
-## Kokoonpano varastoon  
+## <a name="assemble-to-stock"></a>Kokoonpano varastoon  
  Käytät yleensä *kokoonpano varastoon* nimikkeille, jotka haluat koota ennen myyntiä, kuten valmistauta kampanjapakettiin ja pitää varastossa, kunnes ne on tilattu. Nämä kohteet ovat yleensä vakiokohteita, kuten pakattuja sarjoja, joita ei tarjota asiakkaalle heidän pyyntöjensä mukauttamiseksi.  
 
  Kokoonpano varastoon -käsittelyssä nimike kootaan ilman välitöntä myyntikysyntää ja varastoidaan fyysiseen varastoon varastonimikkeenä myöhempää myyntiä varten tai osakokoonpanona kulutettavaksi. Lisätietoja on kohdassa [Toimintaohje: Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md). Tästä eteenpäin nimike poimitaan ja sitä käsitellään yksittäisenä nimikkeenä. Sitä kohdellaan valmiina tuotantonimikkeenä.  
@@ -56,7 +56,7 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 
  Ottaaksesi tämän prosessin käyttöön **Kokoonpanokäytäntö** -kentän nimikekortissa on oltava **Kokoonpano varastoon**.  
 
-## Skenaarioiden yhdistelmä  
+## <a name="combination-scenarios"></a>Skenaarioiden yhdistelmä  
  Kokoonpanon hallinnan yleinen periaate on se, että yhdistettäessä myyntitilauksen riville, kokoonpano tilausta varten on lähetettävä ennen varaston määriä.  
 
  Jos kokoonpanotilaus on linkitetty myyntitilauksen riville, tilausrivin **Kokoonpantava määrä tilausta varten** -kentän arvo kopioidaan **Kokoonpantava määrä** -kenttään kokoonpanotilauksen otsikon **Määrä** -kentän välityksellä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -84,7 +84,7 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 -   Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
 -   Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Toimintaohje: Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  

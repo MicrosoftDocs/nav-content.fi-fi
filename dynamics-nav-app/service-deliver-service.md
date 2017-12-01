@@ -3,7 +3,7 @@ title: "Huollon toimitustehtävien yleiskatsaus"
 description: "Lisätietoja tehtävistä, joita määrittämällä voidaan varmistaa laadukkaan huollon toimitus ja asiakkaiden kanssa tehtyjen sopimusten noudattaminen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

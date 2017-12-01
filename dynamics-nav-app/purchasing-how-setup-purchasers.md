@@ -3,7 +3,7 @@ title: "Ostajien määrittäminen ja ostajien määrittäminen toimittajille"
 description: "Jos yrityksessä on useita ostajia, voit järjestää ne tilastoanalyyseja varten."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Nimikkeiden poiminta varastopoiminnalla
 description: "Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, sinun on käytettävä varaston poiminnan asiakirjoja lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

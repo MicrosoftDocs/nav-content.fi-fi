@@ -3,7 +3,7 @@ title: "Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmä
 description: "Voit joskus joutua siirtämään nimikkeitä sisäisissä varastopaikoissa ilman, että vastaanotat tai toimitat varastopaikkoja tai ilman erityispyyntöä lähdeasiakirjasta. Voi suorittaa nämä ad hoc -siirrot, esimerkiksi jos haluat järjestellä fyysisen varaston tuodaksesi nimikkeitä tarkastusalueelle, tai siirtää lisänimikkeitä tuotantoalueelle ja sieltä pois ilman järjestelmän suhdetta tuotantotilauksen lähdeasiakirjaan."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

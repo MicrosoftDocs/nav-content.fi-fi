@@ -3,7 +3,7 @@ title: 'Toimintaohje: Numerosarjan luominen '
 description: "Tutustu, miten määritetään numerosarjat, jotka määrittävät yksilölliset tunnuskoodit Dynamics NAV -ohjelman tileille ja asiakirjoille."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: "Varastointiyksiköiden määrittäminen"
 description: "Voit tallentaa tiettyä sijaintia ja/tai tiettyä varianttikoodia koskevat nimikkeen tiedot varastointiyksiköihin."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -18,12 +18,12 @@ ms.contentlocale: fi-fi
 ms.lasthandoff: 10/16/2017
 
 ---
-# Varastointiyksiköiden määrittäminen
+# <a name="how-to-set-up-stockkeeping-units"></a>Varastointiyksiköiden määrittäminen
 Voit tallentaa tiettyä sijaintia ja/tai tiettyä varianttikoodia koskevat nimikkeen tiedot varastointiyksiköihin.  
 
  Varastointiyksiköt ovat lisätietona nimikekorteille. Ne eivät korvaa niitä, vaikka liittyvätkin niihin. Varastointiyksiköt mahdollistavat nimikkeen tietojen erittelemisen tietyn sijainnin osalta (esimerkiksi fyysisen varaston tai jakelupaikan osalta) tai saman nimikkeen tietyn variantin osalta (esimerkiksi eri hyllynumeroiden ja eri täydennystietojen osalta).  
 
-## Varastointiyksiköiden määrittäminen  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Varastointiyksiköiden määrittäminen  
 
 1.  Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivu tai raportti -kuvake") -kuvake, kirjoita **Varastointiyksiköt** ja valitse sitten aiheeseen liittyvä linkki.  
 2.  Valitse **Uusi**-toiminto.  
@@ -36,7 +36,7 @@ Käytä **Luo varastointiyksikkö** -eräajoa, kun haluat luoda nimikkeelle usei
 > [!NOTE]  
 >  **Varastointiyksikön** kortin tiedoilla on korkeampi prioriteetti kuin **nimikkeen** kortilla.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös  
 [Toimintaohje: Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  

@@ -2,7 +2,7 @@
 title: "Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen"
 description: "Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

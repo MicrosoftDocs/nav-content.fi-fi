@@ -2,7 +2,7 @@
 title: Tietojen tuominen Dynamics NAV -ohjelmaan Excelin avulla
 description: "Voit lisätä asiakastietoja Excelissä oletusmäärityspaketin avulla ja tuoda tiedot takaisin Dynamics NAV -ohjelmaan."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

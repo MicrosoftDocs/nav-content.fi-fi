@@ -3,7 +3,7 @@ title: "Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen"
 description: "Kun määrität käyttäjiä hyväksynnän työnkulkuihin, Ilmoituksen asetukset ja Ilmoitusaikataulu-ikkunoissa on määritettävä miten ja milloin käyttäjät saavat ilmoituksia hyväksynnän työnkulun osavaiheista. Yksittäiset käyttäjät voivat muuttaa ilmoitusasetuksiaan valitsemalla Muuta ilmoitusasetuksia -painikkeen, joka näytetään kaikissa ilmoituksissa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

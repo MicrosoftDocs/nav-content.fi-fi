@@ -3,7 +3,7 @@ title: "Liiketoiminta-alueiden välillä käytettävät yleiset toiminnot"
 description: "Tutustu Dynamics NAV -ohjelman liiketoiminta-alueiden välillä käytettäviin toimintoihin ja ominaisuuksiin."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

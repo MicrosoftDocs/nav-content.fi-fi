@@ -3,7 +3,7 @@ title: "Maksujen vieminen sähköiseen maksutiedostoon"
 description: "Voit tehdä toimittajamaksuja ottamalla käyttöön pankkitietojen muuntopalvelun, viemällä pankkitiedoston ja lataamalla tiedoston sähköiselle pankkitilille varojen siirtoa varten."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

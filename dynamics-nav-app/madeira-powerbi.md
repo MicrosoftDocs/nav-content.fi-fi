@@ -2,7 +2,7 @@
 title: "Dynamics NAV- ohjelman ja Power BI:n sisältöpaketit"
 description: "Analyysitietojen, liiketoimintatietoja ja tunnuslukujen hakeminen Dynamics NAV -tiedoista on helppoa Power BI- ja Dynamics NAV -sisältöpakettien avulla."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

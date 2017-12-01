@@ -3,7 +3,7 @@ title: "Dynamics NAV -ohjelman käyttäminen ilman Outlookia"
 description: "Voit käyttää Dynamics NAV -ohjelmaa Outlookissa yrityksen Saapuneet-kansiona, koska se on integroitu Office 365:een. Outlook ei kuitenkaan ole välttämätön, jos käytät selainta tai mobiililaitetta."
 documentationcenter: 
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

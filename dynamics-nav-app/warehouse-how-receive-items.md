@@ -3,7 +3,7 @@ title: Nimikkeiden vastaanotto
 description: "Kun nimikkeet saapuvat varastolle, jossa on käytössä fyysisen varastoinnin vastaanoton käsittely, niiden vastaanoton käynnistäneestä vapautetusta lähdeasiakirjasta tulee hakea rivit."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

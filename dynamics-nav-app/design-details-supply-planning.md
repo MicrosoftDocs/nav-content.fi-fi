@@ -3,7 +3,7 @@ title: Rakennetiedot - tarjonnan suunnittelu
 description: "Tässä ohjeaiheessa on yleiskatsaus [!INCLUDE[d365fin](Includes/d365fin_md.MD)] -ohjelman toimitusten suunnitteluominaisuuksissa käytettäviin käsitteisiin ja periaatteisiin."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

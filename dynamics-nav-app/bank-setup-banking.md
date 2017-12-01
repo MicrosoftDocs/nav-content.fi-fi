@@ -3,7 +3,7 @@ title: "Pankkitoiminnan määrittäminen"
 description: "Pankkitilikorttien avulla voit seurata pankkitilejäsi ja määrittää pankkisyötteitä tietojen vaihtoa varten."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Rakennetiedot - nimikkeen seurannan rakenne
 description: "Tässä ohjeaiheessa käsitellään rakennetta, johon [!INCLUDE[d365fin](includes/d365fin_md.md)]in nimikeseuranta perustuu."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Nimikkeiden toimittaminen
 description: "Fyysisen varaston määritysten mukaan voit joko kirjata toimituksen suoraan liittyvään lähtevään asiakirjaan, kuten myyntitilaukseen, tai voit käyttää fyysisen varaston toimitusasiakirjoja, jotka noudattavat työnkulkua tai integroituvat fyysisen varaston eri toimintoihin."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

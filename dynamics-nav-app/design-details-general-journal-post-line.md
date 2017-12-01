@@ -3,7 +3,7 @@ title: "Rakenteen tiedot - yleisen päiväkirjan kirjausrivi"
 description: "Tässä ohjeaiheessa on tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in yleisen päiväkirjan kirjausriviominaisuuden uudelleenmäärityksessä käytettävistä käsitteistä ja periaatteista."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

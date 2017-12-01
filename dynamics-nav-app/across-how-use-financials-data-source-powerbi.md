@@ -2,7 +2,7 @@
 title: "Tee Dynamics NAV -ohjelmasta Power BI -tietolähde"
 description: "Dynamics NAV-tietoja voidaan käyttää Power BI:n tietolähteenä, ja niiden avulla voidaan luoda tehokkaita liiketoiminnan tilasta kertovia raportteja."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

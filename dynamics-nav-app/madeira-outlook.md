@@ -3,7 +3,7 @@ title: "Dynamics NAV -ohjelman käyttäminen ilman Outlookia"
 description: "Dynamics NAV -ohjelman ja Office 365:n ovat erittäin integroituneita, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa."
 documentationcenter: 
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

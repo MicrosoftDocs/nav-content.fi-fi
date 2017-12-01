@@ -2,7 +2,7 @@
 title: "Asiakasmaksujen täsmäyttäminen manuaalisesti kohdistamalla asiakastapahtumat"
 description: "Ohjeaiheessa kerrotaan, miten asiakkaan kassaanmaksut tai hyvitykset kohdistetaan vähintään yhteen avoimeen asiakastapahtumaan ja asiakasmaksut täsmäytetään."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

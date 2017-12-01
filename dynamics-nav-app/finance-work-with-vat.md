@@ -3,7 +3,7 @@ title: "Myynnin ja ostojen ALV:n käsitteleminen"
 description: "Tässä ohjeaiheessa käsitellään, miten ALV-laskelmat koskevat kaikkia myynti- ja ostotapahtumia, kuten EU-maissa ja EU:n alueella kirjatun ALV:n oikaisua. Tässä ohjeaiheessa kerrotaan, miten se tehdään."
 documentationcenter: 
 author: bholtorf
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

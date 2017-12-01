@@ -3,7 +3,7 @@ title: Myyntimahdollisuuksien ja liidien hallinta
 description: "Tässä ohjeaiheessa kerrotaan saapuvien llidien tai myyntimahdollisuuksien hallintaa Dynamics NAV -ohjelmassa ja mahdollisuuden liittämisestä myyjään, jotta mahdollista myyntiä voidaan seurata."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

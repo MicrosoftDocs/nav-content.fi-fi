@@ -3,7 +3,7 @@ title: "Mukautettujen Power BI -raporttien näyttäminen"
 description: "Voit käyttää Power BI -raportteja saamaan lisätietoja Dynamics NAV -ohjelman luetteloissa olevista tiedoista."
 documentationcenter: 
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

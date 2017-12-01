@@ -3,7 +3,7 @@ title: Kokoonpanon hallinta
 description: "Tue yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisilla prosesseilla ilman tuotantotoimintojen tarvetta mutta jonka ominaisuuksilla voi koota aiemmin luotuja ominaisuuksia, kuten myynti, suunnittelu, varaukset ja varastointi, integroivia nimikkeitä."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: "Ehdotettujen kenttien arvojen määrittäminen"
 description: "Voit välttää manuaaliset laskutoimitukset sekä suorittaa tehtävät nopeasti ja tarkasti määrittämällä tietojen antamisen automaattisen, jolloin Dynamics NAV täyttää valitut kentät."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

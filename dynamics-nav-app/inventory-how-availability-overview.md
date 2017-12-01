@@ -3,7 +3,7 @@ title: Saatavuuden yleiskuva
 description: "Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneissa myynti- tai ostotapahtumien tai ajanjakson mukaan tai sen mukaan, mikä on nimikkeen sijainti kokoonpanon tai tuotannon tuoterakenteessa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

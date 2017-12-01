@@ -3,7 +3,7 @@ title: "Kulutuksen eräkirjaus"
 description: "Jos materiaalinottotapa on **Manuaalinen**, komponentit on kirjattava manuaalisesti kulutuspäiväkirjan avulla."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten
 description: "Kun varastossa on määritetty pakolliseksi sekä fyysisen varastoinnin poiminnan käsittely että fyysisen varastoinnin toimituksen käsittely, voit luoda ja käsitellä poimintatietoja fyysisen varastoinnin poiminta-asiakirjojen avulla."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

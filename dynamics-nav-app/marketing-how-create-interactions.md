@@ -3,7 +3,7 @@ title: Vuorovaikutusten luominen kontakteille ja segmenteille
 description: "Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Dynamics NAV -ohjelmassa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

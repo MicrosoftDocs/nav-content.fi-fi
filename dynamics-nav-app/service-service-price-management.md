@@ -3,7 +3,7 @@ title: huoltohallinnan asetukset
 description: "Tässä ohjeaiheessa käsitellään parhaiden hintojen käyttämistä huoltotilauksissa, yksilöllisten huoltohintasopimusten määrittämistä asiakkaille, huoltohenkilöstön toiminnan tehostamista ja laskutusprosessin nopeuttamista."
 documentationcenter: 
 author: bholtorf
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

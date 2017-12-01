@@ -3,7 +3,7 @@ title: "Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nim
 description: "Voit luoda **Nimikepäiväkirja**-ikkunan **Kohdistukset tapahtumista** -kentässä manuaalisesti kiinteän kohdistuksen saapuvan tapahtuman ja lähtevän alkuperäisen tapahtuman välille. Voit korjata esimerkiksi lähtevän tapahtuman tai käsitellä sen palautuksen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

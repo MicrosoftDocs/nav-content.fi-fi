@@ -3,7 +3,7 @@ title: Tilauskohtainen suunnittelu
 description: "Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -ikkunassa, jossa uusi kysyntää näkyy kokonaisuudessaan samoin kuin saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

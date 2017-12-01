@@ -3,7 +3,7 @@ title: "Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen"
 description: "Tässä ohjeaiheessa kerrotaan, miten myynnin vaiheet määritetään ensimmäisestä yhteysotosta sulkemiseen ja miten tällä tavoin luodaan myyntisykli, joka määritetään Dynamics NAV -ohjelman mahdollisuuksille."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

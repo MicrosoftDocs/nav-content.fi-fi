@@ -2,7 +2,7 @@
 title: Asiakirjojen hallinta, poistaminen ja pakkaaminen
 description: "Säilytä vanhat historiatiedot tai poista ne."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

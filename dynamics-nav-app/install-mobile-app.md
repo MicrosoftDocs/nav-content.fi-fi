@@ -3,7 +3,7 @@ title: "Dynamics NAV -ohjelman käyttäminen mobiililaitteessa"
 description: Voit tarkastella ja muokata Dynamics NAV -tietoja puhelimessa tai tabletissa.
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

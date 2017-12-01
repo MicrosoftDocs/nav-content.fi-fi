@@ -3,7 +3,7 @@ title: Suomen paikalliset toiminnot
 description: Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[navnow](../../includes/navnow_md.md)] -ohjelman suomalaisen version paikallisista toiminnoista.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

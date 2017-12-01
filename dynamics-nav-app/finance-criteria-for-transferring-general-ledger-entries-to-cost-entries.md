@@ -3,7 +3,7 @@ title: "Kriteerit pääkirjanpidon tapahtumien siirtämiseksi kustannustapahtumi
 description: "On tärkeää ymmärtää ehdot, joiden mukaan pääkirjanpidon tapahtumat siirretään kustannustapahtumiin. **Siirrä KP-tapahtumat kustannuslaskentaan** -eräajo käyttää määrittää siirron aikana seuraavien kriteerien avulla, siirretäänkö pääkirjanpidon tapahtumat ja milloin ne mahdollisesti siirretään."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

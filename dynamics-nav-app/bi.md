@@ -3,7 +3,7 @@ title: Business Intelligence
 description: "Kaappaa ja analysoi yritystietoja, kuten organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

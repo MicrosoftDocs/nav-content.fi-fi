@@ -3,7 +3,7 @@ title: KP-raporttimalleihin perustuvan KPI-verkkopalvelun asettaminen ja julkais
 description: "Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -ikkunassa, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

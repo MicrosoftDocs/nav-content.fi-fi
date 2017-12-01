@@ -3,7 +3,7 @@ title: "Vastuualueiden määrittäminen kontakteille"
 description: "Voit määrittää vastuualueen koodin ja määrittää sen sitten kontaktille ilmaisemaan tehtävät, joista kontakti vastaa omassa yrityksessään. Vastuualueena voi olla esimerkiksi IT tai tuotanto."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

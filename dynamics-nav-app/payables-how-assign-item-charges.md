@@ -3,7 +3,7 @@ title: "Nimikekulujen määrittäminen myyntiin ja ostoihin"
 description: "Jos haluat, että varastonimikkeisiin liittyy lisäkustannuksia, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut, voit käyttää nimikekuluominaisuutta."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

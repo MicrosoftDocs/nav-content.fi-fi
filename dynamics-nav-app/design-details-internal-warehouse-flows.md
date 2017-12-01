@@ -3,7 +3,7 @@ title: "Rakennetiedot - sisäisen fyysisen varastoinnin virta"
 description: "Nimikkeiden kulku binien välillä yrityksen sijaintikeskuksissa osien poimintaan ja loppunimikkeiden poistoon kokoonpano- tai tuotantotilauksissa ja tilapäisissä liikkeissä, kuten binin täydentämisissä ilman suhdetta lähdedokumentteihin."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

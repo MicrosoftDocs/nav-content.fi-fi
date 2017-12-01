@@ -3,7 +3,7 @@ title: Rakennetiedot - nimikkeen seurannan saatavuus
 description: "Tässä ohjeaiheessa kerrotaan, miten voit varmistaa, että tilauksen käsittelevä henkilö voi luottaa sarja- tai eränumeroiden saatavuuteen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

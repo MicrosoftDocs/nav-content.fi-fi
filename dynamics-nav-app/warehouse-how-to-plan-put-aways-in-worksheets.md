@@ -3,7 +3,7 @@ title: "Hyllytysten suunnitteleminen työkirjoissa"
 description: "Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille – sen asemesta, että työntekijät noudattaisivat ohjelman luomia ohjeita erillisille kirjatuille vastaanotoille – voit käyttää hyllytystyökirjaa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

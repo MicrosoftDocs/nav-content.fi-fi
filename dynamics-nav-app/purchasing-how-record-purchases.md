@@ -3,7 +3,7 @@ title: Ostolaskun luominen ja ostojen kirjaaminen
 description: "Tässä ohjeaiheessa kerrotaan, miten varasto- tai palvelunimikkeitä ostetaan luomalla ja kirjaamalla ostolaskuja tai -tilauksia."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

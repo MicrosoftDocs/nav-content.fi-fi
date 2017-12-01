@@ -3,7 +3,7 @@ title: "Tapahtumien esikatselu ennen asiakirjan tai päiväkirjan kirjaamista"
 description: "Voit varmistaa, että asiakirjojen ja päiväkirjojen tapahtumat ovat oikein, ennen kuin kirjaat ne pääkirjanpitoon."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

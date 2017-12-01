@@ -3,7 +3,7 @@ title: Rakennetiedot - suunnittelun parametrit
 description: "Tässä ohjeaiheessa käsitellään erilaisia suunnitteluparametreja, joita voit käyttää [!INCLUDE[d365fin](Includes/d365fin_md.MD)] -ohjelmassa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

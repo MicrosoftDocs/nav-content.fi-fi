@@ -3,7 +3,7 @@ title: "Prosessien suorittamiseen tarvittavat pakolliset kentät"
 description: "Tutustu punaisella tähtimerkillä merkittyihin kenttien. Tämä merkintä osoittaa, että ne ovat pakollisia ja ne on täytettävä, jotta prosessit voidaan suorittaa."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

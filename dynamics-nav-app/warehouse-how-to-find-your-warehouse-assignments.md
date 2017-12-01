@@ -3,7 +3,7 @@ title: Fyysisen varaston varausten etsiminen
 description: "Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen kortin ikkuna. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: "Arkistoitujen työnkulun osavaiheen instanssien tarkasteleminen"
 description: "Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -ikkunassa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

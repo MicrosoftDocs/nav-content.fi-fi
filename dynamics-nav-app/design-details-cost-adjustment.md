@@ -3,7 +3,7 @@ title: Rakennetiedot - kustannuksen muutos
 description: "Kustannusten muuttamisen päätarkoitus on siirtää eteenpäin kustannusmuutokset kustannuslähteistä kustannusten vastaanottajille nimikkeen kustannuslaskentamenetelmän mukaisesti, jotta se tuottaisi oikean varaston arvostuksen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

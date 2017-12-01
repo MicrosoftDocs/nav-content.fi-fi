@@ -3,7 +3,7 @@ title: "Raporttiasettelun pitäminen ajan tasalla"
 description: "Raportissa käytettyä mukautettua asettelua on ehkä päivitettävä. Tämä vaaditaan, kun raportin tietojoukko on muuttunut, esimerkiksi asettelussa käytetty kenttä on poistettu raportin tietojoukosta."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

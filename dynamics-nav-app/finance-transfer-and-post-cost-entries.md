@@ -3,7 +3,7 @@ title: "Kustannustapahtumien siirtäminen ja kirjaaminen"
 description: "Ennen kuin voit määrittää kustannusten kohdistamisen, sinun on ymmärrettävä, mistä kustannustapahtumat tulevat."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

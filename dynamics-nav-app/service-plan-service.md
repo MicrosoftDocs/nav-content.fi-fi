@@ -3,7 +3,7 @@ title: Huoltoprosessien suunnitteleminen
 description: "Lisätietoja tehtävistä , joilla määritetään huoltokäytäntöjen ja -prosessien määrityksessä käytettävät säännöt ja arvot."
 documentationcenter: 
 author: bholtorf
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

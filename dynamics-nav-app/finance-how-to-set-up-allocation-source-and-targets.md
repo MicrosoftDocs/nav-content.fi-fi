@@ -3,7 +3,7 @@ title: "Kohdistuksen lähteen ja tavoitteiden määrittäminen"
 description: "Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä kohdistuskohteesta. Kohdistuksen lähde määrittää, mitkä kustannukset kohdistetaan. Kohdistustavoitteet määrittävät, mihin kustannukset kohdistetaan."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

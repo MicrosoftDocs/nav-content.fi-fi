@@ -3,7 +3,7 @@ title: "Toimituksen lupaamisen päivämäärän laskeminen"
 description: "Toimituksen lupaamisen toiminto on työkalu, jolla lasketaan aikaisin mahdollinen päivämäärä, jolloin nimike on saatavilla toimitettavaksi tai lähetettäväksi. Toiminnolla luodaan myös hankintarivejä hyväksymillesi päivämäärille."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

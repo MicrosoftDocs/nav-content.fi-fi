@@ -2,7 +2,7 @@
 title: "Sisällön tarkastelu muilla kielillä"
 description: "Voit tarkastella Dynamics NAV -ohjelman Ohje-sisältöä muilla kielillä."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

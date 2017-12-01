@@ -3,7 +3,7 @@ title: "Vaihekuvaus – Myynnin ennakkomaksujen määrittäminen ja laskuttamine
 description: "Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Voit edellyttää, että ennakkomaksu maksetaan ennen tilattujen tuotteiden valmistamista tai että maksu suoritetaan ennen nimikkeiden toimittamista asiakkaalle. Voit laskuttaa ja periä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille [!INCLUDE[d365fin](includes/d365fin_md.md)]in ennakkomaksutoimintojen avulla. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

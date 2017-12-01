@@ -3,7 +3,7 @@ title: "Myytävien nimikkeiden ostaminen luomalla ostolasku myyntitilauksesta"
 description: Voit ostaa tuotteita luomalla toimittajan ostolaskun myyntilaskusta.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

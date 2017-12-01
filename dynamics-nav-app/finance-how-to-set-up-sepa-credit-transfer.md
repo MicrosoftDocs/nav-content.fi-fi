@@ -3,7 +3,7 @@ title: "SEPA-hyvityksen siirron määrittäminen"
 description: "Tietoja SEPA-hyvityksen siirron määrittämisestä Dynamics NAV -ohjelmassa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

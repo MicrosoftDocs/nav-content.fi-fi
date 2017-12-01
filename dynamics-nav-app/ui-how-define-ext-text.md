@@ -3,7 +3,7 @@ title: "Nimikkeen kuvauksen laajennetun tekstin määrittäminen ylimääräisi�
 description: "Voit laajentaa nimikkeen kuvauksena käytettävää vakiotekstiä lisäämällä ylimääräisiä rivejä."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

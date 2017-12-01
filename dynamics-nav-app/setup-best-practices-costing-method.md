@@ -3,7 +3,7 @@ title: "Parhaiden käytäntöjen määrittäminen - arvostusmenetelmä"
 description: "Nimikekortin **arvostusmenetelmä** määrittää nimikkeen kustannusvirran kirjaamisen. Lisäksi se määrittää, siirretäänkö todellinen vai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: "Markkinoinnin ja kontaktien hallinnan tietojen määrittäminen"
 description: "Voit määrittää markkinoinnin ja kontaktien hallinnan Dynamics NAV -ohjelmassa optimoimaan prospektien tai asiakkaiden suhteita sekä parantamaan kampanjoita ja tarjouksia."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

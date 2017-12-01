@@ -3,7 +3,7 @@ title: "Tietojen siirtäminen Dynamics GP:stä tietojen siirron laajennuksella"
 description: "Voit siirtää asiakkaita, toimittajia, varastonimikkeitä ja tilejä Dynamics GP:stä Dynamics NAV -ohjelmaan Dynamics GP:n tietojen siirron laajennuksella."
 documentationcenter: 
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

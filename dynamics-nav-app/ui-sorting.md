@@ -3,7 +3,7 @@ title: "Tietojen järjestäminen lajittelutoiminnolla"
 description: "Saat lajittelutoiminnon avulla yleiskatsauksen tiedoista. Voit esimerkiksi lajitella asiakkaat valuutan koodin mukaan ja saada tällä tavoin esille tietyt asiakkaat."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Nimikkeiden varaaminen
 description: "Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin ja tuotantotilauksiin. Voit varata nimikkeitä varastossa tai avoimien asiakirjarivien saapuvissa kohteissa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

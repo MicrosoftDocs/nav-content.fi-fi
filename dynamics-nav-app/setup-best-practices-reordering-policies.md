@@ -3,7 +3,7 @@ title: "Asetukset - parhaat käytännöt - uusintatilaustavat"
 description: "Nimikekorttien **Uusintatilaustapa**-kentässä on neljä eri suunnittelumenetelmää, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

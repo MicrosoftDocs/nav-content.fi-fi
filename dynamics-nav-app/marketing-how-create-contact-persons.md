@@ -3,7 +3,7 @@ title: "Kontaktihenkilöiden luominen"
 description: "Tässä ohjeaiheessa kerrotaan, miten luodaan kontaktin kortti kullekin sellaiselle uudelle henkilölle tai prospektille, joiden kanssa sinulla on liikesuhde."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

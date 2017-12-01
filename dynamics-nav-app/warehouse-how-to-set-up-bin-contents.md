@@ -3,7 +3,7 @@ title: "Varastopaikan sisällön luominen"
 description: "Kun olet määrittänyt varastopaikat, voit määrittää varastopaikan sisällön. Voit määrittää varastopaikkoihin varastoitavat nimikkeet sekä säännöt, joita ohjelma noudattaa täyttäessään varastopaikkaa tietyllä nimikkeellä."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

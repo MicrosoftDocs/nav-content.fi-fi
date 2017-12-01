@@ -3,7 +3,7 @@ title: Varastonimikkeiden myyminen kokoonpano tilausta varten -virroissa
 description: "Jos nimike on määritetty Kokoonpano tilausta varteen -korttiin, myyntitilauksen oletusprosessi olettaa, että nimikettä ei ole varastossa vaan että se on koottava tätä tiettyä myyntitilausta varten. Tämän vuoksi linkitetyn kokoonpanon tilaus luodaan automaattisesti, kun kohde lisätään myyntitilauksen riville."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

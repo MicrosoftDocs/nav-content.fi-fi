@@ -3,7 +3,7 @@ title: "Vuorovaikutusten automaattisen tallennuksen määrittäminen"
 description: "Voit tallentaa automaattisesti asiakkaiden kanssa tapahtuvan viestinnän, jotka liittyvät esimerkiksi myynti-, osto- tai huoltoasiakirjoihin tai puheluihin."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

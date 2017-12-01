@@ -3,7 +3,7 @@ title: Asiakkaan tai toimittajan luominen kontaktista
 description: "Voit tallentaa aiemmin luodun kontaktin asiakkaana, toimittajana tai pankkitilinä käyttämällä aiemmin luotuja tietoja ja määrittämällä liikesuhteen."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

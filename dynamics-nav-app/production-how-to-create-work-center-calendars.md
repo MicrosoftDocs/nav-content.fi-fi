@@ -3,7 +3,7 @@ title: "Tuotantokalenterien määrittäminen"
 description: "Tuotantosolun kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) solun tehokkuus- ja kapasiteettiarvojen mukaisesti. Tuotantosolun kalenterin luominen ja käyttöönotto edellyttävät useita valmistelutoimenpiteitä:"
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: "Markkinointikampanjoiden määrittäminen Dynamics NAV -ohjelmassa"
 description: "Ohjeaiheessa käsitellään, miten markkinointikampanjat määritetään ja toteutetaan Dynamics NAV -ohjelmassa ja miten ne auttavat tunnistamaan ja houkuttelemaan prospekteja sekä säilyttämään asiakkaita."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

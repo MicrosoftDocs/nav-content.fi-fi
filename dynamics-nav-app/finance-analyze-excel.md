@@ -2,7 +2,7 @@
 title: "Taloudellisten yleiskatsausten käsittely Excelissä"
 description: "Lisätietoja raporttien avaamisesta Microsoft Excelissä Dynamics NAV -ohjelmlasta analysoinnin parantamiseksi."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Automaattinen siirto ja yhdistetyt tapahtumat
 description: "Voit siirtää kustannuslaskennassa pääkirjanpitotapahtumat kustannustyyppiin yhdistetyn kirjauksen avulla. Voit määrittää, vastaanottaako kustannustyyppi yhdistettyjä tapahtumia kustannustyypin määrityksen **Yhdistä tapahtumat** -kentässä. Seuraavassa taulukossa kuvaillaan eri asetukset."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

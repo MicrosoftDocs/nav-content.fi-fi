@@ -3,7 +3,7 @@ title: "Toimittajien erikoishintojen, vaihtoehtoisten hintojen ja alennusten mä
 description: "Voit määrittää eri hintoja tai vaihtoehtoisia hintoja ja alennussopimuksia ja käyttää niitä sitten toimittajien ostoasiakirjoissa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

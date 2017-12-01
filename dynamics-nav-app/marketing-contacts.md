@@ -3,7 +3,7 @@ title: Yrityksen kontaktien luominen ja hallinta
 description: "Voit määrittää kaikki ulkoiset yksiköt, joiden kanssa sinulla on liikesuhde, kontakteiksi. Kyse voi olla esimerkiksi prospekteista, asiakkaista, toimittajista ja konsulteista."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

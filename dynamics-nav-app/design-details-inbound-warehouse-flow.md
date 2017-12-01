@@ -3,7 +3,7 @@ title: Rakennetiedot - saapuvan fyysisen varastoinnin virta
 description: "Fyysiseen varastoon saapuva virta alkaa, kun nimikkeet saapuvat yrityksen sijainnin fyysiseen varastoon joko vastaanotettuina ulkoisista lähteistä tai toisesta yrityksen sijainnista. Työntekijä rekisteröi nimikkeet tavallisesti skannaamalla viivakoodin. Varastotoiminnot suoritetaan vastaanottavasta laiturista erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi varastointialueelle."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

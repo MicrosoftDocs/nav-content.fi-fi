@@ -2,7 +2,7 @@
 title: "Kentän tietojen antaminen"
 description: "Tietojen antamiseen nopeasti ja helposti on useita yleisiä toimintoja.. Tässä ohjeaiheessa kuvataan nämä tietojen syötön perustoiminnot."
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

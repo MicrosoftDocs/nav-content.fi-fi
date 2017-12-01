@@ -3,7 +3,7 @@ title: Maksuosoitusehdotuksen tulostaminen
 description: "Voit auttaa toimittajia täsmäytysten suorittamisessa, kun tulostat maksuosoitusehdotuksen ennen maksupäiväkirjan kirjaamista ja maksun kirjaamisen jälkeen."
 documentationcenter: 
 author: bholtorf
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

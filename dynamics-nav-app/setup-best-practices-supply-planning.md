@@ -3,7 +3,7 @@ title: "Asetukset - parhaat käytännöt - toimitusten suunnittelu"
 description: "Tarjonnan suunnittelu on kriittinen liiketoiminta-alue. Kun tarjonnan suunnittelu on määritetty ja käytetty oikein, sen avulla yritys välttää varaston loppumista ja vähentää sekä kustannusten että varaston kuluja."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

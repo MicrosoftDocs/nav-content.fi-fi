@@ -2,7 +2,7 @@
 title: "Dynamics NAV -ohjelman hallintatehtävät"
 description: "Joitakin [!INCLUDE[d365fin](includes/d365fin_md.md)]in tehtäviä on hallittava ja ne on määritettävä keskitetysti. Katso lisätietoja näistä tehtävistä ja niiden määrittämisestä."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

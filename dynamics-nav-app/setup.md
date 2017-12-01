@@ -2,7 +2,7 @@
 title: "Dynamics NAV -ohjelman määritystehtävien yleiskatsaus"
 description: "Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Dynamics NAV asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi."
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

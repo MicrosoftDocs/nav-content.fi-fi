@@ -3,7 +3,7 @@ title: Huoltotarjousten luominen
 description: "**Huoltotarjous**-ikkunassa voidaan luoda asiakirjoja, joihin annetaan tiedot asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta). Voit käyttää alustavana huoltotilauksen suunnitelmana huoltotarjousta ja muuntaa tarjouksen sitten huoltotilaukseksi."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
 description: "Voit hallita kaikenlaista viestintää tai vuorovaikutusta yrityksesi ja kontaktiesi välillä, kuten kirjeenvaihtoa, puheluja ja kokouksia."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

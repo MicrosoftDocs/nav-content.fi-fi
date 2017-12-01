@@ -3,7 +3,7 @@ title: "Vaihekuvaus – Toimitusten automaattinen suunnittelu"
 description: "Suunnittelutyökirjan ajolla ja tarvolaskennan ajolla viitataan päätuotantoaikataulun (MPS) ja materiaalien tarvelaskentaan (MRP), joka perustuu todelliseen ja ennustettuun kysyntään."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

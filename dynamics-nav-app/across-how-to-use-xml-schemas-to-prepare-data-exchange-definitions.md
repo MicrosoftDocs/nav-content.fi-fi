@@ -2,7 +2,7 @@
 title: XML-malleihin perustuvien XMLports-kohteiden luominen
 description: "Voit määrittää tiedonsiirtokehyksen XML-mallien avulla."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

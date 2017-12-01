@@ -3,7 +3,7 @@ title: "Rakennetiedot - tarjonnan täsmäytys kysynnällä"
 description: "Suunnittelujärjestelmän ydin vaatii kysynnän ja tarjonnan tasapainotusta ehdottamalla käyttäjän toimenpiteitä tarkastamaan varastotilaukset epätasapainon välttämiseksi. Tämä tapahtuu variantin ja sijainnin yhdistelmän perusteella."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

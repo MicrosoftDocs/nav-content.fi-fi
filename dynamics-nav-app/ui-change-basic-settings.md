@@ -3,7 +3,7 @@ title: Dynamics NAV -ohjelman perusasetusten tarkasteleminen ja muokkaaminen
 description: "Tutustu, miten joitakin Dynamics NAV -ohjelman perusasetuksia voi muuttaa. Tällaisia perusasetuksia ovat esimerkiksi roolikeskus, yritys ja käsittelypäivämäärä."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

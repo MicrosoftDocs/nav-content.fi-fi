@@ -3,7 +3,7 @@ title: Liiketoimintaprosessien vaihekuvaukset
 description: "Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

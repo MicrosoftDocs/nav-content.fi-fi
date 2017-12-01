@@ -2,7 +2,7 @@
 title: "Tietoja tiedonvaihto-kehyksestä"
 description: "Pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden ERP-järjestelmien tiedostonvaihtomuoto vaihtelee datatiedoston, virran ja maan tai alueen mukaan."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

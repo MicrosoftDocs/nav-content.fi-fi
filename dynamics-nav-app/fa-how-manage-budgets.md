@@ -3,7 +3,7 @@ title: KO-budjettien hallinta
 description: "Voit määrittää tietoja tulevista käyttöomaisuuden sijoituksista, luovutuksista ja poistoista budjettien ja ennusteiden valmistelussa auttamiseksi."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Testiraportin tarkastelu ennen myynti- tai ostoasiakirjan kirjaamista
 description: "Voit testata ja arvioida asiakirjan, kuten tilauksen tai hyvityslaskun, ennen kirjaamista ja tarkistaa, ettei siinä ole kirjaamisen estäviä virheitä."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

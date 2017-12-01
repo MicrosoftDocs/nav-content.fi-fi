@@ -2,7 +2,7 @@
 title: "SEPA-suoraveloitusperintä"
 description: "Luo suoraveloitusperintä ja vie XML-tiedosto, jonka voit lähettää tai ladata verkkopankkiin käsiteltäväksi."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

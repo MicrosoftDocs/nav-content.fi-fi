@@ -3,7 +3,7 @@ title: "Rakennetiedot - uusintatilauskäytännöt"
 description: "Tässä ohjeaiheessa on yleiskuvaus neljästä täydennyksessä käytettävästä uusintatilauskäytännöstä."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

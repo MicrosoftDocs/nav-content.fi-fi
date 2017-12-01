@@ -3,7 +3,7 @@ title: "Rakennetiedot - kysynnän ja tarjonnan sulkeminen"
 description: "Kun tarjonnan tasapainotusmenetelmät on suoritettu, tulos voi olla jokin kolmesta vaihtoehdosta."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

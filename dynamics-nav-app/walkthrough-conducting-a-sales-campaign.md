@@ -3,7 +3,7 @@ title: "Vaihekuvaus – Myyntikampanjan toteuttaminen"
 description: "Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Sitä varten [!INCLUDE[d365fin](includes/d365fin_md.md)]issa luodaan segmentti tai yhteystietoryhmä suodattimien avulla."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

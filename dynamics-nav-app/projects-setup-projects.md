@@ -3,7 +3,7 @@ title: "Raporttien, aikaraporttien ja projektien määrittäminen"
 description: "Ohjeaiheessa kerrotaan, miten resursseja, aikaraportteja ja projektitöitä määritetään projektin hallintaa varten."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
