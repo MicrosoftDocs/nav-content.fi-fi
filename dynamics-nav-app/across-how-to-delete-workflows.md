@@ -3,7 +3,7 @@ title: "Työnkulkujen poistaminen"
 description: "Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssien tilan on oltava **Valmis**."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 97621dfeed6c8a224efc199ee5ab3a28e519b951
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: b0308aac6ed747efc844f89a883624ffc67d1401
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-delete-workflows"></a><span data-ttu-id="f180c-104">Toimintaohje: Työnkulkujen poistaminen</span><span class="sxs-lookup"><span data-stu-id="f180c-104">How to: Delete Workflows</span></span>

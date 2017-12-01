@@ -3,7 +3,7 @@ title: "Poiminta sisäisissä toiminnoissa laajennetuissa varastomäärityksiss�
 description: "Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -ikkunassa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 08b79f573a9fc013068f7e1f5dd593a596a579a3
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 18717600cb1318a2c6a283ca13a5046abc5ff236
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a><span data-ttu-id="c31b6-103">Toimintaohje: Kokoonpano- tai tuotantopoiminta laajennetuissa varastointimäärityksissä</span><span class="sxs-lookup"><span data-stu-id="c31b6-103">How to: Pick for Assembly or Production in Advanced Warehouse Configurations</span></span>

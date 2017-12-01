@@ -3,7 +3,7 @@ title: "Vaihekuvaus – Myynnin ennakkomaksujen määrittäminen ja laskuttamine
 description: "Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Voit edellyttää, että ennakkomaksu maksetaan ennen tilattujen tuotteiden valmistamista tai että maksu suoritetaan ennen nimikkeiden toimittamista asiakkaalle. Voit laskuttaa ja periä asiakkailta edellytettyjä talletuksia tai suorittaa talletuksia toimittajille [!INCLUDE[d365fin](includes/d365fin_md.md)]in ennakkomaksutoimintojen avulla. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 3076aca3a3b0ef70da183ec55ee1938926d04702
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 6794c05ab61a568f923c1b7c7fc835d12e65b7e3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a><span data-ttu-id="d660d-106">Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen</span><span class="sxs-lookup"><span data-stu-id="d660d-106">Walkthrough: Setting Up and Invoicing Sales Prepayments</span></span>

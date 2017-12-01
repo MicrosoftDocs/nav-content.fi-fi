@@ -3,7 +3,7 @@ title: Myyntitarjouksen luominen asiakkaalle
 description: "Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 21611abbb658ddcd4e422269db9677bca3ea4f35
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 84defbbb01373feca9d0f852cb6e7effaff9c186
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-make-offers"></a><span data-ttu-id="90078-103">Toimintaohje: Tarjousten tekeminen</span><span class="sxs-lookup"><span data-stu-id="90078-103">How to: Make Offers</span></span>

@@ -3,7 +3,7 @@ title: Verkkopankkitoiminta Suomessa
 description: "[!INCLUDE[navnow](../../includes/navnow_md.md)] -ohjelman verkkopankkitoimintojen avulla voi käsitellä elektronisia asiakas- ja toimittajamaksuja. Toiminto tukee verkkopankkimaksujen siirron kotimaan maksuja (LM03) ja ulkomaan maksuja (LUM2). Verkkopankkimaksujen vientiä tai tuontia varten on ensin määritettävä pankin viitetiedostot, joissa määritetään maksutiedostojen käsittelytapa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: f94ac30588d0e9293e25f985e91412feed16ff5c
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: b4361108125674cbc37be78adee91abca8d64dc2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="electronic-banking-in-finland"></a><span data-ttu-id="1c743-105">Verkkopankkitoiminta Suomessa</span><span class="sxs-lookup"><span data-stu-id="1c743-105">Electronic Banking in Finland</span></span>

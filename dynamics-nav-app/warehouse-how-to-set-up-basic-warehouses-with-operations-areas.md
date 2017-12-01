@@ -3,7 +3,7 @@ title: "Fyysisten perusvarastojen ja toimintoalueiden määrittäminen"
 description: "Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä kolmea fyysisen perusvarastoinnin asiakirjoja."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: d141fcb9f5357355272f6a34d71b88f50129985b
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 30b4f824925255ca3afa6ddb831aef45884c85da
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-set-up-basic-warehouses-with-operations-areas"></a><span data-ttu-id="84ada-103">Fyysisten perusvarastojen ja toimintoalueiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="84ada-103">How to: Set Up Basic Warehouses with Operations Areas</span></span>

@@ -3,7 +3,7 @@ title: Rakennetiedot - oletetun kustannuksen kirjaus
 description: Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 0b14943e1bb214c26dfbae765a2467df1d06e50b
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: b893849830c1e89be148efe6c5bc165d82a683f6
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="design-details-expected-cost-posting"></a><span data-ttu-id="bf334-103">Rakennetiedot: oletetun kustannuksen kirjaus</span><span class="sxs-lookup"><span data-stu-id="bf334-103">Design Details: Expected Cost Posting</span></span>

@@ -3,7 +3,7 @@ title: Poistoerojen kirjaaminen
 description: "Suomessa käyttöomaisuuden poistoissa käytetään yleisesti tiettyjä poistotapoja."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 2d51e4d24d40676e6d5877ffc46f77dfa7fcbb12
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: d5269fcc73a0fec10b3be9061ca0215c2bf89d7d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="posting-depreciation-differences"></a><span data-ttu-id="abbf8-103">Poistoerojen kirjaaminen</span><span class="sxs-lookup"><span data-stu-id="abbf8-103">Posting Depreciation Differences</span></span>

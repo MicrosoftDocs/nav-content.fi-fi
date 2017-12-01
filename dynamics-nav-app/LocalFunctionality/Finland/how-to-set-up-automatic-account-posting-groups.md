@@ -3,7 +3,7 @@ title: "Automaattisten tilin kirjausryhmien määrittäminen"
 description: "Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: d6728cb5f5ad9a585b8d6bf8a227b169d538021d
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: f1c265911fc0ed17e75227e44ad3fb562211cd1b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-set-up-automatic-account-posting-groups"></a><span data-ttu-id="f10e7-103">Toimintaohje: Automaattisten tilin kirjausryhmien määrittäminen</span><span class="sxs-lookup"><span data-stu-id="f10e7-103">How to: Set Up Automatic Account Posting Groups</span></span>

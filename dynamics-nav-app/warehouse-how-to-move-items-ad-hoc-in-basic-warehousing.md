@@ -3,7 +3,7 @@ title: "Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmä
 description: "Voit joskus joutua siirtämään nimikkeitä sisäisissä varastopaikoissa ilman, että vastaanotat tai toimitat varastopaikkoja tai ilman erityispyyntöä lähdeasiakirjasta. Voi suorittaa nämä ad hoc -siirrot, esimerkiksi jos haluat järjestellä fyysisen varaston tuodaksesi nimikkeitä tarkastusalueelle, tai siirtää lisänimikkeitä tuotantoalueelle ja sieltä pois ilman järjestelmän suhdetta tuotantotilauksen lähdeasiakirjaan."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 6178f14d7436e7545eacfbf7462ca1c7cdb3d9ef
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 8502b182198015cfc584be31ce36db9956bc6bd1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-move-items-ad-hoc-in-basic-warehouse-configurations"></a><span data-ttu-id="2b41e-104">Toimintaohje: Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä</span><span class="sxs-lookup"><span data-stu-id="2b41e-104">How to: Move Items Ad Hoc in Basic Warehouse Configurations</span></span>

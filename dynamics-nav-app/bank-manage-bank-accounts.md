@@ -3,7 +3,7 @@ title: Pankkitilien hallinta
 description: "Pankkitapahtumat on täsmäytettävä säännöllisesti niihin liittyviin pankkitilitapahtumiin Dynamics NAV -ohjelmassa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: cd33af7062b5a8e75937f8750e09414f734d8c04
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 7306b71cc42142d3b1452da610ff69085a66917f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="managing-bank-accounts"></a><span data-ttu-id="abbb8-103">Pankkitilien hallinta</span><span class="sxs-lookup"><span data-stu-id="abbb8-103">Managing Bank Accounts</span></span>

@@ -2,7 +2,7 @@
 title: "Asetukset - parhaat käytännöt - suunnitteluparametrit"
 description: "Nimikkeen kortin **Suunnittelu**-pikavälilehti on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 8ea9ceaffa7a82405c43783d2a22f0b81ec4600d
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 528b46ca66b17e07341e0fe8995acebd7ea14aa9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a><span data-ttu-id="fb2a0-104">Asetukset - parhaat käytännöt: suunnitteluparametrit</span><span class="sxs-lookup"><span data-stu-id="fb2a0-104">Setup Best Practices: Planning Parameters</span></span>

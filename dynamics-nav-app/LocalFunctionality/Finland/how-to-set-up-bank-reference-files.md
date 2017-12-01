@@ -3,7 +3,7 @@ title: "Pankin viitetiedostojen määrittäminen"
 description: "Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viitetiedostot, joiden avulla määritetään, miten maksutiedot tuodaan tai viedään."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: fbfd2d109e813b62a5c1d936be9081052fd7c43c
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 10e5c62af9dc454c2c16f9848fc440d6b29c20a9
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-set-up-bank-reference-files"></a><span data-ttu-id="45c07-103">Toimintaohje: Pankin viitetiedostojen määrittäminen</span><span class="sxs-lookup"><span data-stu-id="45c07-103">How to: Set Up Bank Reference Files</span></span>

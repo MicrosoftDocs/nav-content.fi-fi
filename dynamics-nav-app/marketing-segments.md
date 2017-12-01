@@ -3,7 +3,7 @@ title: "Segmenttien hallinta ja sisällytettävien kontaktien valitseminen"
 description: "Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan kontaktiryhmät tiettyjen ehtojen mukaan valitseva segmentti. Kyse voi olla esimerkiksi tietyn kohdetoimialan kontaktit."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 8b3dffa99968e2ce61df737ddcbf52798b04d850
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 1fcd5a6b2a6aed5fcc50575eed002437bff7518c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="managing-segments"></a><span data-ttu-id="a5a68-103">Segmenttien hallinta</span><span class="sxs-lookup"><span data-stu-id="a5a68-103">Managing Segments</span></span>

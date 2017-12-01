@@ -3,7 +3,7 @@ title: "Myynnin ja ostojen ALV:n käsitteleminen"
 description: "Tässä ohjeaiheessa käsitellään, miten ALV-laskelmat koskevat kaikkia myynti- ja ostotapahtumia, kuten EU-maissa ja EU:n alueella kirjatun ALV:n oikaisua. Tässä ohjeaiheessa kerrotaan, miten se tehdään."
 documentationcenter: 
 author: bholtorf
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 4a639b0da8e7f06f4120c89e75121edd324e0bfd
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 4adfbeb3c8f168653589ef8f87f6593cf931842b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-work-with-vat-on-sales-and-purchases"></a><span data-ttu-id="b3ffe-104">Toimintaohje: Myynnin ja ostojen ALV:n käsittely</span><span class="sxs-lookup"><span data-stu-id="b3ffe-104">How to: Work with VAT on Sales and Purchases</span></span>

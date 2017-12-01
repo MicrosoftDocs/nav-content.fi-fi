@@ -3,7 +3,7 @@ title: KET-menetelmien laskeminen ja projektin edistymisen kirjaaminen
 description: "Tässä artikkelissa kerrotaan KET-menetelmistä, joilla kirjataan, seurataan ja lasketaan keskeneräisen projektien rahoitustietoja."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 4a472d7a45cacfe4cd2534747f447a1e4ca7a303
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: e9595d17f00d257f96bc1c31f48e97b3c4a2a3d2
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="understanding-wip-methods"></a><span data-ttu-id="09ea2-103">Tietoja KET-menetelmistä</span><span class="sxs-lookup"><span data-stu-id="09ea2-103">Understanding WIP Methods</span></span>

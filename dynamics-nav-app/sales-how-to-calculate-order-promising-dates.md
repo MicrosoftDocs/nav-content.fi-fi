@@ -3,7 +3,7 @@ title: "Toimituksen lupaamisen päivämäärän laskeminen"
 description: "Toimituksen lupaamisen toiminto on työkalu, jolla lasketaan aikaisin mahdollinen päivämäärä, jolloin nimike on saatavilla toimitettavaksi tai lähetettäväksi. Toiminnolla luodaan myös hankintarivejä hyväksymillesi päivämäärille."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 5c2167397d95d04c937ddf1820e6e9edff906b2f
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: cd9e8f675c7a6500426459ca6bc69bdce44ad1c1
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-calculate-order-promising-dates"></a><span data-ttu-id="0a056-104">Toimituksen lupaamisen päivämäärän laskeminen</span><span class="sxs-lookup"><span data-stu-id="0a056-104">How to: Calculate Order Promising Dates</span></span>

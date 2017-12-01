@@ -3,7 +3,7 @@ title: "Vaihekuvaus – Projektin keskeneräisen työn laskeminen"
 description: "Voit laatia projektien avulla yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: ea0953192454302a83a9187cd6569905723fd150
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 4345fe957a243f60f1ba70af8817471827c6b37d
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a><span data-ttu-id="5d08a-104">Vaihekuvaus: Projektin keskeneräisen työn laskeminen</span><span class="sxs-lookup"><span data-stu-id="5d08a-104">Walkthrough: Calculating Work in Process for a Job</span></span>

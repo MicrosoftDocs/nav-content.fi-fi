@@ -3,7 +3,7 @@ title: Saatavuuden yleiskuva
 description: "Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneissa myynti- tai ostotapahtumien tai ajanjakson mukaan tai sen mukaan, mikä on nimikkeen sijainti kokoonpanon tai tuotannon tuoterakenteessa."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 81872839df11a13489bbc192ad97dae04976ebb0
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 6e91b9a91f7237cf8d68115337850d7cac3be19a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a><span data-ttu-id="611ef-103">Nimikkeiden saatavuuden tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="611ef-103">How to: View the Availability of Items</span></span>

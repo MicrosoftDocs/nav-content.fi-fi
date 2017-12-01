@@ -3,7 +3,7 @@ title: Maksualennusten ohittaminen
 description: "Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:"
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 33b4765c157f20c985b4ca539cb78cbb8c717412
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: e6a153392d51fc17501d78286c11bd99681e003c
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-disregard-payment-discounts"></a><span data-ttu-id="a3ba3-103">Toimintaohje: Maksualennusten ohittaminen</span><span class="sxs-lookup"><span data-stu-id="a3ba3-103">How to: Disregard Payment Discounts</span></span>

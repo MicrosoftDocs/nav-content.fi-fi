@@ -3,7 +3,7 @@ title: "Tuotantoerän mittayksikön käyttäminen"
 description: "Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikköä käyttäen, tuotantotilauksen on käytettävä tuotantoerän mittayksikköä komponenttien oikean määrän laskemiseen. Tuotantoerän mittayksikön laskentaa voidaan tarvita esimerkiksi, kun nimike varastoidaan kappaleina mutta tuotetaan tonneina."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: cf0c91b076f473c12e61ce82d870a66e352c1920
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 50f3312015789ddd70e7b65594148342b9fef664
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-work-with-manufacturing-batch-units-of-measure"></a><span data-ttu-id="864f6-104">Toimintaohje: Tuotantoerän mittayksiköiden käyttäminen</span><span class="sxs-lookup"><span data-stu-id="864f6-104">How to: Work with Manufacturing Batch Units of Measure</span></span>

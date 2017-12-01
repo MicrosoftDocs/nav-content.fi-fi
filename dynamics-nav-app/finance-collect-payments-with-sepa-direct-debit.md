@@ -2,7 +2,7 @@
 title: Dynamics NAV -ohjelman SEPA-suoraveloitus
 description: "Voit periä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti."
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 9ead1f76883e3c8d98bef8c61175766ccf1414e7
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: b4ce9912b893d8308470a5aa2379ffafab0d307f
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a><span data-ttu-id="74f37-103">Maksujen periminen SEPA-suoraveloituksena</span><span class="sxs-lookup"><span data-stu-id="74f37-103">Collecting Payments with SEPA Direct Debit</span></span>

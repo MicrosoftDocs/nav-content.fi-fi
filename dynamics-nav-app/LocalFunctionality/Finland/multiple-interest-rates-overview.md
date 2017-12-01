@@ -3,7 +3,7 @@ title: Useiden korkoprosenttien yleiskuvaus
 description: "Voit määrittää jokaiselle viivästyskuluehdolle useita korkoprosentteja. Näin voit laskea viivästyskulut useilla eri korkoprosenteilla tietylle jaksolle."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: a70baaca22374e94ac0d10bdf39cfd6bb23dc2d9
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 462b91b8871183d0b2ce09c508894d2e084f7906
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="multiple-interest-rates-overview"></a><span data-ttu-id="98793-103">Useiden korkoprosenttien yleiskuvaus</span><span class="sxs-lookup"><span data-stu-id="98793-103">Multiple Interest Rates Overview</span></span>

@@ -3,7 +3,7 @@ title: "Vaihekuvaus – Projektinhallinta Projektit-sovellusalueen avulla"
 description: "Tässä vaihekuvauksessa esitellään projektitöiden projektinhallintatoiminnot. Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resursseihin liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 75d0c1648b152717c6ceff69f37b399c8cc3ae26
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: eddfe34026a0c3fa5dc57c5612fa19e5f97d6b44
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a><span data-ttu-id="7ad45-105">Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla</span><span class="sxs-lookup"><span data-stu-id="7ad45-105">Walkthrough: Managing Projects with Jobs</span></span>

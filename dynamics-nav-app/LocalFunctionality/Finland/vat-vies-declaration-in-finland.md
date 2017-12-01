@@ -3,7 +3,7 @@ title: ALV-yhteenvetoilmoitus Suomessa
 description: "Suomessa käytettävien lisätoimintojen avulla voit noudattaa arvonlisäveron ja Euroopan unionin (EU) myyntiraportoinnin sääntöjä."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: aa01917875e2e81c049a51898cc181ac2cfe4a1c
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 74de4588edeeb97079f3fbdbdbf966a6dc09419a
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="vat-vies-declaration-in-finland"></a><span data-ttu-id="8d65c-103">ALV-yhteenvetoilmoitus Suomessa</span><span class="sxs-lookup"><span data-stu-id="8d65c-103">VAT-VIES Declaration in Finland</span></span>

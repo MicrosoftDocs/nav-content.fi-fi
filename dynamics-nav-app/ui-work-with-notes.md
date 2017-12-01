@@ -2,7 +2,7 @@
 title: "Tietojen lisääminen tietueisiin omaa käyttöä varten"
 description: "Voit liittää muistiinpanon mihin tahansa sovelluksen tietueeseen. Jos sinulla on esimerkiksi myyntitilaukseen liittyviä lisätietoja, jotka eivät kuitenkaan sovi mihinkään myyntitilauksen kenttään, voit kirjoittaa muistion."
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: cf5e1a48240ac35dab2d873a566876db2f97791d
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: c4ba609ccf138da235cc02e0a7cf103b1b3e2cf3
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="adding-and-viewing-notes-on-records"></a><span data-ttu-id="d5a12-104">Muistiinpanojen lisääminen tietueisiin ja niiden tarkasteleminen</span><span class="sxs-lookup"><span data-stu-id="d5a12-104">Adding and Viewing Notes on Records</span></span>

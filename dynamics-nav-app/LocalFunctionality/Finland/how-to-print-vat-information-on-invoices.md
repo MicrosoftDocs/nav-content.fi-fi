@@ -3,7 +3,7 @@ title: ALV-tietojen tulostaminen laskuihin
 description: Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeelle.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: b0c891e8457da1c83b2deb65f5090df1b8f2a966
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 52040504771ee381cbcfec3c45f6d814e3aa7415
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-print-vat-information-on-invoices"></a><span data-ttu-id="37b77-103">Toimintaohje: ALV-tietojen tulostaminen laskuihin</span><span class="sxs-lookup"><span data-stu-id="37b77-103">How to: Print VAT Information on Invoices</span></span>
