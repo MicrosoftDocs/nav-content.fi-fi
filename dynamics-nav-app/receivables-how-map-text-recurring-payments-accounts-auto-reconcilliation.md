@@ -1,9 +1,8 @@
 ---
-title: "Toistuvien maksujen tekstin yhdistämisen tiliin määrittäminen"
+title: "Toistuvien maksujen tekstin yhdistämisen tiliin määrittäminen | Microsoft Docs"
 description: "Linkitä maksujen teksti tiettyihin tileihin siten, että maksut kirjataan tileille, kun kirjaat maksujen täsmäytyskirjauskansion."
-documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,17 +11,14 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: de3042d13ff280617c43075df705f86bbba7b013
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 284dcac805ef34b433b4cb18499d47249dc8d01b
 ms.contentlocale: fi-fi
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Toimintaohje: toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi
 **Tekstin yhdistäminen tiliin** -ikkunassa, joka avataan **Maksujen täsmäytyskirjauskansio** -ikkunasta, voit määrittää maksujen tekstin kohdistukset ja tietyt debet-, kredit- ja kirjanpidon vastatilit siten, että nämä maksut kirjataan tietyille tileille, jotta nämä maksut kirjataan tietyille tileille, kun kirjaat maksun täsmäytyksen päiväkirjan.
-
-> [!NOTE]  
->   Tämä ohjeaihe koskee myös **Linkitä teksti tiliin** -toiminnon käyttämistä saapuvasta asiakirjatietueesta avustettaessa niiden sähköisten asiakirjojen muuntamista, jotka on vastaanotettu ulkoisista palveluista [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjoiksi. Lisätietoja on kohdassa [Toimintaohje: Käytä OCR:ää muuntamaan PDF- ja kuvatiedostoja sähköisiksi asiakirjoiksi](across-how-use-ocr-pdf-images-files.md).   
 
 Vastaava toiminto on käytettävissä, kun maksujen täsmäytyskirjauskansion rivien ylimääräisiä summia täsmäytetään ad hoc. Lisätietoja on kohdassa [Toimintaohje: Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
@@ -40,13 +36,15 @@ Maksun täsmäytyskirjauskansion rivillä, jossa maksu on määritetty kirjatuks
 4. Syötä **Tekstin linkitys** -kenttään mikä tahansa teksti, joka näkyy maksuissa, jotka haluat kirjata tietyille tileille kohdistamatta avoimeen tapahtumaan. Koodissa voi olla enintään 50 merkkiä.
 
     > [!NOTE]  
->   Jos muita maksuja tai saapuvia asiakirjoja, joissa on kyseinen linkitettävä teksti, ei ole, tekstin yhdistäminen tiliin tapahtuu, vaikka maksun tai saapuvan asiakirjan tekstistä vain osa on linkitettävänä tekstinä.
-5. Anna **Toimittajan nro** -kenttään sen toimittajan numero, jolle yhdistettävää tekstiä sisältävät saapuvat asiakirjat luodaan tai johon maksut kirjataan. Lisätietoja on kohdassa [Toimintaohje: Käytä OCR:ää muuntamaan PDF- ja kuvatiedostoja sähköisiksi asiakirjoiksi](across-how-use-ocr-pdf-images-files.md).      
-6. Anna **Debet-tilin numero** -kenttään tili, johon tekstin linkityksen sisältävät maksut kirjataan, jos ne ovat saapuvia maksuja. Saapuvien maksujen arvon merkki **Tiliotteen summa** -kentässä on positiivinen.
-7. Anna **Kredit-tilin numero** -kenttään tili, johon tekstin linkityksen sisältävät maksut kirjataan, jos ne ovat lähteviä maksuja. Lähtevien maksujen arvon merkki **Tiliotteen summa** -kentässä on negatiivinen.
-8. Määritä **Saldon lähteen tyyppi** -kenttään, kirjataanko maksu kirjanpitotilille vai asiakkaan tai toimittajan tilille.
-9. Määritä **Saldon lähteen numero** -kenttään **Saldon lähteen tyyppi** -kentän valinnan mukaisesti tili, jolle maksu kirjataan.
-10. Toista vaiheet 4-8 kaikkien niiden maksujen tekstien osalta, joille haluat yhdistää tilit suoraa kirjausta varten soveltamatta.
+>   Jos muita maksuja, joissa on kyseinen linkitettävä teksti, ei ole, tekstin yhdistäminen tiliin tapahtuu, vaikka maksun tekstistä vain osa on linkitettävänä tekstinä.
+5. Anna **Toimittajan nro** -kentässä toimittaja, johon maksut kirjataan.
+6. Määritä **Saldon lähteen tyyppi** -kenttään, kirjataanko maksu kirjanpitotilille vai asiakkaan tai toimittajan tilille.
+7. Määritä **Saldon lähteen numero** -kenttään **Saldon lähteen tyyppi** -kentän valinnan mukaisesti tili, jolle maksu kirjataan.
+
+    > [!NOTE]
+    > Älä käytä maksun täsmäytyksessä **Debet-tilin numero**- ja **Kredit-tilin numero** -kenttiä. Niitä käytetään vain saapuvissa asiakirjoissa. Lisätietoja on kohdassa [Toimintaohje: Käytä OCR:ää muuntamaan PDF- ja kuvatiedostoja sähköisiksi asiakirjoiksi](across-how-use-ocr-pdf-images-files.md).
+
+8. Toista vaiheet 3-7 kaikkien niiden maksujen tekstien osalta, joille haluat yhdistää tilit suoraa kirjausta varten soveltamatta.
 
 Kun tuot seuraavan kerran pankin tiliotetiedoston tai valitset **Kohdista automaattisesti** -toiminnon **Maksujen täsmäytyskirjauskansio** -ikkunassa, tietyn yhdistystekstin sisältävät päiväkirjan rivit sisältävät **Tilityyppi**- ja **Tilinumero**-kenttien yhdistetyt tilit. **Vastaavuuden luotettavuus** -kenttä sisältää **Suuri - Tekstin yhdistäminen tiliin** -tekstin. Tämä on edellytys sille, että automaattinen kohdistustoiminto antaa vastaavuudeksi **Matala** tai **Keskisuuri**.
 
@@ -63,7 +61,6 @@ Kirjataksesi aina Shell-huoltoasemilla kertyneet polttoainekulut kirjanpitoon po
 ## <a name="see-also"></a>Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
-[Toimintaohje: Pankkitietojen muuntopalvelun määrittäminen](bank-how-setup-bank-data-conversion-service.md)    
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
